@@ -37,4 +37,4 @@ for repo in os.listdir(repos_dir):
         json.dump(commit_data, f, indent=4)
     
     print(f"Commit messages for '{repo}' saved to {output_path}")
-    break
+    

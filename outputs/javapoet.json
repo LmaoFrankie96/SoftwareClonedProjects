@@ -1,0 +1,3750 @@
+[
+    {
+        "commit_hash": "b7a58268b4444e19938073ca9baec3cd04e8ba62",
+        "commit_message": "first commit"
+    },
+    {
+        "commit_hash": "6e273e70da6df45ae249925f848c03eeeced8596",
+        "commit_message": "first commit"
+    },
+    {
+        "commit_hash": "68abe864e2ab689c64f09b0d3bde6058c81abfd4",
+        "commit_message": "Initial commit"
+    },
+    {
+        "commit_hash": "34550b1cfcc39856d3f58f22ddaa830c48cffa6d",
+        "commit_message": "Generate Java class for message with native types"
+    },
+    {
+        "commit_hash": "3f224dd2a22b200a5c20adf4e3d3751fb51a532b",
+        "commit_message": "Merge pull request #5 from android/alexander/command-line-tool\n\nGenerate Java class for message with native types"
+    },
+    {
+        "commit_hash": "e20c87daa96fa048dfe8da4156813a138ee5075a",
+        "commit_message": "Process multiple .proto files in a round.\n\nThis changes the generator so that it honors imports and parses\ndependencies that are imported."
+    },
+    {
+        "commit_hash": "1158267d1bc81e6430da873e26406fccd6ac1dc1",
+        "commit_message": "Merge pull request #6 from android/jwilson/directories\n\nProcess multiple .proto files in a round."
+    },
+    {
+        "commit_hash": "b1c51f175484ddbac853d12e5b31c3aa6ca10bff",
+        "commit_message": "Support nested types.\n\nPreviously we were promoting all types to top-level types.\nThis breaks down when multiple classes have their own inner\n'Type' enums."
+    },
+    {
+        "commit_hash": "4d8567ca0f96ad746c42291da84240b27e8f0110",
+        "commit_message": "Merge pull request #7 from android/jwilson/directories\n\nSupport nested types."
+    },
+    {
+        "commit_hash": "c6683d85f18c8de89182a17062197dcbd7ad7fb3",
+        "commit_message": "Use `@SerializedName` when a Java keyword is used for a field name."
+    },
+    {
+        "commit_hash": "f591e73cb9516a76ee3a0dae7d4b31f2178e2e58",
+        "commit_message": "Merge pull request #8 from android/jwilson/directories\n\nUse `@SerializedName` when a Java keyword is used for a field name."
+    },
+    {
+        "commit_hash": "b0029de71f6051a2ae84040a779b1fea1997deb5",
+        "commit_message": "Emit comments extracted from the source .proto."
+    },
+    {
+        "commit_hash": "ec4abe321f9aa1dd5453bae85aec2e619a81f0dc",
+        "commit_message": "Merge pull request #9 from android/jwilson/directories\n\nEmit comments extracted from the source .proto."
+    },
+    {
+        "commit_hash": "50b2ef15532cd5c360e3c5912a67f9628a498a32",
+        "commit_message": "Generate builders, equals(), hashCode() and toString()."
+    },
+    {
+        "commit_hash": "74f970d661c6148024a9ef31d6362854cc8e2271",
+        "commit_message": "Merge pull request #13 from android/jwilson/builders\n\nGenerate builders, equals(), hashCode() and toString()."
+    },
+    {
+        "commit_hash": "9b4d2d842e152ffb49d42c450be053d8ada4984e",
+        "commit_message": "Re-add README, pom, etc."
+    },
+    {
+        "commit_hash": "9384024b1d13d8e5297bcf3c00f230228f5ffebe",
+        "commit_message": "Merge in Dagger's changes. Add test class."
+    },
+    {
+        "commit_hash": "d5fad966ac96d672e827ddd174537203a080d0fa",
+        "commit_message": "Merge pull request #1 from jw/jw/dagger-merge\n\nMerge in Dagger's changes. Add test class."
+    },
+    {
+        "commit_hash": "316a6ceac7a0e07d0ac4093230a2389d6873f284",
+        "commit_message": "Package name change. Tiny test tweak."
+    },
+    {
+        "commit_hash": "c5b6b36b2e98b59f0711c1bfc8486c32eb3b482a",
+        "commit_message": "License tweaks."
+    },
+    {
+        "commit_hash": "e8cd8f4881897b00043c8114aac7537ab11c4b16",
+        "commit_message": "Rename to JavaSourceWriter."
+    },
+    {
+        "commit_hash": "aed50f772034c1235482ecc98fb2c9be794a0449",
+        "commit_message": "Make all methods fluent. Add simple example in README."
+    },
+    {
+        "commit_hash": "d228e891117d8b8358f952bf382013e6d7e43655",
+        "commit_message": "Merge pull request #2 from jw/jw/fluent-and-docs\n\nMake all methods fluent. Add simple example in README."
+    },
+    {
+        "commit_hash": "6ec8762202ac97e62387dcfb2aa86104befb60de",
+        "commit_message": "Allow end-of-line comments to take format args."
+    },
+    {
+        "commit_hash": "734c93e52e9b513afbfe018eb4506c0f18ae9312",
+        "commit_message": "A few changes:\n\n * Re-add enum method.\n * Add hanging indent for multi-line statements.\n * Newline after packages.\n * Allow String quick-annotation emission."
+    },
+    {
+        "commit_hash": "1b5bd192baac07362725fdb73d832ea04cea67b8",
+        "commit_message": "Package adds a newline now."
+    },
+    {
+        "commit_hash": "cab48e38358b092cdeeff6918ecae6b5f51ae4b9",
+        "commit_message": "Merge branch 'jw/enums'"
+    },
+    {
+        "commit_hash": "fc8f965e74abe05127db47a97d4f257473b22300",
+        "commit_message": "Bump to v1.0.0."
+    },
+    {
+        "commit_hash": "5659e780ea81ab236a36f3285bdd35d1b61801d0",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.0"
+    },
+    {
+        "commit_hash": "1f713bf474977ce1dc6793d58c7a5c577bdb72f9",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "a8dc7c680065fc0a7de9ccfec9d50a378c789184",
+        "commit_message": "Expose 'compressType' API. Track Dagger changes."
+    },
+    {
+        "commit_hash": "db7bf9095695f8038765b79b99c1d704e59def5f",
+        "commit_message": "Merge pull request #1 from square/jw/compress\n\nExpose 'compressType' API. Track Dagger changes."
+    },
+    {
+        "commit_hash": "bdd604bb3919ba6454da161c5b241ee41010a67b",
+        "commit_message": "Bump version to 1.0.1"
+    },
+    {
+        "commit_hash": "979eb1cb77cd6363db2b7e8e80aed2987bea7e8a",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.1"
+    },
+    {
+        "commit_hash": "cc394b442bc5eb0630cce75d954d9b62de9ee544",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "d8cf5d45f93b1b86d1a09f70ca4a8a54cfc68044",
+        "commit_message": "StringBuffer -> StringBuilder."
+    },
+    {
+        "commit_hash": "05345aab024f2ace8f9b2184b09707374f434c2f",
+        "commit_message": "Merge pull request #2 from square/jw/builder\n\nStringBuffer -> StringBuilder."
+    },
+    {
+        "commit_hash": "07bf461e37a3e7197adfb4d5def9a35321d2f2ca",
+        "commit_message": "Add JavaWriter.type(Class,String...) helper method to build generic types."
+    },
+    {
+        "commit_hash": "28ebd9fb8b117e135e84d16e98cace1b3dbd0eee",
+        "commit_message": "Rewrite emitAnnotation(Class,...) to use JavaWriter#type()\n\nThis should fix the methods when used with nested annotation types (binary\nname vs. canonical name)."
+    },
+    {
+        "commit_hash": "fd7fad7e35ada981ef07fee0cd616f33c230420c",
+        "commit_message": "Add test for compressType with bounded-wildcard generic arguments"
+    },
+    {
+        "commit_hash": "a7fcb69d3240dde7d9bdaae014d1aa374ba424ea",
+        "commit_message": "Merge pull request #3 from tbroyer/type-helper\n\nAdd JavaWriter.type(Class,String...) helper method to build generic types"
+    },
+    {
+        "commit_hash": "f5b3a22bd0983d666bfd30207be12de6f6928df1",
+        "commit_message": "Fix double semi."
+    },
+    {
+        "commit_hash": "edf8453b903f52c7c7e0df0f8dc969d032c29cb6",
+        "commit_message": "Update for v1.0.2."
+    },
+    {
+        "commit_hash": "016e6beeacb5adcd90582902ddd5beef7a38df1d",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.2"
+    },
+    {
+        "commit_hash": "032c5bdf2a9cfccdf38452c17af8465ea898f1ca",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "bb5f01822f4aefadcaca9c7e0870e3f5734a6b4a",
+        "commit_message": "Fix backwards dates."
+    },
+    {
+        "commit_hash": "0a6b21afd67b524d14c515c7685476ad978bab9a",
+        "commit_message": "adds support for static imports"
+    },
+    {
+        "commit_hash": "88fc37c1bf9833b0177a6cba8409728a4ab015a3",
+        "commit_message": "Merge pull request #4 from digitalsanctum/support-static-imports\n\nadds support for static imports"
+    },
+    {
+        "commit_hash": "3ca81d8c44559fb11286ba76ade63043c45123d8",
+        "commit_message": "Update for v1.0.3."
+    },
+    {
+        "commit_hash": "620fdd08c8a018290ba3260b7d4e47c06c5c5ead",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.3"
+    },
+    {
+        "commit_hash": "5fd4670eb4ea534ae25261eaba7bc3f0075a1ec1",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "b8de08ce0b959f767b6a66776cbca9af686f4c58",
+        "commit_message": "adds support for wildcard static imports, fixed up invalid code"
+    },
+    {
+        "commit_hash": "5a34049e7ce96c334077db15459b05257af2a9e3",
+        "commit_message": "Merge pull request #5 from digitalsanctum/support-static-imports\n\nadds support for wildcard static imports, fixed up invalid code"
+    },
+    {
+        "commit_hash": "45c942593f5cdfd276101636a5d7be576b82ceba",
+        "commit_message": "Update change log for 1.0.4."
+    },
+    {
+        "commit_hash": "7c4b5564761d7f6fb50fe5ccf02e07553675acc1",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.4"
+    },
+    {
+        "commit_hash": "737879fb79e3cbc17fe6808e4b6b62e94df6168d",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "a5554a5a72d331d5b2b4a425536b612af7659cd2",
+        "commit_message": "Add support for initializers"
+    },
+    {
+        "commit_hash": "a79ded543b5934cfad7b19a924c8b5fda7451e28",
+        "commit_message": "Neaten up the Javadoc a bit"
+    },
+    {
+        "commit_hash": "6934302400a510980d1bfd8e393be6cd1087e5c2",
+        "commit_message": "Use a boolean for indicating whether the initializer is static or not"
+    },
+    {
+        "commit_hash": "5f4072b8d9d62764339e8ce79778313396cc167d",
+        "commit_message": "Use primitive boolean type"
+    },
+    {
+        "commit_hash": "17605c52dfe212a4b9d205f32097e752027fbd0d",
+        "commit_message": "fix issue #8: retain package when simple name ambiguous in compressType"
+    },
+    {
+        "commit_hash": "834f118d58933a531787fcc59681a8e631b4f03e",
+        "commit_message": "Merge pull request #9 from adriancole/compressType-collision\n\nretain package when simple name ambiguous in compressType"
+    },
+    {
+        "commit_hash": "79922973641dec21e1f8383127cbab31f5840687",
+        "commit_message": "Update change log."
+    },
+    {
+        "commit_hash": "fee0bc45e6885e614157dfc2f54e871f1079eba6",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-1.0.5"
+    },
+    {
+        "commit_hash": "959303064d7dc9b07d50cc47430d6eb10dae1a55",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "2eee6c2c5db8aacdff0100847f6831e1e46db5c4",
+        "commit_message": "Merge branch 'master' of github.com:JimiSmith/javawriter into jwilson/jimismith\n\nConflicts:\n\tsrc/main/java/com/squareup/java/JavaWriter.java"
+    },
+    {
+        "commit_hash": "087d2d7983f27e5a405cbd7aa31d6f098b91c13f",
+        "commit_message": "Merge pull request #11 from square/jwilson/jimismith\n\nSupport class and instance initializers"
+    },
+    {
+        "commit_hash": "7d57a5909c7c54502db6ffa27ea0ccc08d0cd696",
+        "commit_message": "fixed #6"
+    },
+    {
+        "commit_hash": "d60e0e45a57a56e1dad6ae9e80aaa7d9f67ddd3c",
+        "commit_message": "updated test"
+    },
+    {
+        "commit_hash": "6ecfcee4a4f2f73f9c0212a577e018711e949b56",
+        "commit_message": "Add support for declaring 'throws' clauses.\n\nCloses #12."
+    },
+    {
+        "commit_hash": "2fc51db0fcee90f3c9f342ff1caf6ff073a39ad9",
+        "commit_message": "Add deploy javadoc script."
+    },
+    {
+        "commit_hash": "5b494281907282a9f90e448b7642f24f06c1a81f",
+        "commit_message": "Merge branch 'issue-6' of https://github.com/digitalsanctum/javawriter into digitalsanctum-issue-6"
+    },
+    {
+        "commit_hash": "e4928d756f91ba4e8db1d4c2e08dccfd842dd417",
+        "commit_message": "Rename comment method for clarity."
+    },
+    {
+        "commit_hash": "4d9da055a03ce9666b98711d639ab15903d4a953",
+        "commit_message": "Merge pull request #14 from square/jw/throws\n\nAdd support for declaring 'throws' clauses."
+    },
+    {
+        "commit_hash": "dacb4ceca66c2f78f888505b0dd2834e11b1c2c6",
+        "commit_message": "Change package to 'javawriter',"
+    },
+    {
+        "commit_hash": "31f85260ae64597c9d5608fab3ae3936d054087c",
+        "commit_message": "Merge pull request #15 from square/jw/package\n\nChange package to 'javawriter',"
+    },
+    {
+        "commit_hash": "28a626dfd4eb7f26dc2b53e121a18513363c6c8d",
+        "commit_message": "Use FQCN in test code.\n\nRefs #14."
+    },
+    {
+        "commit_hash": "33475bce98ac10adbac07f0f6a2350b9ad8f7bb7",
+        "commit_message": "Prepare for 2.0.0."
+    },
+    {
+        "commit_hash": "269e7e168421210412c1e882fbcdbe65ad3ec5d6",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.0.0"
+    },
+    {
+        "commit_hash": "c22ec0248f118fd2e87b564afe063ecf251473aa",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "f8efee128cc0616ceb5ea573e9f0ac42509805fc",
+        "commit_message": "Modify emitAnnotation to elide the \"value\" key in annotation declarations for annotations with a single value attribute."
+    },
+    {
+        "commit_hash": "3deba86fbc98387501b2076b82c35ac78a56de21",
+        "commit_message": "Fix casing of 'Comment'."
+    },
+    {
+        "commit_hash": "89ed905358dd09d005398028198cc388b9b59a94",
+        "commit_message": "Merge pull request #17 from square/jw/lol\n\nFix casing of 'Comment'."
+    },
+    {
+        "commit_hash": "422922f3367ce1c194c6cbfc6fa2901294afcc4e",
+        "commit_message": "Prepare for 2.0.1."
+    },
+    {
+        "commit_hash": "ba6054b095dcab3d5f1b3d6cbb923c621f1498a7",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.0.1"
+    },
+    {
+        "commit_hash": "8131bca7ca212199102a3cc2567dad731f8e54f3",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "1249d23d0ea84130d28640b08866d25f9169ae17",
+        "commit_message": "Merge pull request #16 from gk5885/annotation-value\n\nModify emitAnnotation to elide the \"value\" key\u2026"
+    },
+    {
+        "commit_hash": "98ed954c1f0b042321a86d3349746c28bf91441c",
+        "commit_message": "Use the javax.lang.model.element.Modifier enum instead of ints in the JavaWriter API."
+    },
+    {
+        "commit_hash": "721d8ac79c1e660d05577d94c32c7f86085c1866",
+        "commit_message": "Add some overloads to avoid calls to EnumSet.noneOf()"
+    },
+    {
+        "commit_hash": "a203a77e1de6dc01922e54712e701c0d8190616e",
+        "commit_message": "Remove an extra null check."
+    },
+    {
+        "commit_hash": "abf8024976130e6106507c59ffa944b35015d3b7",
+        "commit_message": "lint"
+    },
+    {
+        "commit_hash": "e873ce78e441995acd6df28677438093394fe387",
+        "commit_message": "Merge pull request #19 from gk5885/modifiers\n\nUse the Modifer enum instead of ints"
+    },
+    {
+        "commit_hash": "161ae95d123cd7fdffc2173439aec3319124a149",
+        "commit_message": "Prepare v2.1.0."
+    },
+    {
+        "commit_hash": "7325befff234704ca2f61090b3173a97cce609fe",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.1.0"
+    },
+    {
+        "commit_hash": "c4f1b0124950676c668a5cfeb87eb06d1714b10e",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "c567dc6891837ab745c557e6f3d9cf1c42c00e5a",
+        "commit_message": "Update example for 2.1.0."
+    },
+    {
+        "commit_hash": "5f4068a054d3e03d59a94862f34b384d79dc3b6d",
+        "commit_message": "Fix JavaWriter.stringLiteral"
+    },
+    {
+        "commit_hash": "c37943b7be8ab364f4eeed9453a06679082a433c",
+        "commit_message": "Merge pull request #20 from square/rice/string_literal\n\nFix JavaWriter.stringLiteral"
+    },
+    {
+        "commit_hash": "34f722fff1c0d4b4f5d6d9111c6ce98bb2605a72",
+        "commit_message": "Prepare 2.1.1."
+    },
+    {
+        "commit_hash": "84fd31ce9b407dbd1aaea1137dbffbb3065e9b87",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.1.1"
+    },
+    {
+        "commit_hash": "bb64e88ef6b1d1c95c7891586e4f95c834274759",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "3627ded9cbd309336d7dfbd09eef35ba62bbb617",
+        "commit_message": "Try to keep annotations on a single line"
+    },
+    {
+        "commit_hash": "9d72297471d954536e2898fb37ef23300f0628ac",
+        "commit_message": "Merge pull request #21 from square/rice/single_line_annotations\n\nTry to keep annotations on a single line"
+    },
+    {
+        "commit_hash": "2ca0bef491c80675f10b586d1264b317f1f52181",
+        "commit_message": "Prepare 2.1.2."
+    },
+    {
+        "commit_hash": "1746b5ca6600869ad1275c545368eff0ef2609e9",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.1.2"
+    },
+    {
+        "commit_hash": "2a693db7cfab45092a6ba2b1b9051228c7055688",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "1f074c73cf421cbb12fae3ff4c255f7b72cb3de7",
+        "commit_message": "Fix Example Code\n\nThe current Example produces an compiler error due to double `;`\r\n\r\n\r\n```\r\nerror: unreachable statement\r\n    return firstName + \" \" + lastName;;\r\n                                      ^\r\n```"
+    },
+    {
+        "commit_hash": "bfcf4f63b10d57fb8f70a1674a0294dbab679a11",
+        "commit_message": "Merge pull request #23 from dodgex/patch-1\n\nFix Example Code"
+    },
+    {
+        "commit_hash": "f325443660ccd746d982ef396f3b93ad61db8cbd",
+        "commit_message": "Make type compression optional.\nBy default, type compression should be active. Otherwise it breaks tests.\n\nDocumentation nitpicks"
+    },
+    {
+        "commit_hash": "7076421ad25890d6163e2f639af3339ce3e7a18f",
+        "commit_message": "Merge pull request #25 from stephanenicolas/master\n\nMake type compression optional."
+    },
+    {
+        "commit_hash": "fc70ff2e7bd28eb81138e23bc903e85a5fbb6601",
+        "commit_message": "Prepare version 2.3.0."
+    },
+    {
+        "commit_hash": "e3779806d57b3d0f5ab168f49967e97f90ea22e1",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.2.0"
+    },
+    {
+        "commit_hash": "75ffabac0789b5b410a994ed03f939aefc5e9fbe",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "557953ee634605ca64dacf3169825aab4e476553",
+        "commit_message": "Made the indent configurable"
+    },
+    {
+        "commit_hash": "ad20665e8c915a93c0e8c584b3d4aa40acf04808",
+        "commit_message": "Changed indent to take a String instead of an int"
+    },
+    {
+        "commit_hash": "84b729851e5e44784ac0f3681d9261dc8a40d214",
+        "commit_message": "Added new method to add last enum constant.\n\nThis is necessary if there are method declarations in the enum."
+    },
+    {
+        "commit_hash": "1cd91ed6bd46557e7ca23145e99353b7ca7cde38",
+        "commit_message": "Fix import order."
+    },
+    {
+        "commit_hash": "4847848f804a3723291c2104af14aadca2d9ce86",
+        "commit_message": "Do not emit trailing white-space for empty javadoc lines.\n\nThis occurs when multiple newlines are present. While the HTML-rendered Javadoc will collapse these, we preserve them for the sake of continuity with input."
+    },
+    {
+        "commit_hash": "01b43708337a55f54a2b1b8717d5da20670f327c",
+        "commit_message": "Merge pull request #30 from square/jw/trailing\n\nDo not emit trailing white-space for empty javadoc lines."
+    },
+    {
+        "commit_hash": "d7fb4160f0d20bffb75ee2710f2b025fab071a7c",
+        "commit_message": "Prepare version 2.2.1."
+    },
+    {
+        "commit_hash": "645210f23a39f2bad3e00278bbcc2b232d4cd94d",
+        "commit_message": "Merge branch 'jw/trailing'"
+    },
+    {
+        "commit_hash": "d9098957bf1c50aacb4dcb311a963392bd38515a",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.2.1"
+    },
+    {
+        "commit_hash": "496986a88f8b0c881d351fd31473a26dcd27fbe2",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "041d3f93cf90b7e4bde84f990a938e16a20ef2fc",
+        "commit_message": "Merge pull request #26 from whiskeysierra/master\n\nConfigurable indent"
+    },
+    {
+        "commit_hash": "253f56305040657d6c1200a52845d8d0ce5e5512",
+        "commit_message": "Remove deprecated methods."
+    },
+    {
+        "commit_hash": "71e6bc2a4b22cfed6d35f75a623384358fd069a8",
+        "commit_message": "Merge pull request #33 from gk5885/deprecated\n\nRemove deprecated methods."
+    },
+    {
+        "commit_hash": "4c31ac8d8db53ac373c2d7c818e3c77730971fbf",
+        "commit_message": "Add beginConstructor"
+    },
+    {
+        "commit_hash": "e72e57d3ece19538717b3ad0ca2bb93f2928bc30",
+        "commit_message": "Merge pull request #34 from gk5885/constructor\n\nAdd beginConstructor"
+    },
+    {
+        "commit_hash": "fd7f36f21386bc851d60a049087216da5ee82f67",
+        "commit_message": "Add an overload to emitImports to let you import from class literals"
+    },
+    {
+        "commit_hash": "d019b6f624863b72cbf246b793dbf025d02b219e",
+        "commit_message": "Merge pull request #35 from gk5885/imports\n\nAdd an overload to emitImports to let you import from class literals"
+    },
+    {
+        "commit_hash": "388d8e5d0a9afdc3cce29441bcee1e060c65c166",
+        "commit_message": "Fix an issue in which nested types were not being correctly identified unless they happened to be in a package without a dot."
+    },
+    {
+        "commit_hash": "ad9cbcdeba94925bf7fbf7f0995bca795c5e6ccf",
+        "commit_message": "Merge pull request #36 from gk5885/compress-types\n\nFix an issue in which nested types were not being correctly identified\u2026"
+    },
+    {
+        "commit_hash": "4bbfab0f5ef6315cdceb27ccb287932f0d286416",
+        "commit_message": "Fix an issue introduced when adding constructor scope."
+    },
+    {
+        "commit_hash": "98f792d249948ae559f7ef99a84fedeb6c799f11",
+        "commit_message": "Merge pull request #38 from gk5885/check-in-method\n\nFix an issue introduced when adding constructor scope."
+    },
+    {
+        "commit_hash": "321828a3913ad2fa9042943d65c67c3f9acdcd93",
+        "commit_message": "PR/28 Added emitEnumValues method in addition to emitLastEnumValue"
+    },
+    {
+        "commit_hash": "35c59c5a2d7d03ef42726712bf28c53c665e8c1c",
+        "commit_message": "PR/28 made emitLastEnumValue private\n\nwhich is now used internally by emitEnumValues"
+    },
+    {
+        "commit_hash": "c0f4a89bc087d186bf05ee86ae9de4c12ff17130",
+        "commit_message": "Merge pull request #28 from whiskeysierra/last-enum-constant\n\nAdded new method to add last enum constant."
+    },
+    {
+        "commit_hash": "9de3e87b761578d05e782d9315aa2d7f8b9a8a86",
+        "commit_message": "Add documentation to emitEnumValues."
+    },
+    {
+        "commit_hash": "f11602c51a06c588f22ebcf9a538ab3c3b2b1bec",
+        "commit_message": "Prepare 2.3.0."
+    },
+    {
+        "commit_hash": "ddb0a4312252e327bfb4738a8d835c4111308f43",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.3.0"
+    },
+    {
+        "commit_hash": "9f648476fdd63a1d34997e45ab49d696ad305706",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "30f5cf5b81e2a1d62b843f60aac713c45dc7b273",
+        "commit_message": "Properly handle subpackages of java.lang in compressType.\n\nPreviously, all types prefixed by java.lang would have the java.lang prefix\nremoved even if they weren't in that package leading to invalid types in\nthe written source."
+    },
+    {
+        "commit_hash": "7cf6e171e1309364cd12f73ecce33ce3a6911cdb",
+        "commit_message": "Merge pull request #40 from lukesandberg/annotations\n\nProperly handle subpackages of java.lang in compressType."
+    },
+    {
+        "commit_hash": "c887337cf5be0e813a5d515c0ae4c3f52a59d200",
+        "commit_message": "Prepare 2.3.1."
+    },
+    {
+        "commit_hash": "9a3c603bde0fbec2b3646fc92c99dbf18c6c6367",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.3.1"
+    },
+    {
+        "commit_hash": "38d013533a0f86959d43f64f26687c252e565b00",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "84da75698782a506b2c6a6594e183591575f87ad",
+        "commit_message": "Properly indent newlines in fields."
+    },
+    {
+        "commit_hash": "e66d8ba46f82eaa4bd1842dfa8fcfb5fe1d2ead1",
+        "commit_message": "Fix imports to match our style."
+    },
+    {
+        "commit_hash": "270570874f5b8697768d5fc4e1fd20964387cd45",
+        "commit_message": "Merge pull request #41 from square/jw/wrap-fields-with-newlines\n\nProperly indent newlines in fields."
+    },
+    {
+        "commit_hash": "658e10a88c6ce18ada3facf9cbb018529cc106cb",
+        "commit_message": "Remove javadoc statement that makes no sense for fields."
+    },
+    {
+        "commit_hash": "d11578623414e703d20692ba7b3a44ac32c949f8",
+        "commit_message": "Added  a new method for the switch between printing a semi colon for the last enum value"
+    },
+    {
+        "commit_hash": "b05b7fd27a7f5b67a424e3a9b6810f9640afedb3",
+        "commit_message": "Merge pull request #42 from garena/master\n\nAdded  a new method for the switch between printing a semi colon for the last enum value"
+    },
+    {
+        "commit_hash": "4a3118997394ee59b34b77d8bebe0ccf13bf520b",
+        "commit_message": "Take care of some formatting issues."
+    },
+    {
+        "commit_hash": "614f7cd72356b9624e24ea9c6f201e3163db47cf",
+        "commit_message": "Merge pull request #43 from garena/master\n\nTake care of some formatting issues."
+    },
+    {
+        "commit_hash": "763621dc035b65e8e8d75761b645a8a281d5b3fc",
+        "commit_message": "CRLF -> LF. Fix indent level."
+    },
+    {
+        "commit_hash": "25472fde4ff37b5df72876c4919c202493727358",
+        "commit_message": "Prepare version 2.4.0."
+    },
+    {
+        "commit_hash": "5eeae81953555b45b098b53dcda9dedaac3faed1",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.4.0"
+    },
+    {
+        "commit_hash": "f6a479ce01e40365924103baa9f143a44ed4c5ab",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "c268516e64e2deebf570d8a8d6a9f376bfdcc40a",
+        "commit_message": "Add args to control flow methods.\n\nSince control flow statements often involve a field or local, a format string and variable(s) are likely in the calling code."
+    },
+    {
+        "commit_hash": "50579db451b464910412afaebec83a082277d49e",
+        "commit_message": "Merge pull request #46 from square/jw/control-flow-args\n\nAdd args to control flow methods."
+    },
+    {
+        "commit_hash": "1378c01dbecec5c789797895d3168c1e2fb6a815",
+        "commit_message": "Support interface method declarations.\n\n1. Used `INTERFACE_DECLARATION` to keep track of scope.\n2. Emitters are not ignored."
+    },
+    {
+        "commit_hash": "7e55824bc4fbc54cd8d79092f7cd80a6fb61aece",
+        "commit_message": "Removed extra spaces."
+    },
+    {
+        "commit_hash": "329663e78e3a8ab7765cf8f8964e034ae71e4880",
+        "commit_message": "Refactor popScope() to accept varargs."
+    },
+    {
+        "commit_hash": "917a79415736198c54578357e5c9b39bcf082cbb",
+        "commit_message": "Add test for emitting modifier order in compliance with JLS."
+    },
+    {
+        "commit_hash": "c5de70d09debc3aa90819b073a596f652fd5117e",
+        "commit_message": "Merge pull request #53 from square/jw/modifier-order-test\n\nAdd test for emitting modifier order in compliance with JLS."
+    },
+    {
+        "commit_hash": "46154db9a98d365e24e146befafaaecfd6a41fc2",
+        "commit_message": "Support generic types when emitting constructors"
+    },
+    {
+        "commit_hash": "181c7ca6d6fe328628b855bdf9582b238bf7d896",
+        "commit_message": "Merge pull request #49 from ragunathjawahar/rj/interface-method-declaration\n\nSupport interface method declarations."
+    },
+    {
+        "commit_hash": "fced3142b50891ec5621e80fa57d849a430d652a",
+        "commit_message": "Skip work when modifier set is empty.\n\nThis both avoids an exception from EnumSet.copyOf when empty and avoids wasting an iterator on looping over an empty set."
+    },
+    {
+        "commit_hash": "2dccc7175cd0cf6bfca7f047cb10717f54d16376",
+        "commit_message": "Merge pull request #54 from auke-/master\n\nSupport generic types when emitting constructors"
+    },
+    {
+        "commit_hash": "cb24911fdcfe3a96a54c30f5f63871a7f03c16f9",
+        "commit_message": "Merge pull request #55 from square/jw/empty-non-enum-sets\n\nSkip work when modifier set is empty."
+    },
+    {
+        "commit_hash": "541accbec66db1de2b4b568b559737d101b5dadf",
+        "commit_message": "Don't emit a trailing space after '=' at end-of-line"
+    },
+    {
+        "commit_hash": "93ddadf971a8504ff1781f045d9e0e7520f7c246",
+        "commit_message": "Merge pull request #56 from square/rice/avoid_trailing_space\n\nDon't emit a trailing space after '=' at end-of-line"
+    },
+    {
+        "commit_hash": "048d1fc80bb71c269ad4cb1c70b4958e4385d4b5",
+        "commit_message": "Prepare version 2.5.0."
+    },
+    {
+        "commit_hash": "ace739ded010ec366f3c2a7a1501d01b7979297d",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.5.0"
+    },
+    {
+        "commit_hash": "edb9565883a140c635aac17dbcb5555c20d143b7",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "105d4b208fff6cb2831f75a8aac77e0b1cd64bbb",
+        "commit_message": "Use canonical class name when importing as class.\n\nNested class name (retrieved calling getName) returns parent name\nfollowed by '$' and the simple class name itself. This prevents\ncompressing types defined in dot-separated way. While this is allowed,\nit's more natural to read code separated with '.' symbols."
+    },
+    {
+        "commit_hash": "6fff17a988deb4e0d8c35cf6b7607d7db83035ff",
+        "commit_message": "Merge pull request #60 from jonas-l/master\n\nUse canonical class name when importing as class."
+    },
+    {
+        "commit_hash": "3bb28b3ada49c81ee8c3ba890a1638996c795f83",
+        "commit_message": "Add a StringLiteral class as a replacement for JavaWriter.StringLiteral.  Advantages include:\n  * References differentiate between String and StringLiteral\n  * StringLiteral.toString() still allows to be directly passed to String.format, et. al.\n  * You can get the value back after the literal has been passed around."
+    },
+    {
+        "commit_hash": "66c9095d027da6aad0ad7cc24e01422beedf901b",
+        "commit_message": "Merge pull request #61 from gk5885/string-literal\n\nAdd a StringLiteral class as a replacement for JavaWriter.StringLiteral"
+    },
+    {
+        "commit_hash": "731b6fc063321bb1b5bf9b52ed0b781753b7dcb1",
+        "commit_message": "Add a new version of JavaWriter that allows for writing to different parts of the compilation unit simultaneously.  Then, use it in code generation in Dagger 2 code.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70279532"
+    },
+    {
+        "commit_hash": "0043406a2296cddf4afb30dce51e0674dd91475d",
+        "commit_message": "Fix an issue in which wildcards weren't actually getting written.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70434398"
+    },
+    {
+        "commit_hash": "7cde26246a26db78fc62034daa2964284cfda268",
+        "commit_message": "Fix the code generation to properly handle some missing types like arrays and void.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70660936"
+    },
+    {
+        "commit_hash": "aedf7cb9a6c56293d5c000bc2f2c1a134425b41d",
+        "commit_message": "Add a builder-based API for instantiating components.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70739659"
+    },
+    {
+        "commit_hash": "e4b6b6cc9919154ade9b148b3d92e25fa97df328",
+        "commit_message": "Fix a bug in which imports were not being handled properly for collisions.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70914122"
+    },
+    {
+        "commit_hash": "b1e0d9ecb5203b9dc0fe6ce2499e0e278744d006",
+        "commit_message": "Fix an issue in which collisions between imports and types in the same package were not being handled correctly.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=70968955"
+    },
+    {
+        "commit_hash": "ad2f5ce47e69a3eafa21a896943445144aa64460",
+        "commit_message": "Add an annotation processor that generates simple (, ugly) interface that can be used for migrating from ObjectGraph to @Component.  This is @GoogleInternal and shouldn't ever see the light of day.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=71156786"
+    },
+    {
+        "commit_hash": "8483d5f9309c645ed2677d88181a864a3ab8d332",
+        "commit_message": "Address field naming collisions in JavaWriter and Dagger.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=71157169"
+    },
+    {
+        "commit_hash": "a4b5551cf7586c20845bffc6829e9dd227a2316e",
+        "commit_message": "Automatically compress varargs and array types."
+    },
+    {
+        "commit_hash": "d39761f9ec25ca5bf3b7bf15d34fa2b831fed9c1",
+        "commit_message": "Merge pull request #64 from square/jw/compress-varargs-and-arrays\n\nAutomatically compress varargs and array types."
+    },
+    {
+        "commit_hash": "4969b4a2ecf44c52b998be58f1f00f79a3186acb",
+        "commit_message": "Add closing h2 tag\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=71691383"
+    },
+    {
+        "commit_hash": "084e7cca454573372b86ff0749d100853132dcc4",
+        "commit_message": "Create package proxies for references to types that aren't visibile to the component (but the factories and members injectors are).\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=72334409"
+    },
+    {
+        "commit_hash": "3fbe8c818ee4c0161ae9f14b1121c9eb8d934524",
+        "commit_message": "Update Truth package name to the new location.\n\nTested:\nTAP -p dagger,dagger_users #only tests are changed\n[]\nCloned from CL 72333859 by 'g4 patch'.\nOriginal change by kak@kak:rosie72333242-0189_Rosie:14707:citc on 2014/07/31 10:57:33.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=72342044"
+    },
+    {
+        "commit_hash": "fc7374057a8042083bcb37ec2775b97a1b83105c",
+        "commit_message": "Change import handling to only consider snippet arguments that were specified using type names.  No more cleanups for things that happened to look like type names.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=72608266"
+    },
+    {
+        "commit_hash": "ac78f10cf6365dfbd9b1676d40eb1580c3856148",
+        "commit_message": "Use Truth.assert_() instead of ASSERT\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=72726400"
+    },
+    {
+        "commit_hash": "67bd94d79728595dbcbc4fae3f28c51075d788ba",
+        "commit_message": "An initial cut of better error messages at compile time.  Initially includes missing bindings and cycle detection.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=73222696"
+    },
+    {
+        "commit_hash": "cb4224b5de1e3a3c3e0795d7f6abd22ec0796772",
+        "commit_message": "Ensure that JavaWriter does not attempt to import a class whose simple name is the same as any type declared in the file.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=73930340"
+    },
+    {
+        "commit_hash": "76c7100587385ad91fb2b6ace8ece9ae645b574f",
+        "commit_message": "Switch back to eager init.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=73930760"
+    },
+    {
+        "commit_hash": "7d8bc458b56dc14d7c5af165688fd736cb022069",
+        "commit_message": "Change the implementation of factories with no deps to be enums rather than types to be instantiated.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=75809623"
+    },
+    {
+        "commit_hash": "d256511ea5deec12b20fb3abd0b1cc0475c1c1a1",
+        "commit_message": "Add BindingGraph as a single canonical implementation of the resolve binding graph.\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=75816059"
+    },
+    {
+        "commit_hash": "b4a4db4798dc5105719e97c70e71d47bffd836dd",
+        "commit_message": "Add intra-component scope validation (within all modules included in a component).\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=78682699"
+    },
+    {
+        "commit_hash": "c474b698e0cd17625e44741578ae73f894fcf219",
+        "commit_message": "Fix up a stray test whose expected text changed when it was moved, and make another test less brittle.\n\nFixes a build break in dagger that is spurious (as in, the code is working, the tests were funky).\n\nStill not sure how this got past pre-submit. :/\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=78688877"
+    },
+    {
+        "commit_hash": "5bcd82961ef990e45c51aa0e5cdf423c856d33f3",
+        "commit_message": "Merge branch 'import-google-dagger' into jwilson_1117_new_javawriter\n\n* import-google-dagger: (21 commits)\n  Fix up a stray test whose expected text changed when it was moved, and make another test less brittle.\n  Add intra-component scope validation (within all modules included in a component). ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=78682699\n  Add BindingGraph as a single canonical implementation of the resolve binding graph. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=75816059\n  Change the implementation of factories with no deps to be enums rather than types to be instantiated. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=75809623\n  Switch back to eager init. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73930760\n  Ensure that JavaWriter does not attempt to import a class whose simple name is the same as any type declared in the file. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73930340\n  An initial cut of better error messages at compile time.  Initially includes missing bindings and cycle detection. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73222696\n  Use Truth.assert_() instead of ASSERT ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72726400\n  Change import handling to only consider snippet arguments that were specified using type names.  No more cleanups for things that happened to look like type names. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72608266\n  Update Truth package name to the new location.\n  Create package proxies for references to types that aren't visibile to the component (but the factories and members injectors are). ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72334409\n  Add closing h2 tag ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71691383\n  Address field naming collisions in JavaWriter and Dagger. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71157169\n  Add an annotation processor that generates simple (, ugly) interface that can be used for migrating from ObjectGraph to @Component.  This is @GoogleInternal and shouldn't ever see the light of day. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71156786\n  Fix an issue in which collisions between imports and types in the same package were not being handled correctly. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70968955\n  Fix a bug in which imports were not being handled properly for collisions. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70914122\n  Add a builder-based API for instantiating components. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70739659\n  Fix the code generation to properly handle some missing types like arrays and void. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70660936\n  Fix an issue in which wildcards weren't actually getting written. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70434398\n  first commit\n  ..."
+    },
+    {
+        "commit_hash": "8a0fcc1f83c86369f70b600c2e34855176ca41d4",
+        "commit_message": "Rename package from dagger.internal.codegen.writer.\n\nFix copyright statements, add some extra 'final' modifiers,\nupdate pom.xml dependencies."
+    },
+    {
+        "commit_hash": "ec00e06948bfb9d3df5dbbaa6ce61b33c70d6230",
+        "commit_message": "Merge pull request #69 from square/jwilson_1117_new_javawriter\n\nAttempt 3: Import the JavaWriter rewrite from Dagger 2."
+    },
+    {
+        "commit_hash": "271af1039daf61f5cf846cabddbec726ee925e04",
+        "commit_message": "Use new central artifact redirect link."
+    },
+    {
+        "commit_hash": "dc7714e71d267b911ecb2070b93f6b084062fc50",
+        "commit_message": "Merge pull request #70 from square/jw/new-redirect-link\n\nUse new central artifact redirect link."
+    },
+    {
+        "commit_hash": "274bb39dc18ec3bc42223f80061be6fa1bab0234",
+        "commit_message": "Next version is 3.0."
+    },
+    {
+        "commit_hash": "232ec3e965c2120b13a67319aab51e73a0e0ae1a",
+        "commit_message": "Merge pull request #71 from square/jw/and-then-there-was-3\n\nNext version is 3.0."
+    },
+    {
+        "commit_hash": "183ef6744bfa30d96ae4c0cf9666507d5fc4c98a",
+        "commit_message": "Add factories for wildcard type names."
+    },
+    {
+        "commit_hash": "65542253247f648482c5239c59d2d3cded79bb4b",
+        "commit_message": "Merge pull request #72 from square/jw/wildcard-factories\n\nAdd factories for wildcard type names."
+    },
+    {
+        "commit_hash": "b734b83719da16b10ed35a78162e93161e4614f1",
+        "commit_message": "Fix TypeVariableName wrt bounds and creation from TypeMirror\n\nA TypeVariableName's lower bound can only be created by captures, so\nJavaWriter shouldn't model it. On the other hand, the upper bounds\ncan be multiple, and are represented as an intersection type in\njavax.lang.model."
+    },
+    {
+        "commit_hash": "f431a38a1ce0bc789d48e9a4ee9bee11e5388ebb",
+        "commit_message": "Add support for generic type arguments where it's missing\n\nClassWriter had a typeVariables field with no accessor.\nConstructorWriter and MethodWriter were missing support entirely.\nAnd finally, InterfaceWriter didn't list type variables' referenced\nclasses in its own referenced classes."
+    },
+    {
+        "commit_hash": "b24ebf2f5a3531ecbf21161af8fdecec59e8bfa3",
+        "commit_message": "Merge pull request #88 from tbroyer/typevariables\n\nVarious fixes re. type variables"
+    },
+    {
+        "commit_hash": "4654a8b2aca60d6c29ae74631b5a1604c2867d2e",
+        "commit_message": "Eliminate extra newlines.\n\n* No additional trailing newline after the last type in a file.\n* No additional newline between package and types when there are no imports."
+    },
+    {
+        "commit_hash": "1bf20dd024be0c3e4d2aa9a3d5768e53ba93d71b",
+        "commit_message": "Support multi-member annotations."
+    },
+    {
+        "commit_hash": "dcd2c68d6b1d40f8c6f0307cc32c53dbc046284f",
+        "commit_message": "Merge pull request #90 from square/jw/kill-extraneous-newlines\n\nEliminate extra newlines."
+    },
+    {
+        "commit_hash": "79db4aa1ba39810120c51785de2cbb14e317be88",
+        "commit_message": "Clean up some warnings."
+    },
+    {
+        "commit_hash": "b0e92a07d0ca51f073ea47d2a3c9ec9b81500ddf",
+        "commit_message": "Fix conditional."
+    },
+    {
+        "commit_hash": "f4e3bbaf917fbb6ed4e4a474302796cd8a10fce4",
+        "commit_message": "Merge pull request #92 from square/jw/clean-up-warnings\n\nClean up some warnings."
+    },
+    {
+        "commit_hash": "c4bc7c3affa73796c43b419470aef8a23cbb9a1e",
+        "commit_message": "Merge pull request #89 from square/jw/multimember-annotation\n\nSupport multi-member annotations."
+    },
+    {
+        "commit_hash": "f1385e935a66792a65cfd4ffd14e11485fa41659",
+        "commit_message": "Add intersection type handling for Java 8 and up."
+    },
+    {
+        "commit_hash": "75a9dad2e820a2ad9cfb0008a25f7c23f77b517e",
+        "commit_message": "Merge pull request #93 from square/jw/intersection-type\n\nAdd intersection type handling for Java 8 and up."
+    },
+    {
+        "commit_hash": "feef1fe2fd851d5a0caadad0db1264b99a30ff99",
+        "commit_message": "Move supertype into class, expose setter, fix interface implements.\n\n* Supertypes are only applicable to classes. Additionally, expose a single-use setter for providing a value.\n* Interfaces use 'extends' instead of 'implements' for their implemented types."
+    },
+    {
+        "commit_hash": "c8126634a05d631d158a2841b655d3fa4992aa39",
+        "commit_message": "Prefer TypeNames.forClass for input of potentially primitive or array types."
+    },
+    {
+        "commit_hash": "5d80ff31bcc2bcc4d2abaf2e4c8583c1cc8644ed",
+        "commit_message": "Eagerly reject invalid values to ClassName.fromClass."
+    },
+    {
+        "commit_hash": "3386cd7e8cd17cfff87a67ec4cd00b36db1a4f1a",
+        "commit_message": "Merge pull request #95 from square/jw/prefer-type-names\n\nPrefer TypeNames.forClass for input of potentially primitive or array types."
+    },
+    {
+        "commit_hash": "2bdbd1dc64132beac96b46bb8006733482525633",
+        "commit_message": "Merge pull request #97 from square/jw/eager-rejection\n\nEagerly reject invalid values to ClassName.fromClass."
+    },
+    {
+        "commit_hash": "18ff2385985468e68a78d2ed601cf4de2d0b6409",
+        "commit_message": "Merge pull request #94 from square/jw/move-supertype-into-class\n\nMove supertype into class, expose setter, fix interface implements."
+    },
+    {
+        "commit_hash": "c81cbb15baa25e24ac7360b6a7d15976b8271b1b",
+        "commit_message": "Restore binary compatibility with previous versions."
+    },
+    {
+        "commit_hash": "b34b67c7a239cd0f7dee0a939fd9776cbff5c4d9",
+        "commit_message": "Merge pull request #98 from square/jw/binary-compatibility\n\nRestore binary compatibility with previous versions."
+    },
+    {
+        "commit_hash": "4e958e1e8c11964b5c72e9f16ce03c959fdeeb56",
+        "commit_message": "Prepare version 2.5.1."
+    },
+    {
+        "commit_hash": "ffe1e0d82c97e2be0524dcbb42b12ee4de74df54",
+        "commit_message": "[maven-release-plugin] prepare release javawriter-2.5.1"
+    },
+    {
+        "commit_hash": "e5cc0839c88ecdb5b862fbb5b8a6f7dac9a40268",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "3c3d614f93a45fb48c2a434af3ef67688d7c6830",
+        "commit_message": "Merge branch 'javawriter_3'\n\nConflicts:\n\tpom.xml\n\tsrc/main/java/com/squareup/javawriter/JavaWriter.java"
+    },
+    {
+        "commit_hash": "c76913f26d4bddeb78a4431fec98bf56fff31918",
+        "commit_message": "Build with and target Java 7."
+    },
+    {
+        "commit_hash": "3fc1be2e414a86b933676eea644b0ff80feb58bb",
+        "commit_message": "Merge pull request #102 from square/jw/lucky-number-seven\n\nBuild with and target Java 7."
+    },
+    {
+        "commit_hash": "d8fc3fa90c9f90da7e0af5a30e3ca74f433783bd",
+        "commit_message": "Update JUnit."
+    },
+    {
+        "commit_hash": "c716d5c44e7ef7e0d55ab388740a6af9ca8edf79",
+        "commit_message": "Type writer subclasses are now top level. JavaWriter is for multiple types.\n\nThis changes JavaWriter from having parity with a single Java file containing multiple types to each TypeWriter subclass being representative of a single Java file (thus eliminating multiple types in a file). JavaWriter instead becomes an aggregator of top-level types and supports emitting them as a tree of files to a Path, File, or Filer."
+    },
+    {
+        "commit_hash": "75772dedc90d3c5f13078d6dcb0bc518ce96e8b0",
+        "commit_message": "Merge pull request #103 from square/jw/update-junit\n\nUpdate JUnit."
+    },
+    {
+        "commit_hash": "a3c879ba90acdf0f4d997eb8729011e50299a7c4",
+        "commit_message": "Expose enum argument method."
+    },
+    {
+        "commit_hash": "b3d4c604ec85e69c8d93eb46f48ee8ea4eb33899",
+        "commit_message": "Merge pull request #104 from square/jw/expose-enum-arguments\n\nExpose enum argument method."
+    },
+    {
+        "commit_hash": "14937cec86a93b7109f3bf14e6f75a851ceeab88",
+        "commit_message": "Merge pull request #101 from square/jw/top-level\n\nType writer subclasses are now top level. JavaWriter is for multiple types."
+    },
+    {
+        "commit_hash": "db00b9570752eacde5c60e396386b304a9df7f4c",
+        "commit_message": "Don't blow-up on existing directories."
+    },
+    {
+        "commit_hash": "29eb5420e0b34cf5edce535b33f70e7ccd02c51f",
+        "commit_message": "Switch conditional order since 'void' is a primitive class."
+    },
+    {
+        "commit_hash": "74b96b2d60311ebea9919d610bd5e7fa5d2dc7c4",
+        "commit_message": "Restore explicit import support."
+    },
+    {
+        "commit_hash": "834825ade7057f524eec37928489b8f76984b9f6",
+        "commit_message": "Introduce Writeables.Joiner to simplify writing lists of Writeable objects"
+    },
+    {
+        "commit_hash": "0572bbf2ebbac0958b871c56a7d4877db05d06ba",
+        "commit_message": "Merge pull request #109 from square/jw/check-void-first\n\nSwitch conditional order since 'void' is a primitive class."
+    },
+    {
+        "commit_hash": "002d2e7a6c7a21957d60f3aacba45dc18b61c317",
+        "commit_message": "Add throws declaration support to method signature."
+    },
+    {
+        "commit_hash": "ed4da020b6bd7b741c6f0ac3d9498fffba5a99fb",
+        "commit_message": "Factorize createSubcontext in TypeWriter to avoid code duplication"
+    },
+    {
+        "commit_hash": "a13c63339970d08cf2c962d02255c436e1adecec",
+        "commit_message": "Merge pull request #119 from tbroyer/create-subcontext\n\nFactorize createSubcontext in TypeWriter to avoid code duplication"
+    },
+    {
+        "commit_hash": "468ddf4fa00e62303e56c30746816c508ccce959",
+        "commit_message": "Factorize function to extract referencedClasses out of HasClassReferences"
+    },
+    {
+        "commit_hash": "a7bacc4d10389fc2a170c20c6ec714c346bcd010",
+        "commit_message": "Merge branch 'referencedclasses' of https://github.com/tbroyer/javawriter into tbroyer-referencedclasses"
+    },
+    {
+        "commit_hash": "1741f8793d037e09e766cefe98166d7b010b32f6",
+        "commit_message": "Merge pull request #117 from square/jw/method-throws\n\nAdd throws declaration support to method signature."
+    },
+    {
+        "commit_hash": "fc6679c6ba09c8103b94344c01e3b973969d2930",
+        "commit_message": "Expose/add factory methods for all TypeName implementations."
+    },
+    {
+        "commit_hash": "8fd4f58c0fa92f540dcbc66101ab97ff1da59017",
+        "commit_message": "Merge pull request #107 from square/jw/existing-folder\n\nDon't blow-up on existing directories."
+    },
+    {
+        "commit_hash": "859f8be27ad30aa6bf228879f1a4f5ec88498423",
+        "commit_message": "Merge pull request #114 from square/jw/explicit-imports\n\nRestore explicit import support."
+    },
+    {
+        "commit_hash": "e5ec435fe7b7b16f9c4384e9631cf7af92772f75",
+        "commit_message": "Do not apply indent on empty lines.\n\nThis manifested when BlockWriter had no Snippets to contribute but appended a trailing newline. The resulting code had trailing indent whitespace on after the open curly brace.\n\n    public Foo() { // <-- trailing whitespace was here\n    }\n\nThis change makes BlockWriter only responsible for the Snippets inside of a block. The parent type (MethodWriter and ConstructorWriter) are responsible for the newlines before and after, if needed."
+    },
+    {
+        "commit_hash": "1746b21b6942bd4577bcb279ad09961e78f0554a",
+        "commit_message": "Merge pull request #121 from tbroyer/expose-typenames-factory\n\nExpose/add factory methods for all TypeName implementations."
+    },
+    {
+        "commit_hash": "35c756f3b1a4977be08c7c0ccb9ba485833ffc00",
+        "commit_message": "Merge pull request #108 from square/jw/no-indent-on-newlines\n\nDo not apply indent on empty lines."
+    },
+    {
+        "commit_hash": "5825acc5b77323c73819e31373f5da0f1d97525c",
+        "commit_message": "Always newline after opening method block."
+    },
+    {
+        "commit_hash": "50208351350e71529cfe576ce72e3f6690ece42f",
+        "commit_message": "Merge pull request #124 from square/jw/empty-method-block\n\nAlways newline after opening method block."
+    },
+    {
+        "commit_hash": "9c563979a4667f31a9a89831d9acb568eee65c63",
+        "commit_message": "Refactor TypeVariableName to use a single upper bound\n\n\u2026and use an IntersectionTypeName when appropriate to replace the\nprevious use of multiple bounds.\nAlso more reliably detect IntersectionTypes in Java 8."
+    },
+    {
+        "commit_hash": "c1965e5062022121ce956d238e0134670314b556",
+        "commit_message": "Merge pull request #127 from tbroyer/typevariablename-refactor\n\nRefactor TypeVariableName to use a single upper bound"
+    },
+    {
+        "commit_hash": "38bc01fb3169b1af366441c55ba2760a41a26309",
+        "commit_message": "Indent enum constants."
+    },
+    {
+        "commit_hash": "62ab3c441d626f420d35240d645e45b367c7e279",
+        "commit_message": "Support annotating with a ClassName."
+    },
+    {
+        "commit_hash": "b93e8cb5d649fde9055c945417db00cb53edc5a6",
+        "commit_message": "Merge pull request #129 from square/jw/annotation-class-name\n\nSupport annotating with a ClassName."
+    },
+    {
+        "commit_hash": "7f0a33214323e0bfd266a51cdc98a2ce8de774ff",
+        "commit_message": "Merge pull request #128 from square/jw/indent-enum-constants\n\nIndent enum constants."
+    },
+    {
+        "commit_hash": "e7e2057f54723eedc57baa8a9ce6f12acab72eb7",
+        "commit_message": "Rely on inheritance for building referenced classes.\n\nThis is better than forcing all subclasses to update when new types are referenced in super classes."
+    },
+    {
+        "commit_hash": "aa28d0e347cd08c7135d735eae2236e69bacafcd",
+        "commit_message": "Merge pull request #130 from square/jw/super-referenced-classes\n\nRely on inheritance for building referenced classes."
+    },
+    {
+        "commit_hash": "251130c1dd29e561d410918f4644b3730f1cdfda",
+        "commit_message": "Adding support for inner anonymous classes"
+    },
+    {
+        "commit_hash": "7737c5009d78b82b9ff2d2b5c3b3fad676a097a9",
+        "commit_message": "Merge pull request #132 from AlecStrong/master\n\nAdding support for inner anonymous classes"
+    },
+    {
+        "commit_hash": "37ce8223a0a676aa0d2a24b2b9a80ffd5385110f",
+        "commit_message": "Revert \"Adding support for inner anonymous classes\"\n\nThis reverts commit 251130c1dd29e561d410918f4644b3730f1cdfda."
+    },
+    {
+        "commit_hash": "548dab4cb7c15c686b0a4063b3e51a7457fec8a3",
+        "commit_message": "Adding support for anonymous classes"
+    },
+    {
+        "commit_hash": "61d1bac10c8664ef3b4218cea8b6c3bc226ca0a6",
+        "commit_message": "Merge branch 'tbroyer-anonymousclasswriter'"
+    },
+    {
+        "commit_hash": "6a3595c848017a41b854b301d3a25c4d6fb8a7f4",
+        "commit_message": "Introduce ClassBodyWriter to avoid code duplication between type writers"
+    },
+    {
+        "commit_hash": "4ff9adfd7372bf1cbde7402a4cf7dc80983e2f3b",
+        "commit_message": "Move more things to ClassBodyWriter"
+    },
+    {
+        "commit_hash": "1c4d9fc23742b509de93ee71e005260f0ab69606",
+        "commit_message": "Add support for enum constants with class body"
+    },
+    {
+        "commit_hash": "77c1d729d8ae68ac5da04b4e97f28e8acdbd1dff",
+        "commit_message": "Hide ClassBodyWriter from the public API."
+    },
+    {
+        "commit_hash": "22e515daa1fcc32b7f309d398ac2d8f3a9df5994",
+        "commit_message": "Merge branch 'tbroyer-classbodywriter'"
+    },
+    {
+        "commit_hash": "3bef5b6c222415b15ee690c6ba227712d16a4c17",
+        "commit_message": "Test Filer interaction."
+    },
+    {
+        "commit_hash": "7c174e7060532fbacd5a635d74dcae8ee018e1a7",
+        "commit_message": "Merge pull request #141 from square/jw/filer-tests\n\nTest Filer interaction."
+    },
+    {
+        "commit_hash": "acb2d7f3a7d364ae97bf0c9c17c1c536882ebaa5",
+        "commit_message": "Add support for per-type originating elements."
+    },
+    {
+        "commit_hash": "ddb04c3f9bb1fd2b2ba2a14542dbfb48a30f8844",
+        "commit_message": "Merge pull request #142 from square/jw/filer-tests\n\nAdd support for per-type originating elements."
+    },
+    {
+        "commit_hash": "d2ce2872d26e7256b0af74189cacea7b75390b2f",
+        "commit_message": "Use varargs for adding types to JavaWriter."
+    },
+    {
+        "commit_hash": "e1f9e71a79b4d7dbc10de42b5a9f7f7f134141fb",
+        "commit_message": "Auto-deploy snapshots to Sonatype."
+    },
+    {
+        "commit_hash": "5cace3b4aad1015057b9eb911fe7bb3cfbc3e2ed",
+        "commit_message": "Merge pull request #143 from square/jw/first-rest\n\nUse varargs for adding types to JavaWriter."
+    },
+    {
+        "commit_hash": "670e4288a3062cec988a76e4e9ad51ff24026e15",
+        "commit_message": "Merge pull request #146 from square/test\n\nAuto-deploy snapshots to Sonatype."
+    },
+    {
+        "commit_hash": "34a98e01b9fb6839aa45040193c02c6a7ca18222",
+        "commit_message": "Create ParameterWriter to enable their annotations."
+    },
+    {
+        "commit_hash": "422f4ef41a218ceb239a781e7d909ab58b4238f2",
+        "commit_message": "Merge pull request #144 from square/jw/parameter-annotations\n\nCreate ParameterWriter to enable their annotations."
+    },
+    {
+        "commit_hash": "6084001459971c480e08fae7d1b05be4616c20f8",
+        "commit_message": "Cache the contents of .m2 on Travis CI."
+    },
+    {
+        "commit_hash": "fae2776a01e1ee283d873315ca735d91f4b14807",
+        "commit_message": "Merge pull request #147 from square/jw/travis-cache\n\nCache the contents of .m2 on Travis CI."
+    },
+    {
+        "commit_hash": "d50ee868715be902cade9d56c658d1357f31331d",
+        "commit_message": "Post-deploy echo."
+    },
+    {
+        "commit_hash": "0e9f07e7520cb43fc9071650ac1f9a2d7673b27c",
+        "commit_message": "Errors fail the deploy script."
+    },
+    {
+        "commit_hash": "a1a9eec91b5a9ca8da1f0c855624198946feeb53",
+        "commit_message": "Fix infinite loop in ClassName.fromClass()"
+    },
+    {
+        "commit_hash": "12b3d2a3b4ddf036b5f2fced0d23b381909ee382",
+        "commit_message": "Merge branch 'DarickTong-patch-1'"
+    },
+    {
+        "commit_hash": "d7b2189e9e91cad8f2fec9b5d5dd3b85ef6ce6b9",
+        "commit_message": "First, rough draft of immutable builders.\n\nThis is currently in its own 'builders' subpackage. I'd like to get\nmore of this working, and then move it into the main 'javawriter'\npackage, and remove the code that's currently in that package."
+    },
+    {
+        "commit_hash": "21a955d166aacbcaa2f969b12c54778cca9172ca",
+        "commit_message": "Merge pull request #152 from square/jwilson_0105_violence\n\nFirst, rough draft of immutable builders."
+    },
+    {
+        "commit_hash": "25f6c0021ad9b67a0695cbd5d406fa57caca00aa",
+        "commit_message": "Varargs support for parameters"
+    },
+    {
+        "commit_hash": "781a74575eb2e591a33a0dfd73b1f90b8c6cd579",
+        "commit_message": "Merge pull request #153 from AlecStrong/master\n\nVarargs support for parameters"
+    },
+    {
+        "commit_hash": "f9948bae9742e28a100b150ee7d12c75e1ce9eaf",
+        "commit_message": "Support anonymous inner classes in builders.\n\nAlso improve modifiers, fields and annotations."
+    },
+    {
+        "commit_hash": "7005ef49cb72e659a6f58f6dd29e24b1a57fad9a",
+        "commit_message": "Merge pull request #154 from square/jwilson_0108_anonymous_inner_classes\n\nSupport anonymous inner classes in builders."
+    },
+    {
+        "commit_hash": "d88f2b669cd0588b4726f57c5b5b446aa1f7ff2e",
+        "commit_message": "Constructors and abstract methods."
+    },
+    {
+        "commit_hash": "ecfff1f288dd9874ca4863b05ce283946d601458",
+        "commit_message": "Merge pull request #155 from square/jwilson_0108_constructors_abstract_methods\n\nConstructors and abstract methods."
+    },
+    {
+        "commit_hash": "4963ae4f28c04a92c9699a4a734fe72e41282e0a",
+        "commit_message": "Enums and exceptions."
+    },
+    {
+        "commit_hash": "8d31c0a593f09484ff8914c7a7a004f828e0e377",
+        "commit_message": "Merge pull request #156 from square/jwilson_0108_enums_exceptions\n\nEnums and exceptions."
+    },
+    {
+        "commit_hash": "e2e90c100cf77cd170e8e49b39e92d5b2219e709",
+        "commit_message": "Type variables, implements and extends.\n\nTypeVariables are tricky because in the declaration we write it as\n<T extends CharSequence> but everywhere else it's just <T>."
+    },
+    {
+        "commit_hash": "bd1db39b58e41fb8712e8604499c29db49f287d2",
+        "commit_message": "Merge pull request #157 from square/jwilson_0109_type_variables_implements\n\nType variables, implements and extends."
+    },
+    {
+        "commit_hash": "5b4f979a54b18b614efd264c2b71d6df38e666a2",
+        "commit_message": "Nested classes and imports.\n\nThis changes TypeSpec to no longer know what its enclosing package,\nand potentially also not its enclosing class if there was one. This\nmakes TypeSpec work the same as FieldSpec and MethodSpec, which also\ndon't know how they are enclosed. As a model I think it's simpler,\nparticularly since it was often a lie anyway: what is the fully qualified\nname of an anonymous class?\n\nThis also improves imports for nested classes."
+    },
+    {
+        "commit_hash": "d141cfb091f782eb18385c7c5d5e40326a6d883c",
+        "commit_message": "Merge pull request #158 from square/jwilson_0110_nested_classes_imports\n\nNested classes and imports."
+    },
+    {
+        "commit_hash": "8c0ca2307bc82ffc15dde0f0dd9eb105382fdb41",
+        "commit_message": "Close remaining gaps between builders and writers.\n\nFix bugs in imports (as suggested by the writers test cases).\n\nAdd support for array types and intersection types.\n\nAdd support for originating elements.\n\nMigrate JavaWriter to emit builder types instead of writer types.\n\nDelete now-obsolete writer types."
+    },
+    {
+        "commit_hash": "cd75215134bb6032d8ff47d7792635cd228a7803",
+        "commit_message": "Merge pull request #159 from square/jwilson_0110_the_great_deleting\n\nClose remaining gaps between builders and writers."
+    },
+    {
+        "commit_hash": "598b446b8cf567cb6308612357ef6b947d03971c",
+        "commit_message": "Use java.lang.reflect.Type instead of TypeName.\n\nThis saves a ton of code, and means we don't need to convert from\nbuilt-in class references like String.class."
+    },
+    {
+        "commit_hash": "8fba60b13d591ea47f6e40f2f635e6b7bb798b43",
+        "commit_message": "Merge pull request #160 from square/jwilson_0111_types\n\nUse java.lang.reflect.Type instead of TypeName."
+    },
+    {
+        "commit_hash": "a6a446c770a415b3e5289c46490c3ea9b1d0757f",
+        "commit_message": "Factories for TypeSpec.Builder and other builders."
+    },
+    {
+        "commit_hash": "dd567a4a06f943f5f6f74d211758e56e52a8498e",
+        "commit_message": "Merge pull request #161 from square/jwilson_0111_factories\n\nFactories for TypeSpec.Builder and other builders."
+    },
+    {
+        "commit_hash": "51191c915067521b6d5b888c25324f378747a1a2",
+        "commit_message": "Javadoc."
+    },
+    {
+        "commit_hash": "02b9a9f7e65cfaa7b4d3bd07f5b73ffff3c6d7a0",
+        "commit_message": "Merge pull request #162 from square/jwilson_0111_javadoc\n\nJavadoc."
+    },
+    {
+        "commit_hash": "d5dd1fdc509fe4bb87d5670e3f2e25f5cd15147f",
+        "commit_message": "Run tests with OpenJDK 7 to verify runtime compatibility"
+    },
+    {
+        "commit_hash": "4e18f7fbd1c20a7d668e2124ea49f4d057aa8419",
+        "commit_message": "Merge pull request #163 from tbroyer/travis-tests-java7\n\nRun tests with OpenJDK 7 to verify runtime compatibility"
+    },
+    {
+        "commit_hash": "4b10b20e3d54151c28fd6b2d99629f9239d9a4c6",
+        "commit_message": "Drop name collision avoidance. Tweak ClassName API.\n\nName collision avoidance is difficult to do properly at this level\nof abstraction. In particular, if we pick a different name for\nsomething, it's awkward to surface that to the caller.\n\nAlso tweak the ClassName API. Use a single list for all simple\nnames, even the class' own simple name. This makes some of the\ncalling code simpler."
+    },
+    {
+        "commit_hash": "ca528b7885d71bcbbf922b7fcf96a4f380368e39",
+        "commit_message": "Merge pull request #164 from square/jwilson_0111_classname\n\nDrop name collision avoidance. Tweak ClassName API."
+    },
+    {
+        "commit_hash": "bd4099d43cae88f2d7acea1a60c43a54db83a36b",
+        "commit_message": "Merge branch 'master' into builders\n\n* master:\n  Varargs support for parameters\n\nConflicts:\n\tsrc/main/java/com/squareup/javawriter/ParameterWriter.java\n\tsrc/test/java/com/squareup/javawriter/ParameterWriterTest.java"
+    },
+    {
+        "commit_hash": "147eb5afa2b22674a33c3f3c45cd9b866b4b0855",
+        "commit_message": "Merge pull request #165 from square/builders\n\nLand the builders branch in master"
+    },
+    {
+        "commit_hash": "96e3851d21db1448805d2ade99648544bc0def4e",
+        "commit_message": "Support nested annotations and multiple annotation values."
+    },
+    {
+        "commit_hash": "a6404cc059f3121bdbe57c36c0cd8522c89518dc",
+        "commit_message": "Merge pull request #166 from square/jwilson_0112_nested_annotations\n\nSupport nested annotations and multiple annotation values."
+    },
+    {
+        "commit_hash": "9f83e8e5500f901c829cd1ddab54428571c1e714",
+        "commit_message": "Address feedback on pull request #160."
+    },
+    {
+        "commit_hash": "3adcc4a1f0d20ee31e452c2242b2dbd0e16d5962",
+        "commit_message": "Test that the default package works.\n\nCloses https://github.com/square/javawriter/issues/80"
+    },
+    {
+        "commit_hash": "b514e047b0b9999f998169f3cf5a2aef44346ee7",
+        "commit_message": "Merge pull request #170 from square/jwilson_0112_default_package\n\nTest that the default package works."
+    },
+    {
+        "commit_hash": "497561f0da7d4dd3f2c43b47b74f50ea1bfca48a",
+        "commit_message": "Merge pull request #167 from square/jwilson_0112_address_gaks_feedback\n\nAddress feedback on pull request #160."
+    },
+    {
+        "commit_hash": "eefa91d8d0b6da39d6b11a071ba0c5546b1dfb34",
+        "commit_message": "Fix varargs for builders.\n\nCloses https://github.com/square/javawriter/issues/148"
+    },
+    {
+        "commit_hash": "aa0e66296ed9f6864ef07b81502120eac9f4225d",
+        "commit_message": "Merge pull request #168 from square/jwilson_0112_fix_varargs\n\nFix varargs for builders."
+    },
+    {
+        "commit_hash": "02bd3a1fbd479f76e9c8d712e92cf032ea74f9d0",
+        "commit_message": "Top of file comments. Stream to the filesystem.\n\nCloses https://github.com/square/javawriter/issues/125"
+    },
+    {
+        "commit_hash": "33ce3e1ce4467ea8cc3a790709f742c1f9db0b41",
+        "commit_message": "Merge pull request #169 from square/jwilson_0112_3221225472\n\nTop of file comments. Stream to the filesystem."
+    },
+    {
+        "commit_hash": "baffcdefe625de141450cacec1af0d9dd0e7c561",
+        "commit_message": "Restore snapshot deployment from master."
+    },
+    {
+        "commit_hash": "5bbf088af3c63a7017210d53b2b1908db79b8506",
+        "commit_message": "Switch to better 'assertThat' method."
+    },
+    {
+        "commit_hash": "b85a6bb9def99945c521b173c6c5b067cd85323e",
+        "commit_message": "Merge pull request #172 from square/jw/better-assert-that\n\nSwitch to better 'assertThat' method."
+    },
+    {
+        "commit_hash": "111a082132124242073a6ed82b3e94a5950dbc84",
+        "commit_message": "Preconditions messages. Normalize list creation."
+    },
+    {
+        "commit_hash": "460baa91d3378850d25084b124a96f1d80a1acd4",
+        "commit_message": "Merge pull request #173 from square/jw/messages\n\nPreconditions messages. Normalize list creation."
+    },
+    {
+        "commit_hash": "1b7d009eaeef8d2d78d976493c80ebc59d34a01f",
+        "commit_message": "JavaPoet."
+    },
+    {
+        "commit_hash": "29e2cdd0b69da1d212ab2b21e58f0885a0ec9235",
+        "commit_message": "Merge pull request #174 from square/jwilson_0113_poet\n\nJavaPoet."
+    },
+    {
+        "commit_hash": "3b302bd79ea75e22e21abf61d2366785d5d8d1c7",
+        "commit_message": "Fix up example code."
+    },
+    {
+        "commit_hash": "4f6c366c2d18f5e0d359f484ab5ca959b2784bf9",
+        "commit_message": "Rename package to 'javapoet'."
+    },
+    {
+        "commit_hash": "7b4e56ed00abd11311e50cf68ae35e94370b4ca6",
+        "commit_message": "Merge pull request #176 from square/jw/fix-example-code\n\nFix up example code."
+    },
+    {
+        "commit_hash": "dac757a11aeedf297575a7ba23fcde4c63e09cf6",
+        "commit_message": "Merge pull request #177 from square/jw/didnt-even-know-it\n\nRename package to 'javapoet'."
+    },
+    {
+        "commit_hash": "5adcb3a5ad57d36bff59c4800b1fd0df14881a41",
+        "commit_message": "Code blocks.\n\nCode blocks support old-style JavaWriter control flow APIs, though\nthey're less strict about balancing.\n\nThey can also be embedded as literals."
+    },
+    {
+        "commit_hash": "0773de9a0298cbac46ae754b09c843370d956ed4",
+        "commit_message": "Primitive class to string is easy."
+    },
+    {
+        "commit_hash": "3dfd58c1d8b4b0abade6898f1bf775183f2f5279",
+        "commit_message": "Merge pull request #179 from square/jwilson_0114_fewer_primitives\n\nPrimitive class to string is easy."
+    },
+    {
+        "commit_hash": "e5e163f5b46f6f0348af6560c7960d720b33cfe8",
+        "commit_message": "Merge pull request #178 from square/jwilson_0114_codeblock\n\nCode blocks."
+    },
+    {
+        "commit_hash": "1d0a114c8e33133e138bb5b2d2bfdc75497deb7c",
+        "commit_message": "Update CodeBlock documentation.\n\nAlso fix inline indents."
+    },
+    {
+        "commit_hash": "7d7c0c65e1fabb6b5b4e6ef70a31261ba7a8fbdb",
+        "commit_message": "Merge pull request #180 from square/jwilson_0114_codeblock_javadoc\n\nUpdate CodeBlock documentation."
+    },
+    {
+        "commit_hash": "0d8505d392ea6867e3b6a39bd21f34fc12d514d5",
+        "commit_message": "Make ClassName#simpleNames public."
+    },
+    {
+        "commit_hash": "0b8051a14a01abdc1a2fc55a720ab1b2d5cbb207",
+        "commit_message": "Merge pull request #181 from tbroyer/make-classname-simplenames-public\n\nMake ClassName#simpleNames public."
+    },
+    {
+        "commit_hash": "cc215daa81578264b5e4d14940c87375bae0a4df",
+        "commit_message": "Support TypeMirror and Element for $T, and any CharSequence for $N"
+    },
+    {
+        "commit_hash": "7fa20efd00e944bae5a61db19ad068733cefa71c",
+        "commit_message": "Merge pull request #182 from tbroyer/type-placeholder\n\nSupport TypeMirror and Element for $T, and any CharSequence for $N"
+    },
+    {
+        "commit_hash": "dc9a067f0935465bbe901b62e2021e9d3e7ef0d9",
+        "commit_message": "Restore simple nested class creation method."
+    },
+    {
+        "commit_hash": "1c01bb794df37d2ef65d6f57463b02a88572dc12",
+        "commit_message": "Merge pull request #183 from square/jw/nested-class-named\n\nRestore simple nested class creation method."
+    },
+    {
+        "commit_hash": "0f0f80c0eb67ec2d71e6b01d9801480298eaed57",
+        "commit_message": "API ergonomics redux."
+    },
+    {
+        "commit_hash": "e5b66b056874dd6a1cc1e4fa77cf4e8d09cb71e3",
+        "commit_message": "Merge pull request #185 from square/jwilson_0115_ergonomics\n\nAPI ergonomics redux."
+    },
+    {
+        "commit_hash": "57498ca08dd135c2add70a651e535421cfa2b47c",
+        "commit_message": "Default modifiers.\n\nCloses https://github.com/square/javapoet/issues/110"
+    },
+    {
+        "commit_hash": "b5d43c840dbf92537abf0f2d0665e44259e5e470",
+        "commit_message": "Merge pull request #187 from square/jwilson_0118_interface_modifiers\n\nDefault modifiers."
+    },
+    {
+        "commit_hash": "eb43c6762ae919a45f37f0757912ddc6e7265063",
+        "commit_message": "Members ordering.\n\nCloses https://github.com/square/javapoet/issues/112"
+    },
+    {
+        "commit_hash": "ecd44b34a345a672b150b73d796fbd2b321d7260",
+        "commit_message": "Merge pull request #188 from square/jwilson_0118_members_ordering\n\nMembers ordering."
+    },
+    {
+        "commit_hash": "58713e4d5e2e2da01440068a6e67d7401124f05b",
+        "commit_message": "Link to JavaWriter."
+    },
+    {
+        "commit_hash": "d9ec76d957b6e012f4103b1b25ba16dbf12b6f80",
+        "commit_message": "Update README with an introduction."
+    },
+    {
+        "commit_hash": "4d301bc365f24038f0fb9ec8212f63952a9cf90b",
+        "commit_message": "More documentation."
+    },
+    {
+        "commit_hash": "82d0b01db973031888667718ad54d575fd8cfb68",
+        "commit_message": "README highlighting and indentation fixes"
+    },
+    {
+        "commit_hash": "3eeaa642cfba19d7e123a235238aef3d2ecd7237",
+        "commit_message": "Merge pull request #191 from tomxor/readme-syntax\n\nREADME highlighting and indentation fixes"
+    },
+    {
+        "commit_hash": "2915976d5907512e6f3d3531efaba5b5d1858f4c",
+        "commit_message": "Native methods and GWT JSNI\n\nStop generating curly braces for native methods and allow arbritary code before the semi-colon to support stuff like GWT JSNI"
+    },
+    {
+        "commit_hash": "001514081886abd2a78407f2882cc4f7a959260b",
+        "commit_message": "Merge pull request #192 from nmorel/native_and_jsni_methods\n\nNative methods and GWT JSNI"
+    },
+    {
+        "commit_hash": "173eaffa5562c4fde854a40b3ab11c3dc59df80d",
+        "commit_message": "Don't forbid abstract methods on enums.\n\nCloses https://github.com/square/javapoet/issues/193"
+    },
+    {
+        "commit_hash": "3542eba0b9a822fe051b25265175fd6acf5561dd",
+        "commit_message": "Merge pull request #194 from square/jwilson_0121_enums_are_abstract\n\nDon't forbid abstract methods on enums."
+    },
+    {
+        "commit_hash": "7e28c6f7bbb204048d144ed0b09966128dd7ea2d",
+        "commit_message": "Double indent wrapped lines."
+    },
+    {
+        "commit_hash": "4d69659d36ef486afbbe8eb9e79bd56ebc57feb4",
+        "commit_message": "Small features for Dagger.\n\nWe had a bug when using Filer to emit to the default package.\n\nDon't wrap null in quotes when emitting it as a string."
+    },
+    {
+        "commit_hash": "b8a225ea3cc427299235d3bdc24b688a4e5c84e6",
+        "commit_message": "Merge pull request #200 from square/jwilson_0124_dagger_features\n\nSmall features for Dagger."
+    },
+    {
+        "commit_hash": "75725cd819943bb1cb6e1e62dc78542fd560cd24",
+        "commit_message": "Merge pull request #199 from square/jwilson_0124_wrapped_lines\n\nDouble indent wrapped lines."
+    },
+    {
+        "commit_hash": "e8c123dff94080b5114ae784d34b200c3880d7ea",
+        "commit_message": "Implement toString in JavaPoet types."
+    },
+    {
+        "commit_hash": "18c8153065689e86ca22dcd7cfc98ac22f5df9c9",
+        "commit_message": "adding configurable indent"
+    },
+    {
+        "commit_hash": "0272b4b419122e9410e19fb4de754ca2d8759b3f",
+        "commit_message": "Merge pull request #198 from pwittchen/configurable_indent\n\nadding configurable indent"
+    },
+    {
+        "commit_hash": "1d7e42edac026a1c770ad60bbbd9933d8ef434e9",
+        "commit_message": "Document annotations and Javadoc."
+    },
+    {
+        "commit_hash": "90b3f1a0fb7598b25a4af0b3a0d92bd78e794475",
+        "commit_message": "Merge pull request #201 from square/jwilson_0125_tostring\n\nImplement toString in JavaPoet types."
+    },
+    {
+        "commit_hash": "ad6d011c3bc0d838143717733f1c9658ab9b55e7",
+        "commit_message": "Support building and running on Java 7.\n\nThis uses dynamic proxies to implement Type interfaces to work\naround problems building TypeVariable on Java 8.\n\nThis removes IntersectionType, and just uses a list of bound types\nwhen necessary."
+    },
+    {
+        "commit_hash": "f3859b036805759fc1979f5513b53fe6d0af79b3",
+        "commit_message": "Merge pull request #202 from square/jwilson_0125_java7\n\nSupport building and running on Java 7."
+    },
+    {
+        "commit_hash": "6db81d3fdd3b29df5464741a6e7dcadc9a0f9c06",
+        "commit_message": "Drop 'multiple'."
+    },
+    {
+        "commit_hash": "d63c516b088348211a0ea54e55f095e97fe6abc8",
+        "commit_message": "Add missing indent."
+    },
+    {
+        "commit_hash": "74907054c085e3b33cbec4a064afcc3814ae0dd0",
+        "commit_message": "Merge pull request #203 from square/jw/build-failure\n\nAdd missing indent."
+    },
+    {
+        "commit_hash": "46f64399f2bf43c8db91cab67c18546e611c58ca",
+        "commit_message": "Add messages to state and argument validation."
+    },
+    {
+        "commit_hash": "104f20fb07eb2318a85a3de7457b56435e579fc5",
+        "commit_message": "Merge pull request #204 from square/jw/messages\n\nAdd messages to state and argument validation."
+    },
+    {
+        "commit_hash": "34bde0e9547549b4720b9ac6b5c12170d58bb1c8",
+        "commit_message": "Don't require any dependencies in JavaPoet."
+    },
+    {
+        "commit_hash": "a8d7572208bf3300c504878d8ed8c58f91e2fd8e",
+        "commit_message": "Option to skip java.lang imports."
+    },
+    {
+        "commit_hash": "302a5e08706c769be6ebd0131d9fcd3f7e5bd778",
+        "commit_message": "Merge pull request #206 from square/jwilson_0126_java_lang\n\nOption to skip java.lang imports."
+    },
+    {
+        "commit_hash": "991c92e3d6935a362858ea9dc22dc9b2262f9b63",
+        "commit_message": "Wrap multiline strings."
+    },
+    {
+        "commit_hash": "ea2ef34a77a099a9ae98c17336f371f53bca3c44",
+        "commit_message": "Merge pull request #207 from square/jwilson_0127_wrap\n\nWrap multiline strings."
+    },
+    {
+        "commit_hash": "04746e06713df4190277b9a001b58cd4ee40ed8b",
+        "commit_message": "Merge pull request #205 from square/jwilson_0126_no_deps\n\nDon't require any dependencies in JavaPoet."
+    },
+    {
+        "commit_hash": "dfdc30b636ffbd053cfd26cac1c659db7a01a48e",
+        "commit_message": "Character.isUpperCase follow up.\n\nBeing non-ASCII isn't relevant."
+    },
+    {
+        "commit_hash": "f1740bc5d33464f1263da9c8ef540a059a60ee03",
+        "commit_message": "Don't use java.lang.reflect.Type internally.\n\nThis introduces our own type name hierarchy, inspired by the one\noriginally in Dagger 2.\n\nThis one is called TypeName. Instances are immutable and implement\nequals() and hashCode() properly."
+    },
+    {
+        "commit_hash": "223b112044dc186224d904f8ca24bdfc7f8e6e8c",
+        "commit_message": "Merge pull request #209 from square/jwilson_0127_typename\n\nDon't use java.lang.reflect.Type internally."
+    },
+    {
+        "commit_hash": "7896b1896dae8251b710373703d94cec3f7c4228",
+        "commit_message": "Merge pull request #208 from square/jwilson_0127_followup\n\nCharacter.isUpperCase follow up."
+    },
+    {
+        "commit_hash": "7571d752fbab686d83d51328edf92095595d2f83",
+        "commit_message": "Move file writing methods to JavaFile."
+    },
+    {
+        "commit_hash": "2bbcf96c5caa558bc5471eee5a2146ac8f2547c3",
+        "commit_message": "Merge pull request #210 from square/jwilson_0128_javafile_writeto\n\nMove file writing methods to JavaFile."
+    },
+    {
+        "commit_hash": "a82dc1e560459ce466f922ab2056218b76a6804a",
+        "commit_message": "Update changelog for 1.0.0."
+    },
+    {
+        "commit_hash": "5aaa1128daab347808caacb0045333874214aa31",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.0.0"
+    },
+    {
+        "commit_hash": "23be296fba9230c81635f58b4f723440a4e49832",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "14eb7c6dd746621463eaca0fe87ac1585f330dce",
+        "commit_message": "Don't allow double field initialization.\n\nThe FieldSpec initializer may be called 0 or 1 times. Previousy,\nit could be called multiple times to create a multi-line statement.\nAs the method name initializer implies a single statement per call,\na CodeBlock may be provided for complex initialization scenarios."
+    },
+    {
+        "commit_hash": "18af022bed38e039ef34c55b849f208cd059f4da",
+        "commit_message": "Merge pull request #213 from ben-manes/field_initializer\n\nDon't allow double field initialization."
+    },
+    {
+        "commit_hash": "a62798ea284d7854b58bd7f8da51caa69e782e35",
+        "commit_message": "Fixed typo in Constructors section."
+    },
+    {
+        "commit_hash": "d746405b768be37a2a2d906e68875a5d9a1577e1",
+        "commit_message": "Merge pull request #214 from zach-klippenstein/patch-1\n\nFixed typo in Constructors section."
+    },
+    {
+        "commit_hash": "65c00fc507e96a89b97dd6b94cbe057a925d3ded",
+        "commit_message": "Add @RunWith boilerplate to tests - lets alternative test runners in other build systems pick the correct runner."
+    },
+    {
+        "commit_hash": "aee5f128570ced5e5d19aed1712513c67a5532e3",
+        "commit_message": "Merge pull request #216 from cgruber/runwith\n\nAdd @RunWith boilerplate to tests"
+    },
+    {
+        "commit_hash": "b5074260ce2a8b8880e294cddda012aea922aa48",
+        "commit_message": "Add Collection utilities on *Spec builders.\n\nCloses https://github.com/square/javapoet/issues/211"
+    },
+    {
+        "commit_hash": "70b38e5a0b2ef538c110e4108ae51ccb41bd6034",
+        "commit_message": "Fix WildcardTypeName.get(WildcardType), which would always fail with NullPointerException since either the extends bound or the super bound or both will be null."
+    },
+    {
+        "commit_hash": "cb212e7da0b08fefd40649a9b4df8b8448cf009e",
+        "commit_message": "Merge pull request #218 from eamonnmcmanus/master\n\nFix WildcardTypeName.get(WildcardType)"
+    },
+    {
+        "commit_hash": "8ea1ac750a983a9f5b0bc04ccae047b6f6121823",
+        "commit_message": "Merge pull request #215 from fbiville/issue_211\n\nAdd Collection utilities on *Spec builders."
+    },
+    {
+        "commit_hash": "92207e4c17ec3cc6bcb971e7aad44264813e61df",
+        "commit_message": "Change CodeBlock.nextControlFlow so that it includes a space before the {, consistently with CodeBlock.beginControlFlow."
+    },
+    {
+        "commit_hash": "31c205513996c48ec41f82d2bbdd9cca30d7c1a0",
+        "commit_message": "Merge pull request #224 from eamonnmcmanus/master\n\nChange CodeBlock.nextControlFlow to be consistent with beginControlFlow."
+    },
+    {
+        "commit_hash": "cbe76bba09cf887a48b0b4fa370330ab1fd2103f",
+        "commit_message": "Fix nextControlFlow not accepting arguments\n\nIncluded a test using try-catch"
+    },
+    {
+        "commit_hash": "eb7776058fb3aa05c997026bf26e5c6666e9d7ba",
+        "commit_message": "Switch to non-snapshot dependencies."
+    },
+    {
+        "commit_hash": "4168fb77aff7024a7d69744bcace0c863a861511",
+        "commit_message": "Box and unbox APIs."
+    },
+    {
+        "commit_hash": "0330a952476cd35ba63fb800bdec6033ec5e9331",
+        "commit_message": "Merge pull request #220 from square/jwilson_0208_box\n\nBox and unbox APIs."
+    },
+    {
+        "commit_hash": "a8b85d14351c6a5c69f29e3b1a303e2d1eb1fb19",
+        "commit_message": "Merge pull request #226 from square/jw/non-snapshots\n\nSwitch to non-snapshot dependencies."
+    },
+    {
+        "commit_hash": "33bb07eac9bc92bb4df30d71623dac0a2a1adf37",
+        "commit_message": "Merge pull request #225 from dhleong/master\n\nFix nextControlFlow not accepting arguments"
+    },
+    {
+        "commit_hash": "cb2a6f497ad340b974f8817400bc755218aca59e",
+        "commit_message": "MethodSpec factory for overriding an ExecutableElement."
+    },
+    {
+        "commit_hash": "395a2bc03853d96e25524c98cc58ef601795d92c",
+        "commit_message": "Merge pull request #229 from square/jw/override\n\nMethodSpec factory for overriding an ExecutableElement."
+    },
+    {
+        "commit_hash": "233bc154f99f0cdcb5b7c50a33821b63caa3b00b",
+        "commit_message": "Correct method reference for writing."
+    },
+    {
+        "commit_hash": "817d1dd2f3f814db62b44f9baf34185935b7656e",
+        "commit_message": "Eager validation of argument types.\n\nCloses: https://github.com/square/javapoet/issues/219"
+    },
+    {
+        "commit_hash": "20e17fdc5ffd0b63fffa384e98efc95b46930e71",
+        "commit_message": "Merge pull request #231 from square/jwilson_0222_eager_validation\n\nEager validation of argument types."
+    },
+    {
+        "commit_hash": "266e413b2f5fc180715455815d15d7000259729a",
+        "commit_message": "Deploy javapoet javadoc."
+    },
+    {
+        "commit_hash": "2afa46c64e730e0efa090d8a526830cd9ffbd2bc",
+        "commit_message": "Add links to Javadoc"
+    },
+    {
+        "commit_hash": "4e9ad1ea4f3aeeb8cb4201161b9673302fec4c9e",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "8107e2f96ca3b0f3ba21d6dada10097a551dd71b",
+        "commit_message": "Creates annotation type from TypeSpec.\n\nAdds a new Kind in TypeSpec to represent an annotation and\nadds an initializer in MethodSpec used to initialize methods\nof annotation type.\n\nCloses #232"
+    },
+    {
+        "commit_hash": "2191f1c817175fd0b6e815529a71406b22837d47",
+        "commit_message": "Merge pull request #233 from GerardPaligot/fix_232\n\nCreates annotation type from TypeSpec."
+    },
+    {
+        "commit_hash": "8a96c5d5ae0e3ff5f60cee12015703bb7d799cc3",
+        "commit_message": "Add test for simple if/else statement."
+    },
+    {
+        "commit_hash": "a167b3ac1102f48ca87ec536b773449d1b369996",
+        "commit_message": "Add precondition check when specifying the superclass\n\nThis is a simple check to avoid duplicate settings and primitive\ntypes. This does not assert that the parameter is set to\n`ClassName.OBJECT` twice, as that seemed to be an unnecessary\ncomplication."
+    },
+    {
+        "commit_hash": "cb18b85d953e7322ecc178331b54b5b221321ff1",
+        "commit_message": "Merge pull request #235 from square/jw/simple-if-else\n\nAdd test for simple if/else statement."
+    },
+    {
+        "commit_hash": "317a01a41619bd3819b0fa1c2c4bd50b951b11ed",
+        "commit_message": "Merge pull request #236 from ben-manes/superclass\n\nAdd precondition check when specifying the superclass"
+    },
+    {
+        "commit_hash": "e2e94bfe9a906d498a05a67f54ac0b2dfd4555ca",
+        "commit_message": "Add missing Override annotation"
+    },
+    {
+        "commit_hash": "0b2107767d39882b0f896f2dc29970e8bafd3349",
+        "commit_message": "Merge pull request #241 from kenzierocks/fix/override\n\nAdd missing Override annotation"
+    },
+    {
+        "commit_hash": "9afa9fde726f7abbd9b9b1f589f98a157895aa32",
+        "commit_message": "Add toBuilder() methods"
+    },
+    {
+        "commit_hash": "36111773c3e068934e2fb26df7084be3b90aee7c",
+        "commit_message": "Merge pull request #242 from kenzierocks/feature/reversebuild\n\nAdd toBuilder() methods"
+    },
+    {
+        "commit_hash": "34961b1c0ace6aac0d763b7114ae3b5856105396",
+        "commit_message": "Force fake filesystem to behave like Unix."
+    },
+    {
+        "commit_hash": "f70f8715e340eb0bada170ec44a4f1e5b528e380",
+        "commit_message": "Use the system-specific file path in asserion."
+    },
+    {
+        "commit_hash": "acc49154b3b555b62c1c72cada1fc85c75d1c6c4",
+        "commit_message": "Merge pull request #249 from square/jw/force-unixy-tests\n\nForce fake filesystem to behave like Unix."
+    },
+    {
+        "commit_hash": "723a03d10c30cf47bb7865f7bdbe9fc0c3979b29",
+        "commit_message": "Add support for default methods on interfaces"
+    },
+    {
+        "commit_hash": "14216e0ec71a1f622d4f4ae4d7ca4aa0aa4f3d16",
+        "commit_message": "Merge pull request #244 from kenzierocks/feature/defaults\n\nAdd support for Java 8 modifier changes"
+    },
+    {
+        "commit_hash": "40cd658cc8ae1e3c03b5a91f4d1dcfd529ae1795",
+        "commit_message": "Java style followups to Java 8 modifier changes."
+    },
+    {
+        "commit_hash": "50e568dd2af19945c6040147a4d2c45a6a096618",
+        "commit_message": "Merge pull request #251 from square/jwilson_0317_default_modifier_tweaks\n\nJava style followups to Java 8 modifier changes."
+    },
+    {
+        "commit_hash": "cb9c84b19cf23caec9ba667378f8ce6089bb02cb",
+        "commit_message": "Fix import error.\n\nWhen a type in the current package has the same name as a type in another package, javapoet should not attempt to import the other package's type; rather, it should just refer to it by its fully qualified name."
+    },
+    {
+        "commit_hash": "bc3c8cad524f0441ef775ae617b83689b8418089",
+        "commit_message": "Merge pull request #259 from jbeder/master\n\nFix import error."
+    },
+    {
+        "commit_hash": "8d7e0a0d6909d50e967c602d20fd78d0a2ec8633",
+        "commit_message": "Add missing $ in javadoc"
+    },
+    {
+        "commit_hash": "975ff09b9c3a9c03fc66db4adadabd9a2099074e",
+        "commit_message": "Merge pull request #261 from kenzierocks/fix/javadoc\n\nAdd missing $ in javadoc"
+    },
+    {
+        "commit_hash": "83e5d0c7ee9fc741847b7596096ec6f9d7450bbb",
+        "commit_message": "Fix Util error message"
+    },
+    {
+        "commit_hash": "28a40bbfe4e5cf03716cd010a70ce502714df470",
+        "commit_message": "Merge pull request #262 from kenzierocks/fix/error-messages\n\nFix Util error message"
+    },
+    {
+        "commit_hash": "2288620db87cb0a134bf61ae277b48f28895271a",
+        "commit_message": "Prevent potential NPE when getting package reference."
+    },
+    {
+        "commit_hash": "84e27b97892d68cf48e48428f6602918bceec3e9",
+        "commit_message": "Merge pull request #265 from sormuras/master\n\nPrevent potential NPE when getting package reference."
+    },
+    {
+        "commit_hash": "2ae53e321dbc6dc240af086ccfa109d1646ff9ca",
+        "commit_message": "Add missing braces."
+    },
+    {
+        "commit_hash": "937b404cf3905d686e5b41ed66275628937f00ab",
+        "commit_message": "AnnotationSpec.get(AnnotationMirror) added w/ unit test."
+    },
+    {
+        "commit_hash": "70a777f3a6b8fcabe002496c76fc0ad3a403b7f4",
+        "commit_message": "Merge pull request #268 from sormuras/master\n\nAnnotationSpec.get and MethodSpec.overriding"
+    },
+    {
+        "commit_hash": "da9e893102bebde02ff01cca95ea084ce521cbf9",
+        "commit_message": "Add JavaFile.toJavaFileObject"
+    },
+    {
+        "commit_hash": "5f619e393b26311b04ce34cf7092029fb9a66893",
+        "commit_message": "Merge pull request #276 from jgustie/master\n\nJavaFile.toJavaFileObject"
+    },
+    {
+        "commit_hash": "f06f90e1a887e766fb9d3ed934a8853ba02c1f5b",
+        "commit_message": "Clean up FileReadingTest"
+    },
+    {
+        "commit_hash": "2e3af69dc2f9396f2f1b8286224075951e5d0930",
+        "commit_message": "Merge pull request #278 from jgustie/master\n\nClean up FileReadingTest"
+    },
+    {
+        "commit_hash": "1e0eee173d0fbff67036439f5fac171e637e3ecb",
+        "commit_message": "AnnotationSpec fixes.\n  toBuilder() did return an immutable collection\n  AnnotationMirror visitor now visits arrays as well"
+    },
+    {
+        "commit_hash": "9e31383e46edd2da2f1059b5cc5bcdd43f64f9f4",
+        "commit_message": "Merge pull request #279 from sormuras/AnnotationSpecFixes\n\nAnnotationSpec fixes"
+    },
+    {
+        "commit_hash": "bedeff32986dc665a5499d68d38a508d7bf187fe",
+        "commit_message": "MethodSpec.varargs(boolean) added"
+    },
+    {
+        "commit_hash": "9e5558c68482534f5d64083fcbb823884d4e188b",
+        "commit_message": "Merge pull request #280 from sormuras/chainable\n\nMethodSpec.varargs(boolean) added"
+    },
+    {
+        "commit_hash": "cc275673f824a909813b50e9746728f2c1d24b37",
+        "commit_message": "Small fixes for 1.1.0.\n\nChange bulk operations to accept Iterable<T> rather than Collection<T>.\nStyle fixes."
+    },
+    {
+        "commit_hash": "deb5519769b04547ba263a83cf5ffc9f9118870f",
+        "commit_message": "Merge pull request #286 from square/jwilson_0525_prep_release\n\nSmall fixes for 1.1.0."
+    },
+    {
+        "commit_hash": "82807524ae3a8f9e0ea34afdd2f5f1477ab64d3a",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.1.0"
+    },
+    {
+        "commit_hash": "2ddbb90789ae9c8eea9d8264b964748c76703a81",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "869f9dd91b6fce1133d137b5eae8ba543c92806a",
+        "commit_message": "Bump README.md to 1.1.0."
+    },
+    {
+        "commit_hash": "2143e2c593cf2a5bfa9600fdfd0a376d75091a2b",
+        "commit_message": "Added support of static code block in the TypeSpec"
+    },
+    {
+        "commit_hash": "d38648e891492c5c57513f7219030d4c1908ba36",
+        "commit_message": "Merge branch 'DanielSerdyukov-master'\n\n* DanielSerdyukov-master:\n  Added support of static code block in the TypeSpec"
+    },
+    {
+        "commit_hash": "6d8573cc967b43810ee69cde9f7a60e3542504a2",
+        "commit_message": "Overriding-only w/o poet support and pointing to the actual snapshot\npath."
+    },
+    {
+        "commit_hash": "e5532b4ee2c1551d4e2e6777dbe6e637c27cdc3f",
+        "commit_message": "Merge pull request #287 from sormuras/overriding\n\nOverriding-only w/o poet support"
+    },
+    {
+        "commit_hash": "0cece47a8a4affd298d9001e129168946f0e9d37",
+        "commit_message": "Add missing word."
+    },
+    {
+        "commit_hash": "eeff85d68dc5a2753c4eb3cc5461c0a106a89167",
+        "commit_message": "Merge pull request #289 from johnjohndoe/patch-1\n\nAdd missing word."
+    },
+    {
+        "commit_hash": "a89eed06ff6133a99af5b54478ffec183f2f7b85",
+        "commit_message": "Use the initialCapacity when creating an ArrayList\n\nMarginally faster."
+    },
+    {
+        "commit_hash": "c0413f592a5afee56f9010e07a5e789341c3e874",
+        "commit_message": "Merge pull request #290 from shalecraig/patch-1\n\nMinor changes to TypeName.list"
+    },
+    {
+        "commit_hash": "8774c6d9f1e6e113e910acd83f6e66b45f953049",
+        "commit_message": "Javadoc on enum constants.\n\nCloses https://github.com/square/javapoet/issues/291"
+    },
+    {
+        "commit_hash": "9c15424252db0f8179d381c322439630f97377f0",
+        "commit_message": "Merge pull request #292 from square/jwilson_0611_javadocs\n\nJavadoc on enum constants."
+    },
+    {
+        "commit_hash": "5963d9ff4f753dedaaf3ef2814403848e3b2fd8d",
+        "commit_message": "Added the ability to use indexes in format arguments\n\nIn response to issue #238 I added in the ability to use indexes in the\nformatted strings used by most of Java poet. They are in the form of\n$[index]{format_type} and can be applied to name, type, string or\nliteral format types. The indexes are one based."
+    },
+    {
+        "commit_hash": "553fe8a18d54e4b3bda42d439687ba59b9b6b2e3",
+        "commit_message": "Merge pull request #293 from APaloski/master\n\nAdded the ability to use indexes in format arguments"
+    },
+    {
+        "commit_hash": "aa8980fcb8b14698bc970ba4571582dc6729ca9f",
+        "commit_message": "Restore the deleted MethodSpec.overriding() overload.\n\nAlso rearrange the type resolution version of that method so the\nsimple case doesn't need a Types class."
+    },
+    {
+        "commit_hash": "49d1d83a68023d35facec7103d46fb6b073810fe",
+        "commit_message": "Update Changelog."
+    },
+    {
+        "commit_hash": "8694525ae7533cff932e55239da5725180df62f6",
+        "commit_message": "Merge pull request #297 from square/jwilson_0704_restore_api_compatibility\n\nRestore the deleted MethodSpec.overriding() overload."
+    },
+    {
+        "commit_hash": "fe9cc5f18a8c90ff421aff2a5f68bd6ffc60b8b5",
+        "commit_message": "Update changelog for 1.2.0."
+    },
+    {
+        "commit_hash": "639f406d30515f0ae0793180d54be456d1b68414",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.2.0"
+    },
+    {
+        "commit_hash": "b0991083e2b785b86ba55d941c9d3d409909affc",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "12ffaab09687925b6fddf720dfd65facd63395f0",
+        "commit_message": "Test conflicting simple names in the same file.\n\nSee https://github.com/square/wire/issues/184\nSee https://github.com/square/javapoet/issues/298"
+    },
+    {
+        "commit_hash": "dfa195e79e03f5e9846be8c475eb61b687de7ef5",
+        "commit_message": "Merge pull request #299 from square/jwilson_0705_imports_bug\n\nTest conflicting simple names in the same file."
+    },
+    {
+        "commit_hash": "5a37c2aa596377cb4c9b6f916614407fd0a7d3db",
+        "commit_message": "Workaround for Eclipse JDT/APT bug around intersection types\n\nWhen in presence of a TypeVariable with an intersection type as the upper\nbound, Eclipse JDT/APT returns a TypeVariable equivalent to the declaring\nTypeVariable when calling getUpperBound. The only way to retrieve the\nactual bounds is to go look at the TypeParameterElement represented by\nthe TypeVariable."
+    },
+    {
+        "commit_hash": "ff68284b0352639173e282376850607ab7e98140",
+        "commit_message": "Simplify TypeVariableName.get(TypeVariable)\n\nThere's actually no need to deal with intersection types as type mirrors,\nwe can just go down to the TypeParameterElement and directly get its\nbounds."
+    },
+    {
+        "commit_hash": "b716399da5d35529fb70a05e4c88df587b5310a3",
+        "commit_message": "Merge pull request #305 from tbroyer/intersectiontypes-in-ecj\n\nWorkaround for Eclipse JDT/APT bug around intersection types"
+    },
+    {
+        "commit_hash": "55ef17207f7ab2ac7e19446eb6633eab907aed7d",
+        "commit_message": "Bump version to 1.2.0 in README.md file."
+    },
+    {
+        "commit_hash": "a0f783c4c3ba439c7f2e59f4fa8faea50ab007ec",
+        "commit_message": "Merge pull request #306 from tomxor/readme-version\n\nBump version to 1.2.0 in README.md file."
+    },
+    {
+        "commit_hash": "fbfc47aa6e6f5ad8d4eb1abd8f556da1da71ff70",
+        "commit_message": "Use correct return type in inner class example"
+    },
+    {
+        "commit_hash": "8a17f0a5dc1f10ea2a571261b57348fb1c1e22c9",
+        "commit_message": "Merge pull request #307 from auke-/master\n\nUse correct return type in inner class example"
+    },
+    {
+        "commit_hash": "262a3e2811e748c869d5b587e9a450168ff32f4e",
+        "commit_message": "Create better messages for auto-indexing"
+    },
+    {
+        "commit_hash": "8d27eca70744894c83fd5bdbbd564f9e5c5ea946",
+        "commit_message": "Merge pull request #310 from kenzierocks/fix/index-error-message\n\nCreate better messages for auto-indexing"
+    },
+    {
+        "commit_hash": "cf6ac80e576aa08de9ca93c082f035b543583a76",
+        "commit_message": "Shorten parameter validation.\n\nPass the same tests with less code."
+    },
+    {
+        "commit_hash": "66b156f436904cf38956890f8ff6e66c7e1d2661",
+        "commit_message": "Merge pull request #312 from square/jwilson_0722_parameter_validation\n\nShorten parameter validation."
+    },
+    {
+        "commit_hash": "a5f49c26941650212ac4c952958fcec98b7a5f4b",
+        "commit_message": "NameAllocator."
+    },
+    {
+        "commit_hash": "c2a686d75cf0b621571a4fb9286521a29badfe79",
+        "commit_message": "Merge pull request #313 from square/jwilson_0722_name_allocator\n\nNameAllocator."
+    },
+    {
+        "commit_hash": "ee9e4da8f7b7191ca150205c12f7abd1c92b736e",
+        "commit_message": "Squashed commit of the following:\n\ncommit e60fe43126d4fb9d3311bbbed85bf88db98d0163\nAuthor: Jamie <jamie@cutsnake.net>\nDate:   Mon Aug 3 16:49:43 2015 -0700\n\n    Squashed commit of the following:\n\n    commit 0e75ce780704197f7bd8e9f0ca094a83eb8c8c70\n    Author: Jamie <jamie@cutsnake.net>\n    Date:   Mon Aug 3 15:43:30 2015 -0700\n\n        Slimmed down test as per PR comments\n\n    commit ad1572e1732017036513a68ee09ec3ba5bed9516\n    Author: Jamie <jamie@cutsnake.net>\n    Date:   Fri Jul 31 11:19:34 2015 -0700\n\n        Issue 253 - Added support for annotations on enum values"
+    },
+    {
+        "commit_hash": "0b0e5d8b935476bf4a30852cf843d55330f33f84",
+        "commit_message": "Merge pull request #314 from cutsnake-net/annotated_enums\n\nIssue 253 - Added support for annotations on enum values"
+    },
+    {
+        "commit_hash": "5dff6c537a450dae93192f367269a2ff092a3793",
+        "commit_message": "Removed unused import statements."
+    },
+    {
+        "commit_hash": "beebe467ae28c3d6288922fd1c04c0d455ddc858",
+        "commit_message": "Merge pull request #318 from sormuras/master\n\nRemoved unused import statements."
+    },
+    {
+        "commit_hash": "dc836e498fde995a74c71f363957522192b69ed5",
+        "commit_message": "Use a more qualified name for conflicting simple names in the same file"
+    },
+    {
+        "commit_hash": "99739456865136a6c294989a5a3e66f20fa5991a",
+        "commit_message": "Merge pull request #320 from auke-/master\n\nUse qualified name for conflicting simple names in the same file"
+    },
+    {
+        "commit_hash": "6551850b3eaa4f5ff4b6ce6a2b2102d281a11fee",
+        "commit_message": "Add logic to avoid infinite recursion in TypeName.get(TypeMirror) when the TypeMirror includes a recursive type bound."
+    },
+    {
+        "commit_hash": "ec8c5d59a9ac7e7bcab7d147182d602422126da6",
+        "commit_message": "t push origin masterMerge branch 'eamonnmcmanus-recursion'\n\n* eamonnmcmanus-recursion:\n  Add logic to avoid infinite recursion in TypeName.get(TypeMirror) when the TypeMirror includes a recursive type bound."
+    },
+    {
+        "commit_hash": "62a8b20e38fab093f94be1e96a98040935103a29",
+        "commit_message": "Removed not need import statements."
+    },
+    {
+        "commit_hash": "6a07eecedee4a368a3a1dbdc1a1cb4b88027ae7a",
+        "commit_message": "Merge pull request #325 from sormuras/master\n\nRemoved not need import statements."
+    },
+    {
+        "commit_hash": "38abbc1e4cfd5b6b611f93b621667d54f19b16b3",
+        "commit_message": "Try to improve the errors on statement enter/exit matching."
+    },
+    {
+        "commit_hash": "f6ad309596e9c7ddf4e8420b62507d1dd22887c0",
+        "commit_message": "Avoid Class.getPackage().\n\nCloses https://github.com/square/javapoet/issues/295"
+    },
+    {
+        "commit_hash": "ebcbf38ea15430394523edabc247a6dc5a1a42b2",
+        "commit_message": "Revert \"Avoid Class.getPackage().\"\n\nThis reverts commit f6ad309596e9c7ddf4e8420b62507d1dd22887c0."
+    },
+    {
+        "commit_hash": "c11551974df548b6a3830eb6bfa1a52b95412280",
+        "commit_message": "Avoid Class.getPackage().\n\nCloses https://github.com/square/javapoet/issues/295"
+    },
+    {
+        "commit_hash": "d597130d3b4d3d379d56f7ed602867f8afeab429",
+        "commit_message": "Update changelog for JavaPoet 1.3.0."
+    },
+    {
+        "commit_hash": "c8d5666e4deed5606ea372ea7bd59a344bf5eea3",
+        "commit_message": "Merge pull request #326 from square/jwilson_0920_enter_enter_and_exit\n\nTry to improve the errors on statement enter/exit matching."
+    },
+    {
+        "commit_hash": "5f349c8f71b63728fb24f737a99732967088b672",
+        "commit_message": "Merge pull request #327 from square/jwilson_0920_avoid_get_package\n\nAvoid Class.getPackage()."
+    },
+    {
+        "commit_hash": "725eed1a97fd0b88435172e5cedbb968516f9929",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.3.0"
+    },
+    {
+        "commit_hash": "b71a8d627abc0945ff960616b2ede27ebab84641",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "aecf1d5e686e52ceaa033ad736eafae08afb732f",
+        "commit_message": "Javadoc can't handle annotations in code samples."
+    },
+    {
+        "commit_hash": "74ed3249db71532d14b670e053df67875dbca23b",
+        "commit_message": "Merge pull request #328 from square/jwilson_0920_sigh_javadoc\n\nJavadoc can't handle annotations in code samples."
+    },
+    {
+        "commit_hash": "a18a39ecc914d66f1ab402a4b00d5234ab4a7225",
+        "commit_message": "Update README.md\n\nUpdated version in download section."
+    },
+    {
+        "commit_hash": "ebde08a42d191127b2c08e26513f81ced71ca902",
+        "commit_message": "Merge pull request #330 from a11n/master\n\nUpdate README.md"
+    },
+    {
+        "commit_hash": "f96704d173ffd309da0d48368be577e2defa5310",
+        "commit_message": "Resolve-based import resolution.\n\nThis introduces a new API that given a string, attempts to match it to\na class name. Then it uses that new API to discover the best name to\nuse when importing another type."
+    },
+    {
+        "commit_hash": "4ee84e2372a8cfe60e991b4d2f948e6af05fd1da",
+        "commit_message": "Merge pull request #331 from square/jwilson_0929_resolve_based_imports\n\nResolve-based import resolution."
+    },
+    {
+        "commit_hash": "4dbeee0ff7a9b6b7bd5f5bd3cf6390a9c3e7aa27",
+        "commit_message": "Added test for static methods in an interface."
+    },
+    {
+        "commit_hash": "a81264c5a5fa8cd61206e4a1223474b0eee05ca8",
+        "commit_message": "Merge pull request #335 from sormuras/master\n\nAdded test for static methods in an interface."
+    },
+    {
+        "commit_hash": "00e7258edba952a9b981d9afedaa5ba6405fd0e4",
+        "commit_message": "Add clone() method on NameAllocator\nUseful to refine a NameAllocator for use in an inner scope code block."
+    },
+    {
+        "commit_hash": "150b196373d967b308ffe26f9f4b6eb8ad05ef25",
+        "commit_message": "Merge pull request #338 from jbgi/nameallocator-clone\n\nAdd clone() method on NameAllocator"
+    },
+    {
+        "commit_hash": "5588188a021fafc82edb7c1d923136d8b958600f",
+        "commit_message": "AnnotationSpec.get(Annotation) added."
+    },
+    {
+        "commit_hash": "72c74144d8998138b1d69f9284191a7cf3de7c10",
+        "commit_message": "Merge pull request #340 from sormuras/master\n\nAnnotationSpec.get(Annotation) added."
+    },
+    {
+        "commit_hash": "4d235546d1e3aa6b32bf4279886fa3085327a384",
+        "commit_message": "Enum::name() usage forced."
+    },
+    {
+        "commit_hash": "50e0cbbb8dbe392875dd15e418476cfaaeb908c0",
+        "commit_message": "Merge pull request #346 from sormuras/master\n\nEnum.name() usage forced"
+    },
+    {
+        "commit_hash": "9dd1e4cedf454c94b86f1705bdddcf0d166c9b15",
+        "commit_message": "equals() and hashCode() implemented."
+    },
+    {
+        "commit_hash": "44c278882ca7b314c54e6db15bf48f4188d925f9",
+        "commit_message": "Merge pull request #349 from sormuras/spec\n\nequals() and hashCode() implemented."
+    },
+    {
+        "commit_hash": "55f8bb81be356843c17c41b5645fa7ae8a7a0f4c",
+        "commit_message": "Change around how we handle null package names.\n\nConverting null to empty makes me uncomfortable. Just change the default\nso we always have a package."
+    },
+    {
+        "commit_hash": "c8b9d019a3ac8d676e38c6fb43a1ca7b4f74341e",
+        "commit_message": "Merge pull request #351 from square/jwilson_1016_safe\n\nChange around how we handle null package names."
+    },
+    {
+        "commit_hash": "a6716680d0328420b62ed4bd8ad2949b7f051fb9",
+        "commit_message": "AnnotationTypeName added."
+    },
+    {
+        "commit_hash": "852b1bb78224e2fd3a183b6175e388044d775ae1",
+        "commit_message": "Merge pull request #354 from sormuras/anno\n\nAnnotationTypeName added."
+    },
+    {
+        "commit_hash": "43db56716e85504cdcb8c0f3652b53c2fef3c506",
+        "commit_message": "Revert \"AnnotationTypeName added.\"\n\nThis reverts commit a6716680d0328420b62ed4bd8ad2949b7f051fb9."
+    },
+    {
+        "commit_hash": "3bdc6b5c3faa4884684fd0b7ab2457e4bb7e45ff",
+        "commit_message": "Merge pull request #358 from square/jwilson_1023_rollback\n\nRevert \"AnnotationTypeName added.\""
+    },
+    {
+        "commit_hash": "9d49d102e48c052b71ed64b5e575a38d784f5d49",
+        "commit_message": "Enhanced TypeName(s) with List<AnnotationSpec> #136"
+    },
+    {
+        "commit_hash": "e7534b96fc07aaf1ba2134a820d71b1b55c390d2",
+        "commit_message": "Merge pull request #359 from sormuras/annotype\n\nTypeName annotations added"
+    },
+    {
+        "commit_hash": "969d6398b2942eaebdaf867bf5cd3a4eb254b1af",
+        "commit_message": "StackOverflowError fixed in TypeName.get(Type)"
+    },
+    {
+        "commit_hash": "74e7ea9e7a70c71b73829a399467b940f18c48c4",
+        "commit_message": "Delete the deploy_javadoc script."
+    },
+    {
+        "commit_hash": "942a04f496c54441436ac86e846ddb63ec9dfbb2",
+        "commit_message": "Merge pull request #360 from square/jwilson_1026_delete_deploy_javadoc\n\nDelete the deploy_javadoc script."
+    },
+    {
+        "commit_hash": "c5109fa0009cc8f4d50843a220ec46d3f98399d2",
+        "commit_message": "Merge pull request #357 from sormuras/master\n\nStackOverflowError fixed."
+    },
+    {
+        "commit_hash": "77e89f03810d9270ddc908a0d34b25e1b9b0a6ce",
+        "commit_message": "Update Javadoc link."
+    },
+    {
+        "commit_hash": "bb8e4fc33b271d6867ea1be5638649315fc18811",
+        "commit_message": "Fix a bug when a nested class and sibling class have the same name."
+    },
+    {
+        "commit_hash": "b59cde516d0a6e7d28f03e373f48e08f31c6dc7b",
+        "commit_message": "Merge pull request #361 from square/jwilson_1027_handle_package_conflict\n\nFix a bug when a nested class and sibling class have the same name."
+    },
+    {
+        "commit_hash": "006a54bc9a09ddae9861b88c09c02cddf60d3268",
+        "commit_message": "Test to confirm nested annotation imports work.\n\nCloses https://github.com/square/javapoet/issues/366"
+    },
+    {
+        "commit_hash": "1f07dd446d926fdd4a20ecb6490063d0aba0dbd6",
+        "commit_message": "Merge pull request #367 from square/jwilson_1113_imports_test\n\nTest to confirm nested annotation imports work."
+    },
+    {
+        "commit_hash": "f70958f97c4514d90de2b1b79d17cf6e446d7a63",
+        "commit_message": "Changelog for 1.4.0."
+    },
+    {
+        "commit_hash": "27ddf3785d08d065262f64746f493621d3b95812",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.4.0"
+    },
+    {
+        "commit_hash": "cf4b9a0df9432800e7b3d2b1b67ab4b1db5bf1e9",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "e51d3947933fe8029d0e2bbccc0bf32f9cdb8d0c",
+        "commit_message": "Updated download section to 1.4.0"
+    },
+    {
+        "commit_hash": "29727b0639e0bbf70515c575093f5ff72d94f54a",
+        "commit_message": "Merge pull request #368 from sormuras/patch-1\n\nUpdated download section to 1.4.0"
+    },
+    {
+        "commit_hash": "6980db0d3757d13f1332f1137f8aa8689d8f0265",
+        "commit_message": "Prevent import of types located in the default package. #369"
+    },
+    {
+        "commit_hash": "4522c42783ac897f26b98232ca39c76a803b07b1",
+        "commit_message": "Merge pull request #370 from sormuras/master\n\nPrevent import of types located in the default package."
+    },
+    {
+        "commit_hash": "4ce8e427b533ec2a598ae9c967487713ce731662",
+        "commit_message": "Too many indexed arguments does fail now."
+    },
+    {
+        "commit_hash": "251cb9a9797dabfe873ae6901fdabe8ea7c052cf",
+        "commit_message": "Merge pull request #375 from sormuras/master\n\nUnused indexed arguments do fail now."
+    },
+    {
+        "commit_hash": "633e4ac4bb8841c8f9dc5ef95548a9ca7939e535",
+        "commit_message": "Overload for creating a one-off name without a tag."
+    },
+    {
+        "commit_hash": "c635835c2096a437b442fb352aca165f3353cdc3",
+        "commit_message": "Merge pull request #379 from square/jw/new-name-no-tag\n\nOverload for creating a one-off name without a tag."
+    },
+    {
+        "commit_hash": "408388c35a4c0b815ec2108c3d9c2afd10f2e036",
+        "commit_message": "TypeName#annotated clean up."
+    },
+    {
+        "commit_hash": "3471d03374b9be4fd38b7b02b230a12374685430",
+        "commit_message": "Merge pull request #383 from sormuras/master\n\nTypeName#annotated clean up"
+    },
+    {
+        "commit_hash": "5141a9400c75c5ad1aecfe5faf51f913e89efd03",
+        "commit_message": "Internal AnnotationSpec clean up."
+    },
+    {
+        "commit_hash": "0a08c07a229eaf482adc1c40618812ee4ff9cbdd",
+        "commit_message": "Merge pull request #385 from sormuras/master\n\nInternal AnnotationSpec clean up."
+    },
+    {
+        "commit_hash": "97f40446edd5f66145bde79c4a7c0de6a88716e9",
+        "commit_message": "Upgrade Maven Checkstyle Plugin to 2.17 using Checkstyle 6.11.2\n\n * Removed redundant modifiers in CodeWriter and TypeSpec\n * Module RedundantThrows commented out - it was removed from CS\n * Java 8 method reference syntax parsing fixed"
+    },
+    {
+        "commit_hash": "19b8ecd35f67ace7d21b0cb96703856a1fd7b4af",
+        "commit_message": "Merge pull request #392 from sormuras/sor_checkstyle_upgrade\n\nUpgrade Maven Checkstyle Plugin to 2.17 using Checkstyle 6.11.2"
+    },
+    {
+        "commit_hash": "b162ce2270c6a4039a85e29258a47e190643dd10",
+        "commit_message": "Private source file object used, instead of com.sun.tools.javac types"
+    },
+    {
+        "commit_hash": "6e8b62a6d8636be085ff9e857344d49cd8bdca75",
+        "commit_message": "Merge pull request #393 from sormuras/sor_using_public_api\n\nPrivate source file object used, instead of com.sun.tools.javac types"
+    },
+    {
+        "commit_hash": "9eec3e9ad28e035566744d784b1dab289a75c564",
+        "commit_message": "Added char/Character to AnnotationSpec.Builder.addValue logic"
+    },
+    {
+        "commit_hash": "8a7842bd5d667a6d18e9ee7b0bb7e985da4cf056",
+        "commit_message": "Merge pull request #395 from sormuras/annotation_character_fix\n\nAdded char/Character to AnnotationSpec.Builder.addValue logic"
+    },
+    {
+        "commit_hash": "757e123353dd7ab964c7c6178cdf34d955484bdb",
+        "commit_message": "Escape special char values."
+    },
+    {
+        "commit_hash": "512e2169209eecea05862c9bbe5e2dc51474ddd4",
+        "commit_message": "Merge pull request #397 from sormuras/annotation_character_fix\n\nEscape special char values."
+    },
+    {
+        "commit_hash": "caabf2c227a7e8a6a2496c2de9baf1528d21065b",
+        "commit_message": "Static import support added."
+    },
+    {
+        "commit_hash": "b07f520f0b14acce1feea56ad6582305d4cf8ca1",
+        "commit_message": "Merge pull request #398 from sormuras/static_import\n\nStatic import support added."
+    },
+    {
+        "commit_hash": "e28883e53aec58121b5ca039c505e0c66935bfd6",
+        "commit_message": "Static import corner case tests and README/CHANGELOG updates."
+    },
+    {
+        "commit_hash": "7d22a5c0879eb25810a31d454f39dca823cd2b1e",
+        "commit_message": "Merge pull request #399 from sormuras/static_polish\n\nStatic import corner case tests."
+    },
+    {
+        "commit_hash": "5f68b2c0ea5af2b93a28116748c878f32d2a58ee",
+        "commit_message": "Prepare for 1.5.0 release."
+    },
+    {
+        "commit_hash": "d04195eda335f35ddfd547110d39eed692ef3084",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.5.0"
+    },
+    {
+        "commit_hash": "70353373ead4dbf4c3db04cda72da75a05ae7b36",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "fcdb088f4fa4ee566bb9a081b3a6a77e80b48058",
+        "commit_message": "JavaPoet 1.5.0 is out."
+    },
+    {
+        "commit_hash": "9ffa01c506ff040df200c164c533987d0fb58112",
+        "commit_message": "TypeName.equals() and .hashCode() now respect attached annotations.\n\nMade TypeName.equals() and TypeName.hashCode() final and respect\nattached annotations by using toString() representation. Removed all\noverridings in derived classes."
+    },
+    {
+        "commit_hash": "1488b84dd8f3becf076e63de818ba625a24cf754",
+        "commit_message": "Merge pull request #401 from sormuras/typename_equality\n\nTypeName.equals() and .hashCode() now respect attached annotations."
+    },
+    {
+        "commit_hash": "62764fafc3d4380dbf9a81bbb063098b6076ed77",
+        "commit_message": "Update changelog for 1.5.1."
+    },
+    {
+        "commit_hash": "830751cdd5222d3f0d22e4d7ecc81904faaa73a2",
+        "commit_message": "1.5.1 is the latest release."
+    },
+    {
+        "commit_hash": "c810627978b07289c8481d368f501de19c38f598",
+        "commit_message": "Literal conversion clean up.\n\nCharacter and String literal conversion refactored.\nMade AnnotationSpec.Builder.addMemberForValue package private.\nRefactored and fixed bug in AnnotationSpec.get(AnnotationMirror).\nRemoved redundant public modifiers from package private Util methods."
+    },
+    {
+        "commit_hash": "fc9d2ec5a3b99e27d5d65ebb3398dd36d4cb93c9",
+        "commit_message": "Merge pull request #403 from sormuras/escape_character\n\nLiteral conversion clean up."
+    },
+    {
+        "commit_hash": "4dd534906a1e8aa8b15883706878a45fdb1437da",
+        "commit_message": "Add a test to show a limitation of static imports."
+    },
+    {
+        "commit_hash": "e3e7652c8abdd64a6d0d5aa723421cba2311ecfe",
+        "commit_message": "Merge pull request #405 from square/jwilson_0117_statics_fail\n\nAdd a test to show a limitation of static imports."
+    },
+    {
+        "commit_hash": "191787d4ba266b7bb172effa5eb00df6875b39a7",
+        "commit_message": "Added support for initializer blocks; Bugfix in TypeSpec.toBuilder() for static initializer block"
+    },
+    {
+        "commit_hash": "bbdaa34e4d73165d92a76e0c342fbd6f7c5fc787",
+        "commit_message": "Merge branch 'sockeqwe-master'\n\n* sockeqwe-master:\n  Added support for initializer blocks; Bugfix in TypeSpec.toBuilder() for static initializer block"
+    },
+    {
+        "commit_hash": "d19fee4b8b2e805e70725182ff48091adfcdb412",
+        "commit_message": "make TypeSpec.Kind enum public"
+    },
+    {
+        "commit_hash": "e66ed4514245eedace3ffb90495429bde6779940",
+        "commit_message": "Merge pull request #414 from caplan/master\n\nmake TypeSpec.Kind enum public"
+    },
+    {
+        "commit_hash": "2d21ad7ac0ec54afe0f0becf500a4ce7f17716dd",
+        "commit_message": "Allow TypeNames to be annotated twice"
+    },
+    {
+        "commit_hash": "ae486521e3b81415d6243983f84289c9d4ad1dc9",
+        "commit_message": "Merge pull request #417 from ronshapiro/annotated_twice\n\nAllow TypeNames to be annotated twice"
+    },
+    {
+        "commit_hash": "023d25687224734cf539bd6f2d2ddc4f89f46125",
+        "commit_message": "Append annotations from multiple calls to TypeName#annotated"
+    },
+    {
+        "commit_hash": "0ee14809c410c8cf52f4c7e5612cda5bbc3b7097",
+        "commit_message": "Merge pull request #418 from ronshapiro/annotated_twice\n\nAppend annotations from multiple calls to TypeName#annotated"
+    },
+    {
+        "commit_hash": "c759d9a47276b392739f8711c8a476f98c2b2f6a",
+        "commit_message": "Fix a bug where annotations broke import resolution.\n\nCloses: https://github.com/square/javapoet/issues/422"
+    },
+    {
+        "commit_hash": "19fe0a411228683d54e84e9e16b755bcc1a67058",
+        "commit_message": "Merge pull request #423 from square/jwilson_0209_imports_annotations\n\nFix a bug where annotations broke import resolution."
+    },
+    {
+        "commit_hash": "944a070a02f56ddab43f9345b11ba14e54c3e72c",
+        "commit_message": "Add TypeSpec factories for when a ClassName already exists."
+    },
+    {
+        "commit_hash": "f1bf5464be6aab53eac63a5f6bdd719ee54fe9dc",
+        "commit_message": "Merge pull request #426 from square/jw/class-name-factories\n\nAdd TypeSpec factories for when a ClassName already exists."
+    },
+    {
+        "commit_hash": "b42c9388a5098270adc0ff58c48084deffe01b25",
+        "commit_message": "Revive CodeBlock.of()"
+    },
+    {
+        "commit_hash": "97c75819707764bd0981d470a2f66ec65199ab12",
+        "commit_message": "Merge pull request #427 from ronshapiro/codeblock_of\n\nRevive CodeBlock.of()"
+    },
+    {
+        "commit_hash": "98c8b729607a14632b6c82975f05610d4ce5ce53",
+        "commit_message": "Use util.UUID instead of rmi.UID."
+    },
+    {
+        "commit_hash": "1a16944b319057b572bc5eab1267744a26b31835",
+        "commit_message": "Merge pull request #429 from sormuras/better_import\n\nRemoved dependency to compact2 types."
+    },
+    {
+        "commit_hash": "34cfcdf973527ec0f3149d868e55d6600802bf9d",
+        "commit_message": "Treat ErrorType like a regular DeclaredType in TypeName.get()"
+    },
+    {
+        "commit_hash": "f80f1072b9c09b95b36b71d6d9c211f9c4a68eb6",
+        "commit_message": "Added tests for https://github.com/square/javapoet/issues/431"
+    },
+    {
+        "commit_hash": "1d763c4e2f3a11b7547e43ecc3c74b5ef05fe1b6",
+        "commit_message": "Merge pull request #433 from sormuras/annotations_on_qualified_names_tests\n\nTwo (ignored) tests for annotations on qualified names added"
+    },
+    {
+        "commit_hash": "4b0bd36c55658efb44edcb042db2dfb9bb1b9722",
+        "commit_message": "Merge pull request #430 from ronshapiro/typename_get_errortype\n\nTreat ErrorType like a regular DeclaredType in TypeName.get()"
+    },
+    {
+        "commit_hash": "3e10db6f9600b7f43a71244c3c441e0f2b8c5ebb",
+        "commit_message": "Ignore duplicate exceptions in MethodSpec.Builder"
+    },
+    {
+        "commit_hash": "90064083ec9b1e0a1f882bc284198c247580385a",
+        "commit_message": "Merge pull request #439 from ronshapiro/duplicate_exceptions\n\nIgnore duplicate exceptions in MethodSpec.Builder"
+    },
+    {
+        "commit_hash": "4ec59220a919b6b9d585fbdd32123c422667f21e",
+        "commit_message": "TypeVariableName.withBounds added."
+    },
+    {
+        "commit_hash": "859e7892c699d31a7786dfc73f06054bf1369e64",
+        "commit_message": "Annotation methods to be public, abstract and nothing else\n\nOther modifiers like static are not allowed for annotation\nmethods.\n\nThe exception message no longer suggests that\nannotation methods cannot have modifiers, which is misleading\nsince public and abstract is in fact required."
+    },
+    {
+        "commit_hash": "8e8b6ee214c7fd593ae64d1faf97b2ad4e196851",
+        "commit_message": "Merge pull request #442 from Skelehog/master\n\nAnnotation methods to be public, abstract and nothing else"
+    },
+    {
+        "commit_hash": "b99e692763d53b5b738c9bb85eb6c4799ead2e6d",
+        "commit_message": "Merge pull request #441 from sormuras/typevar_withbounds\n\nTypeVariableName.withBounds added"
+    },
+    {
+        "commit_hash": "9dee15bb446f7891c10ca3d4c996e647e06b42bb",
+        "commit_message": "Update README for JavaPoet 1.6.0."
+    },
+    {
+        "commit_hash": "3b924132ff45f858be38039f75dab14b477c74fd",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.6.0"
+    },
+    {
+        "commit_hash": "4fd756960d5e16051e3e3506e8614ab80f21d4f8",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "a8b274e2f0ba92581a16da58c8bfdf79ae5474e2",
+        "commit_message": "Fix string literal and backslashes."
+    },
+    {
+        "commit_hash": "4de4f0ee58df9ad4d7560792a38018787eedcef9",
+        "commit_message": "Merge branch 'Wyverald-string-literal'\n\n* Wyverald-string-literal:\n  Fix string literal and backslashes."
+    },
+    {
+        "commit_hash": "30455b1a25b3ff348578d882812e4e7c94eb9e9e",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.6.1"
+    },
+    {
+        "commit_hash": "dfcf55e5fc3f29ac55847a19627f9f15d3aff370",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "9718d39ff8e432d2d196e6de5dfa3d4af785d91a",
+        "commit_message": "Update changelog for 1.6.1."
+    },
+    {
+        "commit_hash": "747b88b228fd2512e487506e4b2f764c26c6653d",
+        "commit_message": "TypeName.isBoxedPrimitive()."
+    },
+    {
+        "commit_hash": "495d95889484502834415db54d799a47560c43a6",
+        "commit_message": "Merge pull request #449 from square/jwilson_0322_box\n\nTypeName.isBoxedPrimitive()."
+    },
+    {
+        "commit_hash": "3604f52b262f2525d4fa6de0606227684e6ab065",
+        "commit_message": "fix dependency versions to test"
+    },
+    {
+        "commit_hash": "373ac2ddb11def68874b1310978d32a0f6e6d01c",
+        "commit_message": "Merge pull request #450 from gfx/fix_dependency_versions\n\nfix dependency versions to test"
+    },
+    {
+        "commit_hash": "cdc51fd2c5f5610c7377c5dd3e4013fba86b22d8",
+        "commit_message": "specialize CodeWriter#emit(String) for optimization"
+    },
+    {
+        "commit_hash": "2e6138631d6e808ace393f93149a4dc0af6668b3",
+        "commit_message": "optimize TypeName#toString() with cache"
+    },
+    {
+        "commit_hash": "b8d1957417d5f313b7ad29c0d6df10bdc2a58fb8",
+        "commit_message": "Merge branch 'gfx-optimize'\n\n* gfx-optimize:\n  optimize TypeName#toString() with cache\n  specialize CodeWriter#emit(String) for optimization"
+    },
+    {
+        "commit_hash": "186ccd85c9e448195b9a2a88bf272041dd5f41bb",
+        "commit_message": "Avoid using raw types for SomeGeneric<T>.Inner\n\nFixes #458"
+    },
+    {
+        "commit_hash": "a4bb248c59a362f07b324668c65bdcab6df785db",
+        "commit_message": "Merge branch 'marcosb-master'\n\n* marcosb-master:\n  Avoid using raw types for SomeGeneric<T>.Inner"
+    },
+    {
+        "commit_hash": "e2313a409ee1a8e44961ba8db885459a04371e5b",
+        "commit_message": "Changelog for JavaPoet 1.7.0."
+    },
+    {
+        "commit_hash": "79d83b201dea2fcd9eeee414d963b55136727aa6",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.7.0"
+    },
+    {
+        "commit_hash": "0e00d87cecf635c40015d1698a0b5adb7da5ea15",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "8613629df7ebf9fc485965015d9beffaecb6103d",
+        "commit_message": "allow TypeName subclasses in withBounds() input list"
+    },
+    {
+        "commit_hash": "93a496c900678768479bda5d19cc70f666d88c5c",
+        "commit_message": "Merge pull request #464 from caplan/master\n\nallow TypeName subclasses in withBounds() input list"
+    },
+    {
+        "commit_hash": "05f74da539738429708dabf7291923243fcbd1cd",
+        "commit_message": "Added missing variable in import static example."
+    },
+    {
+        "commit_hash": "d06b2fe79ea1f62bae6e12c3ecaef25b3cbd1bd4",
+        "commit_message": "Merge pull request #468 from sormuras/master\n\nAdded missing variable in import static example."
+    },
+    {
+        "commit_hash": "1efac98929856ec9e47748fd67bfce2fde704e37",
+        "commit_message": "Allow fields in annotations"
+    },
+    {
+        "commit_hash": "3d54bd91f17fcb212010470f158c5e79c8e79d26",
+        "commit_message": "Merge pull request #469 from benjamin-bader/bb/fields-in-annotations\n\nAllow fields in annotations"
+    },
+    {
+        "commit_hash": "a136eaa777b7750e16b3c6e8bd6d0228442e3e1d",
+        "commit_message": "Fixed the name clash when implementing/extending classes of the same name"
+    },
+    {
+        "commit_hash": "338abf76a0e6e82fc9bcff73c8a629d62752ce2b",
+        "commit_message": "Removed the unnecessary comments"
+    },
+    {
+        "commit_hash": "19e1b4e3f253a3169853863199c932f36c5b6584",
+        "commit_message": "Add convenience method builder.addComment\n\nAdds a single line comment to the code. See issue #454"
+    },
+    {
+        "commit_hash": "932695e9f03df31c7ec95c200c5a3d8fd7a0bc28",
+        "commit_message": "Merge pull request #471 from christianbreynolds/bugfix/nameClash\n\nFixed the name clash when implementing/extending classes"
+    },
+    {
+        "commit_hash": "fdaefdb063880bd83774999b99b3ac910f6ead28",
+        "commit_message": "Remove DEFAULT modifier from overridden method. #480"
+    },
+    {
+        "commit_hash": "7bbcb1fc454285daec6dddef20505ff84f924550",
+        "commit_message": "Merge pull request #481 from sormuras/master\n\nRemove DEFAULT modifier from overridden method. #480"
+    },
+    {
+        "commit_hash": "73c6bd309e903ba1eb6501b8dc3a59cc76618984",
+        "commit_message": "ClassName.getReflectionName() added. #485"
+    },
+    {
+        "commit_hash": "325ebb43e08bb3b7675e33ff44a0da775e3560da",
+        "commit_message": "Merge pull request #486 from sormuras/master\n\nClassName.reflectionName() added."
+    },
+    {
+        "commit_hash": "a6c9a7dd9433138c81ea40cb8f06009f0486d614",
+        "commit_message": "Merge pull request #472 from buckbaskin/master\n\nAdd convenience method builder.addComment"
+    },
+    {
+        "commit_hash": "9505ad0e027a1f125b5352ac722ea141831fbf1c",
+        "commit_message": "Change MethodSpec.overriding to not copy annotations.\n\nCloses: https://github.com/square/javapoet/issues/482"
+    },
+    {
+        "commit_hash": "40e4c3a2bb288853ba9cbdcf300674552e26140b",
+        "commit_message": "Merge branch 'gk5885-method-spec-overriding'\n\n* gk5885-method-spec-overriding:\n  Change MethodSpec.overriding to not copy annotations."
+    },
+    {
+        "commit_hash": "242beb35bfbdb36b77d720bcfa3642427c48f433",
+        "commit_message": "Check kind state when adding super class."
+    },
+    {
+        "commit_hash": "1e70284811cf7e323e7ab6232c4a94e985c30689",
+        "commit_message": "`addJavadoc(CodeBlock)` overloads for TypeSpec, MethodSpec, and FieldSpec"
+    },
+    {
+        "commit_hash": "84c0f1596a45b7b27e2f99fb996e2b52c184f3cc",
+        "commit_message": "Fix indentation directives in CodeBlock javadoc"
+    },
+    {
+        "commit_hash": "d84dcffd57003ce85d669bd8619449965b2267a8",
+        "commit_message": "Merge pull request #515 from ronshapiro/codeblock_jd\n\nFix indentation directives in CodeBlock javadoc"
+    },
+    {
+        "commit_hash": "d2f829f2a3a03a730b1d06459807cf51d476d0ef",
+        "commit_message": "Guard for null in TypeSpec.Builder#addSuperinterface(TypeName)"
+    },
+    {
+        "commit_hash": "dc40fbe045317c60e34abe755948c14e15363c7a",
+        "commit_message": "Merge pull request #517 from benjamin-bader/no-null-superinterfaces\n\nGuard for null in TypeSpec.Builder#addSuperinterface(TypeName)"
+    },
+    {
+        "commit_hash": "e3baf6bf5c53add0012b253219ea3a8c816c2927",
+        "commit_message": "Make MethodSpec.overriding include parameter annotations."
+    },
+    {
+        "commit_hash": "4cc7b23d51cc3e829b227672e69a720a69d73f26",
+        "commit_message": "Merge branch 'perezd-issue-499'\n\n* perezd-issue-499:\n  Make MethodSpec.overriding include parameter annotations."
+    },
+    {
+        "commit_hash": "59ba4332c95dce61a22989890ee49d8e2e5c2d98",
+        "commit_message": "Always write UTF-8.\n\nSometimes the system default charset is not UTF-8 and this is sad.\nWe always want UTF-8, and we want to encourage anyone doing tools\nto use UTF-8.\n\nCloses: https://github.com/square/javapoet/pull/474"
+    },
+    {
+        "commit_hash": "89179ea493f852ed6b6b36ccde978e9ddc176ce0",
+        "commit_message": "Merge pull request #522 from square/jwilson.1108.force_utf8\n\nAlways write UTF-8."
+    },
+    {
+        "commit_hash": "16cd72b20ba9f36a184b170f01c4a4a1db80bdbd",
+        "commit_message": "Disallow nulls in TypeSpec#addSuperinterfaces"
+    },
+    {
+        "commit_hash": "4eda8d4a3639f7645e7125a45d183db4d22a50c4",
+        "commit_message": "Merge pull request #524 from benjamin-bader/null-in-superinterface-list\n\nDisallow nulls in TypeSpec#addSuperinterfaces"
+    },
+    {
+        "commit_hash": "868524732babecd9e88f1a5c2cd65d672f62fafd",
+        "commit_message": "Add support for named arguments to CodeBlock\n\nRelative and positional arguments are fine for small statements, but\nlarger code blocks benefit from having named arguments.\n\nhttps://github.com/square/javapoet/issues/518"
+    },
+    {
+        "commit_hash": "3bef6897622c8eb347fa10ece1102ef1188ae677",
+        "commit_message": "Merge branch 'cconroy-named-arguments'\n\n* cconroy-named-arguments:\n  Add support for named arguments to CodeBlock"
+    },
+    {
+        "commit_hash": "61b0faf17728e28afac1240c3a565f95b083183b",
+        "commit_message": "Implement line wrapping.\n\nCurrently only method parameters are wrapped. Anything else can be wrapped\nby replacing a space with $W.\n\nhttps://github.com/square/javapoet/issues/105"
+    },
+    {
+        "commit_hash": "bd786800328b47b8bb0b676b4afa1afb54a49211",
+        "commit_message": "Merge pull request #525 from square/jwilson.1109.wrapping_space\n\nImplement line wrapping."
+    },
+    {
+        "commit_hash": "bc65a0b33398eac6e0f80d480ccb16fa13f33b9a",
+        "commit_message": "Fix imports of nested types.\n\nThis adds a test and rolls back the changes made in a136eaa777b7750e16b3c6e8bd6d0228442e3e1d.\nThe tests contributed with that PR still pass."
+    },
+    {
+        "commit_hash": "8e358310a135ba4e82def404dcddabb2346bbc12",
+        "commit_message": "Merge pull request #527 from square/jwilson.1108.fix_nested_imports\n\nFix imports of nested types."
+    },
+    {
+        "commit_hash": "19b9d73a1be5bba5890b194260d115d664c8b5ce",
+        "commit_message": "Rollback support for retaining parameter annotations.\n\nWe recently merged this because it was demanded, but looking through our\nhistory we've had vocal users complaining about this exact kind of\nbehavior.\n\nhttps://github.com/square/javapoet/pull/487/files"
+    },
+    {
+        "commit_hash": "a1db4599af61248bebc2e0582788c8a0a515232a",
+        "commit_message": "Merge pull request #528 from square/jwilson.1109.nobody_wants_annotations\n\nRollback support for retaining parameter annotations."
+    },
+    {
+        "commit_hash": "70cbbc9e998fdd927e89fad23ef34ba417889f11",
+        "commit_message": "Update readme for 1.8.0."
+    },
+    {
+        "commit_hash": "46913cd91914f2b30f3730390c96b8143c260a46",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.8.0"
+    },
+    {
+        "commit_hash": "8ec1afab2fbe54daf9ea0e5b3d2f327192484c14",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "01f7076cabdeb4444bf0606b4c88daf93a436af4",
+        "commit_message": "Only send the relevant characters into the matcher"
+    },
+    {
+        "commit_hash": "fa5c19032459214bbb241202e435cfd2f21bbf43",
+        "commit_message": "Add MethodSpec.Builder addNamedCode convenience method"
+    },
+    {
+        "commit_hash": "c248d407c0529414fa9555504b3d7352157eecd1",
+        "commit_message": "Merge pull request #529 from cconroy/named-faster\n\nOnly send the relevant characters into the matcher"
+    },
+    {
+        "commit_hash": "73214de9ab09c724b3cd507c71d9e6ef4b5625d9",
+        "commit_message": "Merge pull request #530 from cconroy/methodspec-named\n\nAdd MethodSpec.Builder addNamedCode convenience method"
+    },
+    {
+        "commit_hash": "ff50d7b60ad15fed7ed294ca2295cb356cbc4273",
+        "commit_message": "There is a missing symbol \"?\" in [$T for Types] - [Import static] (#537)\n\n* Update README.md\r\n\r\n* Update JavaFileTest.java"
+    },
+    {
+        "commit_hash": "b66d3d543982755f1d2397066ac9ccbc5ba8c327",
+        "commit_message": "Fix division by zero in CodeBlock arg formatting (#542)"
+    },
+    {
+        "commit_hash": "414da301b9d58f7cc169a70bb7e68fe71e02822c",
+        "commit_message": "test: assert that TypeName are not null (#544)"
+    },
+    {
+        "commit_hash": "89263f0462e47be5bac0298247be985ad0f4027b",
+        "commit_message": "Add error-prone compiler."
+    },
+    {
+        "commit_hash": "0d6bdebf124a0c0e2a52ef520231b64e98c77a64",
+        "commit_message": "Merge pull request #547 from square/jw/2017-02-14/error-prone\n\nAdd error-prone compiler."
+    },
+    {
+        "commit_hash": "647b93bc63c3bc3a43310e00e80f1bd86a5a3963",
+        "commit_message": "Adds messaging to NPEs thrown in MethodSpec.methodBuilder() and MethodSpec.addModifiers() (#550)\n\nI encountered the NPEs because of variations in the API response which I use to generate my code. I figured it would be better to add some messaging to the NPEs :)"
+    },
+    {
+        "commit_hash": "e11279525524d12f8eb4687b1f4e926d75bf1371",
+        "commit_message": "Verify that null is not passed as vararg parameter (#551)"
+    },
+    {
+        "commit_hash": "48378f7b2b491e1b6fed8c0a4eb25f331b71a6b1",
+        "commit_message": "Upgrade to Checkstyle 7.7. (#556)"
+    },
+    {
+        "commit_hash": "40dfa0cf36d844ca733bef0d4a61e87c9339af2c",
+        "commit_message": "Add convenience anonymousClassBuilder(CodeBlock) (#560)\n\n* Add convenience anonymousClassBuilder(CodeBlock)\r\n\r\nResolves #558\r\n\r\n* Fix indent"
+    },
+    {
+        "commit_hash": "4cd975b9649ec87f9a71ce48916fba8d9d460e4e",
+        "commit_message": "Fix conflicts with types with same name as type being declared  (#559)\n\n* Add failing tests for types conflicting with type being declared\r\n\r\nAlso removes previous (flawed) test, which should have\r\nbeen in JavaFileTest anyway, and add a separate test for\r\nthe \"superclass references self\" case (already handled\r\nin TypeSpecTest#interfaceExtends btw, but this makes it\r\nclearer what is tested and expected).\r\nAnd add a separate test for classes in the same package\r\nconflicting with a superclass, for completeness.\r\n\r\nReproduces #470\r\n\r\n* Fix conflicts with types with same name as type being declared\r\n\r\nThose types (annotations, or referenced in annotation values,\r\nin type variable bounds, superclass, or superinterfaces)\r\nwere erroneously imported rather than being emitted with their\r\nqualified name.\r\n\r\nFixes #470"
+    },
+    {
+        "commit_hash": "ca12c7bafd2d7033f8cff7770ecf2260d45aa4ab",
+        "commit_message": "Support anonymous inner classes in ClassName#get (#526)\n\n* Support anonymous inner classes in ClassName#get\r\n\r\nClassName#get incorrectly used Class#getSimpleName for anonymous inner classes, which is an empty string.\r\nWith this change it falls back to using Class#getName for anonymous classes and taking the compiler generated name for the class.\r\n\r\n* fix automatic import rearrangement\r\n\r\n* remove try-catch block from test"
+    },
+    {
+        "commit_hash": "7931dbd83395806358269d02f827db852234dbda",
+        "commit_message": "Update changelog for 1.9."
+    },
+    {
+        "commit_hash": "dfba6d7272931991e56b0d0ac4b969c17cd3f334",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.9.0"
+    },
+    {
+        "commit_hash": "5f3b345be9bd8364268d6460424ae8cf59d087f0",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "08c7148ab302a364517f993c0fda33b1dca7bfe6",
+        "commit_message": "Fix ClassName regression for class names starting with a $ (#562)"
+    },
+    {
+        "commit_hash": "a5694ac69113d815dd6588775dbccf22747f556b",
+        "commit_message": "addStatement(CodeBlock) overloads for CodeBlock and MethodSpec (#567)"
+    },
+    {
+        "commit_hash": "384395d53cccde5a93932dba78328a5888db7ee8",
+        "commit_message": "Switch from StringWriter to StringBuilder. (#568)\n\nThe former has needless synchronization."
+    },
+    {
+        "commit_hash": "f5b1b622d2d4141898bf850bd3cd54ee3d153aa4",
+        "commit_message": "Include annotations when emitting type variables. (#574)\n\nTurns out this was already covered in a test but we had the wrong expected output declared."
+    },
+    {
+        "commit_hash": "03f3a276b2f330c59e549e73542217c6028caed6",
+        "commit_message": "Set com.squareup.javapoet as automatic module name\n\nClaim`com.squareup.javapoet` as Automatic-Module-Name in the JAR MANIFEST.\r\n\r\nSee http://branchandbound.net/blog/java/2017/12/automatic-module-name/ for details and background.\r\n\r\nCloses #589"
+    },
+    {
+        "commit_hash": "b5cc9f4554e41cf2eb4b99ab4c197948d90eb9bb",
+        "commit_message": "Merge pull request #590 from sormuras/patch-1\n\nSet com.squareup.javapoet as automatic module name"
+    },
+    {
+        "commit_hash": "681060898269d30ae29ac78f958be0ac91ffb7e3",
+        "commit_message": "Updated various versions of 3rd-party libraries and tools (#602)\n\nReplaced deprecated API calls with new ones."
+    },
+    {
+        "commit_hash": "ca0e12e93e8ef9e1666573e4dc635064cb8d3ab1",
+        "commit_message": "Adds `$B` as an optional newline if a line will exceed 100 chars (#598)\n\n* Adds `$B` as an optional newline if a line will exceed 100 chars\r\n\r\nCloses https://github.com/square/javapoet/issues/588\r\n\r\n* Switch from $B to $Z"
+    },
+    {
+        "commit_hash": "563cf74b4d699c4d63219cc33e9c095f73d8fbec",
+        "commit_message": "Implement CodeBlock.join() and CodeBlock.joining() (#599)\n\nCloses https://github.com/square/javapoet/issues/595"
+    },
+    {
+        "commit_hash": "6865d07a5ef86d2c4a04966633378cdc3340d902",
+        "commit_message": "Add isEmpty to CodeBlock.Builder. (#596)"
+    },
+    {
+        "commit_hash": "870ece8e7caecc417a9cdee820642cfceab90592",
+        "commit_message": "Fix search of annotated type parameters in imports"
+    },
+    {
+        "commit_hash": "da2859b67f9098ac5c1c12aa64218c7e2dc1e63f",
+        "commit_message": "Merge branch 'zhurs-master'\n\n* zhurs-master:\n  Fix search of annotated type parameters in imports"
+    },
+    {
+        "commit_hash": "9e62955dc41e331f14b00e9f7d16dabff45884b0",
+        "commit_message": "Update Changelog for 1.10.0."
+    },
+    {
+        "commit_hash": "c6dd69cb207812493ca7675ea7a9abe64c2f4f98",
+        "commit_message": "Use $Z in method parameter lists. (#605)\n\nNow we wrap automatically after the method name, if appropriate."
+    },
+    {
+        "commit_hash": "a2f21df8124e71c5ee55614919b86bb1e3879a55",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.10.0"
+    },
+    {
+        "commit_hash": "29f38bfd14e7cbd83b87d94c91a874da0782c737",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "1ea76b466fdbd513a60fc3cc4178d78f30d0487a",
+        "commit_message": "Update README.md to version 1.10.0"
+    },
+    {
+        "commit_hash": "b68e867d44e3a24e2d954fec83ce8a5170a4a03b",
+        "commit_message": "Merge pull request #607 from sormuras/version-1.10.0\n\nUpdate README.md to version 1.10.0"
+    },
+    {
+        "commit_hash": "5dafdcb421fafc36a9db53c3106d7f183e23ea58",
+        "commit_message": "Fix \"Do not submit\" from https://github.com/square/javapoet/pull/598 \ud83d\ude2c\ud83d\ude2c\ud83d\ude2c (#608)"
+    },
+    {
+        "commit_hash": "abaa7f083b308e2e6efedd97739f0ae3e57079ce",
+        "commit_message": "Fix checkState message in CodeWriter (#609)\n\nI was scanning through this file and this error message seemed wrong to me. If the checkState fails, the packageName _not_ be set, right?"
+    },
+    {
+        "commit_hash": "d509342092ce1bd7755066b041dee2fe0f25bd23",
+        "commit_message": "Introduce JDK build matrix on Travis CI (#606)"
+    },
+    {
+        "commit_hash": "a4966ff80be8a1535fedf7313231161c3fdf46c1",
+        "commit_message": "Correct usage of toString()\n\nShould have return type of `String`, not `void`."
+    },
+    {
+        "commit_hash": "b7176d095acc9eb39b132c52c2282a932a9578d1",
+        "commit_message": "Merge pull request #611 from evonsdesigns/patch-1\n\nCorrect usage of toString() in readme"
+    },
+    {
+        "commit_hash": "e6bc3b1d2b5db5f35214f7665ed9f96c6b6fe377",
+        "commit_message": "Add a note about requiring Java 8 to the changelog."
+    },
+    {
+        "commit_hash": "0091cc5b8f172b4eca8dae95f82e060b0d203795",
+        "commit_message": "Drop `-ea` as JDK 10 is now a release candidate"
+    },
+    {
+        "commit_hash": "62d7826d2a7a9d8faef1363addde7b221ef0cbd1",
+        "commit_message": "Merge pull request #616 from sormuras/patch-1\n\nDrop `-ea` as JDK 10 is now a release candidate"
+    },
+    {
+        "commit_hash": "1e70bf31a8be9b36f5495a2f38b50dbd588e1dd0",
+        "commit_message": "Require valid annotation member names. (#620)"
+    },
+    {
+        "commit_hash": "28fdcfbbcf9ca9f3736d8825d841f58169bc78d0",
+        "commit_message": "Use HTTPS links in documentation where possible."
+    },
+    {
+        "commit_hash": "82e20e0ce26eee0e20cc52f976bb3e7e627dd338",
+        "commit_message": "Merge pull request #621 from square/jwilson.0225.https_links\n\nUse HTTPS links in documentation where possible."
+    },
+    {
+        "commit_hash": "b314337267eb36462c3bf67a87494e614c9c8b40",
+        "commit_message": "Update the codebase now that we require Java 8 (#617)"
+    },
+    {
+        "commit_hash": "ee82208f4bc086e0b1334445f600789879fc7a78",
+        "commit_message": "Disable overriding methods in final classes. (#626)"
+    },
+    {
+        "commit_hash": "adced314c48865463594bf58022f509090eef7af",
+        "commit_message": "Use contextual type parameters for throws types. (#625)"
+    },
+    {
+        "commit_hash": "d1080529667e27a8a81708774ef556c01bd03d4f",
+        "commit_message": "Add another test for direct generics usage.\n\nand remove Mockito from MethodSpecTest."
+    },
+    {
+        "commit_hash": "d91f8e1374f7ccdb68d92c206c84864cd09c02f6",
+        "commit_message": "Add tests for Java 8 TYPE_USE annotations on arrays (#614). (#618)\n\n* Add tests for Java 8 TYPE_USE annotations on arrays (#614).\r\n\r\n* Implement TYPE_USE annotations semantics.\r\n\r\n* Cleanup in AnnotatedTypeTest.\r\n\r\n* Nits from review"
+    },
+    {
+        "commit_hash": "f24801f4bdafa1190211959653b2eb31296cfbb3",
+        "commit_message": "Fail fast with null AnnotationSpec on type."
+    },
+    {
+        "commit_hash": "8ab7616e7d1acc76231bea1aa283c0fdefa24864",
+        "commit_message": "Merge pull request #631 from NightlyNexus/eric.annotationSpec\n\nFail fast with null AnnotationSpec on type."
+    },
+    {
+        "commit_hash": "24c88ec21cb1297bfc92a747fa1f714514720cdc",
+        "commit_message": "Fix type typo in README"
+    },
+    {
+        "commit_hash": "8e9b2ec3c3e9d09e19c88ef3d1fc92ab2f6472e2",
+        "commit_message": "Merge pull request #638 from sherter/sherter-patch-1\n\nFix type typo in README"
+    },
+    {
+        "commit_hash": "9ea843d73170f75d735114cdca6ba2463965cafb",
+        "commit_message": "Initialize multiplication result to 1.\n\nOtherwise the result is always 0."
+    },
+    {
+        "commit_hash": "bc7f6dc607c233c6bc62a39471905d98f737b9d8",
+        "commit_message": "Remove unused list"
+    },
+    {
+        "commit_hash": "d6a009737b149e6de316f51b771eb13c93149e36",
+        "commit_message": "Merge pull request #627 from NightlyNexus/eric.nomockito\n\nAdd another test for direct generics usage."
+    },
+    {
+        "commit_hash": "8dea2cb3e38968361ad4a5773f0727b06e3434df",
+        "commit_message": "Merge pull request #641 from square/JakeWharton-patch-2\n\nRemove unused list"
+    },
+    {
+        "commit_hash": "034f0b6801eda34c96d880051f4611555a948ffb",
+        "commit_message": "Merge pull request #640 from square/JakeWharton-patch-1\n\nInitialize multiplication result to 1."
+    },
+    {
+        "commit_hash": "3c68a054848124bf53aa2f73b1c310c6fffa3d0b",
+        "commit_message": "Load install-jdk.sh on-the-fly\n\nSupport JDK 10 and 11-ea"
+    },
+    {
+        "commit_hash": "491ff3cced8f79d8636bdc3f4a7ae5a76b834ac7",
+        "commit_message": "Upgrade errorprone to 2.3.1"
+    },
+    {
+        "commit_hash": "b1e1a088321da708d3299138fc55c0a9976a6291",
+        "commit_message": "Tighten up the code that handles emitting type annotations.\n\nI found the previous code difficult to follow. Hopefully this is less so."
+    },
+    {
+        "commit_hash": "371b82e8159170052f06f6a5e9dd8ed5f0a2bef1",
+        "commit_message": "Merge pull request #643 from square/jwilson.0428.type_annotations\n\nTighten up the code that handles emitting type annotations."
+    },
+    {
+        "commit_hash": "c8b9bc8ffa85f1a14d1767ed514ef5797fbd8311",
+        "commit_message": "Merge pull request #629 from sormuras/load-install-jdk-on-the-fly\n\nAdd JDK 11 and load install-jdk.sh on-the-fly"
+    },
+    {
+        "commit_hash": "3f4d5c2c2eebc3915ab0f705f38d11a9f9b4237b",
+        "commit_message": "Merge pull request #642 from sormuras/upgrade-errorprone\n\nUpgrade errorprone to 2.3.1"
+    },
+    {
+        "commit_hash": "1c897e44ddd6b50e22180b6d32e4a3c69223614a",
+        "commit_message": "Avoid TypeElement.getKind() in ClassName.get().\n\nThere's some bug that's triggered by Buck's ABI builds and avoiding this\nAPI avoids triggering that bug."
+    },
+    {
+        "commit_hash": "30ff8ce28c3cc99cb938c66879c16720e427e982",
+        "commit_message": "Merge pull request #644 from square/jwilson.0428.avoid_typeelement_getkind\n\nAvoid TypeElement.getKind() in ClassName.get()."
+    },
+    {
+        "commit_hash": "5d6ff03f8baa4cb49334ed644dea8b8acb8545fb",
+        "commit_message": "Update changelog for 1.11"
+    },
+    {
+        "commit_hash": "b09d944edd6029434aac2e14cff14df0f4bb521e",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.11.0"
+    },
+    {
+        "commit_hash": "3ddde8f3ccb5182ce5da7fcca21997efe96028a0",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "558401605880b7d636c4e41e3044c775d987a208",
+        "commit_message": "Fix TypeName.get() on top-level error types (#646)\n\n* Fix TypeName.get() on top-level error types\r\n\r\nDiscussion: https://github.com/square/javapoet/commit/1c897e44ddd6b50e22180b6d32e4a3c69223614a#commitcomment-28905786\r\n\r\n* Use an ElementVisitor instead of instanceof checks\r\n\r\n* Remove unused import"
+    },
+    {
+        "commit_hash": "5ff40a9f70b2c0274d734701eb038c7c2ac4da6e",
+        "commit_message": "Update changelog for 1.11.1."
+    },
+    {
+        "commit_hash": "a5db06d05f8bd799cef194af28ace07427e2d07e",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.11.1"
+    },
+    {
+        "commit_hash": "564f37f35f1dd85bcc22e775b9eb3631d865bdee",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "46a6a6e2db009e98fed755ecf95bc5264635840d",
+        "commit_message": "Replace incorrect usage of anonymousInnerClass"
+    },
+    {
+        "commit_hash": "1469cfa30536afbaa8fcfe9d2ee0745ec0213bca",
+        "commit_message": "Merge pull request #655 from realityforge/patch-1\n\nReplace incorrect usage of anonymousInnerClass"
+    },
+    {
+        "commit_hash": "4a7857e873c4d5f249bee373187289c2e1fa35ba",
+        "commit_message": "`java.lang.List` has no `size()` method\n\n... but `java.util.List` does :)"
+    },
+    {
+        "commit_hash": "37ccc0b97f171dcbfb9595ad0337c5d7d30ccef7",
+        "commit_message": "Merge pull request #661 from ronshapiro/patch-2\n\n`java.lang.List` has no `size()` method"
+    },
+    {
+        "commit_hash": "dfb5bc6c4e0c33f0d40d02c9702089da8a848d2f",
+        "commit_message": "Switch back to Travis CI managed \"jdk\" installations (#672)\n\n* Switch back to Travis CI managed \"jdk\" installations\r\n\r\n* Add openjdk-ea and update maven-compiler-plugin to 3.8.0"
+    },
+    {
+        "commit_hash": "077bd8c26b4b509807bb3af96cc429e34982d927",
+        "commit_message": "test: specify more toJavaIdentifier"
+    },
+    {
+        "commit_hash": "f1600e5cc03fcc8bc6757fd115e3de89c7dad6fd",
+        "commit_message": "test: improve test by checking the toString() of ParameterSpec implementation"
+    },
+    {
+        "commit_hash": "0cbc16df9213d64e6dfe389a2d164ab6f007121b",
+        "commit_message": "test: improve test by checking the toString() of FieldSpec implementation"
+    },
+    {
+        "commit_hash": "b879b58254804b953c6280d05d7882a89ec3b7c8",
+        "commit_message": "Qualify types masked by type variables (#657)\n\n* Use fully qualified names if a type variable masks a type name, even if it is in the same package\r\n\r\n* Add a makeshift multiset to handle https://github.com/square/javapoet/pull/657\\#discussion_r205514292"
+    },
+    {
+        "commit_hash": "c1b5aaf02e546afbad5fe63cf8342c31d0c35344",
+        "commit_message": "Merge pull request #667 from danglotb/improve-test-on-field-spec\n\ntest: improve test by checking the toString() of FieldSpec"
+    },
+    {
+        "commit_hash": "3bf548d070f6c69aa42c9f1c995d2efef6c13bc4",
+        "commit_message": "Merge pull request #668 from danglotb/improve-test-on-parameter-spec\n\ntest: improve test by checking the toString() of ParameterSpec"
+    },
+    {
+        "commit_hash": "527c397d2987e44c4422412b8ab3ae5bca07db06",
+        "commit_message": "Merge pull request #669 from danglotb/improve-name-allocator-test\n\ntest: specify more toJavaIdentifier"
+    },
+    {
+        "commit_hash": "c93bfa88c30940d4f9bda88cac322ebbb83703a6",
+        "commit_message": "Check parameter Modifiers (#678)\n\n* Check parameter modifiers for non final modifiers\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Add extra line\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Fix formatting\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>"
+    },
+    {
+        "commit_hash": "ea7a02ee88f8a3aa9afd3a9268390f4f9fee4b59",
+        "commit_message": "Add Javadoc to ParameterSpec (#676)\n\n* Add Javadoc to ParameterSpec\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Move emission to same CodeBlock\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Remove eager javadoc addition and fallback to adding doc when emitting\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Fix formatting\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Add new line before emitting parameter javadoc\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Emit new line before @param only if method javadoc is present\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>"
+    },
+    {
+        "commit_hash": "30a8bdaa2224f224be04261b9fceea6cd7048cd5",
+        "commit_message": "Public getter for canonical name of ClassName (#687)"
+    },
+    {
+        "commit_hash": "274bb56141c18eb39308af60e9f490d0dfce570f",
+        "commit_message": "Remove sudo:false from travis config"
+    },
+    {
+        "commit_hash": "791cb9631ab76fc07bf8825f23464ecd616acccc",
+        "commit_message": "Merge pull request #695 from shaishavgandhi05/sg/sudo-false\n\nRemove sudo:false from travis config"
+    },
+    {
+        "commit_hash": "53cfc840f2b860e88e8b0aecd7026901ee76399e",
+        "commit_message": "Allow setting method name on MethodSpec.Builder (#702)\n\n* Allow setting method name on MethodSpec.Builder\r\n\r\n* Fix indentation"
+    },
+    {
+        "commit_hash": "dc30890a5002fc65eefb94a570ff4aff2d6f8577",
+        "commit_message": "Remove n^2 algorithm in CodeWriter.resolve() by precomputing all of the nested simple names of a TypeSpec\n\nFor one large (100K lines) file, this saved 3.5s/build"
+    },
+    {
+        "commit_hash": "c054ce927191205b4a870b40eecfe63dffaba0e6",
+        "commit_message": "Add documentation on nextControlFlow to README #693"
+    },
+    {
+        "commit_hash": "d00c7867970e9837e6b6316cb1e4659d680c84c0",
+        "commit_message": "Merge pull request #703 from galderz/t_nextcontrolflow_693\n\nAdd documentation on nextControlFlow to README #693"
+    },
+    {
+        "commit_hash": "218e4ad9c84fc72e6a56e20c114b221f35d2e26e",
+        "commit_message": "Merge pull request #705 from ronshapiro/CodeWriter_resolve\n\nRemove n^2 algorithm in CodeWriter.resolve() by precomputing all of the nested simple names of a TypeSpec"
+    },
+    {
+        "commit_hash": "a481d9d4c8e6e0b54887265b560b02946c318230",
+        "commit_message": "Checkstyle 8.18"
+    },
+    {
+        "commit_hash": "1676ff4a8cd00888e7514c7ccfba974df7ce4372",
+        "commit_message": "Merge pull request #714 from square/egorand/190313/checkstyle-8.18\n\nCheckstyle 8.18"
+    },
+    {
+        "commit_hash": "e79bb2f09d29678ece0abfb50abe3e4a855aee4f",
+        "commit_message": "Remove argument whose value isn't needed\n\nThe single-argument overload will use the end of the String as the end index automatically."
+    },
+    {
+        "commit_hash": "c4ac60e768c573cd1f682dac4d6922c05071c16c",
+        "commit_message": "Merge pull request #719 from square/jakew/unused/2019-03-25\n\nRemove argument whose value isn't needed"
+    },
+    {
+        "commit_hash": "02ece26b2e05f3b1306f67aacc3a8932a3e51d51",
+        "commit_message": "Memoize ClassName.simpleNames()\n\nIn addition to being used repeatedly in CodeWriter.lookupName(), the current implementation is N^2 (albeit for a usually low N) since it recursively calls itself on the enclosing class name. This should get rid of some of the garbage created in code writing."
+    },
+    {
+        "commit_hash": "0f93da9a3d9a1da8d29fc993409fcf83d40452bc",
+        "commit_message": "Merge pull request #720 from ronshapiro/ClassName_simpleNames\n\nMemoize ClassName.simpleNames()"
+    },
+    {
+        "commit_hash": "3829f2ca6f03a4b941fea41a1e2f4eead8f37bc1",
+        "commit_message": "Fix an issue where ClassName could not handle classes in the default (empty) package"
+    },
+    {
+        "commit_hash": "8bc90713f5efe4f827cb4af5aa558e170073ed27",
+        "commit_message": "Nit: Simplify a CodeBlock"
+    },
+    {
+        "commit_hash": "c1f97f4b8e22f429228d2844202f3a558215af40",
+        "commit_message": "Merge pull request #724 from ronshapiro/codeblock_simple\n\nNit: Simplify a CodeBlock"
+    },
+    {
+        "commit_hash": "a03c97888d3afeeaa92e8ee8eaaffb19fccbaba1",
+        "commit_message": "easier_way_provide_encoding (#712)\n\n* provide an easier way for an other encoding than UTF-8\r\n\r\n* formatting\r\n\r\n* no final on argument and fix for javadoc\r\n\r\n* checkstyle line length\r\n\r\ncheckstyle line length"
+    },
+    {
+        "commit_hash": "d13cf256ecdad39a556c0ae7224e25e0fc30bd6f",
+        "commit_message": "Switch to openjdk8 for CI"
+    },
+    {
+        "commit_hash": "d70a3035e5ed6d03108b26c557ff26aca34467dc",
+        "commit_message": "Merge pull request #733 from ZacSweers/z/openjdk8\n\nSwitch to openjdk8 for CI"
+    },
+    {
+        "commit_hash": "4e8f72f6a989ffbf99f0df4bbf0ab408ba412887",
+        "commit_message": "Add CodeBlock.Builder#clear() method\n\nAnalogous to the change added in KotlinPoet"
+    },
+    {
+        "commit_hash": "e9460b84fc41464c2aa2ef85c84dd1ac87ae1692",
+        "commit_message": "Merge pull request #735 from ZacSweers/z/codeblockClear\n\nAdd CodeBlock.Builder#clear() method"
+    },
+    {
+        "commit_hash": "a0eadbbf0e7b70f0fbbc66043536e4328c3808fd",
+        "commit_message": "Add checks to ParameterSpec with VariableElement + copy over annotations (#681)\n\n* Add checks to ParameterSpec with VariableElement + copy over annotations\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Add test for variable element\r\n\r\nSigned-off-by: shaishavgandhi05 <shaishgandhi@gmail.com>\r\n\r\n* Extract util methods into TestUtil\r\n\r\n* Fix formatting\r\n\r\n* Make findFirst more generic\r\n\r\nCo-authored-by: Egor Andreevich <andreevich.egor@gmail.com>"
+    },
+    {
+        "commit_hash": "e6993cc2af1a2db55c134e45dc324148d76b3993",
+        "commit_message": "Fix broken merge"
+    },
+    {
+        "commit_hash": "2d6680b249a6188d719e72d9dad9a9ee8a84c3b8",
+        "commit_message": "Remove non-LTS JDK versions from Travis config"
+    },
+    {
+        "commit_hash": "e19762ab3e1d94c3e273680eb880c11555975e97",
+        "commit_message": "Merge pull request #747 from square/egorand/191222/fix-master\n\nFix broken merge"
+    },
+    {
+        "commit_hash": "3f5386230e12b8e9d3baf760ae3563b3f303f60c",
+        "commit_message": "Merge pull request #748 from square/egorand/191222/travis-cleanup\n\nRemove non-LTS JDK versions from Travis config"
+    },
+    {
+        "commit_hash": "4272265a319a562bceaa537fc1b9b6b40236a881",
+        "commit_message": "Mutable builder list fields (#650)\n\n* Make modifiers and annotations in FieldSpec public\r\n\r\n* Make AnnotationSpec members public\r\n\r\n* Make JavaFile staticImports public\r\n\r\n* Make modifiers and annotations in parameterspec public\r\n\r\n* Make methodspec modifiers, params, typevars, and annotations public\r\n\r\n* Make typespec builder lists public\r\n\r\n* Move TypeSpec.Builder validations to build() where appropriate\r\n\r\n* Move AnnotationSpec.Builder validations to build() where appropriate\r\n\r\n* Fix line length style"
+    },
+    {
+        "commit_hash": "e2ed025d5936a65836f1a6f79c750a3197f290e9",
+        "commit_message": "Ensure trailing newlines in javadocs and method bodies (#732)\n\n* Add RecordingAppendable in LineWrapper for tracking last emitted char\r\n\r\n* Check lastChar in javadoc emission to emit newline if necessary\r\n\r\nResolves #731\r\n\r\n* Move trailing newline check to emit() overload for reuse\r\n\r\nAllows using from anywhere emitting a CodeBlock\r\n\r\n* Ensure trailing newlines in method bodies\r\n\r\nResolves #722\r\n\r\n* Add dedicated trailing newline in javadoc test\r\n\r\n* Fix modifier ordering\r\n\r\n* Fix rebase conflict\r\n\r\nCo-authored-by: Egor Andreevich <andreevich.egor@gmail.com>"
+    },
+    {
+        "commit_hash": "1225800fdbd05d6a2b069fc1e4949f6461a7236b",
+        "commit_message": "Copy originating elements in toBuilder() as well (#750)\n\n* Copy originating elements in toBuilder() as well\r\n\r\nFixes #749\r\n\r\n* Add test"
+    },
+    {
+        "commit_hash": "3d65852a482185e464c4986b862394691ac197da",
+        "commit_message": "Hardcoded line separator bug (#684)\n\n* Use regex for new line character to cover both dos and unix endings when calling emitAndIndent - fixes #552\r\n\r\n* Update CodeWriter to use linebreak matcher instead of \\r\\n"
+    },
+    {
+        "commit_hash": "25d19845b866c04a2fb3e11ce3d43ccb2e7b98cd",
+        "commit_message": "added convenience overloads for code blocks in control flow (#752)\n\n* added convenience overloads for code blocks in control flow\r\n\r\n* added javadoc and test\r\n\r\n* added test for do while block\r\n\r\n* fixed continuation space count"
+    },
+    {
+        "commit_hash": "80ddc99409399bd15b06509a6e3e75cb4117b8d2",
+        "commit_message": "Add alwaysQualify() API to avoid collisions with known colliding types (#734)\n\n* Add alwaysQualify() API to avoid collisions with known colliding types\r\n\r\nImplementation based on https://github.com/square/javapoet/issues/77#issuecomment-507387399\r\n\r\nResolves #77\r\n\r\nCC @eamonnmcmanus\r\n\r\n* Add utility avoidClashesWithNestedClasses methods for Class/TypeElement\r\n\r\n* Fix style issues\r\n\r\n* Move scope to TypeSpecs\r\n\r\n* Check superclasses and superinterfaces\r\n\r\n* Add superclass and superinterface overloads\r\n\r\n* Style fixes\r\n\r\n* Add qualified names to toBuilder test\r\n\r\n* Add Map.Entry test + doc regression tests"
+    },
+    {
+        "commit_hash": "dc64ed1f9bf362e68451d75f302e6e656a114066",
+        "commit_message": "Add writeTo methods returning Path/File written to #691"
+    },
+    {
+        "commit_hash": "74a0f27a71a5627a81799010d761fb4f5b08e1f6",
+        "commit_message": "Merge branch 'galderz-t_javafile_writeto_691'"
+    },
+    {
+        "commit_hash": "eff1ee43296678eb0b0588faf4f18c34d8be4baf",
+        "commit_message": "Test for JavaFile.writeToPath"
+    },
+    {
+        "commit_hash": "aba981036ea5e4cc3950cb5332940f44402cfd05",
+        "commit_message": "Merge pull request #753 from square/egorand/200106/write-to-path-test\n\nTest for JavaFile.writeToPath"
+    },
+    {
+        "commit_hash": "8b5db1a19db6366841a9ce31d526482c8b35e745",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.12.0"
+    },
+    {
+        "commit_hash": "1ef324c43fe5371e4d0c63dfe4d52c14c0c01631",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "0d25ea100a4387c28b5ef12e44fbffc0b22b5343",
+        "commit_message": "Changelog for 1.12.0"
+    },
+    {
+        "commit_hash": "d3eef47161d7aea57273f1fe0b80fbb9068e785b",
+        "commit_message": "Fix changelog for 1.12.0\n\n\"Disallow final modifier on ParameterSpec\" -> \"Only allow final\nmodifier on ParameterSpec\""
+    },
+    {
+        "commit_hash": "5a6c842a37a8c71f079ad2ce6063a70a9dee9e31",
+        "commit_message": "Remove parameter annotations in MethodSpec.overriding\n\n- Change to not copy parameter annotations was first introduced in\n9505ad0e027a1f125b5352ac722ea141831fbf1c.\n- Change to properly copy mirror annotations in ParameterSpec.get\nwas introduced in a0eadbbf0e7b70f0fbbc66043536e4328c3808fd,\nbreaking the behavior of MethodSpec.overriding.\n- This change preserves the correct behavior of ParameterSpec.get\nwhile also removing annotations in MethodSpec.overriding."
+    },
+    {
+        "commit_hash": "8ce7d7568c23afbd1cbb56ffbd24ae696f1b92b1",
+        "commit_message": "Merge pull request #755 from square/egorand/200113/method-override-remove-param-annotations\n\nRemove parameter annotations in MethodSpec.overriding"
+    },
+    {
+        "commit_hash": "ecfcfca2781e1edd2a98a8508294ea0ad40e88a6",
+        "commit_message": "Add a comment about dropping parameter annotations in MethodSpec.overriding"
+    },
+    {
+        "commit_hash": "2b7adc794b2ec7fbce3c23409283110757ca7596",
+        "commit_message": "Merge pull request #756 from square/egorand/200114/overriding-note\n\nAdd a comment about dropping parameter annotations in MethodSpec.overriding"
+    },
+    {
+        "commit_hash": "9451a362adee16bbf7be382c2a95772fae2c48d1",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.12.1"
+    },
+    {
+        "commit_hash": "2063666c382f8fd0b35811db0d761c5b6ba18484",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "44622704248975ca398b90b4385005fdddeb35f9",
+        "commit_message": "Update changelog for 1.12.1"
+    },
+    {
+        "commit_hash": "622e07eb0859fcf0eb9537ea5657277b7f3b18af",
+        "commit_message": "Don't copy parameter annotations when creating a ParameterSpec. (#770)\n\n* Don't copy parameter annotations when creating a ParameterSpec.\r\n\r\nThis further preserves the behaviour discussed in https://github.com/square/javapoet/issues/482.\r\nUnifying it for both MethodSpec.overriding and ParameterSpec.get.\r\n\r\n* Add compilation test for when overriding a method with private annotations.\r\n\r\n* Address PR comments:\r\n\r\n* Remove unused import\r\n* Rename newly added test"
+    },
+    {
+        "commit_hash": "4135ccbc902eac2f2bfc063aacd8b3e7864e1ab5",
+        "commit_message": "Static import CompilationSubject.assertThat"
+    },
+    {
+        "commit_hash": "304176ef98fa80f35cb49ed130620c7b0ecdf5a6",
+        "commit_message": "Merge pull request #772 from square/jakew/static-import/2020-04-20\n\nStatic import CompilationSubject.assertThat"
+    },
+    {
+        "commit_hash": "a5f4f0f2ada5c8040d7a02db9b423093f051b1d6",
+        "commit_message": "Add support for explicit receiver parameters\n\nAnnotated \"this\" arguments for instance methods and non-static nested\nclass constructors were added in Java 8. This special cases \"this\" and\n\"OuterClass.this\" so that they are allowed as parameter names."
+    },
+    {
+        "commit_hash": "e77793bc164c32982e3047a5260dbf009f208c7f",
+        "commit_message": "Merge pull request #789 from jasonobrien/master\n\nAdd support for explicit receiver parameters"
+    },
+    {
+        "commit_hash": "8705e5ce5befdc0cc47ef57919cf69ab2dde9ff8",
+        "commit_message": "Update changelog for 1.13.0."
+    },
+    {
+        "commit_hash": "714e05ca60179285746604452324262b126dcb2d",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.13.0"
+    },
+    {
+        "commit_hash": "081d839bff0b47c6a72790d5e3788f2626b928f6",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "8e02981e9ff54ccf7220c97abe8da71bf8b5661c",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.13.0"
+    },
+    {
+        "commit_hash": "d9fc2a80a22febc763d46770a589795f8b3bfae1",
+        "commit_message": "Revert to previous SNAPSHOT version to retry release, update version in README"
+    },
+    {
+        "commit_hash": "5ca6d5b206bccb53305ad6235df45a173e983297",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.13.0-1"
+    },
+    {
+        "commit_hash": "b190e633e66cf2c5cf3e6a192d5be1a2d617b3b0",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "f5eb99607562acb23997bc281c797acb26b0444e",
+        "commit_message": "Revert version change to retry the release"
+    },
+    {
+        "commit_hash": "ebb7d3ce593d9ae587e120f8a1e566555f9e074b",
+        "commit_message": "[maven-release-plugin] prepare release javapoet-1.13.0-2"
+    },
+    {
+        "commit_hash": "5e5a9c55951ef4384ecaa1524f4799e7a7334de1",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "24bf1f0307f07d0273298d9068697a723ca412c3",
+        "commit_message": "Add RELEASING.md"
+    },
+    {
+        "commit_hash": "0a6ee12960724854a0da33b171bcb06c1121c3e5",
+        "commit_message": "Merge pull request #792 from square/egorand/200618/releasing\n\nAdd RELEASING.md"
+    },
+    {
+        "commit_hash": "7c8595ce6dc0c63a61d710a53df5a9086bf2a793",
+        "commit_message": "Bump junit from 4.12 to 4.13.1\n\nBumps [junit](https://github.com/junit-team/junit4) from 4.12 to 4.13.1.\n- [Release notes](https://github.com/junit-team/junit4/releases)\n- [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.12.md)\n- [Commits](https://github.com/junit-team/junit4/compare/r4.12...r4.13.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "8ebce31cd655cf181ebdde59dcf04c50cbda7264",
+        "commit_message": "Merge pull request #817 from square/dependabot/maven/junit-junit-4.13.1\n\nBump junit from 4.12 to 4.13.1"
+    },
+    {
+        "commit_hash": "52c72c0a96c9e0b3b953f00af75dc663a308680a",
+        "commit_message": "Precompile the pattern used for splitting at possible line-breaks\n\nFor some very large Dagger components, this can save .5s-1s per compilation."
+    },
+    {
+        "commit_hash": "8d7a39b2dab980363104164134638cf762d94edb",
+        "commit_message": "Merge pull request #828 from ronshapiro/string_split\n\nPrecompile the pattern used for splitting at possible line-breaks"
+    },
+    {
+        "commit_hash": "6f3d36c155880af80f6754fa69eaf9d42dbeb640",
+        "commit_message": "Allow private interface methods from Java 9"
+    },
+    {
+        "commit_hash": "d59c75270d4a1dccf26c4aeee4a0163c10289a70",
+        "commit_message": "Merge pull request #806 from Randgalt/allow-private-interface-methods\n\nAllow private Interface methods"
+    },
+    {
+        "commit_hash": "8d619f1dbc2fac3e003d700034c01b70e302e1c5",
+        "commit_message": "Use GitHub Actions for CI"
+    },
+    {
+        "commit_hash": "742af18b143dab63e757d9952c7773f60c1af841",
+        "commit_message": "Merge pull request #830 from square/jw/gh-actions/2021-03-18\n\nUse GitHub Actions for CI"
+    },
+    {
+        "commit_hash": "ed181db179bd76e801daac69a0f3b91cabbca9b8",
+        "commit_message": "Support enums without any enum constants"
+    },
+    {
+        "commit_hash": "395609730a1d5a4fc47296a3df5f91b39c4739d4",
+        "commit_message": "Merge pull request #833 from veselov/832\n\nSupport enums without any enum constants"
+    },
+    {
+        "commit_hash": "34bbe74168478c072a62b975983a196d64a6d03d",
+        "commit_message": "upgrade to GitHub Actions setup-java v2"
+    },
+    {
+        "commit_hash": "88517888277e3e92cbbdd054228f7f0ff68a841c",
+        "commit_message": "Merge pull request #839 from sullis/gha-java-v2\n\nupgrade to GitHub Actions setup-java v2"
+    },
+    {
+        "commit_hash": "c772d45d546b82362dc8053c223ac562edc58558",
+        "commit_message": "ci: Java 8"
+    },
+    {
+        "commit_hash": "333d6646202935061940882164b80e0324598b0c",
+        "commit_message": "Merge pull request #870 from sullis/ci-java8\n\nci: Java 8"
+    },
+    {
+        "commit_hash": "788256e2487fcc1dc1fd9bacf43d8fe1fed421f9",
+        "commit_message": "compile-testing 0.19"
+    },
+    {
+        "commit_hash": "2d0bfe5f68e7b1027f2644d01d8814e9bb2a9887",
+        "commit_message": "mockito 4.4.0"
+    },
+    {
+        "commit_hash": "1bd1e636c1ceb65250c0bafe52a84220eb89c543",
+        "commit_message": "upgrade to GitHub Actions setup-java v3"
+    },
+    {
+        "commit_hash": "1ea90aac9825012f7af019b6a30935615ad016d2",
+        "commit_message": "Merge pull request #869 from sullis/compile-testing-0.19\n\ncompile-testing 0.19"
+    },
+    {
+        "commit_hash": "5d2466a2a09dda4c9b7ba30cacf4f7b35cda6588",
+        "commit_message": "Merge pull request #867 from sullis/setup-java-v2\n\nupgrade to GitHub Actions setup-java v3"
+    },
+    {
+        "commit_hash": "2555b622e1b88f94fe23cac1c8ae456f92d742be",
+        "commit_message": "Merge pull request #868 from sullis/mockito440\n\nmockito 4.4.0"
+    },
+    {
+        "commit_hash": "6adea7a00a3f94cfd8cbf4481fa0af045999ec72",
+        "commit_message": "maven-compiler-plugin 3.10.1"
+    },
+    {
+        "commit_hash": "47e45db7ed1a76aa8dd749758e5f8ad20aa24272",
+        "commit_message": "Merge pull request #871 from sullis/compiler-plugin-3-10-1\n\nmaven-compiler-plugin 3.10.1"
+    },
+    {
+        "commit_hash": "70ef9bdf9a72743746e2315d3bdf9b89c7990b29",
+        "commit_message": "Add value constant in AnnotationSpec"
+    },
+    {
+        "commit_hash": "4c8817be63d6d736ad322aa9b0095571eca3e659",
+        "commit_message": "enable Dependabot"
+    },
+    {
+        "commit_hash": "8f05fd7269374bb19d222117f986e62f4d0805c6",
+        "commit_message": "Merge pull request #888 from sullis/enable-dependabot-ftw\n\nenable Dependabot"
+    },
+    {
+        "commit_hash": "72989aec54304bbbb4a85acd92fa7edfe8b7b796",
+        "commit_message": "Bump maven-checkstyle-plugin from 2.17 to 3.1.2\n\nBumps [maven-checkstyle-plugin](https://github.com/apache/maven-checkstyle-plugin) from 2.17 to 3.1.2.\n- [Release notes](https://github.com/apache/maven-checkstyle-plugin/releases)\n- [Commits](https://github.com/apache/maven-checkstyle-plugin/compare/maven-checkstyle-plugin-2.17...maven-checkstyle-plugin-3.1.2)\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.maven.plugins:maven-checkstyle-plugin\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "a1d485a7e17ca7ed266da2d647782e84aa82dba4",
+        "commit_message": "Bump truth from 0.39 to 1.1.3\n\nBumps [truth](https://github.com/google/truth) from 0.39 to 1.1.3.\n- [Release notes](https://github.com/google/truth/releases)\n- [Commits](https://github.com/google/truth/commits)\n\n---\nupdated-dependencies:\n- dependency-name: com.google.truth:truth\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "b7d7f4b57d4136398630783a7d70f5a93f6f36c0",
+        "commit_message": "Merge pull request #892 from square/dependabot/maven/com.google.truth-truth-1.1.3\n\nBump truth from 0.39 to 1.1.3"
+    },
+    {
+        "commit_hash": "0f63832d2d35d5100116c4dba4f569980a20af13",
+        "commit_message": "Merge pull request #890 from square/dependabot/maven/org.apache.maven.plugins-maven-checkstyle-plugin-3.1.2\n\nBump maven-checkstyle-plugin from 2.17 to 3.1.2"
+    },
+    {
+        "commit_hash": "aa0170116cdf25ff0955458894204296548cb824",
+        "commit_message": "Bump maven-jar-plugin from 3.0.2 to 3.2.2\n\nBumps [maven-jar-plugin](https://github.com/apache/maven-jar-plugin) from 3.0.2 to 3.2.2.\n- [Release notes](https://github.com/apache/maven-jar-plugin/releases)\n- [Commits](https://github.com/apache/maven-jar-plugin/compare/maven-jar-plugin-3.0.2...maven-jar-plugin-3.2.2)\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.maven.plugins:maven-jar-plugin\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "17e79f6f1060116bf74b0e882135c368429e1479",
+        "commit_message": "Merge pull request #893 from square/dependabot/maven/org.apache.maven.plugins-maven-jar-plugin-3.2.2\n\nBump maven-jar-plugin from 3.0.2 to 3.2.2"
+    },
+    {
+        "commit_hash": "f0cfed9bed3ffb31bbb11f8bb865ccce750b4c07",
+        "commit_message": "Bump junit from 4.13.1 to 4.13.2\n\nBumps [junit](https://github.com/junit-team/junit4) from 4.13.1 to 4.13.2.\n- [Release notes](https://github.com/junit-team/junit4/releases)\n- [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.13.1.md)\n- [Commits](https://github.com/junit-team/junit4/compare/r4.13.1...r4.13.2)\n\n---\nupdated-dependencies:\n- dependency-name: junit:junit\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "06a5ed17a55bc097e774267f6b07869457f5f372",
+        "commit_message": "Bump mockito-core from 4.4.0 to 4.5.1\n\nBumps [mockito-core](https://github.com/mockito/mockito) from 4.4.0 to 4.5.1.\n- [Release notes](https://github.com/mockito/mockito/releases)\n- [Commits](https://github.com/mockito/mockito/compare/v4.4.0...v4.5.1)\n\n---\nupdated-dependencies:\n- dependency-name: org.mockito:mockito-core\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "9495f3301b52014b856c2014af68c93fc4dbc696",
+        "commit_message": "Merge pull request #895 from square/dependabot/maven/org.mockito-mockito-core-4.5.1\n\nBump mockito-core from 4.4.0 to 4.5.1"
+    },
+    {
+        "commit_hash": "3851641d5bb7d757c39649c36c7db9d1bf532ad9",
+        "commit_message": "Merge pull request #894 from square/dependabot/maven/junit-junit-4.13.2\n\nBump junit from 4.13.1 to 4.13.2"
+    },
+    {
+        "commit_hash": "5d416f32a33dd4b2c3440e665eac56f99ef4b385",
+        "commit_message": "Bump jimfs from 1.1 to 1.2\n\nBumps [jimfs](https://github.com/google/jimfs) from 1.1 to 1.2.\n- [Release notes](https://github.com/google/jimfs/releases)\n- [Commits](https://github.com/google/jimfs/compare/v1.1...v1.2)\n\n---\nupdated-dependencies:\n- dependency-name: com.google.jimfs:jimfs\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit_hash": "86d478ba7c9c8aa815e05caec18e23a119519ca5",
+        "commit_message": "Merge pull request #898 from square/dependabot/maven/com.google.jimfs-jimfs-1.2\n\nBump jimfs from 1.1 to 1.2"
+    },
+    {
+        "commit_hash": "956b4a9af32aae2d0560eb03ccc0efd81b144303",
+        "commit_message": "Add renovate.json"
+    },
+    {
+        "commit_hash": "73ae3e7f357a7d1032316f6b2370b5a3cd5c993d",
+        "commit_message": "Merge pull request #947 from square/renovate/configure\n\nConfigure Renovate"
+    },
+    {
+        "commit_hash": "b7b10bfff25e15023d1979e9098ef810443ca6ab",
+        "commit_message": "Delete dependabot.yml"
+    },
+    {
+        "commit_hash": "e9ed3a8b0c8f9ecc5015636c33e3ab4462381d3f",
+        "commit_message": "Merge pull request #951 from square/JakeWharton-patch-1\n\nDelete dependabot.yml"
+    },
+    {
+        "commit_hash": "cad985c7ad42d555ed9e541db9193017ac11087f",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.2.1"
+    },
+    {
+        "commit_hash": "8f6998992496ccc88122461dd020eb30800663b8",
+        "commit_message": "Merge pull request #953 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.2.1"
+    },
+    {
+        "commit_hash": "4d202946e418ef2b4067371729ccaa998dbeb9f0",
+        "commit_message": "Only build on Java 8\n\nRunning a build on different JDKs is pointless. Our users consume the artifact in binary form. We may want to run the tests on multiple JDKs. The way to do that is to migrate to Gradle, duplicate the test task, and use the toolchain feature. That is out of scope of this change, which is only to stop pointless CI builds."
+    },
+    {
+        "commit_hash": "6d197e5c948bed1d348401320f490e331b8d7253",
+        "commit_message": "Merge pull request #958 from square/JakeWharton-patch-1\n\nOnly build on Java 8"
+    },
+    {
+        "commit_hash": "4e0fb130cd47011692b00b0d75361d9b3744b1cb",
+        "commit_message": "Update dependency org.mockito:mockito-core to v4.11.0"
+    },
+    {
+        "commit_hash": "8e5b3af6903410e35f2803aefdf704d4c77b36c5",
+        "commit_message": "Merge pull request #956 from square/renovate/mockito-monorepo\n\nUpdate dependency org.mockito:mockito-core to v4.11.0"
+    },
+    {
+        "commit_hash": "c492b99eb98b33dc955edb757926e8c6042e8c59",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-jar-plugin to v3.3.0"
+    },
+    {
+        "commit_hash": "912952ee987b7e2e770d25261334cba3e5a308f1",
+        "commit_message": "Merge pull request #954 from square/renovate/org.apache.maven.plugins-maven-jar-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-jar-plugin to v3.3.0"
+    },
+    {
+        "commit_hash": "2d33c7710973eed2139d37d141e40c0d178d0284",
+        "commit_message": "Update dependency com.google.testing.compile:compile-testing to v0.21.0"
+    },
+    {
+        "commit_hash": "e4e324680a2c6bf8d9c667eabed58f4850b68255",
+        "commit_message": "Merge pull request #952 from square/renovate/compile-testing.version\n\nUpdate dependency com.google.testing.compile:compile-testing to v0.21.0"
+    },
+    {
+        "commit_hash": "28ce6dc810625347f7472ef33ebfbdca9e07b087",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-compiler-plugin to v3.11.0"
+    },
+    {
+        "commit_hash": "53a6c3328982e39acadad480950a5f183f1b3d20",
+        "commit_message": "Merge pull request #960 from square/renovate/org.apache.maven.plugins-maven-compiler-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-compiler-plugin to v3.11.0"
+    },
+    {
+        "commit_hash": "6a37b551e2bbc7463c2b284cea2d27ced61b435a",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.2.2"
+    },
+    {
+        "commit_hash": "e48d418880076d72fab1a11196321efe3600053c",
+        "commit_message": "Merge pull request #966 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.2.2"
+    },
+    {
+        "commit_hash": "70d3466e1c096cf271f617f94018191efc26e91f",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.3.0"
+    },
+    {
+        "commit_hash": "0e11ccf64f4b8421f3a4d54f2bd952ab2c34c411",
+        "commit_message": "Merge pull request #969 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.3.0"
+    },
+    {
+        "commit_hash": "142b5ecf285e0fb102fb015394fb1c1c17885b18",
+        "commit_message": "Update dependency com.google.truth:truth to v1.1.4"
+    },
+    {
+        "commit_hash": "361511a8b49d2dd0ded84dd5ddfa6780fb97fcfc",
+        "commit_message": "Merge pull request #973 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.1.4"
+    },
+    {
+        "commit_hash": "2be1e7718e5265f1b877b99090423edf525f55a7",
+        "commit_message": "Update dependency com.google.truth:truth to v1.1.5"
+    },
+    {
+        "commit_hash": "190aaed71e427514e860e49b62b7ad9c07bd884b",
+        "commit_message": "Merge pull request #975 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.1.5"
+    },
+    {
+        "commit_hash": "3a053b7505efa8547ea0cb97c1a68038812e37a2",
+        "commit_message": "Update dependency com.google.jimfs:jimfs to v1.3.0"
+    },
+    {
+        "commit_hash": "ba4395e8dae03738a1768d7f6ee02e78fbf44faf",
+        "commit_message": "Merge pull request #977 from square/renovate/com.google.jimfs-jimfs-1.x\n\nUpdate dependency com.google.jimfs:jimfs to v1.3.0"
+    },
+    {
+        "commit_hash": "f914783d5a93a2ccde3d0c6c272c4344d099ecd5",
+        "commit_message": "Update actions/checkout action to v4"
+    },
+    {
+        "commit_hash": "d2e4d285526ec1ef22eeb9fcc7595bfe3c4628cc",
+        "commit_message": "Merge pull request #982 from square/renovate/actions-checkout-4.x\n\nUpdate actions/checkout action to v4"
+    },
+    {
+        "commit_hash": "44afd4876cebc49b571c58d8e0119b35b087f93e",
+        "commit_message": "Update actions/checkout digest to 8ade135 (#983)\n\n* Update actions/checkout digest to 8ade135\n\n* Update build.yml\n\n---------\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Jake Wharton <github@jakewharton.com>"
+    },
+    {
+        "commit_hash": "cadaa8a1768137f33393d02713f8e70abe0094ed",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.3.1"
+    },
+    {
+        "commit_hash": "0d55218ae3b8c8d6fe84132b7867d8c12698ce5e",
+        "commit_message": "Merge pull request #987 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.3.1"
+    },
+    {
+        "commit_hash": "d682f2013751d25725349d79b449870d0e77354c",
+        "commit_message": "Fix boxing and unboxing of annotated primitives\n\nPreviously the operation did not honor an annotated primitive or boxed type as one which could be boxed or unboxed, respectively.\r\n\r\n---------\r\n\r\nCo-authored-by: Jake Wharton <github@jakewharton.com>"
+    },
+    {
+        "commit_hash": "5dbdda8dea26fae855d65358cfa1de36190da485",
+        "commit_message": "Update actions/setup-java action to v4"
+    },
+    {
+        "commit_hash": "cbf5587d43d253d4804e0da8482e24df402fc3d0",
+        "commit_message": "Merge pull request #989 from square/renovate/actions-setup-java-4.x\n\nUpdate actions/setup-java action to v4"
+    },
+    {
+        "commit_hash": "cce32be76c5657d587b8d7ed028f93b44d8d302e",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-compiler-plugin to v3.12.0"
+    },
+    {
+        "commit_hash": "42c69cc9859c7558330c5190298df356fece11d8",
+        "commit_message": "Merge pull request #990 from square/renovate/org.apache.maven.plugins-maven-compiler-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-compiler-plugin to v3.12.0"
+    },
+    {
+        "commit_hash": "4f21543f4c9f24d552fe6ce6561fb411e82f9d53",
+        "commit_message": "Update dependency com.google.truth:truth to v1.2.0"
+    },
+    {
+        "commit_hash": "62eb8d2e81db857af70eb91d9f832960df21073e",
+        "commit_message": "Merge pull request #991 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.2.0"
+    },
+    {
+        "commit_hash": "a24c125dd164436d9ec2a1e71822ef93a938d82a",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-compiler-plugin to v3.12.1"
+    },
+    {
+        "commit_hash": "aaebc488320bd11aab1a6248d6b8058a255c92df",
+        "commit_message": "Merge pull request #992 from square/renovate/org.apache.maven.plugins-maven-compiler-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-compiler-plugin to v3.12.1"
+    },
+    {
+        "commit_hash": "fa579e1b403315558abc0178cd84c31b5e02b37e",
+        "commit_message": "Add L to long values to prevent them from being interpreted as int"
+    },
+    {
+        "commit_hash": "c9925e48577e3e74b91eb737b2c2b3c22109cde8",
+        "commit_message": "Merge pull request #994 from Tim203/fix/correct-long-interpretation\n\nAdd L to long values to prevent them from being interpreted as int"
+    },
+    {
+        "commit_hash": "eb1828903395663db00e8bb5d9a98b6665f3f759",
+        "commit_message": "Update dependency com.google.truth:truth to v1.3.0"
+    },
+    {
+        "commit_hash": "91e587ccdfedb49da61e52c802bdda9224455b21",
+        "commit_message": "Merge pull request #995 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.3.0"
+    },
+    {
+        "commit_hash": "9029849de29d8f965f2b8e8a79865bb02cd1a2bc",
+        "commit_message": "Update dependency com.google.truth:truth to v1.4.0"
+    },
+    {
+        "commit_hash": "06bc59971795638b010e51f4f04b6b7d1a42abbc",
+        "commit_message": "Merge pull request #998 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.4.0"
+    },
+    {
+        "commit_hash": "90bbceb3703a28eae617aff4fe13177146421eec",
+        "commit_message": "Update dependency com.google.truth:truth to v1.4.1"
+    },
+    {
+        "commit_hash": "47def3e7d1c4b4f8f29a515bea419305f23e2ac8",
+        "commit_message": "Merge pull request #1000 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.4.1"
+    },
+    {
+        "commit_hash": "c60b76b60958b245fb366c7bd10c1c54db6d38ac",
+        "commit_message": "Update dependency com.google.truth:truth to v1.4.2"
+    },
+    {
+        "commit_hash": "09093974bc673e7464b81a89ce0cfc2fdce588cf",
+        "commit_message": "Merge pull request #1001 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.4.2"
+    },
+    {
+        "commit_hash": "58d629f92345ad4fc9f15ba26b30e05d7e015572",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-jar-plugin to v3.4.1"
+    },
+    {
+        "commit_hash": "63c473cef6ed558d09310f3077d29852a5bc2a19",
+        "commit_message": "Merge pull request #1005 from square/renovate/org.apache.maven.plugins-maven-jar-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-jar-plugin to v3.4.1"
+    },
+    {
+        "commit_hash": "91bdfde74ea877bb6b35a3f7090e79b7a3a980af",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-jar-plugin to v3.4.2"
+    },
+    {
+        "commit_hash": "146e7d20d8e77440a8fcde14c6c8fd4cd59414ec",
+        "commit_message": "Merge pull request #1007 from square/renovate/org.apache.maven.plugins-maven-jar-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-jar-plugin to v3.4.2"
+    },
+    {
+        "commit_hash": "b0ef58ffd45ca6fa41aa33d6010c78d8237788d0",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.4.0"
+    },
+    {
+        "commit_hash": "98bcd5463a8d80138b709e5f77ebcfe33fa8d3f1",
+        "commit_message": "Merge pull request #1006 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.4.0"
+    },
+    {
+        "commit_hash": "8d60c6277039b3f394782eba001ba9ea4841f810",
+        "commit_message": "Update dependency com.google.truth:truth to v1.4.3"
+    },
+    {
+        "commit_hash": "f27ad04c9e7de4ec7b207979cfd47ec1d878ca03",
+        "commit_message": "Merge pull request #1008 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.4.3"
+    },
+    {
+        "commit_hash": "66953b8bf5b43e84fa775934808dee1f84575e62",
+        "commit_message": "Update dependency com.google.truth:truth to v1.4.4"
+    },
+    {
+        "commit_hash": "05bb87bfacdf79a8a1e596fc851801235eb8c2ec",
+        "commit_message": "Merge pull request #1009 from square/renovate/truth.version\n\nUpdate dependency com.google.truth:truth to v1.4.4"
+    },
+    {
+        "commit_hash": "4286e31f5bdb65b32d75a5ff5e11884ca055b00c",
+        "commit_message": "Update dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.5.0"
+    },
+    {
+        "commit_hash": "e7429cba4323e6e14d814b40833d9a9b4904cefb",
+        "commit_message": "Merge pull request #1013 from square/renovate/org.apache.maven.plugins-maven-checkstyle-plugin-3.x\n\nUpdate dependency org.apache.maven.plugins:maven-checkstyle-plugin to v3.5.0"
+    },
+    {
+        "commit_hash": "9d93c79b0995a41c24058884ec0295667349842f",
+        "commit_message": "Deprecate JavaPoet"
+    },
+    {
+        "commit_hash": "cdb1f2d0ce441d05c073e7ecfb8fe438f1487fe3",
+        "commit_message": "consistent syntax"
+    },
+    {
+        "commit_hash": "a5ddb12d66f3ba2cc943b3f7444ac247081b5a0e",
+        "commit_message": "Merge pull request #1014 from square/squarejesse-patch-1\n\nDeprecate JavaPoet"
+    },
+    {
+        "commit_hash": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+        "commit_message": "Add \u2018diff\u2019 to the diff block"
+    }
+]

@@ -1,0 +1,2122 @@
+[
+    {
+        "commit_hash": "2c047b2d3e7cc2c9b76210011597e015dc24d9e7",
+        "commit_message": "Initial commit"
+    },
+    {
+        "commit_hash": "11d160645e57ae70148f6e21b063aff6ea2447aa",
+        "commit_message": "Project description"
+    },
+    {
+        "commit_hash": "5f7dcdb4b023ac657eaf3e5d60c038057c4e9400",
+        "commit_message": "Project structure"
+    },
+    {
+        "commit_hash": "b9b17b4c333f6a2da89eeabb48d1bdcecaabb82a",
+        "commit_message": "Spike: find out what bytecode LambdaMetafactory generates using a Java Agent"
+    },
+    {
+        "commit_hash": "2bcea70f2f0d56902549e9b168c73625a3113bb0",
+        "commit_message": "Apache License 2.0"
+    },
+    {
+        "commit_hash": "f97cd5919715a07f29d0ce21932af571361fd7a2",
+        "commit_message": "Run end-to-end tests using Java 7, but compile with Java 8"
+    },
+    {
+        "commit_hash": "54de14326fb2c3ac94742bd632bdb4cb38c7ee2f",
+        "commit_message": "Change the bytecode version to Java 7"
+    },
+    {
+        "commit_hash": "cae2be8c38994e7678845cb7aaa2d0dc18284743",
+        "commit_message": "Call LambdaMetafactory ourselves the same way invokedynamic would call it"
+    },
+    {
+        "commit_hash": "ecaedc28c9f80664385754174120f81f1ae96634",
+        "commit_message": "Save the dynamically generated lambda classes to file"
+    },
+    {
+        "commit_hash": "b9209f18e7c599537f0067e1cf123760137912c3",
+        "commit_message": "Replace the invokedynamic instruction with the instantiation of the lambda class"
+    },
+    {
+        "commit_hash": "0f53af7fbc56cd8dce4fa36c1f4006fecc6980e2",
+        "commit_message": "Renamed LambdaBackporter to LambdaUsageBackporter"
+    },
+    {
+        "commit_hash": "8c28c871d8d58cfc26422dedc89c1053adf2992c",
+        "commit_message": "Make the lambda class usable on Java 7: do not extend MagicLambdaImpl, make constructor package-private"
+    },
+    {
+        "commit_hash": "22624e4e92159ad288edd3b6fdc729e8e8d50fb7",
+        "commit_message": "Make lambda implementation methods package-private, so that the lambda class can access them"
+    },
+    {
+        "commit_hash": "1b5c4cdeb6f9424f2666efeb98a9faddf394fb39",
+        "commit_message": "Compute operand stack size automatically"
+    },
+    {
+        "commit_hash": "b013872190cfcdeb747d0106e54a89efd694e49e",
+        "commit_message": "Creating method handles to instance methods"
+    },
+    {
+        "commit_hash": "f51ef25843a23d8f708ced4fc34c05f65aa5bcf6",
+        "commit_message": "Factory methods for creating lambdas, to more easily support lambda arguments"
+    },
+    {
+        "commit_hash": "e4a5d62d7379d9e8556bf161e4d3ea5aa73a150f",
+        "commit_message": "Test for using local variables"
+    },
+    {
+        "commit_hash": "735beca189ef147e7e6cd9d0e8315ccdc83b032e",
+        "commit_message": "Support for all primitive types as lambda arguments"
+    },
+    {
+        "commit_hash": "189870c485657533801d7a20f538bf8657457be4",
+        "commit_message": "Removed spike code"
+    },
+    {
+        "commit_hash": "b66676fd80aaa9d450ad6351a73ad70c2a4f588a",
+        "commit_message": "Removed debug printing"
+    },
+    {
+        "commit_hash": "45597cac8315e310a2e097d922e436231c287031",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "07880bc57252bd99faefe02df2e2ecedca7b7af2",
+        "commit_message": "Print configuration on startup"
+    },
+    {
+        "commit_hash": "cec381fb4838c6bf280ec7de6051c8a416f3a5f6",
+        "commit_message": "Support for method references to virtual methods"
+    },
+    {
+        "commit_hash": "3d365710bd80f737732cc17fbb604c6cc84d881c",
+        "commit_message": "Support for method references to interface methods"
+    },
+    {
+        "commit_hash": "55d5e3efc871ef7c7a3b1a5ae5dfa08399c1aca0",
+        "commit_message": "Support for method references to constructors (static methods already worked)"
+    },
+    {
+        "commit_hash": "f0f07ad64128e7d424aa144e73edc4d07115f08a",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "6aab00333238e4cea85894a85fb5eda9866a781c",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "930db2a5ef8a6cc17e8bcb0ebf020a0c99aa2890",
+        "commit_message": "Test for lambda taking parameters"
+    },
+    {
+        "commit_hash": "5f3ff7651e85ffc2b7dd71f6eae0488759debe17",
+        "commit_message": "chmod 644"
+    },
+    {
+        "commit_hash": "1b8a2cb5ff70495a002d1b465efb260f7718c9b9",
+        "commit_message": "Process also production classes"
+    },
+    {
+        "commit_hash": "4b6a595ccdea131ee5d286f000fef44d6a76eacd",
+        "commit_message": "Pass in the classpath as custom system property, to allow using -jar"
+    },
+    {
+        "commit_hash": "7f04adf0da68972e057686787b13dd3ca99c3beb",
+        "commit_message": "Support generating Java 6 (and lower) bytecode"
+    },
+    {
+        "commit_hash": "9fe55e33cc0e93c841668aff4cf411ba03076178",
+        "commit_message": "Show help when run without configuring all parameters"
+    },
+    {
+        "commit_hash": "71600f1ae3fcd1399de3df95d444cb12626eac28",
+        "commit_message": "User guide and other documentation"
+    },
+    {
+        "commit_hash": "766decd2523ac686c017aae2640350181c8bf8db",
+        "commit_message": "Copy retrolambda.jar into target/ using maven-dependency-plugin"
+    },
+    {
+        "commit_hash": "490936e71ff4f4a81ed39da24cbcf359fc58e7e9",
+        "commit_message": "Removed pitest plugin as unused"
+    },
+    {
+        "commit_hash": "e45db59b08f8d15ebf22f7737c71c15b21b1886f",
+        "commit_message": "Override Maven plugin versions inherited from oss-parent"
+    },
+    {
+        "commit_hash": "b0f3876b761c1761e6e7dd721728e490456dbdbc",
+        "commit_message": "Release scripts"
+    },
+    {
+        "commit_hash": "8619f0d1cc8a24def2bc1df1bca59742189f312c",
+        "commit_message": "Release 1.0.0"
+    },
+    {
+        "commit_hash": "09acefbba1f2449f656d5da4a281b4d975571f39",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "86a4471cc0b204fd009934249c7f8a7d0787e718",
+        "commit_message": "Updated version history"
+    },
+    {
+        "commit_hash": "92757f6ed292377bd4866fc3178d6190f332b457",
+        "commit_message": "Download instructions and improved Maven example"
+    },
+    {
+        "commit_hash": "b47178dcaf289ad6dd31272bde0f9f29a71777f9",
+        "commit_message": "Run tests on Java 5"
+    },
+    {
+        "commit_hash": "33dbcf17b0adf9260e6fd01c6bca16fdb2d97072",
+        "commit_message": "Link to Maven Central, now that the artifacts have been synced there"
+    },
+    {
+        "commit_hash": "ffb985051b4f61e5e11babf40dcd6746066f37a0",
+        "commit_message": "Better error message if JAVAx_HOME is not set"
+    },
+    {
+        "commit_hash": "3d2e37afa736f5674b5098f0452007a1e81c1f1e",
+        "commit_message": "Additions to introduction"
+    },
+    {
+        "commit_hash": "e750dd75fae8d79d67776e17759eeb2b20655e81",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "c4863b9a3bcae4cf587a1353fb05fe60402ec923",
+        "commit_message": "Start lambda sequence numbering from one for each enclosing class"
+    },
+    {
+        "commit_hash": "03d7d963f361417a421be2dfb027a03ab277b44e",
+        "commit_message": "Create only one instance of lambdas which do not capture arguments"
+    },
+    {
+        "commit_hash": "e74a7847b1574e94c57008496d2fc70b90d1d9ed",
+        "commit_message": "Refactored: moved the factory method into the lambda class"
+    },
+    {
+        "commit_hash": "969cbfaa477a8993cb14c0259a7eeae3c1c4462f",
+        "commit_message": "Refactored: JDK's convention is to use $ as suffix instead of prefix"
+    },
+    {
+        "commit_hash": "77fff0330d3e047614c89524298e147644f82fff",
+        "commit_message": "Refactored: extracted LambdaReifier and LambdaFactoryMethod"
+    },
+    {
+        "commit_hash": "c316f597d684ca3d183664a38e458386ed67204c",
+        "commit_message": "Refactored: factory method type is now the same as the invoked type"
+    },
+    {
+        "commit_hash": "5457f9703cceb76fc6d0dd2d4361c402f908e9a3",
+        "commit_message": "Check that release notes are ready before releasing"
+    },
+    {
+        "commit_hash": "a42b10f53fbc42e3a2b3107fcc1384d6e5d659a4",
+        "commit_message": "Refactored: application name as constant"
+    },
+    {
+        "commit_hash": "2d98c9a957e8f619a0c2db451595d52f218ae920",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "5964051cb9f210eaa85c3a589e6908888a68bad6",
+        "commit_message": "Release 1.1.0"
+    },
+    {
+        "commit_hash": "e1c39f14271e57f08941f031239c73a069d98594",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "cc9ebd2f573e7ce7d8517a56909044fdc04fdaac",
+        "commit_message": "Mention that it works on Android"
+    },
+    {
+        "commit_hash": "eda5855f8c5c472fe0eac26110d20ee182c3119b",
+        "commit_message": "Code reformat"
+    },
+    {
+        "commit_hash": "411579c012cd153351470fd5a828348c6bd99eb2",
+        "commit_message": "Upgraded to Mockito 1.9.5\n\nCloses #1"
+    },
+    {
+        "commit_hash": "505f73dfab8c7d64c0d4adcbae6d9931f2df1732",
+        "commit_message": "Moved the instructions for building Retrolambda to their own file"
+    },
+    {
+        "commit_hash": "15b7f1eb33b9b57c2da0505f8b4aa435a60bf523",
+        "commit_message": "Added tips and third party tools to user guide"
+    },
+    {
+        "commit_hash": "e7497206ca3e1f63f8e39b447243bbcc63cd1cc2",
+        "commit_message": "Show help if -javaagent parameter is missing. Fixes #2"
+    },
+    {
+        "commit_hash": "a6a71b59169f4e69dd8431a59badb09f6bf585d0",
+        "commit_message": "Updated OSSRH serverId"
+    },
+    {
+        "commit_hash": "4b90c1f8da21324bd03ce8cea9f14708a24d9eb6",
+        "commit_message": "Release 1.1.1"
+    },
+    {
+        "commit_hash": "a94aaa545aadee705bcb37fff0bc5149fc611511",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "355fbd2802595ed6242199208fb4b4aa8e29017b",
+        "commit_message": "Added usage instructions to readme"
+    },
+    {
+        "commit_hash": "60fc80acce786a1ef9ac217e0ff96c2dcc7a30c6",
+        "commit_message": "Fixed test to work in both IDEA and Maven"
+    },
+    {
+        "commit_hash": "435b5594b2c6520428a9f7da27747e6fabd6d963",
+        "commit_message": "Typo"
+    },
+    {
+        "commit_hash": "5d6a02dd4f198d87a56c54752674b184e7498123",
+        "commit_message": "OS X's sed doesn't have \"-r\", so switched to using Bash's regex"
+    },
+    {
+        "commit_hash": "59daeff456dfd2b9929dd52e5f6081a6c1e2d826",
+        "commit_message": "Upgraded to ASM 5.0_BETA, fixes Java 8 workaround for ASM"
+    },
+    {
+        "commit_hash": "0a984bc47ca950d7e015bab07100b662be317ebe",
+        "commit_message": "Updated copyright year"
+    },
+    {
+        "commit_hash": "fe772bdc5bcf6fa87fcd7ef9f77a531c9f1810ff",
+        "commit_message": "Fixed incompatibility with JDK 8 build b121, fixes #3\n\nThere were multiple breaking changes at play:\n\n- The ClassFileTransformer.transform method now gets className=null as parameter for lambda classes. The class name must be parsed from bytecode.\n\n- The naming pattern of lambda implementation methods was changed from lambda$1 to lambda$invokingMethod$1\n\n- The lambda class now calls private instance methods (i.e. lambda accesses the invoker's instance variables) using the invokespecial instruction, to avoid a subclass accidentally overriding the generated lambda implementation method. But using invokespecial to call methods of other classes is not allowed in bytecode (see the spec http://docs.oracle.com/javase/specs/jvms/se7/html/jvms-6.html#jvms-6.5.invokespecial) and lambdas can get away with it only because JDK 8 relaxes the verification of lambda classes. Our workaround is to change the opcode to invokevirtual at the risk of calling a malicious subclass method."
+    },
+    {
+        "commit_hash": "b57f9bcfeb4f66cf8b6578cc581ef963854768be",
+        "commit_message": "Release 1.1.2"
+    },
+    {
+        "commit_hash": "0edafee2fd519465279ccafb986f2d4e631edfdf",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "d71b5f62c87583469b8d70520c656d91b59628f8",
+        "commit_message": "Download link changed to OSSRH which gets new releases immediately"
+    },
+    {
+        "commit_hash": "7f270a64292d09f66e91d1dc18b62ec84ed41526",
+        "commit_message": "Fixed incompatibility with the Eclipse JDT compiler, fixes #12"
+    },
+    {
+        "commit_hash": "d732c9c54319cb369526b88d1303c0b7eeaa5521",
+        "commit_message": "Release 1.1.3"
+    },
+    {
+        "commit_hash": "e4261736353e960f00d3ede4e945715b88fc96c9",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "97da6519baebe625cd779c578d52ddc87c35f9fd",
+        "commit_message": "Link to an article about using Retrolambda on Android"
+    },
+    {
+        "commit_hash": "7c3402dbe49fbb6fe7a152c700636a48826e94b5",
+        "commit_message": "Remove bridge methods from interfaces, fixes #13"
+    },
+    {
+        "commit_hash": "7e39739b61be959ccfcf93be6f260f81b3fca37d",
+        "commit_message": "Print a warning and request for bug report if interfaces have non-abstract methods for reasons other than bridge methods"
+    },
+    {
+        "commit_hash": "048150aa413b1458e81a0aee4b016eedff98707d",
+        "commit_message": "Release 1.1.4"
+    },
+    {
+        "commit_hash": "80c4837f39762f769c0a68f7b41b5417b1f1581c",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "68c1503c26565506657b0b36974dfeaa1ea9b0d8",
+        "commit_message": "Corrected test name to match implementation"
+    },
+    {
+        "commit_hash": "7bc1cba4e7b5e471fc3c89492c2633592a9e3f2d",
+        "commit_message": "Improved test to double-check that the bridge method is not needed"
+    },
+    {
+        "commit_hash": "1b7f8ba25482a74522474b50e78136ee17cd5e64",
+        "commit_message": "create plugin from archetype"
+    },
+    {
+        "commit_hash": "d957c3c8b6761ca53703a6074b033eb0843d2dde",
+        "commit_message": "use mojo-executor as dep"
+    },
+    {
+        "commit_hash": "101e1146d62b78beb0aa07285c1d3caf391ada5c",
+        "commit_message": "add eclipse project dot files to .gitignore"
+    },
+    {
+        "commit_hash": "29e14b2f72bee225d20c94fbf3f72c570fcbcf65",
+        "commit_message": "develop plugin"
+    },
+    {
+        "commit_hash": "ec3c55b307ed1738202459decd9026dbbdd009f0",
+        "commit_message": "develop maven plugin"
+    },
+    {
+        "commit_hash": "e2f7ad16cd5fb4e22c3b9fc8cdfb48d667bab0f9",
+        "commit_message": "add lambda main source and test source"
+    },
+    {
+        "commit_hash": "be8c3b3d4f4cf330f1417dd7a231939107042f93",
+        "commit_message": "develop maven plugin"
+    },
+    {
+        "commit_hash": "92a4a83ac6e7c05bc3b263debf75516658691bc2",
+        "commit_message": "add mojo documentation"
+    },
+    {
+        "commit_hash": "f5807dec9c1488d52a1bb0a8ec15a83ce6adc7ec",
+        "commit_message": "remove obsolete test project"
+    },
+    {
+        "commit_hash": "a7588bbb99991bdc46097f6685b2dbb4e7ff1dc1",
+        "commit_message": "add to comment"
+    },
+    {
+        "commit_hash": "e62479c6cae97cb3404323389d6ef8a18d750514",
+        "commit_message": "remove unused test dep and update comment"
+    },
+    {
+        "commit_hash": "152cc18d32a4c383d9fa612881f2b96c32635082",
+        "commit_message": "remove plugin versions defined in parent"
+    },
+    {
+        "commit_hash": "e4a889a1ee31f1c1fddcc1c5a71cd3073cecf5d8",
+        "commit_message": "update README.md"
+    },
+    {
+        "commit_hash": "40985c0c0f5ac4874095a8b28532464e6a8800fd",
+        "commit_message": "validate java8home"
+    },
+    {
+        "commit_hash": "28341bbed6f6210ed12cc9f1af84ca21919a2c31",
+        "commit_message": "validate java8home"
+    },
+    {
+        "commit_hash": "8be3092acf40c2f4c8f2e85cf6319508e2e17551",
+        "commit_message": "replace tabs with spaces"
+    },
+    {
+        "commit_hash": "a8b857c28a85c0bd6460accf8326bedb7c8f19b6",
+        "commit_message": "replace tabs with spaces"
+    },
+    {
+        "commit_hash": "b681452ccbe11fb19db433c95fa7a2236796b4c8",
+        "commit_message": "fix constants"
+    },
+    {
+        "commit_hash": "b8c4575280d9182be93dd62853c5e3afb6b6e520",
+        "commit_message": "change plugin parameter from bytecodeVersion to target so users can enter 1.5,1.6,1.7, 1.8 which is a bit more obvious for most users. Fixed javadoc that only made reference to converting to java 7 bytecode"
+    },
+    {
+        "commit_hash": "c32db1a20e5b81133f8980360931eec02749215e",
+        "commit_message": "tabs to spaces in pom.xml"
+    },
+    {
+        "commit_hash": "5f14a5e7bc1fd4e465ff333f4574808fbb5c5bb8",
+        "commit_message": "Merge pull request #15 from davidmoten/maven-plugin\n\nRetrolambda Maven plugin"
+    },
+    {
+        "commit_hash": "d9e7614203f73b4b8519f7a0b35caf149c33ac2c",
+        "commit_message": "Code reformat"
+    },
+    {
+        "commit_hash": "c5063922735d7428b82c4b68f4fda6acf9f7443f",
+        "commit_message": "Removed unused maven-invoker-plugin and ITs"
+    },
+    {
+        "commit_hash": "5be7362f4998f13bac623f95afed7d35eb4490a8",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "a0a960fbf53d0f9866d33d16151b8679688cd9f2",
+        "commit_message": "Run end-to-end tests using retrolambda-maven-plugin with the correct target"
+    },
+    {
+        "commit_hash": "7b4f515b2640e7ae2daa72a3ace1f98321c55e26",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "f82106170a10b118baf06be1d068826a4b5a69dc",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "60504f29b74a91eac970b2ec9418dc385aaac1ce",
+        "commit_message": "Link to Maven plugin docs"
+    },
+    {
+        "commit_hash": "684954ff08b9d7bf78d47dffd43bbdf58d181c60",
+        "commit_message": "Updated release script"
+    },
+    {
+        "commit_hash": "a50d9e4f86d0f1db3aa866c01e151632ae3a8d19",
+        "commit_message": "maven-plugin-plugin produces Javadoc that is an error on JDK 8, so force it to use JDK 6 Javadoc tool"
+    },
+    {
+        "commit_hash": "e495adc199288e55eae756a9475c64fee7181394",
+        "commit_message": "Release 1.2.0"
+    },
+    {
+        "commit_hash": "1ff46fe19c0ce45a6427bc93b328642959a211f3",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "b748fa6e76c1cdce0d4bed6eb6f0906c6391b191",
+        "commit_message": "Tests to reproduce issue #16: Maven plugin fails to set the classpath"
+    },
+    {
+        "commit_hash": "7953ae008357937c7fada24f986828a9f3e28f13",
+        "commit_message": "Fixed sorting in error message"
+    },
+    {
+        "commit_hash": "5e1f868361bd7ce34178082d3892fb110c843dac",
+        "commit_message": "Upgraded all plugin versions"
+    },
+    {
+        "commit_hash": "8937901d6e32f88944776f541421257a1baa0359",
+        "commit_message": "Shade plugin can now minimize and relocate Java 8 classes"
+    },
+    {
+        "commit_hash": "8f23d3ab4ce7aa5f72b6b33a6aa1f3cf3c372dcb",
+        "commit_message": "Upgraded dependency versions"
+    },
+    {
+        "commit_hash": "51f85a6292a8c8c1bb5d58273e8ca0ffafa4d2d2",
+        "commit_message": "Ignore .DS_Store"
+    },
+    {
+        "commit_hash": "643b216ebc02178ba6bf936f9bb8c0d83850d9e6",
+        "commit_message": "Maven site configuration tweaked"
+    },
+    {
+        "commit_hash": "919bc69140d5d11e89c48a00feeec0eb12ce7c45",
+        "commit_message": "Enable dependency resolution for the Maven plugin\n\nFixes #16"
+    },
+    {
+        "commit_hash": "18ce9a9f208012c9a86ea8f8e66b923efb4a6eca",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "b5bb57caac7b6da8b1bc26bbb7dec6c903814155",
+        "commit_message": "Save retrolambda.jar under target/retrolambda/"
+    },
+    {
+        "commit_hash": "37a6211f8998b3ad754712ccb782c5995832db4b",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "71d91be2834e8726e2a57807847a4836cd0b30e3",
+        "commit_message": "Link to author's profile"
+    },
+    {
+        "commit_hash": "63d94844820800e61bee1f5c4f39ad6923bc4e41",
+        "commit_message": "Suppress false warning about class initializer methods on interfaces"
+    },
+    {
+        "commit_hash": "cb13e6c5f9e64ad0cfab2dd8bc6ded3222a8a892",
+        "commit_message": "Fixed running tests on Java 5"
+    },
+    {
+        "commit_hash": "7e1247700228dd3a46173240532b493251817c9e",
+        "commit_message": "Downgrade to nexus-staging-maven-plugin 1.5.1\n\nVersion 1.6.1 got stuck in an infinite loop of \"Waiting for other projects build to finish...\""
+    },
+    {
+        "commit_hash": "929b7a5047a72640f007f346243df5f30b6c3122",
+        "commit_message": "Release 1.2.1"
+    },
+    {
+        "commit_hash": "5adcbf35d3e445723053159b18e517093f2cff27",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "c6ded02405b2c61dae59b00bc4a93ba22477a4c3",
+        "commit_message": "Reproduced issue #17"
+    },
+    {
+        "commit_hash": "80a9872e12303f6a4984fb1c7fae3ad6ad9df6e7",
+        "commit_message": "Comments"
+    },
+    {
+        "commit_hash": "e265e3ac7e04dc1b70689d03004974fcb139ac19",
+        "commit_message": "Improved test"
+    },
+    {
+        "commit_hash": "7c10751a30cb69887a47f39a25cddfcf9ec2a25a",
+        "commit_message": "When a private method is used in a method reference, make it package-private\n\nFixes #17"
+    },
+    {
+        "commit_hash": "313613e1d56b67d19e95b52d35d671580f11913a",
+        "commit_message": "Reorder to make the easy case pass first"
+    },
+    {
+        "commit_hash": "9df8ed4b5917a66f874af70c6e2de31a512446c6",
+        "commit_message": "Fix method references to private instance methods being invoked with invokespecial instead of invokevirtual\n\nReally fixes #17"
+    },
+    {
+        "commit_hash": "0aee78d04114deb065736cdba89444b15552c011",
+        "commit_message": "Test for method references to super"
+    },
+    {
+        "commit_hash": "81cf45c5823ee489c270c7c2abebccf54e741887",
+        "commit_message": "Updated documentation"
+    },
+    {
+        "commit_hash": "b84e310e27c01e929cf76e0c57610dd96c857308",
+        "commit_message": "Release 1.2.2"
+    },
+    {
+        "commit_hash": "d213752b155cefd90ff109ffb8cf05fec1da1d38",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "9bc1def147706d0d6a3f638628b16159b66a17ec",
+        "commit_message": "Test to reproduce #19"
+    },
+    {
+        "commit_hash": "d006afdd9e118d4feaa2426a97ad53c5dbd74398",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "d5b822fe85cd96696ced51c001ff43e1a84e88aa",
+        "commit_message": "Upgraded to ASM5 API"
+    },
+    {
+        "commit_hash": "2e9ecf358bbb337cd1cf2a5d10d1b83adbfac9d6",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "bccd9b235ab201469a9d4e7851d0cb7aaed31aba",
+        "commit_message": "Create bridge methods to private lambda implementation methods, instead of changing their visibility\n\nFixed #18, fixes #19"
+    },
+    {
+        "commit_hash": "b98df9da42390a25475911ad4de80ec8800e1f3a",
+        "commit_message": "Release 1.2.3"
+    },
+    {
+        "commit_hash": "5c6fb20bd11d543cb6fdb97a76974e67f7c683ad",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "b51bbfa564481e7b27968ce8c9c765da961201da",
+        "commit_message": "Fixed typo"
+    },
+    {
+        "commit_hash": "3f8210d75f9daeaeb3d1d710845b11c4c31cfb0e",
+        "commit_message": "Made it possible to configure the Maven plugin's input and output directories\n\nCloses #20"
+    },
+    {
+        "commit_hash": "a1ea9db5ceee049e79d5792cfc22d4196e9e02a8",
+        "commit_message": "Maven plugin: by default use the current JVM for running Retrolambda"
+    },
+    {
+        "commit_hash": "badcf901932aee32250a19fc84895568e06bcb94",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "41fea7b2193f62262767db2d5755bc6b46549ddd",
+        "commit_message": "Terminology fixes"
+    },
+    {
+        "commit_hash": "e48dfb2474d696798ad43d32d986d652adfb92c9",
+        "commit_message": "Reworded"
+    },
+    {
+        "commit_hash": "aab487b5d017e1bd9eca898611f0ce56f92105bd",
+        "commit_message": "Release 1.3.0"
+    },
+    {
+        "commit_hash": "67142c7f3a8f9f439e58e8508078f25c0325c26a",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "c81f777925a88c9cab25ce8f6e0dc273bce33554",
+        "commit_message": "Fixed copy-paste mistake in docs"
+    },
+    {
+        "commit_hash": "70cdac4c8d6bc43601f72a2d0f4cb2d296b284b1",
+        "commit_message": "Added argument to tell only which files have changed\n\nThis is useful for incremental compiling, where you\nonly want to process some of the files in the dir."
+    },
+    {
+        "commit_hash": "2a54ad3c2ad10c135e0ac10dd4e51e7c7f2000a0",
+        "commit_message": "Merge pull request #23 from evant/master\n\nAdded argument to tell only which files have changed"
+    },
+    {
+        "commit_hash": "0cb0f7fa2c773004abc74708d29a9fa9640b0fdc",
+        "commit_message": "Code reformat"
+    },
+    {
+        "commit_hash": "667a9885f8ebd1f1d3661868e7bb5af2e7578ca7",
+        "commit_message": "Renamed retrolambda.changed to retrolambda.includedFiles"
+    },
+    {
+        "commit_hash": "4f0affdc17d307b069b186e7c0d75f71efb1d1a0",
+        "commit_message": "Unit tests for Config, fixed handling of an empty list of included files"
+    },
+    {
+        "commit_hash": "de86266cc7d6b0004c7e51596b13ab1323a2a9d4",
+        "commit_message": "Ignore included files outside the input directory"
+    },
+    {
+        "commit_hash": "663be5d64888fa58010b95fc29636ac66bdd22ea",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "2317d92ff3860614d67fe4807922a890df38ceff",
+        "commit_message": "Decide which lambda classes to save based on LambdaReifier's invoker and not the lambda's class loader\n\nFixes #21"
+    },
+    {
+        "commit_hash": "286b4d50f86f8a1f1a769249803db5f0c5dfece7",
+        "commit_message": "Release 1.4.0"
+    },
+    {
+        "commit_hash": "2e5df9a5540f3b1f46857318e6ff4829c9a4e4cb",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "a136ccdd8a7b43d2ce5f0df9fc15d57674a2c7fc",
+        "commit_message": "Section for Gradle plugin"
+    },
+    {
+        "commit_hash": "b2f4451315678d2044bea5c4d060c55d0bf7199f",
+        "commit_message": "Reminder about updating the Maven plugin documentation"
+    },
+    {
+        "commit_hash": "c97d496f07b93e763f87c8d03bde302b224966aa",
+        "commit_message": "Added support for maven toolchains"
+    },
+    {
+        "commit_hash": "5a46b8e171b4111d36bdd197180f1f3fdf6b2742",
+        "commit_message": "Merge pull request #24 from talios/usetoolchains\n\nAdded support for maven toolchains"
+    },
+    {
+        "commit_hash": "8497436520ec50664cf1162e6f17d3fcbaf2e90c",
+        "commit_message": "Use maven-toolchains-plugin"
+    },
+    {
+        "commit_hash": "67dd8307a4f65b91797765d15dec3bddec967a30",
+        "commit_message": "Local configuration overrides the toolchain"
+    },
+    {
+        "commit_hash": "a1d376a05a31a426744d24cc6e5c9d50b407b6cc",
+        "commit_message": "Release 1.5.0"
+    },
+    {
+        "commit_hash": "1ebbd6adaf9e64597f3236ce4e399d6cadfcf95b",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "374c4f27f931526e216b47a29437c6e03104a964",
+        "commit_message": "More complete instructions for release"
+    },
+    {
+        "commit_hash": "277342100909e5b6709481db68a91acd04714ba0",
+        "commit_message": "Code reformat"
+    },
+    {
+        "commit_hash": "367003021c90f5e8918b985ee4da37e2d14ff0d8",
+        "commit_message": "Eliminating need for agent and thus starting separate VM unless <fork>true</fork> is specified by hooking into internal lamda classes dump mechanism. Works on 1.8.0_11-b12."
+    },
+    {
+        "commit_hash": "2e46b84e79eda7cc68527b59274c74d3b7ef0749",
+        "commit_message": "Merge pull request #28 from jtulach/master\n\nEliminating need for agent"
+    },
+    {
+        "commit_hash": "00b4c0520831e198497576bef8b42a8cac6cb427",
+        "commit_message": "Test forking during release"
+    },
+    {
+        "commit_hash": "25014618e671f2eb9922756332da4879bb472d06",
+        "commit_message": "Call Retrolamdba directly from the Maven plugin, without reflection\n\n We have to run Retrolambda on itself, because the Maven plugin requires Java 6\n and would not otherwise compile against Retrolambda's Java 8 classes."
+    },
+    {
+        "commit_hash": "0b08370176bc89726ae3af182a8be43d8d94cf39",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "34cec6491a0010a678a7add2726b02bd8bb55c6b",
+        "commit_message": "Fixed the Maven plugin not working under Java 6\n\n- Main no longer requires Java 8 classes during its class loading\n- Forces the process to fork when not under Java 8"
+    },
+    {
+        "commit_hash": "e006249663697725e51fe06afe9d18b73344a1bb",
+        "commit_message": "The use of a Java agent is now optional\n\nCloses #27"
+    },
+    {
+        "commit_hash": "a22bb5a39d3ed7020b7820a1893fff84b138f33a",
+        "commit_message": "Refactored: install the dumper only once, removed duplication"
+    },
+    {
+        "commit_hash": "53dea8d7bbc6658b575bd51a15a909522e5716f0",
+        "commit_message": "Typo"
+    },
+    {
+        "commit_hash": "65c3be5347312cde046517520afcec5032f1feff",
+        "commit_message": "Refactored: extracted irrelevant stuff from the virtual file system"
+    },
+    {
+        "commit_hash": "62199098ce9afbeb693c582c532af27adac78928",
+        "commit_message": "Updated project files\n\nRun also Maven with Java 6 to test the plugin and the agent mechanism"
+    },
+    {
+        "commit_hash": "03ab4b0d53b5f2e74bd7443b7e0b1389745ec804",
+        "commit_message": "Refactored: extracted LambdaClassSaver"
+    },
+    {
+        "commit_hash": "d80c9101bce945598a95ccbf8b721b6539a8af63",
+        "commit_message": "Fixed main classes not included in the test classpath"
+    },
+    {
+        "commit_hash": "d98456c7f28c5a60759c7413c3c27d9b64933eab",
+        "commit_message": "Added @since 1.6.0"
+    },
+    {
+        "commit_hash": "b307960286dfb9e198f199143a2d4548996c8144",
+        "commit_message": "Release 1.6.0"
+    },
+    {
+        "commit_hash": "363bfba6c59d66c92fd9e36d6d51ab01b01bde26",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "8d5b86d4066bf52db2680ae115593ae5d72bad34",
+        "commit_message": "Improved docs"
+    },
+    {
+        "commit_hash": "0ec45c6c1bab9db425dd91533478ad8ed2c697c6",
+        "commit_message": "Use a non-delegating class loader to support transforming classes with same name as JRE's built-in classes\n\nFixes #29"
+    },
+    {
+        "commit_hash": "1c0c4c430b1465e6bc2b8ce891545d634954d350",
+        "commit_message": "Merge branch"
+    },
+    {
+        "commit_hash": "643820b80598a4eb2255e3837983a4ad060cdcad",
+        "commit_message": "Merge tests"
+    },
+    {
+        "commit_hash": "e39c3f4c755485a6ed6fa9213d664bcf078488fc",
+        "commit_message": "retrolambda/pom.xml"
+    },
+    {
+        "commit_hash": "6792c3ef9b1ac7e473ecf7ca14d8d6967d3e9ace",
+        "commit_message": "Primitive tests makes sense"
+    },
+    {
+        "commit_hash": "9038a86a72396e44b6f2d493b19cea63626f9c9c",
+        "commit_message": "Main cleaned up,"
+    },
+    {
+        "commit_hash": "86028d1e52f98b6f3c31113e3cbdca5ff44efd98",
+        "commit_message": "Release 1.6.1"
+    },
+    {
+        "commit_hash": "681a7c8bcb5f4ec694afea05e64df5cd09494ebc",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "97b6bf7e102cd9d0fb4df34fd25ff2ee1b1695f6",
+        "commit_message": "Improved wording"
+    },
+    {
+        "commit_hash": "7e6748492532fa972378086f69af4b25965e7524",
+        "commit_message": "Code style settings"
+    },
+    {
+        "commit_hash": "67d9a74829232fd62e45901baa462c71ccd9d827",
+        "commit_message": "Release the OSSRH repo and push to GitHub automatically"
+    },
+    {
+        "commit_hash": "85426672cd8ddb0a29d65df226cb4e430684660d",
+        "commit_message": "Code reformat"
+    },
+    {
+        "commit_hash": "a4bdd6f054c3e3a119c0b8df3d8b5fde5ca5f61d",
+        "commit_message": "Refactored code style: tests before their guinea pigs"
+    },
+    {
+        "commit_hash": "bc99e75c2fa4b56325910e445283d1b24cb2618d",
+        "commit_message": "Refactored DefaultMethodsTest a lot"
+    },
+    {
+        "commit_hash": "6cb79086e4691e060a54b82da6c912bd00c937c1",
+        "commit_message": "DefaultMethodsTest: additional test for class hierarchies"
+    },
+    {
+        "commit_hash": "1b6e665fff399db1300a8a93c832c8d8f9e62cbb",
+        "commit_message": "DefaultMethodsTest: additional test for bridge methods"
+    },
+    {
+        "commit_hash": "d3656b80685758cc0b9e6e4f8678973150d60ec1",
+        "commit_message": "InterfaceStaticMethodsTest: method references are handled differently from lambdas (no synthetic lambda method), so have separate tests for each of them"
+    },
+    {
+        "commit_hash": "b8211a1c4f5a2e5d26318ecb0dd863b13c8648b7",
+        "commit_message": "Feature toggle for default methods support"
+    },
+    {
+        "commit_hash": "70b2bbbe4dcd4a0d5261b781b0833312e8041818",
+        "commit_message": "Merge branch 'default-methods'"
+    },
+    {
+        "commit_hash": "d37b134855d4262795e383e020a1910397933abf",
+        "commit_message": "Java 7 bytecode cannot contain calls to static methods of library interfaces\n\nIt'll cause an error already at class loading time.\n\nExample failure:\n\nCaused by: java.lang.VerifyError: Illegal type at constant pool entry 123 in class net.orfjackal.retrolambda.defaultmethods.Helpers\nException Details:\n  Location:\n    net/orfjackal/retrolambda/defaultmethods/Helpers.isPrimitive(Lnet/orfjackal/retrolambda/asm/Type;)Z @55: invokestatic\n  Reason:\n    Constant pool index 123 is invalid\n  Bytecode:\n    0000000: 1008 bd00 5c59 03b2 0060 5359 04b2 0063\n    0000010: 5359 05b2 0066 5359 06b2 0069 5359 07b2\n    0000020: 006c 5359 08b2 006f 5359 1006 b200 7253\n    0000030: 5910 07b2 0075 53b8 007b 2a59 b600 7f57\n    0000040: b800 85b9 0089 0200 b900 8d01 00b6 0092\n    0000050: ac\n\n        at net.orfjackal.retrolambda.LambdaUsageBackporter$InvokeDynamicInsnConvertingMethodVisitor.backportLambda(LambdaUsageBackporter.java:170)\n        at net.orfjackal.retrolambda.LambdaUsageBackporter$InvokeDynamicInsnConvertingMethodVisitor.visitInvokeDynamicInsn(LambdaUsageBackporter.java:163)\n        ...\n\nWhere the bytecode is:\n\nConstant pool:\n  ...\n  #123 = InterfaceMethodref #119.#122     //  java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;\n\n   public static boolean isPrimitive(org.objectweb.asm.Type);\n        ...\n        55: invokestatic  #123                // InterfaceMethod java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;"
+    },
+    {
+        "commit_hash": "c7d6226d2e728922129f932f4474b45364c243cf",
+        "commit_message": "Improved error message e.g. when running under too old early access JDK 8"
+    },
+    {
+        "commit_hash": "86565f93c874f676e43d555f7703a3133096e2f8",
+        "commit_message": "TODO notes"
+    },
+    {
+        "commit_hash": "7ccbe2281dae7277fbab955cdeb14220307192ea",
+        "commit_message": "Handle new DEFAULT_METHODS feature toggle values by default"
+    },
+    {
+        "commit_hash": "f6f4aeec00b9a7a12bb0bb5b05496e934d8595fd",
+        "commit_message": "ClassHierarchyAnalyzer"
+    },
+    {
+        "commit_hash": "75464cc274c7bd0b08aba69a568dae862205047f",
+        "commit_message": "Avoid verification error about calling static methods on interfaces"
+    },
+    {
+        "commit_hash": "8da77d2862c69f4908f1edcdfd5e520dead5c1c6",
+        "commit_message": "Refactored: made reordering ClassVisitors easier"
+    },
+    {
+        "commit_hash": "f63f5d892388f4b753305195e8a123c82e0dad90",
+        "commit_message": "RemoveDefaultMethods"
+    },
+    {
+        "commit_hash": "23cfe1b9dca6a28a2e31bf66726d237f8f5eae20",
+        "commit_message": "Fixed assertions to expect the correct errors"
+    },
+    {
+        "commit_hash": "9420a75aa4dcbef5755b22eb08ad425e76afbe05",
+        "commit_message": "ClassHierarchyAnalyzer: separate interfaces from classes"
+    },
+    {
+        "commit_hash": "81f78657193f1ce288c6310309d7d7650f29f074",
+        "commit_message": "Refactored: extracted ClassSaver"
+    },
+    {
+        "commit_hash": "bc599ff321fda7148c2362f2c5746bd52dca3501",
+        "commit_message": "Refactored: use ClassHierarchyAnalyzer"
+    },
+    {
+        "commit_hash": "e7122935077bc8bf99d00fe92d2defd65be4c3ba",
+        "commit_message": "Refactored: extracted LowerBytecodeVersion"
+    },
+    {
+        "commit_hash": "93e0667b926618104b139d0f0d0a5e049be41893",
+        "commit_message": "Static methods on interfaces: walking skeleton"
+    },
+    {
+        "commit_hash": "eeb888628090a53cb5196224e216f9413b4f8721",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "c8d6a300e51715f4a9d7073b5d7e7e1eb25803d0",
+        "commit_message": "Discover which static methods need to be moved to companion classes"
+    },
+    {
+        "commit_hash": "81c37127510c96c779a532b83b9590b6f87bd4dc",
+        "commit_message": "Discover which interfaces need companion classes"
+    },
+    {
+        "commit_hash": "979fb8bb7c7b4189d725c42898f460cabc068a69",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "831594a2bde4af9426c0fddfb25f93dc370a142f",
+        "commit_message": "Tried to fix the issue where we tried to port other classes than the ones in inputdir.\nIt compiles and most tests run, but end-to-end-tests doesnt run, complains about inputDir. Maybe you can take a look"
+    },
+    {
+        "commit_hash": "97a6cba507a0cb758fac9b64cd48ff0e6b91b154",
+        "commit_message": "Merge branch 'cleanup' of github.com:Arneball/retrolambda"
+    },
+    {
+        "commit_hash": "7c6ff0895a033586b85abc114f798b561a209707",
+        "commit_message": "Hack for giving access to Config.inputDir\n\nFixes #32"
+    },
+    {
+        "commit_hash": "43998c73f877d7434d1f81206298848a258c1d43",
+        "commit_message": "Updated known limitations"
+    },
+    {
+        "commit_hash": "5654c5de8187d2d44030f783993d01061fc80f02",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "d81252e9595b7e5dd5a51af370a1cbd5b8fa1980",
+        "commit_message": "Remove only the body of default methods"
+    },
+    {
+        "commit_hash": "cf561c518dc37a961c90437a472a97b6a09e8bd0",
+        "commit_message": "Keep annotations on backported default methods"
+    },
+    {
+        "commit_hash": "d0a7fc9cfc4a92fbcd844de20bee25d86cbf586e",
+        "commit_message": "Refactored: separated RemoveStaticMethods and RemoveDefaultMethodBodies"
+    },
+    {
+        "commit_hash": "637f71e17199ecb5b26941b13395c1fffb657156",
+        "commit_message": "Added missing test"
+    },
+    {
+        "commit_hash": "feabde79d74e700b03b978ffd2c1db2538260e8b",
+        "commit_message": "Refactored: extracted BackportLambdaInvocations"
+    },
+    {
+        "commit_hash": "a1681b9bf9a6dd380e2d04b1a067f7f6c5d9813e",
+        "commit_message": "Refactored: extracted BackportLambdaClass"
+    },
+    {
+        "commit_hash": "7aec89a28410bf3f981069eb3d89fad4354000a0",
+        "commit_message": "Refactored: created Transformers for all transformations"
+    },
+    {
+        "commit_hash": "ee81282019acd9e4b2a210d05d063bd8122721dc",
+        "commit_message": "Organized classes into packages"
+    },
+    {
+        "commit_hash": "de81131de13bb062fde0cdb9a729be696c5be26f",
+        "commit_message": "Upload staging repository in the publish stage"
+    },
+    {
+        "commit_hash": "0059e934c53103cce66083cdc9278ead5eb5284c",
+        "commit_message": "Show Maven stack traces"
+    },
+    {
+        "commit_hash": "281ef936f969633268ff91947a44b46ee7381351",
+        "commit_message": "Do not try backporting java.* classes\n\nFixes #34"
+    },
+    {
+        "commit_hash": "f969cc292050a6b92b1bdc596b7fec136d4d036c",
+        "commit_message": "Always load java.* classes by delegating to the bootstrap class loader\n\nFixes #34 for real"
+    },
+    {
+        "commit_hash": "1e0ddae9a64347229e0127c74d561dd3252d23d4",
+        "commit_message": "Upgraded nexus-staging-maven-plugin"
+    },
+    {
+        "commit_hash": "fdd4185874c4163164100a46f2e438b8d89a562c",
+        "commit_message": "Release 1.6.2"
+    },
+    {
+        "commit_hash": "94104faa276eaafde41c57a6bf4f962bf214a0b5",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "2277cc1e45bd49fedebadde2e7cbec12c68c202f",
+        "commit_message": "Fix for nexus-staging:release not looking into the properties file in altStagingDirectory"
+    },
+    {
+        "commit_hash": "d136f083ed7c121e7e4abddb4dfdd7c538780960",
+        "commit_message": "Support for serializable lambdas\n\nCloses #35"
+    },
+    {
+        "commit_hash": "aaa13668a1089811bf2897e6ce12fc24f88c8701",
+        "commit_message": "Upgraded dependencies and plugins"
+    },
+    {
+        "commit_hash": "98468853e6a2a80e544a6553326ef366d22a766f",
+        "commit_message": "Fix for nexus-staging:release workaround"
+    },
+    {
+        "commit_hash": "2c2001b5ec1856be887b2357008cf6d2637763df",
+        "commit_message": "Release 1.7.0"
+    },
+    {
+        "commit_hash": "bbd9cdec8fbc8a402c8750c2b1ee08c7a3d13d8b",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "cf7214bb80e06f4231a38d00644f53a0d726ae4d",
+        "commit_message": "Fixed terminology"
+    },
+    {
+        "commit_hash": "97fc3a53587486024bced5ea12370c3824e0c33c",
+        "commit_message": "Note about feature toggles for experimental features"
+    },
+    {
+        "commit_hash": "cb5b8c282101f3439d167ce13a015b34c4796b09",
+        "commit_message": "Presentation video"
+    },
+    {
+        "commit_hash": "c80e12922af180db7d9d608b8a4c47c497486cd8",
+        "commit_message": "User guide: promote the plugins first, refined tips"
+    },
+    {
+        "commit_hash": "869ff20185d9a0bb70ead008db7f1d844f97f00b",
+        "commit_message": "Upgraded to IDEA 14"
+    },
+    {
+        "commit_hash": "4a125e8e7c144f3ab31d20a880f993e778ac3b70",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "6aa8427a6ee55682cc146fd79a957c7c30e5919e",
+        "commit_message": "ClassHierarchyAnalyzer: relocate method default implementations"
+    },
+    {
+        "commit_hash": "28e6be7581496dbc20804ad4e6749b4261195a8d",
+        "commit_message": "Refactored: no ACC_BRIDGE for access methods (bridge methods have to do with generics)"
+    },
+    {
+        "commit_hash": "b4a6a1bee13f2d18797bc1d09165d0594bd3d9d6",
+        "commit_message": "ClassHierarchyAnalyzer: find interface methods"
+    },
+    {
+        "commit_hash": "e9cdf9a1bf34c1f1ae960a0f8fac1708cd87ebc9",
+        "commit_message": "Add method default implementations by delegating to the interface's companion class"
+    },
+    {
+        "commit_hash": "f6d918533f73c066722d2bf435fa436d561684f5",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "de9ad6815f0bb46d36d60835388e613037631003",
+        "commit_message": "ClassHierarchyAnalyzer: find inherited interface methods"
+    },
+    {
+        "commit_hash": "29dbe422f4c3429741454ca12650f7e584f0c22e",
+        "commit_message": "Do not copy abstract methods to companion classes"
+    },
+    {
+        "commit_hash": "73dfdbb233c184d5da4fca91de2ddc70cf3f1d29",
+        "commit_message": "Default methods in lambdas"
+    },
+    {
+        "commit_hash": "baf8c1cb739f8d5179330b96c8a08a4ee73399ad",
+        "commit_message": "Backport try-with-resources statements to Java 6 and older by removing calls to `Throwable.addSuppressed`"
+    },
+    {
+        "commit_hash": "4142ede396f4e4385c57afcee7c33a7f4e1c9da7",
+        "commit_message": "Release 1.8.0"
+    },
+    {
+        "commit_hash": "4c26a35578aeb3046c152734ad0e2b6127e5ef10",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "6d6b419b366769a217214657ab1133477f8a6934",
+        "commit_message": "Add 'this' as the first argument to default method implementation methods"
+    },
+    {
+        "commit_hash": "89f1070f165aeb7407b9832bcf453639f1e72c25",
+        "commit_message": "Change Interface.super.defaultMethod() calls to static calls on the companion class"
+    },
+    {
+        "commit_hash": "61a0a2838ae86edd1c9ad84cb48999fe859024c9",
+        "commit_message": "This fix is needed to run Retrolambda on itself, cannot remove it"
+    },
+    {
+        "commit_hash": "cab293c7cece11e00cce5e258b8cc713cf209477",
+        "commit_message": "Fixed test on Java 6 (Collections.emptyIterator is since 1.7), improved test"
+    },
+    {
+        "commit_hash": "017455fcdb92b15f60d52050e16d1681a9ad18d8",
+        "commit_message": "Fixed test on Java 5"
+    },
+    {
+        "commit_hash": "3251e51a0ae58330e30dbdd2218c7f101ba08b34",
+        "commit_message": "List of backported language features"
+    },
+    {
+        "commit_hash": "4d6b456d956aca5e0caf57d6fc88bcd32f43216d",
+        "commit_message": "Improved wording"
+    },
+    {
+        "commit_hash": "9b2b605490a7dc2ed032ca5697e236ee5e86b36d",
+        "commit_message": "Basic test for try-with-resources"
+    },
+    {
+        "commit_hash": "a3fb072f57f590c797e625be0bd370ed46d46d70",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "c09c671446ca0d8476e706c3fab1173d5b10b062",
+        "commit_message": "Default methods are mostly working, except for one inheritance corner case"
+    },
+    {
+        "commit_hash": "a51e2ca2bd5e01ee0732466ef60783613b71518f",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "a143fc9b4ae21b2eea3fceb5472cd1c7545eafc4",
+        "commit_message": "Test for reproducing issue #42"
+    },
+    {
+        "commit_hash": "3413871775e0b14a443337da7384d4f57f14e907",
+        "commit_message": "Updated copyright year"
+    },
+    {
+        "commit_hash": "e3c8647b91d71d5825f28695253e1e3e60628d1c",
+        "commit_message": "Support for lambda expressions in an interface's constant initializer; the lambda impl method will be moved to a companion class\n\nFixes #42"
+    },
+    {
+        "commit_hash": "0c25984ac4940119f3de6bdd4075fd8600a34b55",
+        "commit_message": "Refactored: moved interface warnings to WarnAboutDefaultAndStaticMethods"
+    },
+    {
+        "commit_hash": "3cf474b8f906a69bad563ce85a7c42c7b2e5eee6",
+        "commit_message": "Refactored: extracted RemoveBridgeMethods"
+    },
+    {
+        "commit_hash": "51abb79d3b502c7cab745b91cfa728326182b1fc",
+        "commit_message": "Release 1.8.1"
+    },
+    {
+        "commit_hash": "d0287aa3235da1987df0431b1c6b8ebac82d151f",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "c90ca7cc116fe456d3397f6ae36dd85bc9964f67",
+        "commit_message": "Removed default methods version 1, re-enabled JAR minimizing"
+    },
+    {
+        "commit_hash": "5519d0cd3bbe17beda848dd28cc9c214e867674a",
+        "commit_message": "fixed two edge cases when backporting default methods"
+    },
+    {
+        "commit_hash": "382b5504d44ca93462605077d7a0b4a387c95f5e",
+        "commit_message": "Merge pull request #45 from Vasilcenko/master\n\nfixed two edge cases when backporting default methods"
+    },
+    {
+        "commit_hash": "f31f7bc278e211170a7c7db94652bb501b7a0b1c",
+        "commit_message": "Failing test: implements original and overridden default method"
+    },
+    {
+        "commit_hash": "3556a2bf64e53be1727991ae60e84311ee5d2832",
+        "commit_message": "Improve test: implementation must not be order specific"
+    },
+    {
+        "commit_hash": "118f68e9400ff7821228dc81400039db1cdefe85",
+        "commit_message": "Refactored: created ClassInfo and MethodSignature"
+    },
+    {
+        "commit_hash": "43fea2407daa888d5a228f446d4579c4dcbaa728",
+        "commit_message": "Refactored: use Type instead of String"
+    },
+    {
+        "commit_hash": "82f9e8b8ca8b0044900118addc57f974976c3e32",
+        "commit_message": "Refactored: removed ClassHierarchyAnalyzer.superclasses"
+    },
+    {
+        "commit_hash": "5dd5f6d015b3e3b3d1ba97212eac716edd59bf87",
+        "commit_message": "Refactored: removed ClassHierarchyAnalyzer.methodsByInterface"
+    },
+    {
+        "commit_hash": "3b22b4b5eae5f84ee0931d96093803acee530000",
+        "commit_message": "Refactored: removed ClassHierarchyAnalyzer.methodsByClass"
+    },
+    {
+        "commit_hash": "a49ab23f07eaf81aaa2cf2b6a2a61449a4b6c1b5",
+        "commit_message": "Add missing @Override annotations"
+    },
+    {
+        "commit_hash": "da3792bb5c7f0349eadc522749be9ece849a7173",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "1ffcd829c92c058814b2121abe8acd9467774de8",
+        "commit_message": "Refactored: removed ClassHierarchyAnalyzer.companionClasses"
+    },
+    {
+        "commit_hash": "942e33cb76557e57c0bc062a66af7e6e78df2629",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "281aa17f7e8a0b14d332fc903f9a0d67a0b6fd52",
+        "commit_message": "Model the inheritance of interface methods"
+    },
+    {
+        "commit_hash": "9c4b7f54c9651b43ba59bde14ca3c7a06fd454cc",
+        "commit_message": "Model the inheritance of superclass methods"
+    },
+    {
+        "commit_hash": "1ede67d75ef18a43d6408f0f32002f7f7a5dd368",
+        "commit_message": "Refactored: reordered tests"
+    },
+    {
+        "commit_hash": "654f1072fc6b9ef5653a91ab82c94f6fb1ee44eb",
+        "commit_message": "ClassHierarchyAnalyzerTest: inheriting_same_default_methods_through_many_parent_interfaces"
+    },
+    {
+        "commit_hash": "e742b72f4138a154e7c443e6e9e8243b8e098880",
+        "commit_message": "ClassHierarchyAnalyzerTest: implements_original_and_overridden_default_method"
+    },
+    {
+        "commit_hash": "d327e9e6c718d70281259b7c52fdce81ca98f528",
+        "commit_message": "Generate default methods based on ClassInfo data"
+    },
+    {
+        "commit_hash": "726cf6f7a8d877547c883dcbb082d4fabe14fb33",
+        "commit_message": "Refactored: removed old implementation"
+    },
+    {
+        "commit_hash": "5555bc9621635b01b84276ab4d2711d39bf8729c",
+        "commit_message": "Refactored: use the terminology from JLS \u00a78.1.5"
+    },
+    {
+        "commit_hash": "2bc0b461b44ed6206f2d30c16042b5d5a28f5074",
+        "commit_message": "Fixed an edge case when default method is inherited through a superclass and overridden by a subinterface's default method"
+    },
+    {
+        "commit_hash": "9cafcca09c71ae3f0a2ae4ffddd4ea3868bba52f",
+        "commit_message": "Upgraded all Maven plugins"
+    },
+    {
+        "commit_hash": "e011d457ed782f22ecda288e2c17fe5b67be10b6",
+        "commit_message": "Backport only Retrolambda's public API to Java 6\n\nThis avoids infinite recursion when the first lambda to be backported is in Transformers.backportLambdaClass()"
+    },
+    {
+        "commit_hash": "04c1e286e5ab74d4aee97bcb082757c5fd4142d6",
+        "commit_message": "Upgraded all dependencies"
+    },
+    {
+        "commit_hash": "cfdfc2c64698f541b437c08e2892e0398a3923b3",
+        "commit_message": "Fixed use of deprecated APIs"
+    },
+    {
+        "commit_hash": "ed90c63b92610fe9c523d18af2ded8f1c3e2df37",
+        "commit_message": "Add retrolambda.defaultMethods parameter"
+    },
+    {
+        "commit_hash": "17587dfe476f6af69dd49e6f3367ad42bbb8ecfa",
+        "commit_message": "Extracted build.sh from stage.sh"
+    },
+    {
+        "commit_hash": "04a717ea4d52a0bcb938ad1b16b4b8b9a3279b9f",
+        "commit_message": "Add defaultMethods parameter to Maven plugin"
+    },
+    {
+        "commit_hash": "2344b77885470de03b744cca6a57c6d5b3a7ab47",
+        "commit_message": "Use the retrolambda.defaultMethods parameter instead of the feature toggle"
+    },
+    {
+        "commit_hash": "b0cd437be194837ca436e0b73a8a1002bcb6d1b0",
+        "commit_message": "Notes"
+    },
+    {
+        "commit_hash": "4b9549ea6abdb053522725885b9eb59192e402d8",
+        "commit_message": "Documentation for default methods and static methods on interfaces\n\nCloses #31"
+    },
+    {
+        "commit_hash": "4ec7c8e304be0505f2d06bf57297f2564c99c255",
+        "commit_message": "Build first without default methods\n\nIt gives more precise failure information; does the most important mode work and is only default methods broken\n\nSince the last run is with default methods, it's easy to check from the end of the log that all tests were run"
+    },
+    {
+        "commit_hash": "8a2b3c1efa2618adf14b5dbfbacfe0dd7832cb1c",
+        "commit_message": "Fixed \"mvn deploy\" -> \"mvn verify\""
+    },
+    {
+        "commit_hash": "2df6174117cdc0f5d2d6ff79574be9aaeaa18beb",
+        "commit_message": "Release 2.0.0"
+    },
+    {
+        "commit_hash": "f64e06ea3f99ba99700983554a4a28131245d169",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "3930c11706fada7228cd0e1b4d612df5811baab9",
+        "commit_message": "Build script instructions"
+    },
+    {
+        "commit_hash": "4237a6eadf39db69389d914e6477ccba277666e3",
+        "commit_message": "Improved wording"
+    },
+    {
+        "commit_hash": "4aaa3ae2cce36d702c04e012a75910e8f1d069f8",
+        "commit_message": "Advertise try-with-resources statements in the introduction"
+    },
+    {
+        "commit_hash": "6f236c6fd4b880519c9d60145e13d60afb109a11",
+        "commit_message": "More details on how default and static methods are backported"
+    },
+    {
+        "commit_hash": "332747e0291fb8c91eb46d38abb6f17e5ac3fcba",
+        "commit_message": "Made the limitations more explicit"
+    },
+    {
+        "commit_hash": "651233803be0d20fca20e71b0ec317d77c037eae",
+        "commit_message": "Fixed not backporting lambdas in default methods and static methods on interfaces\n\nRelates to issue #48"
+    },
+    {
+        "commit_hash": "0458b48eb59da36aeaeb057257923949081799f0",
+        "commit_message": "Fixed backporting lambdas in default methods, when the lambda captures `this`\n\nRelates to issue #48"
+    },
+    {
+        "commit_hash": "9c8d9487b3e13c2bb600cb08f1c315be7b06803c",
+        "commit_message": "Release 2.0.1"
+    },
+    {
+        "commit_hash": "e0a18a03f61c5fbc5235425a287f21c9bfc8439c",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "ead4b7509ea61810a694b341d3978a55b5a12626",
+        "commit_message": "Remove generic method signatures, to avoid them getting out of sync with the erased method descriptor\n\nRelates to issue #48"
+    },
+    {
+        "commit_hash": "f0ad5a805c80578edda363eeb32e99ef40620e76",
+        "commit_message": "Fixed a hack which caused lambdas in interfaces to be backported twice\n\nRelates to issue #48"
+    },
+    {
+        "commit_hash": "fe6c8e51b4d0a3241801d14397edff8a03d76e39",
+        "commit_message": "Failing test for lambda impl methods being treated the same way as default methods\n\nReproduces #48"
+    },
+    {
+        "commit_hash": "8ce0fff0811efbc41beda50d6ade8cf556a27d4a",
+        "commit_message": "Walking skeleton for handling instance lambda impl methods in interfaces"
+    },
+    {
+        "commit_hash": "7146fa7c03b7dade4e46ec59c2fa88bff5e6684d",
+        "commit_message": "Refactored: added MethodRef.tag, removed the hack\n\nFixes #48"
+    },
+    {
+        "commit_hash": "1952d2e1457f96478b80b7ea4cdf6d6db0a4193e",
+        "commit_message": "Fixed build failure on Java 5 due to lowering the bytecode version too early"
+    },
+    {
+        "commit_hash": "152bf3b067194d422b785d206f0fe10f27810f98",
+        "commit_message": "Links to Java 8 API backports\n\nCloses #51"
+    },
+    {
+        "commit_hash": "e50c6988ac39c3386159ac9aab9311eb99c9132a",
+        "commit_message": "Release 2.0.2"
+    },
+    {
+        "commit_hash": "9591f4d3c41799be41012deca28a6195947a2324",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "f5b55934abacb90994d9092705c045e282acc069",
+        "commit_message": "Upgraded to ASM 5.0.4"
+    },
+    {
+        "commit_hash": "ce253e5ca74fbd5e0a2161cb2407d8ae5f9e009d",
+        "commit_message": "Do not generate stack map frames for Java 5 bytecode\n\nFixes #55"
+    },
+    {
+        "commit_hash": "d4448826ec1b37b526d980fc0ee517fc7971d658",
+        "commit_message": "Removed debug code"
+    },
+    {
+        "commit_hash": "eb89c49c3df80100bbb4234b797eaedebdc90a20",
+        "commit_message": "Release 2.0.3"
+    },
+    {
+        "commit_hash": "87ca4f376117b654133a36ed15bc0bd30016f51e",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "e2156af31976e491bc2d60495d32bf95f494ef41",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "2f2e124d0f6d40d47b22c42cbecd30650a191e1c",
+        "commit_message": "Fixed a compile error when calling default methods from another module due to the delegate methods being marked synthetic\n\nFixes #56"
+    },
+    {
+        "commit_hash": "a13bc98973cb8e9df14aa58fe2d19a205764d3fc",
+        "commit_message": "Fixed method references to constructors of the current class\n\nFixes #60"
+    },
+    {
+        "commit_hash": "6f49e176cdd98e3e372219a5a659590fff0048a0",
+        "commit_message": "Removes bytecode references to `java.lang.invoke.MethodHandles.Lookup` on Java 6 and older\n\nFixes #61"
+    },
+    {
+        "commit_hash": "46b0d84de9c309bca48a99e572e6611693ed5236",
+        "commit_message": "Copy non-class files from input directory to output directory as-is\n\nCloses #54"
+    },
+    {
+        "commit_hash": "09715561e7d539f67c8406d962d2c8f1e90aa26b",
+        "commit_message": "Refactored: renamed classes"
+    },
+    {
+        "commit_hash": "76ba611e5cb0acb4cfbe4695c1f575fab2353ac5",
+        "commit_message": "Release 2.0.4"
+    },
+    {
+        "commit_hash": "bc192b586fbb80117461c71610bbe805b83b13b8",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "4d101af01362eb3ff6a9ad3d9594c39c85fad246",
+        "commit_message": "Support for lambdas with marker interfaces\n\nFixes #62"
+    },
+    {
+        "commit_hash": "3701dd546cff67ac8bad0cb8e6d50ca0704265bd",
+        "commit_message": "Made test more generic: check all constant pool entries"
+    },
+    {
+        "commit_hash": "123e3d3222b9e3979ad6b7e059c0353fc2459114",
+        "commit_message": "Release 2.0.5"
+    },
+    {
+        "commit_hash": "ac4a374844eb2af4a6d1b1bfb60b4a55ad2c7550",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "b8c21e43a75776383288b7b3ed42766165f5568b",
+        "commit_message": "Fixed method references to constructors causing VerifyError on Android\n\nAndroid doesn't like a non-empty stack when we return from a method\n\nFixes #67"
+    },
+    {
+        "commit_hash": "c5a82e201e192c43846a1b611d392f28373d2578",
+        "commit_message": "Release 2.0.6"
+    },
+    {
+        "commit_hash": "39d34e289897fb786c979fd4c689bf876b4d7b49",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "54cbd659596f1f7b028a4e7f14154504fbf02f3c",
+        "commit_message": "Use the same FileSystem as the outputDir.\n\nOtherwise `java.nio.file.ProviderMismatchException` can be thrown if it differs from `FileSystems.getDefault()` (which was implicitly used by `Paths.get()`)."
+    },
+    {
+        "commit_hash": "e9fc4948ee3bfb7fd7cdf12e20788f1bb0de07a8",
+        "commit_message": "Add unit tests for Handles class"
+    },
+    {
+        "commit_hash": "e02a05bfb431cab9fa47901e6d72541f66981cea",
+        "commit_message": "Merge pull request #73 from vbauer/handles-tests\n\nAdd unit tests for Handles class"
+    },
+    {
+        "commit_hash": "fd2b562aef6831e9707ee3ef7651d30fcbe9ab0b",
+        "commit_message": "Added a file parameter for file inclusion"
+    },
+    {
+        "commit_hash": "2ee88fb03bdf47b46288637e8545708a2ad5399c",
+        "commit_message": "Fixed the null case of include files, and updated docs"
+    },
+    {
+        "commit_hash": "4cb15a649b5320dbc32e7b053d28ea1abe6fcdb6",
+        "commit_message": "Merge pull request #74 from tkhduracell/master\n\nAdded a file parameter for file inclusion"
+    },
+    {
+        "commit_hash": "7d9941a18db91173133ab12eebaa0fafe0246eee",
+        "commit_message": "Fixed and refactored includedFilesFile"
+    },
+    {
+        "commit_hash": "d3f8a33d9a772006121c74463ad10be059af05f4",
+        "commit_message": "Refactored: prepare for adding classpathFile parameter"
+    },
+    {
+        "commit_hash": "b4a4080a04c04ec0db3f1926d4fe7d7376def62a",
+        "commit_message": "Added classpathFile parameter\n\nFixes #70"
+    },
+    {
+        "commit_hash": "ca49dac3a86cddd47f3b7f1bea9b94579dbe3564",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "7113a8471ecacee7b0c6a8743b46cff759b45395",
+        "commit_message": "Can use alternative parameters instead of required parameters"
+    },
+    {
+        "commit_hash": "fd5b63c7745eeaca99b6b8401611e5cd80d1aa25",
+        "commit_message": "Use classpathFile in the Maven plugin"
+    },
+    {
+        "commit_hash": "45f3a15e7b281f5a99d548caba5bfdfa775827bb",
+        "commit_message": "Refactored: use Joiner instead of loops"
+    },
+    {
+        "commit_hash": "611bd3ce47f03751a8ce2b10b2d3cff94a189068",
+        "commit_message": "Updated project description in help"
+    },
+    {
+        "commit_hash": "689240e35ed3ed75c3fd9d059dfdcece3d256f5e",
+        "commit_message": "Merge pull request #71 from JakeWharton/patch-1\n\nUse the same FileSystem as the outputDir."
+    },
+    {
+        "commit_hash": "665fe6a3f9c15ff67cc2641a2fd8605e9556947d",
+        "commit_message": "Renamed Config to SystemPropertiesConfig"
+    },
+    {
+        "commit_hash": "dee27340074a6a415226d6f70872b465dbd394da",
+        "commit_message": "Extracted Config interface from SystemPropertiesConfig"
+    },
+    {
+        "commit_hash": "c8aee4d97e9ba7d28abfb8ed39921290003cb9df",
+        "commit_message": "Moved Java version description to a shared util"
+    },
+    {
+        "commit_hash": "71a2748fcd5cccbc4f8ec4b19e6f7ddf8debb449",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "6073d0cbdb5d364c6be1843f6fc991154297c342",
+        "commit_message": "Log whether the agent is enabled"
+    },
+    {
+        "commit_hash": "823b0457e18137d6ff911959044939636fdac1d9",
+        "commit_message": "Don't create a companion class when an interface has just a static initialization block because of constant fields\n\nFixes #66"
+    },
+    {
+        "commit_hash": "6155b8fd01ea9335fb0b67b2e890551c26f4546c",
+        "commit_message": "Refactored: moved common helper methods to Flags"
+    },
+    {
+        "commit_hash": "26b2938cbdb116c348827513dd7e3bfc2f9ebc1c",
+        "commit_message": "Maven 3.1 requires Java 5, Maven 3.2 requires Java 6, retrolambda-maven-plugin requires Java 6"
+    },
+    {
+        "commit_hash": "ada90d2283a46dd39dc5507d5b01df60d80813dc",
+        "commit_message": "Docker-based development environment"
+    },
+    {
+        "commit_hash": "34a1c182b7c344d46d2cb98bc451667b8db6d165",
+        "commit_message": "Removed trailing spaces"
+    },
+    {
+        "commit_hash": "b567e19e8e6413e84c9913fc0cad8f9855084a63",
+        "commit_message": "Don't run full tests on release, makes it easier to release on any machine"
+    },
+    {
+        "commit_hash": "dbe9fa570c56a0dc3c1ccb5376cb01cd503a66d4",
+        "commit_message": "Run the most valuable tests first"
+    },
+    {
+        "commit_hash": "60bcc67bcd80a4897f7734f1425f9298787f18c4",
+        "commit_message": "Improved error messages: report which class crashed Retrolambda\n\nRelates to #69"
+    },
+    {
+        "commit_hash": "a1c10ccfc92698ba636172967a5065baf1737986",
+        "commit_message": "Report problematic class only once and let it crash\n\nRelates to #69"
+    },
+    {
+        "commit_hash": "7e26014ac3ace5fe0e7a507c77b4e59581214559",
+        "commit_message": "Just use the internal name in error messages"
+    },
+    {
+        "commit_hash": "abba5ba1ff22d599f6dde6fcb694f95826593178",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "8e6148f938ce242504bc139a5898605ee13ca1f3",
+        "commit_message": "Report which lambda method caused a crash\n\nRelates to #69"
+    },
+    {
+        "commit_hash": "217668857e2856aace1d5d7e129be99150ce143e",
+        "commit_message": "Release 2.1.0"
+    },
+    {
+        "commit_hash": "6371ddaa52262d3e42262ad0a409bf0d435eeb10",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "b8fdfa467de2b61b8e6fa0bdc2b4c79e8bb5576e",
+        "commit_message": "Detect and omit the JVM's lambda factory method."
+    },
+    {
+        "commit_hash": "543960b6e64626968336f6b1c369145d423add4f",
+        "commit_message": "Merge pull request #82 from JakeWharton/jw/remove-jvm-factory-method\n\nDetect and omit the JVM's lambda factory method."
+    },
+    {
+        "commit_hash": "20f959c7b144593262089837657a3c17459d283d",
+        "commit_message": "Refactored"
+    },
+    {
+        "commit_hash": "365b81989333e76915976206073a34c759386e2d",
+        "commit_message": "Test for a bug with pull request #83"
+    },
+    {
+        "commit_hash": "e8623d439723162f4e30e131f66ed28bc6fa6c82",
+        "commit_message": "Remove NEW, DUP instructions when changing NEWINVOKESPECIAL to INVOKESTATIC."
+    },
+    {
+        "commit_hash": "0c13aa4c5420eed780238581a49d5d70ead75fbc",
+        "commit_message": "Rewrite calls to Objects.requireNonNull\n\nrequireNonNull is only available in JDK 7 and above.\n\nStarting in JDK 9, javac uses requireNonNull for synthetic null-checks,\nsee: http://bugs.openjdk.java.net/browse/JDK-8074306\n\nFixes #75"
+    },
+    {
+        "commit_hash": "605a10acf6aec9449ce5792068dd733dc62ab336",
+        "commit_message": "Prepare for releasing as a fork."
+    },
+    {
+        "commit_hash": "83ab4e21c5aebf98ea3f084dd26f487e36c780f2",
+        "commit_message": "Merge remote-tracking branch 'cushon/requirenonnull' into jakes"
+    },
+    {
+        "commit_hash": "fb6101aecd89822b2bac253e9bdd31116cbebf23",
+        "commit_message": "Alter when accessor methods are generated.\n\nFor owned, non-private methods, omit the accessor since the generated class can access the method directly. For non-owned methods, generate the accessor when the method is protected since the generated class will not have access."
+    },
+    {
+        "commit_hash": "0a8093bfea5636477a4324c7a84af4a04defbaa1",
+        "commit_message": "Merge branch 'jw/no-accessor-for-visible-methods' into jakes"
+    },
+    {
+        "commit_hash": "043c4d874788c8eadcd00d1540d23c5c6b39b650",
+        "commit_message": "Merge branch 'jw/remove-new-dup-on-private-ctor' into jakes"
+    },
+    {
+        "commit_hash": "bf932457e45817cdee07f34c8c2059db44848e03",
+        "commit_message": "Skip access method when lambda body method can be promoted."
+    },
+    {
+        "commit_hash": "4ba9700c8e6b3186bf6e5e5e18cde97e447c9856",
+        "commit_message": "Merge branch 'jw/skip-accessors-and-promote-body-methods' into jakes"
+    },
+    {
+        "commit_hash": "374913535af8791eaf64fbb806e23a257742a051",
+        "commit_message": "Version 2.1.0-jake1."
+    },
+    {
+        "commit_hash": "4ccadc890ee1ab2ccd01c863bb514859d82b2ba6",
+        "commit_message": "Prepare next development version."
+    },
+    {
+        "commit_hash": "757247be7cd95fcb4266d673590251ba6cc3100a",
+        "commit_message": "Fix link to Liam's change."
+    },
+    {
+        "commit_hash": "7f54cd156f1e9ef1699d8f8d034d0117d2d27c66",
+        "commit_message": "Change \"though\" to \"through\" in the README (#1)"
+    },
+    {
+        "commit_hash": "52364bca1dd1e07301792f7dccd362cb5209ab74",
+        "commit_message": "Alter when accessor methods are generated.\n\nFor owned, non-private methods, omit the accessor since the generated class can access the method directly. For non-owned methods, generate the accessor when the method is protected since the generated class will not have access."
+    },
+    {
+        "commit_hash": "84177d78004ee0cc4483433e4fdc73f1514e83e9",
+        "commit_message": "Merge branch 'jw/no-accessor-for-visible-methods' into jakes"
+    },
+    {
+        "commit_hash": "66ef0f65b1202aac3f243e3b2ef9afbfde66686b",
+        "commit_message": "Merge branch 'jakes' of https://github.com/JakeWharton/retrolambda into jakes"
+    },
+    {
+        "commit_hash": "c18731cf50764fd5d3e82d4ec19f381d2c84abac",
+        "commit_message": "Prepare version 2."
+    },
+    {
+        "commit_hash": "8c565e0f22a1d182398c98e805345dc2d92c3f01",
+        "commit_message": "Prepare next development version."
+    },
+    {
+        "commit_hash": "ecf068f519c6b9bb1ca840bc69d8e1648608e75f",
+        "commit_message": "Bump version in retrolambdaConfig in README (#2)"
+    },
+    {
+        "commit_hash": "2e320388e087c5a4c84d4189a538425766167b06",
+        "commit_message": "Merge pull request #93 from cushon/requirenonnull\n\nRewrite calls to Objects.requireNonNull"
+    },
+    {
+        "commit_hash": "a8a22bfa41747e7e933efb2dfb8076f7f9ce4b9c",
+        "commit_message": "Upgrade dependencies"
+    },
+    {
+        "commit_hash": "1e35cfc463dfeda40ef1b90ecf4ecc2163a2110c",
+        "commit_message": "Update copyright statement"
+    },
+    {
+        "commit_hash": "afbb2d6b8e23d3612d52284b95f11fe3abb20006",
+        "commit_message": "Higher level tests for Objects.requireNonNull() backporting"
+    },
+    {
+        "commit_hash": "26b6f2959364ca2c0b1eeb87f8b72ae5b3e27c48",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "6daafa575b30cc9e00b3469b7c42e1da94fbd7a8",
+        "commit_message": "Release 2.2.0"
+    },
+    {
+        "commit_hash": "0ac36bbc5904a8d3d6f659cc8a11387b69c6bae8",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "206bd9bcdd8b51d67516293fc482f5c29c415a28",
+        "commit_message": "Project files updated"
+    },
+    {
+        "commit_hash": "a8a5b9b2e551073c9604f2f1620fcb4c1c8e2683",
+        "commit_message": "Merge branch 'jakes' of github.com:JakeWharton/retrolambda"
+    },
+    {
+        "commit_hash": "7ac6ff08be7f734ce5f9227562bf9a59b60840e8",
+        "commit_message": "Extract helper method"
+    },
+    {
+        "commit_hash": "e9217764ec4f38e66f3c16cfb4ba730db207e271",
+        "commit_message": "Fix fragile test"
+    },
+    {
+        "commit_hash": "bc7d1e407b9e7d9426cbcdd32d0a6ec55bd94d5d",
+        "commit_message": "Refactor"
+    },
+    {
+        "commit_hash": "205e7e04b8de5d6d80525da4e6909a774254d906",
+        "commit_message": "Fix deprecated API usage"
+    },
+    {
+        "commit_hash": "ab42d79b605e476299f41c660af71caba6622ec2",
+        "commit_message": "Refactor: fewer guinea pigs"
+    },
+    {
+        "commit_hash": "05baa1bae1ee79f4292233a74a845146971cb987",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "806ac902ab3eae61ce8293f6bb9695d674a0b3c8",
+        "commit_message": "Release 2.3.0"
+    },
+    {
+        "commit_hash": "790a9b2c73c309e190deba6657750c8525e1ea80",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "93ff6adb29732dc267401dd521bbab51a1fa40d0",
+        "commit_message": "Updated project files"
+    },
+    {
+        "commit_hash": "f0eea0d588bc8850e1e0d79ee5e8543669b79d32",
+        "commit_message": "Support method references to sibling classes in the default package."
+    },
+    {
+        "commit_hash": "fa0f5a5480c53613b663f3e7d13c0c0401867365",
+        "commit_message": "Issue #109: Add unit test to make sure child lambdas don't hide parent lambdas."
+    },
+    {
+        "commit_hash": "567328d58ec33ab55bae05bc2e640aba3f629f13",
+        "commit_message": "Fixed NPE in ClassInfo accepting java.lang.Object"
+    },
+    {
+        "commit_hash": "15ee363dd9639dc321d4e080bdc527fc2aaac620",
+        "commit_message": "Remove LambdaForm.Hidden annotation from emitted code"
+    },
+    {
+        "commit_hash": "14da0999e07fc6488c88764ea881f211582f545f",
+        "commit_message": "Merge pull request #118 from Yarikx/remove_lambda_form_hidden_annotation\n\nRemove LambdaForm$Hidden annotation from emitted code"
+    },
+    {
+        "commit_hash": "cc74b75b49f2a3bc44753cdcb2765021d7e3b599",
+        "commit_message": "Refactor"
+    },
+    {
+        "commit_hash": "ac69680f979bea2959cbd9ca72e6ada1c88c453f",
+        "commit_message": "Fix the removal of java/lang/invoke/LambdaForm$Hidden on Java 7"
+    },
+    {
+        "commit_hash": "03127b1f8cf9c86825769d80fb95805f0aafc234",
+        "commit_message": "Remove java/lang/invoke/LambdaForm$Hidden only from lambda classes; they shouldn't appear elsewhere"
+    },
+    {
+        "commit_hash": "6fb044f63b452ef7259c321528e392dc9b19a4f4",
+        "commit_message": "Update release notes"
+    },
+    {
+        "commit_hash": "1b1c6077f7432497d683cc32f5f0086fbd4653e2",
+        "commit_message": "Merge pull request #106 from JakeWharton/jw/default-package\n\nSupport method references to sibling classes in the default package."
+    },
+    {
+        "commit_hash": "64215cb64ce6aac4a3e17d7d96bace943029ed0a",
+        "commit_message": "Refactor"
+    },
+    {
+        "commit_hash": "d2b0feb4a556766b82bad850f3642de865602c58",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "5069d3087437acc86c2cdfc1e88e8b0e5856f17f",
+        "commit_message": "Merge pull request #113 from lyubomyr-shaydariv/master\n\nFix NullPointerException in ClassInfo accepting java.lang.Object"
+    },
+    {
+        "commit_hash": "b734ee8115af28e0337a00c50ba9f4b4f40728e0",
+        "commit_message": "Update release notes"
+    },
+    {
+        "commit_hash": "5ec03ca59ea0e6994a13154c93b4ed7ce9a9810d",
+        "commit_message": "Merge branch 'master' into issue-109-unit-test"
+    },
+    {
+        "commit_hash": "abd862df3ce84aeefbc1ca7aeeb20b6b645da016",
+        "commit_message": "Merge pull request #112 from caarmen/issue-109-unit-test\n\nIssue #109: Add unit test to make sure child lambdas don't hide parent lambdas"
+    },
+    {
+        "commit_hash": "ff659f1d062f2384c29b736759d07fbf154e5a77",
+        "commit_message": "Revert configuration change by fa0f5a5480c53613b663f3e7d13c0c0401867365"
+    },
+    {
+        "commit_hash": "a9bed1492ccb81afdada7fd27025ad35ea91d08a",
+        "commit_message": "Better test for issue #109"
+    },
+    {
+        "commit_hash": "4bb6440322e4e248df883db1904a81e2c71c1d50",
+        "commit_message": "Use a logging framework"
+    },
+    {
+        "commit_hash": "6907b5dc0a1553e5d835605e5bb227d2f0a6ae0c",
+        "commit_message": "Add \"quiet\" parameter\n\nCloses #103"
+    },
+    {
+        "commit_hash": "1b2d49a4d810a782d6d3d5dc860ee2f0f50eb13c",
+        "commit_message": "Release 2.4.0"
+    },
+    {
+        "commit_hash": "9af656ad59d18160169564d1e3fa49ea268d6310",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "88efc5298d78d868bf01d20f0c36aeb5cc60ad3f",
+        "commit_message": "Convert private instance lambda body methods into non-private static methods, to avoid them being overridable from subclasses\n\nFixes #109"
+    },
+    {
+        "commit_hash": "d77e2ca6d1a8a3362a698e77eedc9005cacb2751",
+        "commit_message": "Mention tools to detect the use of Java 8 APIs\n\nCloses #107"
+    },
+    {
+        "commit_hash": "fedb670c0301faadaafd20b08a46e9be2d6ac835",
+        "commit_message": "Document that the Maven plugin requires Maven 3\n\nCloses #96"
+    },
+    {
+        "commit_hash": "62e89c3b2b637c24d9f793f23ad0ca4372521499",
+        "commit_message": "Release 2.5.0"
+    },
+    {
+        "commit_hash": "78d383309ae39b529beb1d9d6f2bc75ad7bd6c2a",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "db04059b971fa53f7746fba3ec43c5383d00dd0b",
+        "commit_message": "Test for reproducing issue #121"
+    },
+    {
+        "commit_hash": "85b22b3ace8cc5956c19f49fbc255b4e0a9421f4",
+        "commit_message": "Weaker access inspection is too noisy"
+    },
+    {
+        "commit_hash": "03f7c2d2e46e2625a5cafc36479be3705dc1a5b5",
+        "commit_message": "#122 - consider module-info.class a resource, as it does not need conversion at the moment"
+    },
+    {
+        "commit_hash": "006a423ee3005796cd1c6be4f3c011bc81890da7",
+        "commit_message": "Move ClassAnalyzer to top level package; it's not specific to just interfaces"
+    },
+    {
+        "commit_hash": "6d5a4c1fd9d094452cfde2096a81ab82a0c1c9ce",
+        "commit_message": "Update the enclosing method references for (anonymous) classes inside lambda expressions\n\nFixes #121"
+    },
+    {
+        "commit_hash": "10cb06ec6a9f5a1d801f2bcf4609a0daf706ef37",
+        "commit_message": "Release 2.5.1"
+    },
+    {
+        "commit_hash": "6039108c610f807a94607e947c541a90bb0ba183",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "04c3533811a200ebf076117fbe102e2962960d3a",
+        "commit_message": "Include JDK 9 in the dev tools image"
+    },
+    {
+        "commit_hash": "7f8eadce8ae4063fd0e688daed156aa762b00591",
+        "commit_message": "Print the current JVM's version on startup"
+    },
+    {
+        "commit_hash": "56d4e7c5e5a0f83a7836e15d3fac351e84db1f33",
+        "commit_message": "Tag the Docker image with current date"
+    },
+    {
+        "commit_hash": "e89645276159587cd2258e092dc0ddae3a0c4336",
+        "commit_message": "Upgrade to IDEA 2017.3"
+    },
+    {
+        "commit_hash": "79436907a77d5703d457e48ec6a570753e37524b",
+        "commit_message": "Avoid having to run Retrolambda on itself by extracting a Java 6 compatible retrolambda-api module for the Maven plugin to compile against\n\nFixes #137"
+    },
+    {
+        "commit_hash": "c534b941226060e6421a244835e65523ab748795",
+        "commit_message": "Remove duplicate parameter mappings"
+    },
+    {
+        "commit_hash": "f6e2d0df13c1bfebff459f224bde01f53c777c55",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "84f372a5b922ddc2432cd8c34d88db672f7095b6",
+        "commit_message": "Consider `module-info.class` as a resource and do not try backporting it\n\nFixes #122"
+    },
+    {
+        "commit_hash": "69e424c71ecfe815ce1c4534fce82806b0612a8b",
+        "commit_message": "Release 2.5.2"
+    },
+    {
+        "commit_hash": "fae284b3ac3e9cb57f59e60edc57940a4dd0cef4",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "0e1957358426d6a14da913803d882702fb43004b",
+        "commit_message": "Rename the site's directory to avoid macOS thinking it's a Pages document"
+    },
+    {
+        "commit_hash": "f9a14aacea57da9fdf0ad2772f88bd077523e293",
+        "commit_message": "Read the constant pool using BCEL to avoid hacks or re-inventing the wheel"
+    },
+    {
+        "commit_hash": "eca1e56dee48affcf9279365da8d528b50061768",
+        "commit_message": "Lambda class has no source file information, so copy it from the enclosing class\n\nFixes #131"
+    },
+    {
+        "commit_hash": "fa120d0494bb8ed09e7c0a24cdd431f8123be8e4",
+        "commit_message": "Release 2.5.3"
+    },
+    {
+        "commit_hash": "29e39c779a322dcaca9d4c592a67525ad989c535",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "cdee3ac8e7a005637936252c595d737d2877815c",
+        "commit_message": "Java 9 and higher are not supported"
+    },
+    {
+        "commit_hash": "89e7debc531847cd0236292d2c027257c0f2628e",
+        "commit_message": "Fix regression in Maven plugin; use classpathFile\n\nFixes #141"
+    },
+    {
+        "commit_hash": "8475def9412ed31ec7b59a075ff2d925b16f71c9",
+        "commit_message": "Release 2.5.4"
+    },
+    {
+        "commit_hash": "54ac5e8c79825f20462be7ce344649913fe134d1",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "5afee5586c635ebc629e94fcd377a34c6ac9a0d3",
+        "commit_message": "GitHub account renamed from orfjackal to luontola"
+    },
+    {
+        "commit_hash": "7e682a66e6a3d5924104c3bdad2561e5a029c5e5",
+        "commit_message": "PoC"
+    },
+    {
+        "commit_hash": "410a7a5a72bddd8ca784c43502c32ca11ad1daba",
+        "commit_message": "Introduced retrolambda.javacHacks to work around javac issues"
+    },
+    {
+        "commit_hash": "d605bfe72d62162bc1de164f53121559c7c33d86",
+        "commit_message": "Added retrolambda.javacHacks support to the Maven plugin"
+    },
+    {
+        "commit_hash": "8fae5c839ec168201e16c62bc40b428cbcca609b",
+        "commit_message": "Merge pull request #143 from lyubomyr-shaydariv/javac-bug\n\nAdded retrolambda.javaHacks configuration option"
+    },
+    {
+        "commit_hash": "a441ee0a0d22f178beecf235e271e73275ce28c9",
+        "commit_message": "Test to reproduce the bug fixed in PR 143"
+    },
+    {
+        "commit_hash": "e5f6758ddfecdae0f30aba7a1c1660036b306e19",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "ea49b21357dbf8bdd08714f87ac75e5a61c8582f",
+        "commit_message": "Refactor: avoid the EnhancedClassReader type spreading through the codebase"
+    },
+    {
+        "commit_hash": "f2ecfe7956edec475fbe52659054992830c6f856",
+        "commit_message": "Always print the status of all parameters"
+    },
+    {
+        "commit_hash": "390a1d933f419d49045c5e82b4ba0730f7396df8",
+        "commit_message": "Release 2.5.5"
+    },
+    {
+        "commit_hash": "1f26f13c98cd57ecc56a5f8afa4c56e7b98bfa18",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "2b181dc3b0509c4b0b002197b9b13de57540f9c4",
+        "commit_message": "Make Java agent work with JDK 9+\n\nStarting with JDK 9, class file transformers are not invoked for\ngenerated lambda classes anymore [1]. This commit makes Retrolambda\npatch JDK's InnerClassLambdaMetafactory instead, getting the bytes\ndirectly from its spinInnerClass method. This way, one can run\nRetrolambda with both Java 8 as well as Java 11 (input classes must\nstill be compiled to Java 8 of course).\n\n[1] http://mail.openjdk.java.net/pipermail/core-libs-dev/2016-January/038199.html"
+    },
+    {
+        "commit_hash": "df5e002cdc661cf9bf491c0fc2cb4aefe4aae5ea",
+        "commit_message": "Include JDK 10 & 11 in the container"
+    },
+    {
+        "commit_hash": "6c5e85ed21e539d55fb9916f3efb42cc8f6d08af",
+        "commit_message": "Upgrade commons-lang3 to fix SystemUtils.isJavaVersionAtLeast crashing on Java 10 & 11\n\norg.apache.maven.plugin.PluginExecutionException: Execution default of goal net.orfjackal.retrolambda:retrolambda-maven-plugin:2.5.6-SNAPSHOT:process-main failed.\n\tat org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:143)\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)\n\t... 19 more\nCaused by: java.lang.NullPointerException\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1626)\n\tat net.orfjackal.retrolambda.maven.ProcessClassesMojo.validateFork(ProcessClassesMojo.java:146)\n\tat net.orfjackal.retrolambda.maven.ProcessClassesMojo.execute(ProcessClassesMojo.java:119)\n\tat net.orfjackal.retrolambda.maven.ProcessMainClassesMojo.execute(ProcessMainClassesMojo.java:17)\n\tat org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)\n\t... 20 more"
+    },
+    {
+        "commit_hash": "cdb21e902c6dd4afd44f68b4b91b340e2504044a",
+        "commit_message": "Test that the Java agent works on all new Java versions"
+    },
+    {
+        "commit_hash": "f099ac0ac6caa74e28ab840a70b8532653f718a4",
+        "commit_message": "Merge pull request #148 from dmitri-gb/master\n\nMake Java agent work with JDK 9+"
+    },
+    {
+        "commit_hash": "ca14692ddc6cfa5a5e6c708cd7238fc61bac75e5",
+        "commit_message": "Report an error if InnerClassLambdaMetafactory has an incompatible change"
+    },
+    {
+        "commit_hash": "791e72b7e23699e9496bb58cb932ff7e90babffa",
+        "commit_message": "Fix Java 6 incompatibility"
+    },
+    {
+        "commit_hash": "41d36b6241cd72553961deb437c5c32dea7ea8d8",
+        "commit_message": "Fix Java 6 incompatibility"
+    },
+    {
+        "commit_hash": "c2bab2836a1e392fea08d5aa7a0e29ccf3604c5a",
+        "commit_message": "Release notes"
+    },
+    {
+        "commit_hash": "bc37bcfc98b50905ed480ad1e87e1740fce38be6",
+        "commit_message": "Release 2.5.6"
+    },
+    {
+        "commit_hash": "3f1cdde128eb1b3a563bbdce9f97375fc0894d79",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "084242558725981d4e9305ef06f408f42e73f4bc",
+        "commit_message": "Run tests also on Java 12 and 13"
+    },
+    {
+        "commit_hash": "e62c38bf94405b696f60a0ee1a1ef46a2948d732",
+        "commit_message": "The hack for modifying a final field doesn't work on Java 12 and newer\n\norg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal net.orfjackal.retrolambda:retrolambda-maven-plugin:2.5.7-SNAPSHOT:process-main (default) on project end-to-end-tests: Failed to run Retrolambda\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)\n\tat org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)\n\tat org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)\n\tat org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)\n\tat org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)\n\tat org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)\n\tat org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)\n\tat org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)\n\tat org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)\n\tat org.apache.maven.cli.MavenCli.main(MavenCli.java:160)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)\n\tat org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)\nCaused by: org.apache.maven.plugin.MojoExecutionException: Failed to run Retrolambda\n\tat net.orfjackal.retrolambda.maven.ProcessClassesMojo.processClassesInCurrentProcess(ProcessClassesMojo.java:161)\n\tat net.orfjackal.retrolambda.maven.ProcessClassesMojo.execute(ProcessClassesMojo.java:133)\n\tat net.orfjackal.retrolambda.maven.ProcessMainClassesMojo.execute(ProcessMainClassesMojo.java:17)\n\tat org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)\n\tat org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)\n\t... 19 more\nCaused by: java.lang.reflect.InvocationTargetException\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat net.orfjackal.retrolambda.maven.ProcessClassesMojo.processClassesInCurrentProcess(ProcessClassesMojo.java:157)\n\t... 23 more\nCaused by: java.lang.IllegalStateException: Cannot initialize dumper; unexpected JDK implementation. Please run Retrolambda using the Java agent (enable forking in the Maven plugin).\n\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.install(LambdaClassDumper.java:38)\n\tat net.orfjackal.retrolambda.Retrolambda.run(Retrolambda.java:67)\n\tat net.orfjackal.retrolambda.Retrolambda.run(Retrolambda.java:25)\n\t... 28 more\n\tSuppressed: java.lang.RuntimeException: java.lang.IllegalAccessException: class net.orfjackal.retrolambda.lambdas.LambdaClassDumper cannot access a member of class java.lang.invoke.InnerClassLambdaMetafactory (in module java.base) with modifiers \"private static final\"\n\t\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.uninstall(LambdaClassDumper.java:48)\n\t\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.close(LambdaClassDumper.java:55)\n\t\tat net.orfjackal.retrolambda.Retrolambda.run(Retrolambda.java:102)\n\t\t... 29 more\n\tCaused by: java.lang.IllegalAccessException: class net.orfjackal.retrolambda.lambdas.LambdaClassDumper cannot access a member of class java.lang.invoke.InnerClassLambdaMetafactory (in module java.base) with modifiers \"private static final\"\n\t\tat java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)\n\t\tat java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:639)\n\t\tat java.base/java.lang.reflect.Field.checkAccess(Field.java:1075)\n\t\tat java.base/java.lang.reflect.Field.set(Field.java:778)\n\t\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.uninstall(LambdaClassDumper.java:46)\n\t\t... 31 more\nCaused by: java.lang.NoSuchFieldException: modifiers\n\tat java.base/java.lang.Class.getDeclaredField(Class.java:2416)\n\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.makeNonFinal(LambdaClassDumper.java:59)\n\tat net.orfjackal.retrolambda.lambdas.LambdaClassDumper.install(LambdaClassDumper.java:32)\n\t... 30 more"
+    },
+    {
+        "commit_hash": "368ffa01d4068c97cea283ed1ef053af4902d55c",
+        "commit_message": "Upgrade ASM, fixes Java 13 in fork mode\n\nCloses #154"
+    },
+    {
+        "commit_hash": "41ddb5bb368a866acdec2a70c617dfaf17a0648a",
+        "commit_message": "Homebrew installs gnu-sed as gsed"
+    },
+    {
+        "commit_hash": "6da88d989efeb9f7413203dc3bc74ed614301307",
+        "commit_message": "Add \"set -eu\" and remove \"local\" to make the functions exit on error"
+    },
+    {
+        "commit_hash": "a09f48b9536a350495310c8d73822181b05b57c0",
+        "commit_message": "Release 2.5.7"
+    },
+    {
+        "commit_hash": "bc58c431e1f92c0fd25234b8e9436c2582698974",
+        "commit_message": "Prepare for next development iteration"
+    },
+    {
+        "commit_hash": "fbd82c9a023b363a2cb38afd8dad3fd8fc134ada",
+        "commit_message": "Update Android instructions and links"
+    }
+]

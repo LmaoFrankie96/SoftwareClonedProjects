@@ -1,0 +1,2562 @@
+[
+    {
+        "commit_hash": "3296c3c372bc446995b593542617a57af351164a",
+        "commit_message": "initial commit"
+    },
+    {
+        "commit_hash": "43a6b7b3b31d70302640de36f72d489786df186b",
+        "commit_message": "Go go go"
+    },
+    {
+        "commit_hash": "042f115ee859a62fe505820a5e0c4818a90af112",
+        "commit_message": "Update readme with build and run instructions"
+    },
+    {
+        "commit_hash": "f48cb41adcef0081cf1fa0c355bf29ff7bbac500",
+        "commit_message": "Add domain classes and check page"
+    },
+    {
+        "commit_hash": "40cabe6000be1cc99bf2b98e7f6afc6016ba9dde",
+        "commit_message": "Hook up subscriptions"
+    },
+    {
+        "commit_hash": "b12dead8486cfc8e88815d5e97c1a1ae690a7f15",
+        "commit_message": "Tweak the readme"
+    },
+    {
+        "commit_hash": "a2b14e9fe63647f33887025e8826134ac5c0632e",
+        "commit_message": "Add subscription creation to check page"
+    },
+    {
+        "commit_hash": "7d8960f0e1926f2b9321101b60b2ce601f73988d",
+        "commit_message": "Merge branch 'master' of github.com:scobal/graphite-siren"
+    },
+    {
+        "commit_hash": "61bf9c25588a46b4f9d8ca02df31cc9b57f63c28",
+        "commit_message": "Add warn and error levels to checks"
+    },
+    {
+        "commit_hash": "9a5aefbe838da5fd2309edfdc093cf05803edb86",
+        "commit_message": "Add update fields to check page"
+    },
+    {
+        "commit_hash": "8e72ca2b9eed8465e07269a0ddda6b3ab24b68b6",
+        "commit_message": "Make update of checks work"
+    },
+    {
+        "commit_hash": "82c9a73fa9bf930d2df8641795d832b87b8290c9",
+        "commit_message": "Add alert type so we can see if the alert is good or bad"
+    },
+    {
+        "commit_hash": "09a2499eb749fee9848b9bc241f6dd1a6c8c4eca",
+        "commit_message": "Tweak to alert creation. Move WEB to QUIET alert types"
+    },
+    {
+        "commit_hash": "bea134ff208ed0cf0a54d7b777110473173fb3cc",
+        "commit_message": "Add basic class for scheduling checks"
+    },
+    {
+        "commit_hash": "4c91c92ef2a0f67e0e9fd4d1ea36299236e1df34",
+        "commit_message": "Very crude scheduling and target checking"
+    },
+    {
+        "commit_hash": "dc8b7876350e7deb4ce00c623a76fe0912ea1142",
+        "commit_message": "Add enabled flag to check"
+    },
+    {
+        "commit_hash": "a5beb34511ee0ac6774c473324f361678bff2f72",
+        "commit_message": "Extract method"
+    },
+    {
+        "commit_hash": "067f62019bd88dfc67ac76324682a086b1aa5310",
+        "commit_message": "Amending readme"
+    },
+    {
+        "commit_hash": "eb8418154109995c18b4feef9ad246500ec19103",
+        "commit_message": "Remove quiet subscription type"
+    },
+    {
+        "commit_hash": "b1072223f6717ba526ef45eca4f5efea46273126",
+        "commit_message": "Merge branch 'master' of github.com:scobal/graphite-siren"
+    },
+    {
+        "commit_hash": "ef449ca43861b973710fdc60cf9d9cfc5de1c6ba",
+        "commit_message": "Gargh crockford"
+    },
+    {
+        "commit_hash": "a6d69f85e5654cae4dcf45a2a2fcc2c8f61b9410",
+        "commit_message": "Remove nagios subscription type"
+    },
+    {
+        "commit_hash": "fd6e292d0bea163c8981b5b0c2979031e6e98922",
+        "commit_message": "Send notification when error condition is met"
+    },
+    {
+        "commit_hash": "16d754f07712154a1c5364bdd5696d88d773fa19",
+        "commit_message": "Actually sends email"
+    },
+    {
+        "commit_hash": "2d6748e2e3465c2b908c1463abacf56736b4e9dc",
+        "commit_message": "Create the mail sender without app context"
+    },
+    {
+        "commit_hash": "1cafc750f11ede023dabd364d2758263607cdd29",
+        "commit_message": "Add default behaviour"
+    },
+    {
+        "commit_hash": "ba1d26a511eb3d8a976ff3fe31ac863abd2f9fb8",
+        "commit_message": "Rename maven modules to seyren"
+    },
+    {
+        "commit_hash": "666b6ee768b0f6e22b1ad16c3053fa7d2be1cc6f",
+        "commit_message": "Remove graphite-siren references"
+    },
+    {
+        "commit_hash": "201514686cb65e3c73ac7b2b32f36d10ec0cb2c6",
+        "commit_message": "Move package names to seyren"
+    },
+    {
+        "commit_hash": "9e345981fbda6247b98c291ab89977d9175e98f3",
+        "commit_message": "Hopefully rename is now complete"
+    },
+    {
+        "commit_hash": "cb9dbcfdd85ff0813428d24d77b40037eb249705",
+        "commit_message": "Hook up to nokia graphite"
+    },
+    {
+        "commit_hash": "9d840ed54e1170fa08ef60a8637233275ace8388",
+        "commit_message": "Add graphite graphs to check page"
+    },
+    {
+        "commit_hash": "9cbe207c595570707a0b4ea21b659c1b7b4361ca",
+        "commit_message": "Issue 6: Add correct fromState and improve logic around when we should raise alerts and notifications"
+    },
+    {
+        "commit_hash": "54f8026eca5ff6b7efde668e6f30abbcbc4d99f3",
+        "commit_message": "Add day choices to subscriptions"
+    },
+    {
+        "commit_hash": "efd8b898c904f71ec2cd518ad6d88ac69f2ff2d6",
+        "commit_message": "Issue 10: Add subscription by days (not by time yet)"
+    },
+    {
+        "commit_hash": "7b0cd0fd1c20a94f4057c1ae603984d2ff6f79cc",
+        "commit_message": "Issue 7: Handle the case where error level is below warn level"
+    },
+    {
+        "commit_hash": "623750cc3ba63459a3ac7abe62954dd007c67dfa",
+        "commit_message": "Issue 11: Convert error, warn and alert values to double"
+    },
+    {
+        "commit_hash": "8abca680e9fd90fadaf38a6b4cbbb4c8a5b18352",
+        "commit_message": "Hopefully extracted alerts to their own collection"
+    },
+    {
+        "commit_hash": "90defc63fd5ab7ef5cb9da80104da4dff29bf638",
+        "commit_message": "Fix problem with fromState and check.state"
+    },
+    {
+        "commit_hash": "7a71b8390eac0b1080770431ec37a87538f994d3",
+        "commit_message": "Create a front page of errors and warnings"
+    },
+    {
+        "commit_hash": "b1fea99e6c784bb8cc1277380aeec30ecf5470e5",
+        "commit_message": "Add a couple of acceptance tests for api resources"
+    },
+    {
+        "commit_hash": "999f4e1040fd452e15bf87644476a3b69efef839",
+        "commit_message": "Issue 10: Add time constaint to subscriptions"
+    },
+    {
+        "commit_hash": "ce2a9e94569d20d36c991348141e8d25906fe84c",
+        "commit_message": "Rework notification service to not require inheritence in domain model"
+    },
+    {
+        "commit_hash": "989bf50a6765f4878d94aaaa6bfcd8edf61b9cd5",
+        "commit_message": "Refactor some of the packages"
+    },
+    {
+        "commit_hash": "0b4993eaf9a04f167e42491507eca926490ada5c",
+        "commit_message": "Remove metrics (possibly temporarily)"
+    },
+    {
+        "commit_hash": "d8876a844dbd5f69813656974eeeb90a04f1ca27",
+        "commit_message": "Bug in email service using alert.target by mistake"
+    },
+    {
+        "commit_hash": "29d5e789de8cb3c382f6527dcadac5d49e6f1264",
+        "commit_message": "Reformatting and Java Mail"
+    },
+    {
+        "commit_hash": "97c84d4b67e44ce9246b74f65863693e9c005212",
+        "commit_message": "Add delete to subscription ui"
+    },
+    {
+        "commit_hash": "7b915da67cfd3cc399c377d631838db3a0b9951d",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "a9f37f4a9af9dadcbddce9ab00f6ef3a76e332ca",
+        "commit_message": "Make CheckScheduler multi-threaded (#3)"
+    },
+    {
+        "commit_hash": "c638cc7bf88aa4a2a77f5251052017906576e740",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren\n\nConflicts:\n\tseyren-core/src/main/java/com/seyren/core/service/checker/GraphiteTargetChecker.java"
+    },
+    {
+        "commit_hash": "6bbab4f4c9a90d46cdf1a0011b4f41e3e67b05c8",
+        "commit_message": "Bit of refactoring on email sending"
+    },
+    {
+        "commit_hash": "6ec0a417c8a185966823ce4c936ee68b45499f67",
+        "commit_message": "Rename mail sender"
+    },
+    {
+        "commit_hash": "95ecca47b908e8d59e8703cc06b7474e8a5aac5a",
+        "commit_message": "Refactor email to be mutable"
+    },
+    {
+        "commit_hash": "03c7fa9471473ea83e00cfc21ff9e88463b80167",
+        "commit_message": "Refactor Graphite URL into environment variable"
+    },
+    {
+        "commit_hash": "0aedea4d3ad7ca4ab76695d5b365480318018257",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "8a7516fa0a899c5e301c4df646a0fb8a580fb5de",
+        "commit_message": "Add environment variables to readme"
+    },
+    {
+        "commit_hash": "3b9e2aec72b049579cca31b2a3f6a062925f47f7",
+        "commit_message": "Move readme around"
+    },
+    {
+        "commit_hash": "b1d84b70dc66d68188eef11b41a6098e22c93180",
+        "commit_message": "Refactor CheckScheduler"
+    },
+    {
+        "commit_hash": "937bb4fd91ce09ea11d9c718650b23e1e72b0ac4",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "890ddaea0bd4ff91b91a75e27350c7e782347e0d",
+        "commit_message": "Remove EmailAddress"
+    },
+    {
+        "commit_hash": "3a4f24c580c00dfb3d7f681ce47644a350311775",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "c802fe280c9f6b4a8150aedd74381f22fdadb8b7",
+        "commit_message": "tick tock"
+    },
+    {
+        "commit_hash": "7a63c6ae407b41dfaee29b61279ff8b187da20d2",
+        "commit_message": "Remove SMS from subscription types"
+    },
+    {
+        "commit_hash": "6947dd0768f8558f99ebbcc3d177811d789f043f",
+        "commit_message": "Add velocity templating into email"
+    },
+    {
+        "commit_hash": "d98b7bf9e04ac6bd3384b945ea83c9be065a9bb8",
+        "commit_message": "Add paging to alerts server side"
+    },
+    {
+        "commit_hash": "3181b2891b8b9c26a336a7fcbad4bd9b47a8bbde",
+        "commit_message": "Add basic paging to ui"
+    },
+    {
+        "commit_hash": "105a9c1694ca676caad0c26dd3e4a96f4873ed97",
+        "commit_message": "Improve alert paging"
+    },
+    {
+        "commit_hash": "f1b1c7207e0f8fb23d667cecb388fe12b6b86a39",
+        "commit_message": "Allow disabling of subscriptions (#14)"
+    },
+    {
+        "commit_hash": "bcb7eb8befda67f7d27e831e6d21584fab063ba2",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren\n\nConflicts:\n\tseyren-web/src/main/webapp/html/check.html"
+    },
+    {
+        "commit_hash": "8e0a6a49a08351610099bf40f73119cd514ed507",
+        "commit_message": "Issue 15: Auto update alerts on check page"
+    },
+    {
+        "commit_hash": "c25effff91cafeb73eec13f5f6393cc5dbe48714",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "3814c7e209e64448703665bb88cc3cd70f48dd2f",
+        "commit_message": "Allow creation of disabled subscriptions (#14)"
+    },
+    {
+        "commit_hash": "599b402e80e5ce0159924576840409900712a333",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "d05480c8f74e05f93ec8c00b49f3b1accb09c00e",
+        "commit_message": "Don't actually notify a subscription when it's disabled (#14)"
+    },
+    {
+        "commit_hash": "43915c983dcbc967745f77acfd8d49969fad5c36",
+        "commit_message": "Handle zero alerts better"
+    },
+    {
+        "commit_hash": "cbc097abd068868cf981b2d9ea4db75f35bcd785",
+        "commit_message": "Add polling to home page"
+    },
+    {
+        "commit_hash": "1c43540c778b48769cfb2614a3e4c273ce83de00",
+        "commit_message": "Add enabled checkbox to home and checks"
+    },
+    {
+        "commit_hash": "efe420152da8a475d9db9b79d473889adf90b385",
+        "commit_message": "Add autorefresh to checks page"
+    },
+    {
+        "commit_hash": "94a272bd80cab9c612a38785270a878200e771e2",
+        "commit_message": "Add default message to show when no subscriptions exist (#21)"
+    },
+    {
+        "commit_hash": "068c494b8f0b037f71ac2cd718d01022e23ad8c8",
+        "commit_message": "Little refactor"
+    },
+    {
+        "commit_hash": "605c5a080a593792d29012317fee4ddb9a1dded3",
+        "commit_message": "Rename mongo connection url environment var"
+    },
+    {
+        "commit_hash": "e96e6a3addd93ad57fa0c60a9f535c1d4da15154",
+        "commit_message": "Rename acceptance tests"
+    },
+    {
+        "commit_hash": "1487f76af00d42d2891d2c2e6d19265b857743ca",
+        "commit_message": "Readme updates"
+    },
+    {
+        "commit_hash": "5339635750ca31345e7c073ff3fad7abb5bc0b44",
+        "commit_message": "Add brief description to readme"
+    },
+    {
+        "commit_hash": "221d2e31c0df56b209977d114c9e28ae17e9f254",
+        "commit_message": "Remove :"
+    },
+    {
+        "commit_hash": "5c4cbf4c618701250710b73e50c1c9804d96975b",
+        "commit_message": "Add seyren pronounciation"
+    },
+    {
+        "commit_hash": "d67f9378d23800807e5dd3c7b761d85ea959ab48",
+        "commit_message": "Use mongo for paging"
+    },
+    {
+        "commit_hash": "a14960986688280bad74cc9e816da72535f9e2e4",
+        "commit_message": "Remove Procfile :)"
+    },
+    {
+        "commit_hash": "4b064dd13f142fbb336508ef477a69a30e75c75e",
+        "commit_message": "Try adding image to readme"
+    },
+    {
+        "commit_hash": "b478181fee453edf8e323c9ee1e941efe2857be1",
+        "commit_message": "Screenshots"
+    },
+    {
+        "commit_hash": "fc07089eaaf73577f6b0eb6889069a28f4844dbb",
+        "commit_message": "New screenshots"
+    },
+    {
+        "commit_hash": "f7a3260bbfe02871d265e1015c19d26d5a3e897e",
+        "commit_message": "just go for one screenshot"
+    },
+    {
+        "commit_hash": "d90ee5e17ce4a6e3635e53f78a96d99cf6d345b5",
+        "commit_message": "Add apache license files"
+    },
+    {
+        "commit_hash": "c8eb3fdcc239b9948357f2f9a98a0a867ee1c716",
+        "commit_message": "Add license plugin"
+    },
+    {
+        "commit_hash": "c639f3274329ea53a3023a5a2ee948a21fa6c27a",
+        "commit_message": "Add contact email address"
+    },
+    {
+        "commit_hash": "9dbd978e887e6829d039b94e16eab09ed0b08028",
+        "commit_message": "Add pre-reqs"
+    },
+    {
+        "commit_hash": "c70f3a2137fa5c1210b7d77b745ce1ceb244fbf9",
+        "commit_message": "Adjust license"
+    },
+    {
+        "commit_hash": "82682a1acb56f45817e01909ea5cea472566b479",
+        "commit_message": "Formatting"
+    },
+    {
+        "commit_hash": "9fd11f1dbead08b7f2ab26b01693b4c4c408593f",
+        "commit_message": "Bump bootstrap to 2.0.3"
+    },
+    {
+        "commit_hash": "ca0aef001ce128be3bca2a06f866171e1c1627f6",
+        "commit_message": "Rerun license plugin with new license file"
+    },
+    {
+        "commit_hash": "8f9a5823c9c11328621b52bb33995e10de12ae45",
+        "commit_message": "Some more acceptance testing around checks"
+    },
+    {
+        "commit_hash": "1ad4a91c52355c39b55fb3dd7be281b71156cf52",
+        "commit_message": "Rename acceptance tests to *AT in pom"
+    },
+    {
+        "commit_hash": "da80bd305fc3938f5ef2d88fb243f31adb6dc936",
+        "commit_message": "Add wrapper object to api responses"
+    },
+    {
+        "commit_hash": "c76bbf3e2eb5e89c8dedc12428c227acd8ac0fd7",
+        "commit_message": "Setup code for better paging"
+    },
+    {
+        "commit_hash": "4ec2ccc0c97e757caa6dd59bd2a8396e0272abcf",
+        "commit_message": "Hook up new paging in ui, #25"
+    },
+    {
+        "commit_hash": "119310f75c30f67001e746fae2a4b363ad6fe639",
+        "commit_message": "Add config resource and wire into check controller"
+    },
+    {
+        "commit_hash": "698fe64aa7d5ef8e061b088a7837e5ab95103533",
+        "commit_message": "Add 15mins,1hour,1day and 1week graphs to check page, #23"
+    },
+    {
+        "commit_hash": "1b86c714945d40e4c73f12022980345df9714a12",
+        "commit_message": "Add ability to handle asterisks in target names"
+    },
+    {
+        "commit_hash": "3aae1db510eaf1734d318919fa52fb332426545f",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "c56e7f1425812eedf8b466e813322ffa5bbfd91f",
+        "commit_message": "GraphiteConfig had moved"
+    },
+    {
+        "commit_hash": "663aa62236f6eeb63d56b81b03826ceadf218f15",
+        "commit_message": "Add a test to prove we handle null values from Graphite"
+    },
+    {
+        "commit_hash": "c0077884b68c56c947611817982390c46a09d580",
+        "commit_message": "Don't just return when we hit an alert which is ok"
+    },
+    {
+        "commit_hash": "85e7bee28fd316b23b9ecc4d7010137cbd08562a",
+        "commit_message": "Update screenshots with graphs"
+    },
+    {
+        "commit_hash": "5e83f6f66b16669940751d05bfad6062bff05407",
+        "commit_message": "Another screenshot update"
+    },
+    {
+        "commit_hash": "726b3b7d7870d5f6ce3162968ed39bd645157576",
+        "commit_message": "Move acceptance tests. Handle bad values in date deserialization"
+    },
+    {
+        "commit_hash": "30708f375e061064c3f6dd83e9d765231e21c6e6",
+        "commit_message": "Add subscription acceptance test. Remove metrics from logback"
+    },
+    {
+        "commit_hash": "91ecb52c11cc6fcf49baffe4e7507588c9a6d912",
+        "commit_message": "Add modal form for creating a check. Issue #33"
+    },
+    {
+        "commit_hash": "9914fe3b69f14af4e2f4e4bdd69acab25bc19885",
+        "commit_message": "Move add subscription form to modal. Issue #33"
+    },
+    {
+        "commit_hash": "a05fa7c891a28e24c64fb6ab8dbab811be221851",
+        "commit_message": "Add different graphite parameters for small and big graphs - could do with refactoring getSmallGraph() and getBigGraph()"
+    },
+    {
+        "commit_hash": "cebb3b03995533e08269b47f3fea1579cf119c2f",
+        "commit_message": "Fix undefined $ in controllers"
+    },
+    {
+        "commit_hash": "7af060f3501abdc5bf0abf67241a1e8e9c69f4be",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "bd491044ea12e050484404f0a8cf64973154b9b3",
+        "commit_message": "Add confirm dialog to delete check. Issue #34"
+    },
+    {
+        "commit_hash": "6423d997360129e1521657bfb8adc0b3fe49c8f2",
+        "commit_message": "Rename countdownToRefresh in check-controller"
+    },
+    {
+        "commit_hash": "ef07860e192b0146dbc359a8cd47330cbd839acd",
+        "commit_message": "Refactor check graphs into config"
+    },
+    {
+        "commit_hash": "58c62fbce07453262116ce7936592cc0a55421f5",
+        "commit_message": "Refactor graph url creation"
+    },
+    {
+        "commit_hash": "3acbc03800c8f142c23d3def875366947e5ff15b",
+        "commit_message": "Move loadConfig up to main-controller"
+    },
+    {
+        "commit_hash": "114ea4ca54c092b0014a9174c31b8111f70302dc",
+        "commit_message": "Use SEYREN_URL environment property to allow absolute URL of Seyren in email alerts (closes #24)"
+    },
+    {
+        "commit_hash": "9178e7b3762df694dba9a7c1098680d14c883960",
+        "commit_message": "No pingGraphite anymore"
+    },
+    {
+        "commit_hash": "37251b88b15c5136b3d9a5fc7efafbc2341f2ffd",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "ba0178aa6d7cbde89d5f111a2fa73d61f124d2e6",
+        "commit_message": "Add sorting and filtering to checks table on checks page. Issues #17 and #36"
+    },
+    {
+        "commit_hash": "b442ae0113fcda11cd2b1b1d767bd12cb6bd344d",
+        "commit_message": "Add a little colour to the checks and alerts (#30)"
+    },
+    {
+        "commit_hash": "8bd970bf28a4dcc3808c35fb7b71142b583577b9",
+        "commit_message": "Add graph to createCheck form. Issue #35."
+    },
+    {
+        "commit_hash": "2c694ed01bc76b0016a2a607a9d972b27996ce60",
+        "commit_message": "Add SEYREN_URL"
+    },
+    {
+        "commit_hash": "697d028ad067e72badf3ed11b49e11cf2b15567f",
+        "commit_message": "Show enabled checkbox on homepage warning table"
+    },
+    {
+        "commit_hash": "ad8fb4b7d1f9ece4559c948b5ab11764ec936d48",
+        "commit_message": "Show some colour on the warning table of the homepage (#30)"
+    },
+    {
+        "commit_hash": "53d0e1ba4f642163ab676c9c7a04750a998e2f70",
+        "commit_message": "Report state of check correctly when there are multiple alerts"
+    },
+    {
+        "commit_hash": "bc568d0fe16dff8827da8b466660f48d019db374",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "44b49d84e987eab298f5876c34bc357b4634e666",
+        "commit_message": "Hide disabled checks on the home screen. Issue #31"
+    },
+    {
+        "commit_hash": "e2da9d55663338a511afce599ffa133e592bf49e",
+        "commit_message": "Decrease checks update on checks page"
+    },
+    {
+        "commit_hash": "c99663357e8d5aeee01a63db83f5b630cc0ef4aa",
+        "commit_message": "Auto-update check"
+    },
+    {
+        "commit_hash": "230838873239ae6ac8374e6a6c715eee70468ce7",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "3992214c7f4c83b270904611be915cf35fa644a6",
+        "commit_message": "Turn down check refresh time temporarily"
+    },
+    {
+        "commit_hash": "e45346c44f8e4792c79dd5d159a4ac9c20d7a748",
+        "commit_message": "Added IPA for the project name ;)"
+    },
+    {
+        "commit_hash": "cd9ebb80e823a56e40b2ddaa7981cf91829e94a9",
+        "commit_message": "Merge pull request #42 from joelittlejohn/master\n\nHelp on how to say the name of this project ;)"
+    },
+    {
+        "commit_hash": "72a21543894734a1c145c2670b26aa315329ab0a",
+        "commit_message": "Move graphite check back by 1 minute to ensure sumSeries() checks arent distorted"
+    },
+    {
+        "commit_hash": "579dd92edfcbff5569ea3a7ba4062f5e568adbce",
+        "commit_message": "Rename swapEnabled to swapSubscriptionEnabled"
+    },
+    {
+        "commit_hash": "c4d25768fd2502e5269df99f55700cde7f24d01c",
+        "commit_message": "Issue #41, edit check in a modal"
+    },
+    {
+        "commit_hash": "e514f66ec44da648f54ccb9ff3540f6dc3463748",
+        "commit_message": "Update to latest HTTP Components"
+    },
+    {
+        "commit_hash": "ba96e310bcbb8e389874255766a7246528469b30",
+        "commit_message": "Correctly generate escaped query string when checking Graphite (fixes #44)"
+    },
+    {
+        "commit_hash": "d7b910544a70bd41deb35654e3b54480b2ebc806",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren\n\nConflicts:\n\tseyren-core/src/main/java/com/seyren/core/service/checker/GraphiteTargetChecker.java"
+    },
+    {
+        "commit_hash": "145348ef5fdce5721f8bb843a2ea32db7982e88f",
+        "commit_message": "Issue 43, Add stream of alerts"
+    },
+    {
+        "commit_hash": "ef8d1dc46d782a775ee22f7244e73426cba1af12",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "2f5639a0df39ac5d26b5f4e4c4d14a8492a69105",
+        "commit_message": "Add exception alert state (#45)"
+    },
+    {
+        "commit_hash": "5634311daf143764d85dca4e758d8d5c0e571c12",
+        "commit_message": "Add AlertType.EXCEPTION to ui. (#45)"
+    },
+    {
+        "commit_hash": "2d60fc6bc463ce03879d30d84d352b298fdd7535",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "1503230799925571178a5d01df933780c355d5d5",
+        "commit_message": "Tweak to exception display in UI (closes #45)"
+    },
+    {
+        "commit_hash": "6e78da0868faaeff8888817da70ddf1693092015",
+        "commit_message": "Update UI to support unknown state"
+    },
+    {
+        "commit_hash": "005309b89dd6edcab927eb64706d1423475aacfb",
+        "commit_message": "Change home page to show a combined unhealthy checks table"
+    },
+    {
+        "commit_hash": "b77f483d92ce672d3fa3ad1760e341fc8773637a",
+        "commit_message": "Fix broken polling on home page"
+    },
+    {
+        "commit_hash": "9e4b9938368d19b2ef71c29343c5716b2ebeb049",
+        "commit_message": "Log node for debug"
+    },
+    {
+        "commit_hash": "69e117993bb68ce59959789469dc373c55f5b87c",
+        "commit_message": "Add favicon! (#22)"
+    },
+    {
+        "commit_hash": "0a2764a0d239ed4868fb9b7d32bdc84a516e2818",
+        "commit_message": "Convert from Double to BigDecimal for number formatting (#40)"
+    },
+    {
+        "commit_hash": "0346bbee410e1d186360636b7a16196a2b675406",
+        "commit_message": "Go toPlayString in EmailnotificationService (#40)"
+    },
+    {
+        "commit_hash": "6270fe173d1fc56158607c4f94b9c3653a9315e9",
+        "commit_message": "Backwards compatible change to getBigDecimal"
+    },
+    {
+        "commit_hash": "b8e95197aaf1810e936a75f660baf18613623a26",
+        "commit_message": "Provide some feedback on buttons (#29)"
+    },
+    {
+        "commit_hash": "d3fdc99a38881b61f5d3f89caef15e27893ec2a2",
+        "commit_message": "Increase the number of datapoints to 10"
+    },
+    {
+        "commit_hash": "7771cb7fed8bcfca78edbdd6ad0c3a2f2c64dc49",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "fbcc1f31957c87be2eb06f0e95f192462151303f",
+        "commit_message": "Take a copy of the check object in check-controller when we edit"
+    },
+    {
+        "commit_hash": "7e61e0d86f3f124f0d0138394a3655108d55cf26",
+        "commit_message": "Set focus to name field when creating a check (#39)"
+    },
+    {
+        "commit_hash": "8821de07c844d76b4ff244fb289e642c47f05145",
+        "commit_message": "Add contributors file"
+    },
+    {
+        "commit_hash": "34a90d4abab357f305b6acf037cb9962d52bef33",
+        "commit_message": "Swallow exceptions that are caused by an array of null values from graphite"
+    },
+    {
+        "commit_hash": "433e47ed5790b938248534df21e3241a70b10f29",
+        "commit_message": "No changing check state when there are no alerts"
+    },
+    {
+        "commit_hash": "44616e5a72bf6a9365b19445d3b1619107b01da0",
+        "commit_message": "Refactoring Graphite checking, alert generation and emails (#46, #50)"
+    },
+    {
+        "commit_hash": "d271360885ac92e32e98c271dea5fab2ec9b9160",
+        "commit_message": "Issue #51 - Add embedded mongo for acceptance tests"
+    },
+    {
+        "commit_hash": "b1318b792c4a3c8a82c02cb6c09106e4bf05f5f9",
+        "commit_message": "Add ahref for footer link to github"
+    },
+    {
+        "commit_hash": "3828711dc2dacbd9b7b6cca2b348e760e5e3b803",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "f03652c5835a112d656f8603cb5000f3384fe858",
+        "commit_message": "Updated screenshot!"
+    },
+    {
+        "commit_hash": "42e460ca2187b3750c34b6a0ea088b3b1b229f7f",
+        "commit_message": "Issue #52 - Change email date format and show warn and error levels in alerts"
+    },
+    {
+        "commit_hash": "36efd74aa8a97f23bea11fee36b8ce351a3c012f",
+        "commit_message": "Issue #48 - GET /checks now using SeyrenResponse. No paging as not yet needed on any of the pages"
+    },
+    {
+        "commit_hash": "004c763e2f97d914f5403f41cd1ac037a9a998ce",
+        "commit_message": "Adding support path parameters in graphite URL, this is needed for hosted graphite"
+    },
+    {
+        "commit_hash": "dbe0d92b9f87f1ca652596b0e4f0a5950ced090d",
+        "commit_message": "Link to install guide for mongodb"
+    },
+    {
+        "commit_hash": "cd251f20ac2a723a914180d3df62969e1e62943d",
+        "commit_message": "Add a trailing slash to the render request to make it compatible with hosted graphite, should have no impact on other deployments"
+    },
+    {
+        "commit_hash": "93d0261c2894bfc3d143278dacb41a4bee51435e",
+        "commit_message": "adding support for authenticated SMTP via the SMTP_USERNAME and SMTP_PASSWORD env variables"
+    },
+    {
+        "commit_hash": "5df1597d4fe8a16e306071db086dfc0b913dcfd2",
+        "commit_message": "reset default email address"
+    },
+    {
+        "commit_hash": "a00d52afc5e1d0d1d84178a9cc470bdc693b86bb",
+        "commit_message": "Merge pull request #1 from electronic-arts/master\n\nMerging back changes to support Authenticated SMTP"
+    },
+    {
+        "commit_hash": "bc95be961a213b5a71a18eaf905899362d2edc96",
+        "commit_message": "Adding info about autentcated SMTP parameters"
+    },
+    {
+        "commit_hash": "8676e5a9f6ddcd763d7a34bb1477535224789a85",
+        "commit_message": "Merge branch 'master' of github.com:usmanismail/seyren"
+    },
+    {
+        "commit_hash": "11835aa30d7e792a73ed7178703bfa5c805f2a47",
+        "commit_message": "Merge pull request #57 from usmanismail/master\n\nAdding support for path parameters in graphite host url and Authenticated SMTP"
+    },
+    {
+        "commit_hash": "0ad86ae047c95cd9c4e5a2fb92f3bd200e0ba5e0",
+        "commit_message": "Updating contributors"
+    },
+    {
+        "commit_hash": "31d19815e81852cd1cff9332e6591fa59910a77b",
+        "commit_message": "Adding travis-ci support"
+    },
+    {
+        "commit_hash": "4d88e4081dd1370c84517e7d7ebb9ceb32faee68",
+        "commit_message": "#55 Set From property in mail message \n\nSome email servers do not use the Sender property in the mail header to derive who the \"from\" address should be, and will either spam emails, or send emails \"from\" and \"unknown sender\" as a result.\u00a0\r\nso adding the From property fixes this for emails servers which use this."
+    },
+    {
+        "commit_hash": "77dae754978bd7bfe4e8c64a0e5ba9b1744fdb45",
+        "commit_message": "Updating readme to point to the cloud formation script"
+    },
+    {
+        "commit_hash": "6e5b26909165d1b8bb8f18112cb678e6f4f5456f",
+        "commit_message": "fixing typo"
+    },
+    {
+        "commit_hash": "4141762d83b860586d766ffe6911a39a3d15a58b",
+        "commit_message": "Merge pull request #59 from usmanismail/cloudformation\n\nAdding Cloudformation link"
+    },
+    {
+        "commit_hash": "42e0f60a440b03fc4b7fd320de2b438a82115f28",
+        "commit_message": "Merge pull request #58 from EmmanuelAcheampong/master\n\nSet From property in mail message"
+    },
+    {
+        "commit_hash": "7fbe82ccdb03e12cad1539f54c8f4be47db9c13a",
+        "commit_message": "Adding PagerDuty Notifications to Seyren, this makes use of biz.neustar PagerDuty work (https://github.com/webmetrics/pagerduty-java).\nIts not perfect, but thats more due to the model than the work ive added, for some reason the last change introduced to the main repo added a new method to the NotificationService.java interface all other notifications are supposedly meant to implement, question why you would have a sendemailstatus method you want to override in all other types of notifcation services?? but for now, just going to get in the changes, also need to look at the whole structure as the current model doesnt really work for anything more than one notification type of email, unless my java can be improved and we can somehow infer at runtime which notification type to fire off based on the notification type of the subscription being checked.\nany improvements/comments are welcome."
+    },
+    {
+        "commit_hash": "808b9a754f22d71a9c3eb81ba6779c8b58026514",
+        "commit_message": "Merge changes from bilal"
+    },
+    {
+        "commit_hash": "de5d2a16512dd32deba411bcbf0f8f92cbe6f713",
+        "commit_message": "Couple of small changes to the way we check for http auth headers"
+    },
+    {
+        "commit_hash": "ebc64da9e49681800905c09140f823aac7847d07",
+        "commit_message": "Fix typo"
+    },
+    {
+        "commit_hash": "1bef56e0efd8a39c2f03b74307464341acfa2e0c",
+        "commit_message": "Merge"
+    },
+    {
+        "commit_hash": "404f653b1bf634c3780cc106d1c3b716506b2fdb",
+        "commit_message": "Clean up simple PagerDuty integration"
+    },
+    {
+        "commit_hash": "2e5a42bc7948e6c8041b6fefd7963e12226eb355",
+        "commit_message": "Reorder prereqs in readme"
+    },
+    {
+        "commit_hash": "327f4f3c60a5a2d5dac96ae32066b245c0b5ae6d",
+        "commit_message": "Add build status to README"
+    },
+    {
+        "commit_hash": "3cdec0c23e8596c62f4879a25aeab4865764bc60",
+        "commit_message": "Added HpChat Notifications to Seyren, Uses hipchat api (https://www.hipchat.com/docs/api)\nWorks much like PagerDutyAlerts, when we get an Error we send a message to hipchat room with red color, when we get an OK, we send a message saying the check is back up with green color.\nHave skipped warn thresholds in yellow color, I had it in, but too it out as when you have checks which flap between error and ok a lot, the chatrooms become to noisy, although if you want that back in its easy enough to add it."
+    },
+    {
+        "commit_hash": "08b0ed5087d857ba2b5680e82e7f6cbcba63fb08",
+        "commit_message": "Made smtp protocol setting configurable, default is smtp for authenticated email, but can now pass in smtps if needed.  Which i do."
+    },
+    {
+        "commit_hash": "23983ce38e98ba3cb89c1dcacc3f2bd42db553db",
+        "commit_message": "Merge pull request #70 from EmmanuelAcheampong/Configure_SMTP_Protocol\n\nMade smtp protocol setting configurable,"
+    },
+    {
+        "commit_hash": "de3ed6540db854151e2136aaae65110dfab3e828",
+        "commit_message": "Merge pull request #69 from EmmanuelAcheampong/Adding_HipChat_Notifications\n\nAdded HipChat Notifications to Seyren"
+    },
+    {
+        "commit_hash": "f443c8e704a0e93fef7c7638012beb233210db41",
+        "commit_message": "Add support for SMTP over TLS (as required by GMail, for example)"
+    },
+    {
+        "commit_hash": "b62752d26dfea27883c961aebeaa91c166d9f689",
+        "commit_message": "Merge pull request #71 from mzsanford/smtp-over-tls-a-la-gmail\n\nAdd support for SMTP over TLS"
+    },
+    {
+        "commit_hash": "68f3f7810ea48058dcf8e912539b37fb66b71335",
+        "commit_message": "Tidy up license plugin to hopefully stop it stomping woodstox all over everything in eclipse"
+    },
+    {
+        "commit_hash": "3f2bbc7c11a12e8e09bc7f17c631417cd7e55b06",
+        "commit_message": "Remove unused field"
+    },
+    {
+        "commit_hash": "5903893ab9e1c8605d5011412ce5d68427d052b1",
+        "commit_message": "Sort out commons-logging exclusion properly"
+    },
+    {
+        "commit_hash": "0c9ba2f7166c9088ba4240d53e65ca6d6d69654c",
+        "commit_message": "Update dependencies"
+    },
+    {
+        "commit_hash": "55a95bc272497a3cc66a6a0e15c4015be183c7c0",
+        "commit_message": "Reformatting"
+    },
+    {
+        "commit_hash": "d3b587ddde8b102a4cfbe1d9bdfafd4e2902aadf",
+        "commit_message": "Updating plugin versions"
+    },
+    {
+        "commit_hash": "35dfbcb9aeea392db576825d95c4e038dfb2ed2c",
+        "commit_message": "Added tests to HipChat notification service and removed old HttpClient dependency"
+    },
+    {
+        "commit_hash": "64ecef35b00be6f6c73fac104b39c529ed722bcd",
+        "commit_message": "Add Hubot support"
+    },
+    {
+        "commit_hash": "6325c844d1678c7ce7cc765d8c5f27716b7776c7",
+        "commit_message": "Unbreak the JSON representation of alert timestamps"
+    },
+    {
+        "commit_hash": "dd88bc22397c884031b6d25f64b56274f086d2a5",
+        "commit_message": "Merge branch 'refs/heads/master' into hubot"
+    },
+    {
+        "commit_hash": "8543a069d95884dc47e4d1baf0a85ac8f1ff65bc",
+        "commit_message": "Last tweaks to Hubot stuff"
+    },
+    {
+        "commit_hash": "6c173d7f9a052612ed055cbc16e200d936fda979",
+        "commit_message": "Merge branch 'refs/heads/hubot'"
+    },
+    {
+        "commit_hash": "c4ed2dac7c361f9785cdad2222e64f00b46fd23a",
+        "commit_message": "Apparently travis-ci doesn't hold the 99.0-does-not-exist version of commons-logging\n\nIt's provided scope anyway so shouldn't get in."
+    },
+    {
+        "commit_hash": "e5d582dd1a9d276de32b8a0272d6c8eb3d2a1abb",
+        "commit_message": "Allow adding of descriptions to checks\n\nThey'll give people a chance to describe exactly what the checks mean and what to do if they alert."
+    },
+    {
+        "commit_hash": "e490206067c3742b5fa5b0e813e6a8b31bf6c423",
+        "commit_message": "Fix bug where two targets of the same name could trigger alerts for another check"
+    },
+    {
+        "commit_hash": "9074c39c55a1f305d8175c80cf082d68d6bbe575",
+        "commit_message": "Fix \"Seyren webapp shutdown stuck on CheckScheduler.executor's non terminated thread\".\n1. Add `@PreDestroy` hook to shutdown `CheckScheduler.executor`\n2. Make `CheckScheduler.executor` threads `daemon`"
+    },
+    {
+        "commit_hash": "9cd41a46a404652f11fe6573598df6bec31f6ffc",
+        "commit_message": "Fix \"Seyren webapp shutdown stuck on CheckScheduler.executor's non terminated thread\".\n1. Add `@PreDestroy` hook to shutdown `CheckScheduler.executor`\n2. Make `CheckScheduler.executor` threads `daemon`"
+    },
+    {
+        "commit_hash": "8608f96724fcdf3db71336787175b13643293eba",
+        "commit_message": "Merge pull request #75 from cyrille-leclerc/master\n\nSeyren webapp shutdown stuck on CheckScheduler.executor's non terminated thread"
+    },
+    {
+        "commit_hash": "d3fe8bf7ed29872923c029deceebb2e1bc5e97bd",
+        "commit_message": "Merge pull request #1 from scobal/master\n\nmerge"
+    },
+    {
+        "commit_hash": "e211320c639fae6c05d62d53d9e146c14058ce2d",
+        "commit_message": "Root Seyren URL with only \"slash\" returns 404 when Seyren run on Tomcat 6.0 and 7.0.\nRemoving the declaration of \"default\" servlet works with Tomcat 6.0, Tomcat 7.0 both and without Jetty (via jetty-runner)."
+    },
+    {
+        "commit_hash": "0c74708f70c87845c7bb8afa23e1dd569417b208",
+        "commit_message": "Organise environment variables into sections in readme"
+    },
+    {
+        "commit_hash": "bb91591e19e2fc5ea0a91d460e7e0e114ae13efa",
+        "commit_message": "Merge pull request #76 from cyrille-leclerc/master\n\nRoot Seyren URL with only \"slash\" returns 404 when Seyren run on Tomcat 6.0 and 7.0"
+    },
+    {
+        "commit_hash": "de1d6d8ccee5a4c27b5fc62f5c387d628e51cd52",
+        "commit_message": "Merge pull request #2 from scobal/master\n\nmerge"
+    },
+    {
+        "commit_hash": "4447b833ad7b71e4c1fa1537c2966d681ea09d3c",
+        "commit_message": "Add System Property configuration in addition to System Environment variables"
+    },
+    {
+        "commit_hash": "dcfc9fbad66d4ebb2239c0f159d551b987caff3c",
+        "commit_message": "Merge pull request #79 from cyrille-leclerc/master\n\nAdd System Property configuration in addition to System Environment variables"
+    },
+    {
+        "commit_hash": "1411ba4f2fa3685b11dceaec5c72d753345e2c31",
+        "commit_message": "Initial config refactor"
+    },
+    {
+        "commit_hash": "fc6e06bc148b0aa37146c4d49704d7754eabed29",
+        "commit_message": "Merge pull request #81 from scobal/config_refactor\n\nInitial config refactor"
+    },
+    {
+        "commit_hash": "884e3534653d61883d65669136bf2fca407e181f",
+        "commit_message": "Add cyrille-leclerc to contributors"
+    },
+    {
+        "commit_hash": "9881159932a6fa17e41c475547c5b4cedfac3cad",
+        "commit_message": "Preparing for maven central releasage"
+    },
+    {
+        "commit_hash": "71b6d249d1c9b755c9e3ee0a409391ade6a0dd6a",
+        "commit_message": "[maven-release-plugin] prepare release seyren-parent-0.1"
+    },
+    {
+        "commit_hash": "3b1898568573bb59c337fd22d0b308471acd6c3c",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "38bfe9ec558f0538a4a76a41edc23d492d5a87aa",
+        "commit_message": "Change groupId to com.github.seyren"
+    },
+    {
+        "commit_hash": "37b32c65ba3964a0fedf36a3a461efe904df48d1",
+        "commit_message": "Move from com.github.seyren to com.github.scobal.seyren"
+    },
+    {
+        "commit_hash": "0560da2ab07bfb5e5f5dddeddd8c051cb0b9dd05",
+        "commit_message": "[maven-release-plugin] prepare release seyren-parent-0.0.23"
+    },
+    {
+        "commit_hash": "729711199e6b7aa1f742e60335352aa5cf7939bd",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "d57c5e777a90b228a4571edc084b3891e8339271",
+        "commit_message": "Issue 82: Refactor of code to use consistent names"
+    },
+    {
+        "commit_hash": "0b30f64205f9086da04562a711b9660c835d0ad4",
+        "commit_message": "Issue 82: Aim for consistent configuration and keep backwards compatibility"
+    },
+    {
+        "commit_hash": "ffcfde926c2463773dd7bebef17387561d9c8f37",
+        "commit_message": "Merge pull request #83 from scobal/config_refactor_two\n\nA bit more config refactor"
+    },
+    {
+        "commit_hash": "429c5f6850444e68517d27d3bc102887de78b5c8",
+        "commit_message": "Issue 82: Remove GraphiteConfig"
+    },
+    {
+        "commit_hash": "3656e0467352a115be1f9aa4d4013caa2c8a4687",
+        "commit_message": "Merge branch 'config_refactor_two' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "f246d1a02149e12ca59451fa1fef8be31f4952a7",
+        "commit_message": "Issue 84: No need to enforce java 7 yet"
+    },
+    {
+        "commit_hash": "f73e079478027a904ad8d79e8d32e106b2b67308",
+        "commit_message": "Issue 85: due to the refactoring done in Issue 82 we need to access the Graphite base URL through config.graphiteUrl and not config.graphite.baseUrl."
+    },
+    {
+        "commit_hash": "2f175b8e2ce7f47a6291a3d9f8f39e7a344fba34",
+        "commit_message": "Merge pull request #86 from omodica/master\n\nIssue 85: need to access the Graphite base URL through config.graphiteUrl, not config.graphite.baseUrl"
+    },
+    {
+        "commit_hash": "6de1ea1d27027d021ebd75ed55e7087818a5ff99",
+        "commit_message": "Issue 85: Add acceptance test to make sure the properties exposed by the /config resource are as expected"
+    },
+    {
+        "commit_hash": "0c5f194f08c95750a887fb39858a9bb627ac5a59",
+        "commit_message": "Bootstrap MongoDB to ensure check names are unique"
+    },
+    {
+        "commit_hash": "97e26f178814e3957c72ee274a2c5bd42c922c85",
+        "commit_message": "Improve the way we work with authenticated Graphite and add a test (fixes #89)"
+    },
+    {
+        "commit_hash": "1e333fab65492085b54997ff55647eb472b33c66",
+        "commit_message": "#90 Have added warn notifications to hipchat, and re-factored the code to build the hipchat message in a private function getHipChatMessage.\nfixed test"
+    },
+    {
+        "commit_hash": "923b805be10961dbdc74bc4062b8c91ad4236007",
+        "commit_message": "Merge pull request #92 from EmmanuelAcheampong/AddedWarnNotificationsToHipChat\n\n#90 Have added warn notifications to hipchat, and re-factored the code t..."
+    },
+    {
+        "commit_hash": "1c583ceadc1d23533f3d224bf19d26fc2db8a8bf",
+        "commit_message": "Add pager duty user/password options. Prep for forthcoming (I hope) token change"
+    },
+    {
+        "commit_hash": "6c8591096ead9ac38a265cd6708e502b65bead9b",
+        "commit_message": "Merge pull request #99 from mzsanford/pagerduty_auth\n\nAdd pager duty user/password options."
+    },
+    {
+        "commit_hash": "6ae8d35718cfdb06d0b6a408bc2ddbd2883a9249",
+        "commit_message": "Update README.md\n\nUpdated to new version of cloud formation template with cosmetic fixes for clarity."
+    },
+    {
+        "commit_hash": "5c86eca141cb2cf32f9ec093e40a1329add5ca88",
+        "commit_message": "Merge pull request #102 from usmanismail/master\n\nUpdating cloud formation template link in readme"
+    },
+    {
+        "commit_hash": "866dd2c325dce3060a6678ae023ad8bc8af9e042",
+        "commit_message": "Not sure how this string equality made it in..."
+    },
+    {
+        "commit_hash": "0cb399488f74c00496f13ab5e0ca0cf6b158dd6e",
+        "commit_message": "Use SSLContextFactory to check graphite server with https and client certificate authentication"
+    },
+    {
+        "commit_hash": "29ecd2a6ba748db8c0a801c5d012b72a3dfbab14",
+        "commit_message": "Merge pull request #103 from obazoud/https_graphite\n\nHTTPS and client certificate authentication"
+    },
+    {
+        "commit_hash": "887714192d75ee68c3cc6f14ba5b13d86b506eb9",
+        "commit_message": "Notification target: flowdock"
+    },
+    {
+        "commit_hash": "0699f7cef0c8ec7065484f88b0c64c990d9ec3e7",
+        "commit_message": "Notification target: flowdock"
+    },
+    {
+        "commit_hash": "d9dd5760ee6ea3728c9281cc4dc160b69d02cd03",
+        "commit_message": "Notification target: flowdock"
+    },
+    {
+        "commit_hash": "f5e842d3904316327a2cef89fb1af1e784071dae",
+        "commit_message": "Merge pull request #104 from obazoud/flowdock\n\nNotification target: flowdock"
+    },
+    {
+        "commit_hash": "4a058313659b3222c7148616b96751c5f284204b",
+        "commit_message": "Add Olivier Bazoud to contributors"
+    },
+    {
+        "commit_hash": "9e0010babfca1c6f3dd89cd2edce1211507c5170",
+        "commit_message": "- Graph preview when editing check\n- Should fix #95\n- add override-bootstrap.css to override bootstrap css\n- increase modal size to hide scrollbar"
+    },
+    {
+        "commit_hash": "7a62a0c7bdc1f536e2c67bf67f2362e7af9aaacd",
+        "commit_message": "Merge pull request #105 from obazoud/graph_preview_when_editing_check\n\nGraph preview when editing check"
+    },
+    {
+        "commit_hash": "eb444dd21870870b0148cf006f528abec66163ec",
+        "commit_message": "- Filter SeyrenConfig to not expose internal configuration client\n- Add SeyrenConfigTest to test internal object as opposite of ConfigAT which tests json"
+    },
+    {
+        "commit_hash": "5ff9eba3458014eb45026aaf6a9e310bf9c54885",
+        "commit_message": "Merge pull request #106 from obazoud/filter_seyren_config\n\nFor security reasons, do not expose all SeyrenConfig fields"
+    },
+    {
+        "commit_hash": "0aef85736473a142dde86de6ded459f7dfc794aa",
+        "commit_message": "- Improve log when exception occurs if Graphite does not return json\n- Should fix #100"
+    },
+    {
+        "commit_hash": "4491b69cae540e1ad72fac87d66adb8813932a9d",
+        "commit_message": "Order by state in severity order based on AlertType ordinal\nBy default on load, sort is reverse state\nShould fix #53"
+    },
+    {
+        "commit_hash": "d11f106ef4b296e2cfcbc722a92af6ee354a86ed",
+        "commit_message": "Order by state in severity order based on AlertType ordinal\nFix jslint"
+    },
+    {
+        "commit_hash": "ee1debcbee665f07125236f566e396f05ce6bb70",
+        "commit_message": "Merge pull request #108 from obazoud/order_by_state_in_severity_order\n\nOrder by state in severity order based on AlertType ordinal"
+    },
+    {
+        "commit_hash": "adc2c5cdafdd8bb18632d0b148bf4885cba96472",
+        "commit_message": "Allow sorting by other columns (knocked out of whack by #108)"
+    },
+    {
+        "commit_hash": "e6af0f91cd27c0d5f9900c236c88d15425deb1bb",
+        "commit_message": "add lastchech to Check object"
+    },
+    {
+        "commit_hash": "96b622b26954bd8d5d4420bd2acd6b7a6e111d1b",
+        "commit_message": "Merge pull request #109 from obazoud/lastcheck\n\nadd lastChech to Check object"
+    },
+    {
+        "commit_hash": "4c1a337bc04751634921f9481e56f7828fb42606",
+        "commit_message": "Clear some warnings"
+    },
+    {
+        "commit_hash": "790a3c457a8ddd68985f533924f0c91f2028f71f",
+        "commit_message": "#111 - Only set username and password if string is not empty"
+    },
+    {
+        "commit_hash": "386e8d89e633d43c3565381ac43fe8d190955884",
+        "commit_message": "Extract out Graphite HTTP functionality\n\nFor future awesomes!"
+    },
+    {
+        "commit_hash": "fdf2d4a211b1a2bab5ebf91e6576f25bc2d77b80",
+        "commit_message": "Proxy all Graphite requests through Seyren\n\nThis allows exposure of Seyren only in protected setups. Authenticated Graphite users will only need Seyren to know the authentication rather than have every user authenticated too."
+    },
+    {
+        "commit_hash": "fb39e1fe9f03b9e6ce32ff18680055accb664213",
+        "commit_message": "No need to expose any Graphite information in SeyrenConfig now"
+    },
+    {
+        "commit_hash": "65198854eaf60a86ebc6e3afbe5c369af2482a1c",
+        "commit_message": "Merge pull request #107 from obazoud/exceptions_when_reading_data\n\nImprove log when exception occurs if Graphite does not return json"
+    },
+    {
+        "commit_hash": "642172bab689840f3420b13863c6210dbe7fdad9",
+        "commit_message": "Tidy up logging"
+    },
+    {
+        "commit_hash": "8323659e9067c6400158582cd4694be8371ad0c0",
+        "commit_message": "Stop Seyren logging to console\n\nIt's going to log to a file anyway"
+    },
+    {
+        "commit_hash": "8e12839ebfd8a5c6d939194b0d16e66310eb6b1b",
+        "commit_message": "Merge branch 'refs/heads/charts-proxy'\n\nConflicts:\n\tseyren-core/src/main/java/com/seyren/core/service/checker/GraphiteTargetChecker.java"
+    },
+    {
+        "commit_hash": "40a65669bd02021a80338e2c9c1b219f65291654",
+        "commit_message": "Reformatting"
+    },
+    {
+        "commit_hash": "875e84fa86b39c8f1f9c7f969890bd37dc43e2e5",
+        "commit_message": "Fix an issue where a null last check date would prevent a check from being saved"
+    },
+    {
+        "commit_hash": "aea95bd500036df63ece7186e851d98dccdb2a33",
+        "commit_message": "Fix for #112"
+    },
+    {
+        "commit_hash": "c666151e9c0d0321c3a3697cb805a74f2b14b48a",
+        "commit_message": "Merge pull request #113 from nithril/master\n\nFix for #112"
+    },
+    {
+        "commit_hash": "545e08e15d3c4925eab8b236490df93251003aa0",
+        "commit_message": "Avoid line wrapping for hipchat config"
+    },
+    {
+        "commit_hash": "3874919d746a4a0c2be70e2f3e7c935109dd8b64",
+        "commit_message": "Add console logging back in for tests\n\nIt's actually handy to have it logging to console for tests through Maven"
+    },
+    {
+        "commit_hash": "3e6ae2e4d504a572abe5680019af647b0a437052",
+        "commit_message": "Upgrade Mongo driver"
+    },
+    {
+        "commit_hash": "370829a06adadbca9b836875c65c6bc167680849",
+        "commit_message": "Clear some warnings"
+    },
+    {
+        "commit_hash": "d4cf423f282fbc5a1314747de09f0c9f74d1959e",
+        "commit_message": "Upgrade REST-driver"
+    },
+    {
+        "commit_hash": "98062646d602439e2cbcdbb4ed81732a318a99e2",
+        "commit_message": "Update dependencies"
+    },
+    {
+        "commit_hash": "e0c0fd20b6046760360aa242ac5aa73829592174",
+        "commit_message": "Add logo and new favicon"
+    },
+    {
+        "commit_hash": "c05053d43d4dee4ae9d9b620429a741c103ffe1b",
+        "commit_message": "Add logo to readme"
+    },
+    {
+        "commit_hash": "04282f6af7592b6129c4cd688435fdf0c591d4a6",
+        "commit_message": "Adding Marcus to contributors"
+    },
+    {
+        "commit_hash": "70799b0c545e11b55e2ef425984cbf2d0cebd6af",
+        "commit_message": "Move embedmongo to the right project and add stop execution"
+    },
+    {
+        "commit_hash": "f199d674a34d371e9ed469150959a1a771dd9442",
+        "commit_message": "Merge pull request #118 from obazoud/embedmongo\n\nMove embedmongo to the right project and add stop execution"
+    },
+    {
+        "commit_hash": "ff1b732bee949d854496b2af7699a88cf11ddf60",
+        "commit_message": "SeyrenMailSender configured with wrong logger"
+    },
+    {
+        "commit_hash": "b638bd8ab298afda80b3016d3e042164e3ba0e6f",
+        "commit_message": "This PR is related to issue #117\n\n- Frameworks upgraded\nAngular 0.9.19 to 1.1.5 (not 1.0.x because this [issue] (https://github.com/angular/angular.js/issues/2256) is only fixed in 1.1.5)\nTwitter Bootstrap to 2.3.2\n\n- Polling management has been improved\nRemove controllers instanciation in html if route already uses them => less polling instance\nPolling are now stopped if you navigate to other page\nI use setInterval because karma hangs with $timeout\n\n- seyrenBaseUrl\nRemove useless variable\n\n- Integration tests module\nI create End2End tests with karma in seyren-integration-tests maven module\n\n- UI enhancements\nadd a cancel button in each modal dialog\nadd footer in each modal dialog\nadd form validation when creating, editing check and subscription\nuse same html fragment to create and edit check\nenhancement footer\nadd spinner\nadd icon button\nbutton color: create is green, edit is blue and delete is red\nadd table-hover to each table displayed\nESC is actived to cancel modal dialog\nchange <ng:view></ng:view> to <div ng-view></div>\n\n- Subscription\nWe can edit subscription :)\nshould close issue #94\n\n- Tomcat\nadd tomcat7 maven plugin configuration\n\n- Travis\nchange travis configuration to use karma\n\nEnjoy :)"
+    },
+    {
+        "commit_hash": "1c02fbd81065b15808a2453a3d3a69ba480a238d",
+        "commit_message": "Merge pull request #121 from obazoud/angular-1.1.x\n\nUpdate client side frameworks #117"
+    },
+    {
+        "commit_hash": "39281a97fda600bf0130ebf2a34722e945831d50",
+        "commit_message": "Update README.md\n\nIncluding fancy new screenshots!"
+    },
+    {
+        "commit_hash": "60d2f9971b87355b03644c13ff839b296731ce10",
+        "commit_message": "Little tidy-up"
+    },
+    {
+        "commit_hash": "478e6272c9830b0d2324df70f2069f7b58c4bbd7",
+        "commit_message": "Merge branch 'refs/heads/master' into mongo-bootstrap"
+    },
+    {
+        "commit_hash": "3c48680f5246c62d849f77ff3aabdd748fc4ad19",
+        "commit_message": "Include more indexes in the bootstrap"
+    },
+    {
+        "commit_hash": "9d93635ed9c6e8d0eb3614911602ace8dddfb9b8",
+        "commit_message": "Merge branch 'refs/heads/mongo-bootstrap'"
+    },
+    {
+        "commit_hash": "b898f72f06ed304941c14a2d8dc66d78b79178be",
+        "commit_message": "Allow subscriptions to ignore error and/or warning alerts (part of #115)"
+    },
+    {
+        "commit_hash": "3626668a98f8245d37624eefa6688bcd14ecf992",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "55ddacb2d7b3475f12c0af7ce81620773190f9e8",
+        "commit_message": "Clean up and little deprecation warning"
+    },
+    {
+        "commit_hash": "46338eeb7a819470cd600d78ed7e7c4dec643f4d",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "30f9775b5206f09a29808764c2992581bc727e0f",
+        "commit_message": "Add a little hint to let people know about reverse alerts"
+    },
+    {
+        "commit_hash": "c459c365ec426cf03b80269b77c7120fadf6d27f",
+        "commit_message": "Allow subscriptions to optionally alert on OK state (part of #115)"
+    },
+    {
+        "commit_hash": "7dff4f09dcda1b384a1104a0003bbb0deeb8e9fe",
+        "commit_message": "Reordered 'Stand alone' build steps\n\nAfter `SeyrenConfigTest.java` was introduced all seyren environment variables must be empty to prevent breaking the `mvn clean package` command (i.e. the SeyrenConfigTest tests fail when enviroment vars are set).\r\n\r\nTherefore the `mvn clean package` should be run *before* any environment vars are set. I've updated the README's `Stand alone` section to reflect this necessity."
+    },
+    {
+        "commit_hash": "4616e8a35e42d803f7921128447ce9d9bda5dbcf",
+        "commit_message": "Merge pull request #122 from kppullin/patch-1\n\nReordered 'Stand alone' build steps"
+    },
+    {
+        "commit_hash": "4683ed967432ca3a1d99d70a926746327e979edc",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "7297fd019d877f74c60549cd061f0142ad069c59",
+        "commit_message": "Add Kevin to CONTRIBUTORS.md"
+    },
+    {
+        "commit_hash": "87d00c68e5b489641e656cf2402ba679ec234653",
+        "commit_message": "Show total metric for a check when creating #47"
+    },
+    {
+        "commit_hash": "fd2f41b80d1cb4d823ff3678c13db94e2c7042bd",
+        "commit_message": "* Add a better way to reset form\n* Use watch to calculate graph url and a default image when retting form"
+    },
+    {
+        "commit_hash": "d9f1b90ba6fd8ba65725d28e98e17aec605d9d99",
+        "commit_message": "Merge pull request #124 from obazoud/clean_reset_form\n\n* Add a better way to reset form"
+    },
+    {
+        "commit_hash": "e193d9e5285c175a235c0cc5ecb9fc869384cca3",
+        "commit_message": "Merge https://github.com/scobal/seyren/pull/123"
+    },
+    {
+        "commit_hash": "8e5089b23a3ca646d28bb006fdd6f6253e2f2847",
+        "commit_message": "Whoops - fix partial merge"
+    },
+    {
+        "commit_hash": "03f69f8092af9f1cf42de97282fde2878ac0b88f",
+        "commit_message": "Remove target column from Home and Checks pages (#125)"
+    },
+    {
+        "commit_hash": "fa3217d40f5123b7d3674d4735b2045a6374a48d",
+        "commit_message": "Show total metric for a check when creating: Remove jackson stuff\nSee #123"
+    },
+    {
+        "commit_hash": "6e031da751f9cbd40c94c436fb5e79bb089d079a",
+        "commit_message": "Merge pull request #126 from obazoud/json_issue47\n\nShow total metric for a check when creating: Remove jackson stuff"
+    },
+    {
+        "commit_hash": "33468aa1cb07cec95f85dc6b0d6023b078662879",
+        "commit_message": "Add target to title attribute (#125)"
+    },
+    {
+        "commit_hash": "7c0b4312eb5aa031a16e9eb37f91895f3c6458ee",
+        "commit_message": "Use labels to show the subscription days"
+    },
+    {
+        "commit_hash": "0ec3715d52685107f9fb9931341a993bd7a29e87",
+        "commit_message": "Show which levels the subscription will notify on"
+    },
+    {
+        "commit_hash": "8f957b93ad818783cf759503dd96b0e0813282c9",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "8fd10fe6e90ee1fc692041a88ad7ea47985405fb",
+        "commit_message": "Now with fewer broken integration tests!"
+    },
+    {
+        "commit_hash": "7865bbe0c495ee9e0d6bb6cdb8edd4dd689a0f69",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "5826e6ffc0119a4030019c2749eafe4de0dc8e1c",
+        "commit_message": "Extract Velocity code from EmailNotificationService\n\nAllows for easier testing while trying to track down the random engineering notation that creeps into some emails."
+    },
+    {
+        "commit_hash": "38f369f8ea5edef80b77048a654c2d7b6ad63b75",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "4b1f0b4efd8ec20c1e836396d6fd1776e8d08480",
+        "commit_message": "Include check description in email"
+    },
+    {
+        "commit_hash": "a2fbb8b9da01d8b576af6180416e3379a43bb2bf",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "8189b7cb6427d08d9594f06bcf34a3424c18fae0",
+        "commit_message": "Prevent small threshold lines from being rounded incorrectly (fixed #127)"
+    },
+    {
+        "commit_hash": "cefc9d811b369b6c06b335cea6057ab699762c36",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "728e5bcf15bd30ab0ff30d1fb8ef91cae98cc3a9",
+        "commit_message": "Replace 'Enabled' with 'On?' when displaying subscriptions\n\nSaves a bit of space!"
+    },
+    {
+        "commit_hash": "45f118aaaa550eac1148a9a4048b2a64d17a46bd",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "217e218f7b4db8ab92edd2e1e825e6770763dce5",
+        "commit_message": "Remove unused dependencies"
+    },
+    {
+        "commit_hash": "e1917f27de4e313f87e3ed7ba68785c0538b3a92",
+        "commit_message": "Update rest-driver"
+    },
+    {
+        "commit_hash": "fb9be6cd0a5f70616a797479991f764678479ddd",
+        "commit_message": "Update joda-time"
+    },
+    {
+        "commit_hash": "ab3da08e775504c509a766f6ab86dec8d1817169",
+        "commit_message": "Update spring"
+    },
+    {
+        "commit_hash": "b46c25aaf19e83f91e8aa3a35a23fea690b125d0",
+        "commit_message": "Update httpclient"
+    },
+    {
+        "commit_hash": "209e208a5d915cd02e3363d0904d9e94484e035c",
+        "commit_message": "Update resteasy\n\nBecause of the way the new version searches for paths I had to duplicate more of the content in the @Path parameters in some resources."
+    },
+    {
+        "commit_hash": "0ba099046183861cdd2ca25bcdb8f5d7ad8b67b4",
+        "commit_message": "Add in a cheeky little newline"
+    },
+    {
+        "commit_hash": "343eb6449d94337ad94a5594f21b7c6d01195e4a",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "90e94df3891684a9a63f734afd7575d5da3ee5d6",
+        "commit_message": "Delete alerts for a check when the check is being deleted"
+    },
+    {
+        "commit_hash": "92ae4dca4dcf73635c7bfd977a63025d948cf4bc",
+        "commit_message": "Add ability to clear down alerts"
+    },
+    {
+        "commit_hash": "be4f688ca13eca1e0ea3ab82d3ffc9a1982862ae",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "6a91c1b0dcfd9b040d46b22c4ec4ba9f1c4393bc",
+        "commit_message": "Break SeyrenConfig test into individual tests\n\nSince I seem to keep breaking the build and can't tell which bit is broken."
+    },
+    {
+        "commit_hash": "8d5a5ad51e122746d75f9b2fb8a0849017aba711",
+        "commit_message": "Merge branch 'refs/heads/master' into remove-target"
+    },
+    {
+        "commit_hash": "02f8f0c1332ada17c2abc7d54821d6dc35aa541c",
+        "commit_message": "Pop quotes around some things"
+    },
+    {
+        "commit_hash": "18a9527e53fe034ab3a1b287f5e6e9c4e06aca4a",
+        "commit_message": "Remove unused bootstap.css"
+    },
+    {
+        "commit_hash": "c96319085014f543c50a72640286165f4cfd57ae",
+        "commit_message": "Ignore broken test (possibly remove later)"
+    },
+    {
+        "commit_hash": "668a6a7b3244d40339c34bc92985aaefa2c43d5d",
+        "commit_message": "Remove flakey Velocity test from SeyrenConfigTest"
+    },
+    {
+        "commit_hash": "a60be637a8ce33821c9a9ec78ded0cc56d026657",
+        "commit_message": "Upgrade to latest Jetty all over the place"
+    },
+    {
+        "commit_hash": "5642a0c18425ee760a9f11d63d39a81e16742660",
+        "commit_message": "Remove need to specify both seyren.port and jetty.port (#129)\n\nAlso, filter karma-e2e.conf to notice the change to seyren.port."
+    },
+    {
+        "commit_hash": "03d95ad7b2c2ad44fbe2fac773ad732e0f885e0c",
+        "commit_message": "Have added webhook notifications to seyren, allows http posts of json payload to be sent to a given url as a subscription target as mentioned in #131, did this a couple months ago but was sidetracked on other things, but is really useful - as is taking images of graphites graphs when the alert happens so i've kept this in, but happy if its moved to its own place as im sure the other notification types could benefit from having it as well (i use it in hipchat notifications myself as well)."
+    },
+    {
+        "commit_hash": "81205e39dee3c3b1b6e7596795438729fb44508b",
+        "commit_message": "Update Jackson"
+    },
+    {
+        "commit_hash": "d6af8e44221afbd9a2ba322f09c17be7ce61a25c",
+        "commit_message": "We've used OK everywhere else"
+    },
+    {
+        "commit_hash": "4dee10811ca5cb5eb6159ec93da33b693f2df247",
+        "commit_message": "Merge pull request #132 from MannyA2k/AddWebhookNotificationsToSeyren\n\nAdd Webhook Notifications to Seyren"
+    },
+    {
+        "commit_hash": "c29cb041197e1441f2ed192b677d5442d97d8195",
+        "commit_message": "Add link to mongo connection string"
+    },
+    {
+        "commit_hash": "ed9f7ae0bba8e2be054ddef6a7f995c6581a2420",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "df3db6a3acd425c686839c27ece90d83c6601320",
+        "commit_message": "Finishing up PR 132 with the rename from webhook to http"
+    },
+    {
+        "commit_hash": "04836009d43f44dd6ae628a8821f13c71f43a01e",
+        "commit_message": "Order subscription types alphabetically"
+    },
+    {
+        "commit_hash": "1ffd6ba7b2de21b7de6025660b234dfca770aadd",
+        "commit_message": "Add absolute class to fix styling issue\nUnable to get to button on smaller screens"
+    },
+    {
+        "commit_hash": "3010ff8d809d98dbbaf6b7b08e685aa045c9f9c8",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "5a3494d06f2dc9b7a77194dbf57c8a1ac133f530",
+        "commit_message": "Merge pull request #141 from petems/pm_css_change_for_scrolling\n\nAdd absolute class to fix styling issue"
+    },
+    {
+        "commit_hash": "bbe7dfbb1118ec1e49eb4136aac1a53d38606d13",
+        "commit_message": "Live feature.\n\nInstead of pulling all metrics with http, this feature allows Seyren to listen carbon relay (see pickle protocol http://graphite.readthedocs.org/en/latest/feeding-carbon.html).\n\nI introduce live package where CarbonPickleListener, the TCP server (quick implementation), is located.\nIt reads inputstream socket, decode pickle protocol (with the help of jython, see maven dependency), and add a MetricsTask to an executor.\nMetricsTask find all checks in MongoDb that are enabled and live, both with true value.\nAnd of course, I re-use CheckRunner to store/send alert.\n\nIn \"Check Dialog\" UI, if \"live\" option is checked, the method for checking the check will be that described above, otherwise a 'classic' http check is used (default behaviour), it is exclusive.\n\nUsers are responsible to filter metrics in relay-rules.conf and not send all metrics to Seyren (to avoid performance problem).\nExample: How to send to Seyren only 'load' metrics, edit /opt/graphite/conf/relay-rules.conf like and restart carbon-relay:\n\n[seyren]\npattern = .*load.*\ndestinations = [ip seyren]:[port]:[instance]\ncontinue = true\n\n[default]\ndefault = true\ndestinations = [ip carbon cache]:[port]:[instance]\n\nThera are some limitations:\n* carbon-relay must have access Seyren (while http is easiest)\n* metric sended via carbon-relay are raw value, you can not access to graphite functions\n\nBut with this feature, Seyren is more reactive.\n\nEnjoy :)"
+    },
+    {
+        "commit_hash": "bcd7365afca332841b6a695c02f63d5ee361e0da",
+        "commit_message": "Live feature documentation"
+    },
+    {
+        "commit_hash": "adb13412cb4f186e37dd75b623979a3d5fa5c2d4",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "722b4eefb6f658a12fd0fef127458717d4ae6dab",
+        "commit_message": "Merge pull request #142 from obazoud/live\n\nLive feature"
+    },
+    {
+        "commit_hash": "68a2089c998c5bfb2a7e0d8f6e31b140d545336c",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "8b5853607e7dc0761b14c1387c121ebbcee42aa9",
+        "commit_message": "Add IRCcat notification service courtesy of @gehel. Original code from his PR #98"
+    },
+    {
+        "commit_hash": "78201e33793df5fb90d5db3f0bd05721a3b52579",
+        "commit_message": "Fix tests when SEYREN_URL env var is set (we should probably follow a similar pattern (or a better one?) for other vars)"
+    },
+    {
+        "commit_hash": "93417213eafb2067c8d97973a15c6faa2a6f8604",
+        "commit_message": "Attempt to fix #145 with locale independant test"
+    },
+    {
+        "commit_hash": "cd25298102a5a7dab7945186cedde7f736d1524b",
+        "commit_message": "Make formatting of BigDecimal instance locale-invariant"
+    },
+    {
+        "commit_hash": "9463b857de645b9bebed079933477e7d35240044",
+        "commit_message": "Merge pull request #146 from perbergland-findwise/make_formatting_locale_invariant\n\nMake formatting of BigDecimal instance locale-invariant"
+    },
+    {
+        "commit_hash": "a54107b978540c8aa11e239f855690f64661886e",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "7da21486a0a341eb5bf90f851068caeccd14a128",
+        "commit_message": "Remove code dependencies on java 7"
+    },
+    {
+        "commit_hash": "ef83d2d028cec18442eb563ba5980ce39225805f",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "55c414b73d0ab0301734f70dee1cf36103520186",
+        "commit_message": "Make a one jar file monolithic #149\n\nUse tomcat7-maven-plugin to build an executable jar, see target/seyren-web-1.0.0-SNAPSHOT-war-exec.jar.\n\n% java -jar seyren-web-1.0.0-SNAPSHOT-war-exec.jar\n...\nINFO: Starting Servlet Engine: Apache Tomcat/7.0.37\n...\nINFO: Starting ProtocolHandler [\"http-bio-8080\"]\n\nImplementation notes:\n- tomcat7-maven-plugin 2.2 does not work\n- You can change http port with: jar target/seyren-web-1.0.0-SNAPSHOT-war-exec.jar -httpPort=9090\n- tomcat7-maven-plugin creates seyren-web-1.0.0-SNAPSHOT-war-exec.jar but installs seyren-web-1.0.0-SNAPSHOT-exec-war.jar -> wierd"
+    },
+    {
+        "commit_hash": "ff83084b05f84767947ab8961131f48e54acd556",
+        "commit_message": "Merge pull request #150 from obazoud/one_jar\n\nMake a one jar file monolithic #149"
+    },
+    {
+        "commit_hash": "4ac68f93317ac332e776d5f78d6c3eb85e60a9d4",
+        "commit_message": "No longer need jetty runner to execute standalone jar"
+    },
+    {
+        "commit_hash": "b7572a062b7b5bab9ded32cbece9ad4edbf65d24",
+        "commit_message": "Executable jar does not open with /seyren context"
+    },
+    {
+        "commit_hash": "9887b7e443a9545d41c730f4f6120260ff51bc44",
+        "commit_message": "Add a logger subscription useful for debugging and demo."
+    },
+    {
+        "commit_hash": "fc91c7407c89bc5af286a436c5f92ca63dc62d75",
+        "commit_message": "Use 'GRAPHITE_REFRESH' system property to change the fixed period (in ms) between checks"
+    },
+    {
+        "commit_hash": "aa92a43803541bf24e8123bce8b618bb5e33a378",
+        "commit_message": "Merge pull request #152 from obazoud/fixed_period\n\nUse 'GRAPHITE_REFRESH' system property to change the fixed period"
+    },
+    {
+        "commit_hash": "c269af0eca3999e90ebda9e3a5d724f6ae67beb4",
+        "commit_message": "Add Pushover support"
+    },
+    {
+        "commit_hash": "b2c1023a1e98091ff0aa6580cdd0a2b396037218",
+        "commit_message": "Update README"
+    },
+    {
+        "commit_hash": "6ef14337047183513c8c160bb4ebaa07fdb7041e",
+        "commit_message": "Default value PUSHOVER_APP_API_TOKEN"
+    },
+    {
+        "commit_hash": "8045023c0c9e3b7b9ae61702f121bfef78bfefc6",
+        "commit_message": "Merge pull request #153 from adedommelin/pushover-support\n\nAdd Pushover support (real-time iOS & Android notifications)"
+    },
+    {
+        "commit_hash": "f2d1f1e9ef510ee5d142a7035e4c4f3a766a0167",
+        "commit_message": "Merge with Pushover changes"
+    },
+    {
+        "commit_hash": "40e2ba2768a095f308031ea37ff40cc8e94dbbe5",
+        "commit_message": "Re-order README and add links to notifiers"
+    },
+    {
+        "commit_hash": "2974c8103ae06e175281d9872ab69f06bb8ba6db",
+        "commit_message": "Add backticks to GRAPHITE_REFRESH default in README"
+    },
+    {
+        "commit_hash": "f55d9279d7ae16071067a4d7e6ff69d28d8d0442",
+        "commit_message": "Update to angularjs 1.2.3"
+    },
+    {
+        "commit_hash": "cb6d2a6d8dd4784e6b94d77e84236bcad793ef3d",
+        "commit_message": "Merge pull request #155 from obazoud/angularjs12\n\nUpdate to angularjs 1.2.3"
+    },
+    {
+        "commit_hash": "090ee55a46670043b977035564405982dd1c0fd6",
+        "commit_message": "Twitter Boostrap 3.0.2"
+    },
+    {
+        "commit_hash": "5eaedaf89e1ed23c57bfed40e184e784e568466a",
+        "commit_message": "Merge pull request #156 from obazoud/twbootstrap302\n\nTwitter Boostrap 3.0.2"
+    },
+    {
+        "commit_hash": "63b3dc6a4f300245fce400d3bdba479c5d1627ef",
+        "commit_message": "Tw Bootstrap: fix spinner css"
+    },
+    {
+        "commit_hash": "bdfc8b2078c2db0f56a8a20f1cb42751e98c5c31",
+        "commit_message": "Merge pull request #157 from obazoud/spinner\n\nTw Bootstrap: fix spinner css"
+    },
+    {
+        "commit_hash": "cdfd5f8deb8dde3645adb724e444d4015aeda104",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren\n\nConflicts:\n\tseyren-web/src/main/webapp/html/check.html"
+    },
+    {
+        "commit_hash": "aef3e2b1d132d165f86ec65d5363ff6b751f65a4",
+        "commit_message": "Correct some classes which must've moved"
+    },
+    {
+        "commit_hash": "0ac6653e79c4ef12cbd1378a10dd8a198913a718",
+        "commit_message": "Tidy up imports"
+    },
+    {
+        "commit_hash": "7383ce282f0aa578a09fde099dd97cbd7e635675",
+        "commit_message": "Hide Live parts of UI if it's disabled"
+    },
+    {
+        "commit_hash": "d26e79aab8ef1d2bd40baecb8212e8aad5205868",
+        "commit_message": "Clean up some warnings"
+    },
+    {
+        "commit_hash": "d967ef9fbba6d3691a0d535483c319882c693abc",
+        "commit_message": "Update HttpClient and add in ability to control HttpClient timeouts\n\nBy default, Seyren is set-up using the default timeouts from Apache HttpClient (which are infinite). This remains the case for now, but in the future we might want to consider changing them for something sensible."
+    },
+    {
+        "commit_hash": "66aae7f3c520ec2bfa9120fc22f712fbbad3f41e",
+        "commit_message": "Add timeout properties to the README"
+    },
+    {
+        "commit_hash": "49d1eef668a64c1e2739f96a0ce258274cab8d0a",
+        "commit_message": "Customize seyren.log path"
+    },
+    {
+        "commit_hash": "12365805447051cefe26480ea3249f81346729d9",
+        "commit_message": "Patched in SNMP trap code\n\nAdded new environment variables and dependency on snmp4j.\n\nexport SNMP_HOST=\"x.x.x.x\"\nexport SNMP_PORT=\"162\"\nexport SNMP_COMMUNITY=\"snmp_trap_community\"\nexport SNMP_OID=\"trap_oid\""
+    },
+    {
+        "commit_hash": "76e5612b8e8a2b0191c1171ea93ccf7b1ed318e0",
+        "commit_message": "Fix dependencies for #163\n\nAdd osnmp.net repository for snmp4j"
+    },
+    {
+        "commit_hash": "3a7ec6ac04783e9d826b253ab36c308c09773006",
+        "commit_message": "Merge pull request #165 from scobal/mpcathey-master\n\nSNMP notifications (courtesy of mpcathey)"
+    },
+    {
+        "commit_hash": "358cba16efaaa4196dce05ae2b1659c582bdce5b",
+        "commit_message": "Adding Mike Cathey (mpcathey) to contributors for SNMP notifications"
+    },
+    {
+        "commit_hash": "4ac7dc4dc6d01b0c2d66ea09889c97fa99253b17",
+        "commit_message": "Some uber-basic SNMP documentation"
+    },
+    {
+        "commit_hash": "d3395cca9d7813e3c2755711cd6aa2873f886c7d",
+        "commit_message": "Small tidy up of the SNMP notifier"
+    },
+    {
+        "commit_hash": "63406c98b1e9092906d04d5e1f04fdd2b5781764",
+        "commit_message": "Merge pull request #160 from obazoud/seyren_log_path\n\nCustomize seyren.log path"
+    },
+    {
+        "commit_hash": "bb98dff41ef2afc4b6ff9a506513a34d806dd054",
+        "commit_message": "Issue 166: Robustify the IrcCatNotificationServiceTest, specifically wait until the server socket has been bound before trying to send a message. On slower systems it can cause unit test to fail."
+    },
+    {
+        "commit_hash": "5fbae1ab88e94d251fe5e99902c18a7f06899ed9",
+        "commit_message": "Merge pull request #167 from omodica/master\n\nIssue 166: Robustify the IrcCatNotificationServiceTest, specifically wai..."
+    },
+    {
+        "commit_hash": "55fc73bd40c2f39532b61b40fb807f1f8a804260",
+        "commit_message": "Update dependencies"
+    },
+    {
+        "commit_hash": "193aba2a4180ca1813612365161384e4aead2adc",
+        "commit_message": "Make sure we rotate logs into the same location we write the current log file"
+    },
+    {
+        "commit_hash": "c04dadbc5420d45733154f3145ac1dac445a9365",
+        "commit_message": "Fix for ng-click running before ng-bind in subscription editing.\n\nAccording to https://github.com/angular/angular.js/issues/4765 ng-click can happen before ng-bind. We can use ng-change which appears to run after ng-bind."
+    },
+    {
+        "commit_hash": "43099ba756880082363e6ac0bfc708fc21941bf1",
+        "commit_message": "Update things to see whether we can get Travis working again"
+    },
+    {
+        "commit_hash": "6e450936d10f7956d3d4e0cfd192c9ac5e7fa53d",
+        "commit_message": "No longer using sonatype parent"
+    },
+    {
+        "commit_hash": "76530dfff54bf6ba78e33cf28d4744817eb6e6c8",
+        "commit_message": "[maven-release-plugin] prepare release 1.0.0"
+    },
+    {
+        "commit_hash": "36cbcece95bfa5857c72463e35ad3b3f73440c2e",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "0885e1a8429ea90fbe87d9c59ce7069795e13bdd",
+        "commit_message": "Update README to use released jar"
+    },
+    {
+        "commit_hash": "fc36a6ec1a379b64b004a8ac371edd0bf5a33038",
+        "commit_message": "No longer need Maven as a pre-req"
+    },
+    {
+        "commit_hash": "bdb30474cba7a74f21f93cd9ed4fc0fd77a33393",
+        "commit_message": "Clean up of the README"
+    },
+    {
+        "commit_hash": "d17bab089d80ca1706aa6e38475d52abe3347777",
+        "commit_message": "Split out graphite config options"
+    },
+    {
+        "commit_hash": "71d33f41769f1873e49a62d1b45d01eefcb4c84f",
+        "commit_message": "Trying to make the README look nice"
+    },
+    {
+        "commit_hash": "e630df9ebacdb0f7cf159326bc30c3ac445b3800",
+        "commit_message": "Slack notification"
+    },
+    {
+        "commit_hash": "b9da80c5dbb1abe451a98b5fceeab7207042df1d",
+        "commit_message": "Fix the build\nRevert \"Remove need to specify both seyren.port and jetty.port (#129)\"\n\nThis reverts commit 5642a0c18425ee760a9f11d63d39a81e16742660."
+    },
+    {
+        "commit_hash": "02ef0202204da97249deac70127d1d75cd12a3e7",
+        "commit_message": "Install karma-cli if you wanna be able to use karma in your command line."
+    },
+    {
+        "commit_hash": "2ad9d5f4be7720a357f594632670979ba454c8bb",
+        "commit_message": "Merge pull request #176 from obazoud/fix-the-build\n\nFix the build"
+    },
+    {
+        "commit_hash": "1c32f3737de2a8306a8a90544e8a8a3fbbec6eb2",
+        "commit_message": "Merge branch 'slack' of https://github.com/obazoud/seyren into obazoud-slack\n\nConflicts:\n\tREADME.md"
+    },
+    {
+        "commit_hash": "14c024e579dbc6e76812314ccc963404ff4031d2",
+        "commit_message": "Put new Slack updates in alphabetical order"
+    },
+    {
+        "commit_hash": "41375246966755b65305d96325c955323bb68a48",
+        "commit_message": "Seyren Cookbook"
+    },
+    {
+        "commit_hash": "f93db7a5a30afe21c6a66007a783c4ae102585c8",
+        "commit_message": "Merge pull request #177 from obazoud/chef_cookbook\n\nSeyren Cookbook"
+    },
+    {
+        "commit_hash": "3a642aec4d925fcae2109a5392a700e2ad0cfc97",
+        "commit_message": "Issue-93 Add subscription when creating check (partial REST API only)\n\nPOST to /checks API now supports persisting nested subsciption objects.\nNew acceptance test.\nThis patch does NOT address the UX changes necessary to create\nsubscriptions concurrently with checks, but is more narrowly focused at\nsupporting scripts.  It will generalize once someone is able to properly\nfactor the partials out in the angular."
+    },
+    {
+        "commit_hash": "4afb02e59be937f2f71268025b20abd1eae6effd",
+        "commit_message": "added Twilio SMS notification"
+    },
+    {
+        "commit_hash": "fed67f57c1fd3ab4faad524ad750978aaf02f6f2",
+        "commit_message": "Merge pull request #181 from DevinDawson/issue-93\n\nIssue-93 Add subscription when creating check (partial REST API only)"
+    },
+    {
+        "commit_hash": "0d9ec442c4766bcbd1e6c7232ae840711d26ef51",
+        "commit_message": "small update to TwilioNotificationService to include Twilio error codes\nin Exceptions when possible, added test"
+    },
+    {
+        "commit_hash": "dd743297c90fc3fac0cc79ccccbd003b3ab58057",
+        "commit_message": "added Twilio docs to README"
+    },
+    {
+        "commit_hash": "63ad592c87f6a08314cd200e1ac915d5de481f82",
+        "commit_message": "switched to canned ClientDriver test from Twilio SDK"
+    },
+    {
+        "commit_hash": "a5165b66369113df6d97d646fdaf473446c7b83a",
+        "commit_message": "Merge pull request #183 from sigpwned/master\n\nadded Twilio SMS notification"
+    },
+    {
+        "commit_hash": "1482e7531f83a5d8eb84697894156b4ff50711d1",
+        "commit_message": "Re-order Twilio to bottom (alphabetical) of readme"
+    },
+    {
+        "commit_hash": "eb0078d3ae82aa9b5f2dcaa77a2ccc184b029959",
+        "commit_message": "Update readme to point to 1.1.0"
+    },
+    {
+        "commit_hash": "fb616a539f9d5b6401111b99927136804eab1b06",
+        "commit_message": "Added build w/o tests and alt. port instructions."
+    },
+    {
+        "commit_hash": "fd28138a6c9ce4817b8889328289015a5381d29c",
+        "commit_message": "Amend index to include live field"
+    },
+    {
+        "commit_hash": "b1f2ffd1bf7ac8ddc8ef41fdefd6c5edbe7aa723",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "ed7a32e7b583e5263dde8c183abf7d845fe8ae3b",
+        "commit_message": "Added support for optional fields 'from' and 'until' to a check.\nIf either field is set, its value is used when building the graph; otherwise, the previous defaults (-11minutes, -1minutes) are used."
+    },
+    {
+        "commit_hash": "52fa9e53b290989d47769fbf43a224b2bb74afc1",
+        "commit_message": "Linkify check descriptions"
+    },
+    {
+        "commit_hash": "a52c32b021ef8c2f7d586266ec6b1f8a0619afaa",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "9bc4bd25f983d10aea1a43d81f088e99d1377ba4",
+        "commit_message": "Noop commit in hopes of forcing a CI build on the pull request."
+    },
+    {
+        "commit_hash": "71f5e3faa7ffa0877b8cea77a2a650059fd50301",
+        "commit_message": "Another no-op commit to force a CI build."
+    },
+    {
+        "commit_hash": "89423af3f106bc78dd1be80e7511ff314e536331",
+        "commit_message": "Specify Mongo version once"
+    },
+    {
+        "commit_hash": "742f204491e70078a69531a0e5ed6e9159163bad",
+        "commit_message": "Tidy up some warnings"
+    },
+    {
+        "commit_hash": "53f5f9cb679ec7b3a36511eb4b98d8ec5a31d3a8",
+        "commit_message": "Prevent state and last updated date update from overwriting actual changes to the rest of the check"
+    },
+    {
+        "commit_hash": "f7c6c391ccd28165ab7497b29033c29eaa8e8b19",
+        "commit_message": "Update Mongo driver"
+    },
+    {
+        "commit_hash": "69b243a0e76cb6c78b2254c7b8d72d0dd526ec76",
+        "commit_message": "Fix for checks with long targets not being able to save alerts\n\nAs of Mongo 2.6 there is a strictly-enforced 1024 byte length restriction on index keys. Our checkId + target can go above this given a sufficiently large target."
+    },
+    {
+        "commit_hash": "7cf9421df90c6ef3f6d0b7a02ee7ce7c02be2968",
+        "commit_message": "Merge pull request #199 from usmanismail/master\n\nUpdate README.md to link to Seyren docker image."
+    },
+    {
+        "commit_hash": "a1d3cf9075c19dddf5a4e9c3699036758763aeb7",
+        "commit_message": "Make the alert-updating cursor not timeout"
+    },
+    {
+        "commit_hash": "7a78a0e6e5cd38546041f954c713447974ff3249",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "dbe6e77d595517a4caea1f78ba923af8ec1d0d85",
+        "commit_message": "Switch off console logging during acceptance and integration tests.\n\nThis makes it a bit easier to see what has actually failed"
+    },
+    {
+        "commit_hash": "361c1955e16e98fd8dc781f94cb9537edd929a21",
+        "commit_message": "Merge remote-tracking branch 'upstream/master'"
+    },
+    {
+        "commit_hash": "eb48feddabab34a02ce5436f11d76ff491ae3bb6",
+        "commit_message": "Issue-144 Allow custom email content\n\nConfiguration parameter for custom email template.\nLoading of alternate template path.\nDe-static'ized the filename and content properties of the\nVelocityEmailHelper to reflect their dependence on a SeyrenConfig only\navailable on instantiation.  Further de-static'ized the private method\nthat performed the one-time content initialization.\nAdded test locking down default.\nAdded stub test template for loading verification.\nAdded test that exercises alternatively configured test template.\nUpdated documentation."
+    },
+    {
+        "commit_hash": "3a4a680fc2b6037940bde3a33ff97717ca6f19cd",
+        "commit_message": "Fix up documentation."
+    },
+    {
+        "commit_hash": "6966a18e4e2fde87baf73eedd4bbf2164186ecd8",
+        "commit_message": "Arbitrary check search by fields and corresponding regular expression.\n\nModification of checks resource parameters to add fields and regexes.\n\nAdded acceptance tests demonstrating, documenting and enforcing usage of check search API.\n\nAn example URL is localhost:8080/api/checks?fields=name&patterns=test&fields=description&patterns=test.*description.*"
+    },
+    {
+        "commit_hash": "bbb992ab097f52e1bf293c2a62bdf6582b236924",
+        "commit_message": "Seems I managed to clean out subscriptions each time we saved a check"
+    },
+    {
+        "commit_hash": "da3328d25adb6bea257dacc2e8dd35044fbb8af3",
+        "commit_message": "Merge pull request #187 from foozlevazquez/master\n\nAdded build w/o tests and alt. port instructions."
+    },
+    {
+        "commit_hash": "ad33f5574faf9475afb0ee8e024fe1d1d0a57da0",
+        "commit_message": "Merge pull request #193 from joelittlejohn/linkify-description\n\nAdd a link to a check"
+    },
+    {
+        "commit_hash": "17c52b6302e26370f8aa4f0ef74251efb51c32c7",
+        "commit_message": "Merge pull request #206 from petems/rebased_email_template\n\nRebased email template"
+    },
+    {
+        "commit_hash": "a23c327fd7c779a5a8aa303464a13bd11a3c2bad",
+        "commit_message": "Fix an invalid char in the Docker Seyren Image link."
+    },
+    {
+        "commit_hash": "a7b158fb390708e088e50eaeed9122096a0f53b7",
+        "commit_message": "Merge pull request #208 from jvrplmlmn/fix_markdown_in_readme\n\nFix an invalid char in the Docker Seyren Image link"
+    },
+    {
+        "commit_hash": "8d06971f1eca1094015b8e412f6cc9cbffa6419a",
+        "commit_message": "Merge remote-tracking branch 'upstream/master'"
+    },
+    {
+        "commit_hash": "60a1fd33956f4e58ba0fad3ac519d386a2a3c796",
+        "commit_message": "Fixed karma tests broken by from/until changes."
+    },
+    {
+        "commit_hash": "51dedd7dc160489168d110ea984f93b16739df90",
+        "commit_message": "Fixed more karma tests broken by from/until changes."
+    },
+    {
+        "commit_hash": "fdc4a052239baebb76786b52f569fc3040b954b5",
+        "commit_message": "Fixed more karma tests broken by from/until changes."
+    },
+    {
+        "commit_hash": "82055af69fc7468e77507aca281ff3216aabb674",
+        "commit_message": "Merge pull request #194 from vast-engineering/master\n\nAdded support for optional fields 'from' and 'until' to a check."
+    },
+    {
+        "commit_hash": "39c4678337bb03e5004f84e72ddaa1d00261c21f",
+        "commit_message": "Add a test button to each subscription\n\nShould fix #197"
+    },
+    {
+        "commit_hash": "be7ff27a983a2dab99a5ca4dac60505b943f45cb",
+        "commit_message": "Merge pull request #213 from obazoud/test_button\n\nAdd a test button to each subscription"
+    },
+    {
+        "commit_hash": "f29024239356b0d79366341538cf19171ab262bc",
+        "commit_message": "Change pom version - fix #219\n\nShould be 1.2.0-SNAPSHOT because 1.1.0 tag already exists - https://github.com/scobal/seyren/releases/tag/1.1.0"
+    },
+    {
+        "commit_hash": "ef6eae821948d300f7a02b534168504e853d7105",
+        "commit_message": "Merge pull request #220 from obazoud/fix_pom_version\n\nChange pom version - fix #219"
+    },
+    {
+        "commit_hash": "e94cf18308ddbd417dfef283eb0867eeb506465f",
+        "commit_message": "Travis CI build status"
+    },
+    {
+        "commit_hash": "0fe14ab4530a822e82cd5087da314984efbcd628",
+        "commit_message": "Merge pull request #221 from obazoud/badge\n\nTravis CI build status"
+    },
+    {
+        "commit_hash": "c85071410434c972acaecc94eb36e7dd17dc9c08",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "3d745eaaa57ad0eadff8c1652fb4fdb5aa98ba97",
+        "commit_message": "Allow to enable/disable graphs"
+    },
+    {
+        "commit_hash": "50acebdc38d01e657adcbc694cfeb7c62c6e08f7",
+        "commit_message": "Merge pull request #227 from obazoud/option_to_turn_off_graphs\n\nAllow to enable/disable graphs"
+    },
+    {
+        "commit_hash": "73b48205e68ae5a71b5c7d415fa45faacaf5e5c0",
+        "commit_message": "Add Seyren-Init reference"
+    },
+    {
+        "commit_hash": "ab33406ed05098a6b3049931ccba32786fae5b0d",
+        "commit_message": "Add banner if Graphite is not available to Seyren"
+    },
+    {
+        "commit_hash": "d0d3a6ad044477a2c0ae3d73f9ea7379f11e664c",
+        "commit_message": "Merge pull request #228 from obazoud/graphite_status\n\nAdd banner if Graphite is not available to Seyren"
+    },
+    {
+        "commit_hash": "fd3cf4c488da4262ca4449ffd9c6fa38267ba512",
+        "commit_message": "Wording"
+    },
+    {
+        "commit_hash": "e8ea84b0092bf8d9fbd8b1a9f6d399e8061eacd5",
+        "commit_message": "Debug log in slack notifier"
+    },
+    {
+        "commit_hash": "81dc46689f39aedc710e35c73e1d51b9dca79bc3",
+        "commit_message": "Merge pull request #229 from obazoud/slack_debug\n\nDebug log in slack notifier"
+    },
+    {
+        "commit_hash": "99c54d7bb50dbef353838755f85d6663e8819388",
+        "commit_message": "Add jetty-jsp to remove like NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl or NoClassDefFoundError: org/eclipse/jetty/servlet/FilterMapping"
+    },
+    {
+        "commit_hash": "fa52ad750c000e5a9bed3c46ea436537189249a1",
+        "commit_message": "Merge pull request #231 from obazoud/remove_build_stacktrace\n\nAdd jetty-jsp to remove like NoClassDefFoundError: org/apache/jasper/run..."
+    },
+    {
+        "commit_hash": "3c5b61ae53cdf5c8a1d4f4284ca910c9852c77f6",
+        "commit_message": "Fix #230: checksStore.updateStateAndLastCheck updates Check in mongo but does not change check object itself."
+    },
+    {
+        "commit_hash": "c8715a1e1cae0909b0aa4bd7956cd794c3b0ebf4",
+        "commit_message": "Merge pull request #232 from obazoud/wrong_state\n\nFix #230: checksStore.updateStateAndLastCheck updates Check in mongo but..."
+    },
+    {
+        "commit_hash": "177fa9b103c8823f32c4ea18fa25954e56f2b688",
+        "commit_message": "prepare release 1.2.0"
+    },
+    {
+        "commit_hash": "98c52491823d4c1955f1691f0224f44f66ae58e1",
+        "commit_message": "prepare for next development iteration"
+    },
+    {
+        "commit_hash": "fdab65bcf9df26d04cc652bfc27839219d2e4ca9",
+        "commit_message": "Update readme to point to 1.2.0"
+    },
+    {
+        "commit_hash": "1d3faa7cf0ea9883a9af4c9275215f61b9b710b2",
+        "commit_message": "cherry-pick 9d32621\n\nregressions introduced by 53f5f9c\n* 3c5b61a fix only wrong state\n\nThis commit fixes state *and* lastCheck - updateStateAndLastCheck hits\nmongo to read check"
+    },
+    {
+        "commit_hash": "66930403a51dbd313c48bfb8b7666605d4b67a34",
+        "commit_message": "Do not call total metrics if target is not valid - fix #140"
+    },
+    {
+        "commit_hash": "bf3ab0f0a86c7e7917b3b8643d76cadfb57bc3e9",
+        "commit_message": "Merge pull request #234 from obazoud/metrics_total_not_empty\n\nDo not call total metrics if target is not valid - fix #140"
+    },
+    {
+        "commit_hash": "dece525731956b64e004f2c62556a5c362ebeb45",
+        "commit_message": "Time ago columns added - fix #66"
+    },
+    {
+        "commit_hash": "863e2b0b360ae0d5d945c8c4698009e045cfa63e",
+        "commit_message": "Merge pull request #235 from obazoud/time_ago\n\nTime ago columns added - fix #66"
+    },
+    {
+        "commit_hash": "6780a1d0b53db0ffafc61038122454ae785f3d7a",
+        "commit_message": "Upgrade to bootstrap 3.0.2"
+    },
+    {
+        "commit_hash": "ce51b71f9f1f245e696218d24cf3f7298ea12dd7",
+        "commit_message": "Merge pull request #236 from obazoud/boostrap_3_2_0\n\nUpgrade to bootstrap 3.0.2"
+    },
+    {
+        "commit_hash": "aabd00b10f6160e0df297324b3c1ba94dcfccec1",
+        "commit_message": "Upgrade to latest java dependencies"
+    },
+    {
+        "commit_hash": "f98ae74282744197c63c13255ad58ca316bb5132",
+        "commit_message": "Merge pull request #238 from obazoud/java_dependencies\n\nUpgrade to latest java dependencies"
+    },
+    {
+        "commit_hash": "242d816f7f68af55bfcdc3319a7bbbb9d89581cc",
+        "commit_message": "API doc"
+    },
+    {
+        "commit_hash": "1253e46617cd68957d6da015797d78f35794eaea",
+        "commit_message": "Merge pull request #239 from obazoud/doc_api\n\nAPI doc"
+    },
+    {
+        "commit_hash": "514b6f4f4a88459e2b75286702783e82459fc453",
+        "commit_message": "Force emptyToNull for from and until fields"
+    },
+    {
+        "commit_hash": "6be091d5a93dfdcc7246c2ad381e615558f40440",
+        "commit_message": "Merge pull request #242 from obazoud/from_until\n\nForce emptyToNull for from and until fields #240"
+    },
+    {
+        "commit_hash": "ed39c92879ab0c019bd1fdaa756771223293704f",
+        "commit_message": "Upgrade linkify #241"
+    },
+    {
+        "commit_hash": "2bcd0ae9514db5e2ebc3235b417c44b7018aa6cc",
+        "commit_message": "Merge pull request #243 from obazoud/linkify_error\n\nUpgrade linkify #241"
+    },
+    {
+        "commit_hash": "f9b71232991e108ead8f57e29a593377ae312237",
+        "commit_message": "PagerDuty implementation\nGet rid of biz.neustar.pagerduty dependency\nChange to pagerduty-incidents (Square)\nTruncate target (service key api) in subscriptions list"
+    },
+    {
+        "commit_hash": "350b05adc78379279945b694a4e20d037944ddd9",
+        "commit_message": "Merge pull request #245 from obazoud/pagerduty\n\nPagerDuty implementation"
+    },
+    {
+        "commit_hash": "fa22a509a34f64d075fbef5f932c7add3d93fabb",
+        "commit_message": "Set check state to ERROR during a subscription test is fired"
+    },
+    {
+        "commit_hash": "925d5091a9d2c51d28d6cbca38560fe2af02b01a",
+        "commit_message": "Merge pull request #246 from obazoud/testSubscription\n\nSet check state to ERROR during a subscription test is fired"
+    },
+    {
+        "commit_hash": "4be4fffcc23f3f169bff9d4c5ec4e5d4d5c2190c",
+        "commit_message": "PagerDuty: add client information to incident trigger - https://github.com/square/pagerduty-incidents/pull/9"
+    },
+    {
+        "commit_hash": "9ca2211f97130e054e4217feefa0142b0f376288",
+        "commit_message": "Merge pull request #249 from obazoud/pagerduty_fields\n\nPagerDuty: add client information to incident trigger - https://github.c..."
+    },
+    {
+        "commit_hash": "da07011107b1cd0c77ce302abb08581d72ce6150",
+        "commit_message": "Macs, eh."
+    },
+    {
+        "commit_hash": "f94dd3fcb26f2058d863d12682ac6aa5fc80c904",
+        "commit_message": "Update dependencies"
+    },
+    {
+        "commit_hash": "b4500d2c4d0194d0fbd1982647af4aa20a4b7482",
+        "commit_message": "Better late than never for some CheckRunner tests"
+    },
+    {
+        "commit_hash": "88d10627e2645a7669b3165b42d6d414608b0cef",
+        "commit_message": "Allow checks to specify whether no data should appear as OK"
+    },
+    {
+        "commit_hash": "7bfb19e8118c44ed2b78797f7be6ab95eeb61037",
+        "commit_message": "Merge pull request #261 from neilprosser/master\n\nAllow checks to specify whether no data should appear as OK"
+    },
+    {
+        "commit_hash": "1f3370fe7f82366648c6a8d6cd6f3b32bd63c893",
+        "commit_message": "Rework Slack notifications to be more succinct."
+    },
+    {
+        "commit_hash": "1bbd13bf3bb72b7e340807b144ceeb3a0f0d0b0b",
+        "commit_message": "Merge pull request #267 from kelveden/master\n\nRework Slack notifications to be more succinct."
+    },
+    {
+        "commit_hash": "43e35cc62d244de7a3b1b0b9fb8330df4c97d17c",
+        "commit_message": "README: update seyren version to 1.2.1"
+    },
+    {
+        "commit_hash": "1b2d7013279ae700f0b15e6cb45a640c0accab63",
+        "commit_message": "Merge pull request #271 from raine/patch-1\n\nREADME: update seyren version to 1.2.1"
+    },
+    {
+        "commit_hash": "c5cd0bdab45db3bacd54efe837fc4a5d29ab13d7",
+        "commit_message": "README: clarify flowdock instructions\n\nI had to read the code to figure this out, so clarified in the README where token goes"
+    },
+    {
+        "commit_hash": "fccb2eedee236027300f67c711228e26ad3aaa7c",
+        "commit_message": "Allow channel notifications in Slack alerts by suffixing the channel name with an exclamation mark"
+    },
+    {
+        "commit_hash": "e890334725ba7ed5f9e5081166a3734da0aebc95",
+        "commit_message": "Make sure the basic test checks that we haven't included a channel mention"
+    },
+    {
+        "commit_hash": "265d97b5d5a201d4dab9ca80105810b76666ead4",
+        "commit_message": "Merge pull request #272 from raine/patch-2\n\nREADME: clarify flowdock instructions"
+    },
+    {
+        "commit_hash": "27232211b8ea481ea0a1a5507876ff2140397d5b",
+        "commit_message": "Should've read the Slack docs about channel mentions by bots"
+    },
+    {
+        "commit_hash": "7058deaa59e8a1df39f001df8009dfb47944df6d",
+        "commit_message": "Add check description to Slack messages, if present"
+    },
+    {
+        "commit_hash": "2b3f9f4782c8869a21654ef9d04866d5bef2fb79",
+        "commit_message": "Merge branch 'master' of github.com:scobal/seyren"
+    },
+    {
+        "commit_hash": "82c47b7013ceddb3b88fe7a2ea73a5272203c039",
+        "commit_message": "Update Readme to clarify Slack target configuration"
+    },
+    {
+        "commit_hash": "aac4dfbd5e6c364a626388d13531d20e2e3958f5",
+        "commit_message": "Include from- and to-type in Slack notification (more like the email)"
+    },
+    {
+        "commit_hash": "a3048cee32ca6f08e106d45f795457d9bfa31bcf",
+        "commit_message": "Docker URL in readme"
+    },
+    {
+        "commit_hash": "f27ced23aaa8364f6bf40957a46d4edd252dba9b",
+        "commit_message": "Allow log level to be set via environment variable (#274)"
+    },
+    {
+        "commit_hash": "d49c9eefd3512ad4b00ae8397cbfba0fc6c75cde",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "31dbff67a84ab873addabe5f46093a8d326938ff",
+        "commit_message": "fixed hard coded number of execution threads"
+    },
+    {
+        "commit_hash": "f75531104bd84c51c8c93ca17fd0f6fb0123e538",
+        "commit_message": "Merge pull request #277 from asebak/configuredThreads\n\nfixed hard coded number of execution threads"
+    },
+    {
+        "commit_hash": "0873ffbd96f789c1cbf7f3f1a6cbb1baaa29fcee",
+        "commit_message": "Adding proper information in traps:checkName\nmetric path\nstate\ncurrent value\nwarn value\nerror value\ncheck ID\nCheck URL"
+    },
+    {
+        "commit_hash": "a90cefe7eebcf1f386b5cab3bc3b6929c5879af3",
+        "commit_message": "Merge pull request #279 from jregovic/master\n\nAdding proper information in traps"
+    },
+    {
+        "commit_hash": "0ebc0e2efae56f0f6ab564f8c401a26459de3863",
+        "commit_message": "hack seyren with docker"
+    },
+    {
+        "commit_hash": "b6ebbacf5fe1f67c60fb5b557b3aa68bcf84fe4f",
+        "commit_message": "Merge pull request #280 from obazoud/docker_compose\n\nhack seyren with docker"
+    },
+    {
+        "commit_hash": "cc9215ae3f845e989ad825735fa428afb886a132",
+        "commit_message": "Pagerduty notification sent for WARN #278"
+    },
+    {
+        "commit_hash": "2797fcb5e491740708b09ecbdcfe23d626e91881",
+        "commit_message": "Merge pull request #284 from obazoud/pagerduty_warn\n\nPagerduty notification sent for WARN #278"
+    },
+    {
+        "commit_hash": "93ea73714cea7716ce870ea17acd5f7e35c90f0b",
+        "commit_message": "prepare release 1.3.0"
+    },
+    {
+        "commit_hash": "90d45bf8444ab8272edce2be2a73c2463dfadcaf",
+        "commit_message": "prepare for next development iteration"
+    },
+    {
+        "commit_hash": "8c4a5cca1b83794c37af8f1ac6aefb0844504bfa",
+        "commit_message": "README: update seyren version to 1.3.0"
+    },
+    {
+        "commit_hash": "9a4ad4d46b510beec212498101f68909bd8d4638",
+        "commit_message": "Updating hipchat base url to be configurable"
+    },
+    {
+        "commit_hash": "d284d9a86efa30495594e4c8ae9bb57472d37364",
+        "commit_message": "fixing formatting"
+    },
+    {
+        "commit_hash": "c38c7093cde2da062e74d404f74846573c0abe25",
+        "commit_message": "Merge pull request #290 from vpothuri/feature/hitpchat-baseurl\n\nAdding hipchat base url and version to seyrenconfig"
+    },
+    {
+        "commit_hash": "411aaf37d167dbd71947b672900801a2fc178965",
+        "commit_message": "Added victorops support to seyren"
+    },
+    {
+        "commit_hash": "b93ea58549a777490933f23affbc075893da61fa",
+        "commit_message": "victorops specific description and adding victorops to html"
+    },
+    {
+        "commit_hash": "1bb6daeef04b82066abec9cdd5c72564412b1ff1",
+        "commit_message": "some more tailoring for victorops"
+    },
+    {
+        "commit_hash": "cfc646ea9112e9c3a8a10e63bf66bbd87f64c0b2",
+        "commit_message": "configurable http notification url"
+    },
+    {
+        "commit_hash": "8b2763bf8a88d713e7c699ad9008026f01a069e7",
+        "commit_message": "Merge pull request #293 from asebak/configurable-httpurl\n\nconfigurable http notification url"
+    },
+    {
+        "commit_hash": "77aca30a80c6f67acfcc389ebc7ca9cc00056e2d",
+        "commit_message": "Migrating to Hipchat API v2; fixes #270"
+    },
+    {
+        "commit_hash": "00b05a6940794519118049e307353e1749d266a7",
+        "commit_message": "Merge pull request #294 from rposbo/hipchat-api-v2\n\nMigrating to Hipchat API v2; fixes #270"
+    },
+    {
+        "commit_hash": "abe4334119de022ce03942d3fcb18ffdd0bc3591",
+        "commit_message": "PR feedback"
+    },
+    {
+        "commit_hash": "6fae2092832c19bc8ce78b9572ddabaf8a57a675",
+        "commit_message": "Update README.md"
+    },
+    {
+        "commit_hash": "b059d549faffbc9bbc2ed29e527f15e6ddadf3a8",
+        "commit_message": "Merge pull request #292 from nageshwara/victorops\n\nSupport for Victorops Notification"
+    },
+    {
+        "commit_hash": "4d4126821400f0f0be5e184c0a3d8de8ee817e54",
+        "commit_message": "Initial integration.  Haven't yet confirmed if close works."
+    },
+    {
+        "commit_hash": "5fb36a321af7df470d4c845cb18da8f85be31c38",
+        "commit_message": "Make the email subject configurable via template #265"
+    },
+    {
+        "commit_hash": "ffdce1b9419d5ca021b69a436aab40a8203372c3",
+        "commit_message": "Fix the tests"
+    },
+    {
+        "commit_hash": "1dd997177b1ca03672f8c1909d7a69f86ea64387",
+        "commit_message": "Merge pull request #310 from alenkacz/master\n\nMake the email subject configurable via template #265"
+    },
+    {
+        "commit_hash": "2d9e2fd24f708a099364d1a908ac75351ef43b31",
+        "commit_message": "Merge pull request #307 from sgmiller/opsgenie_integration\n\nBasic OpsGenie integration"
+    },
+    {
+        "commit_hash": "c27622588556763f1ed8196820803c99543dd72a",
+        "commit_message": "Build also projects required by seyren-web - fix #312"
+    },
+    {
+        "commit_hash": "6d7f8930720a4685ffb44e7a857c03df5046363c",
+        "commit_message": "Merge pull request #313 from obazoud/docker\n\nBuild also projects required by seyren-web - fix #312"
+    },
+    {
+        "commit_hash": "e84798e0d41a492b2537e4347300d83afb095269",
+        "commit_message": "Allow people to set check filters via request params\n\nExample: http://localhost:8080/seyren/#/checks?filter=cpu\nThat will pre-populate search box on checks page with 'cpu'"
+    },
+    {
+        "commit_hash": "f95d6421b9e3453b02c0cb88ba3677fb6475e197",
+        "commit_message": "Merge pull request #325 from ipaponov/filter-from-url\n\nAllow people to set check filters via request params"
+    },
+    {
+        "commit_hash": "843ace7fdc950046ab17932bbd8758aba45eea7c",
+        "commit_message": "I'm kinda missing an option to use right click on the checks list\n\nSometimes I want to open several related checks in different tabs,\nand there was no easy way to do it, before this commit."
+    },
+    {
+        "commit_hash": "5fafe1c185bf438c791ac78c8542d8690448a099",
+        "commit_message": "And educating integration tests about <a> in the table"
+    },
+    {
+        "commit_hash": "95729af05f348d4530ff7a2e43648fb3af65c37c",
+        "commit_message": "Updated and changed version for ops genie to be explicit\nAdded in missing dependency for httpmime"
+    },
+    {
+        "commit_hash": "a1d8ade4d0ea819b10a283cc4b095a00a9960885",
+        "commit_message": "Issue #297 - Switching snmpTrapOID and sysUpTime to conform with RFC3416"
+    },
+    {
+        "commit_hash": "fd2dba3a9cc05503836cb6964535dfbc228d85c9",
+        "commit_message": "Merge pull request #328 from nradonicich/Issue_297_-_Fix_SNMP_Notification\n\nIssue #297 - Switching snmpTrapOID and sysUpTime to conform with RFC3416"
+    },
+    {
+        "commit_hash": "b35e1bc0e3247c34fdd0e6013f42a90a1303cebe",
+        "commit_message": "Fixed the ProxyConfig for ISSUE158"
+    },
+    {
+        "commit_hash": "43a8e0607e3ff62bc772b7a2850c7e14fe7f01fb",
+        "commit_message": "Send WARN SMS notification\n\nIt is possible to turn on WARN sms notifications in GUI so it should be\npossible to send them from the service.\n\nThis closes #341"
+    },
+    {
+        "commit_hash": "aa9af619ae9b5b30f6462e62880d7d6a335ff981",
+        "commit_message": "Merge pull request #344 from alenkacz/TwilioSMS\n\nSend WARN SMS notification"
+    },
+    {
+        "commit_hash": "955f94d376fc49a43c5c2ffa9611a6d941b0dc68",
+        "commit_message": "Merge pull request #327 from jhitzke/opsgenie-fix\n\nFixed OpsGenie Integration"
+    },
+    {
+        "commit_hash": "e655eb0d192d960199493b682067528734a6ba51",
+        "commit_message": "Merge pull request #340 from ehlerst/ISSUE158\n\nFixed the ProxyConfig"
+    },
+    {
+        "commit_hash": "ecc161d20390b7b3c98f8e2b9ea675bf929dbc7c",
+        "commit_message": "Update docker compose documentation #345"
+    },
+    {
+        "commit_hash": "921dd6de100887ec5b1a6777e6897b942bf73033",
+        "commit_message": "Merge pull request #346 from obazoud/docker_graphite\n\nUpdate docker compose documentation #345"
+    },
+    {
+        "commit_hash": "5931fa697e8a2c8cd172de5651de702db47ef5c8",
+        "commit_message": "Fixes missing /api to api paths\n\nNoticed a number of API paths didn't have `/api` at the beginning of them and while working with the API noticed they didn't work without it."
+    },
+    {
+        "commit_hash": "a4fec2f2ca413c29891bafa30ec8542766f61b62",
+        "commit_message": "Adds Update check documentation\n\nAdds documentation to the Update Check section of the documentation"
+    },
+    {
+        "commit_hash": "1b27d4f28d6c61b238277838c6e750e9b9ead2a9",
+        "commit_message": "Merge pull request #350 from spenserpothier/master\n\nDocumentation Fixes/Updates"
+    },
+    {
+        "commit_hash": "66e9afb8b9fa5a28af26c113fc7d3f5bb965a97a",
+        "commit_message": "Fixing miscellaneous issues:\nsquid:S1943 -  Classes and methods that rely on the default system encoding should not be used\nsquid:SwitchLastCaseIsDefaultCheck -  \"switch\" statements should end with a \"default\" clause\nsquid:HiddenFieldCheck -  Local variables should not shadow class fields"
+    },
+    {
+        "commit_hash": "bf963f2654b388595e2cd3cc78b196da4954e041",
+        "commit_message": "Added more details to opsgenie alerts, OK status now closes all open alerts"
+    },
+    {
+        "commit_hash": "61505a98d29f3fe6098cd089d67ec85ac43625e8",
+        "commit_message": "Fixed the error handling for closing alerts"
+    },
+    {
+        "commit_hash": "827890f21aa612bb392f534d23fb65c2fa5853a5",
+        "commit_message": "Merge pull request #359 from DevFactory/staging/misc-quality-issues-fix-2\n\nCode quality fixes"
+    },
+    {
+        "commit_hash": "30f5e936aee1f0544a86f232c62dd7c68df08650",
+        "commit_message": "Fixing squid:S1858 - \"toString()\" should never be called on a String object"
+    },
+    {
+        "commit_hash": "7e0d33d8d0e48dac4f85d9795ef744b703274694",
+        "commit_message": "Merge pull request #363 from DevFactory/staging/toString-should-never-be-called-on-a-String-object-fix-1\n\nFixing squid:S1858 - \"toString()\" should never be called on a String object"
+    },
+    {
+        "commit_hash": "6e4deddac1070a7910e517d9818fea5404e9927b",
+        "commit_message": "Update licence on VictorOpsNotificationServiceTest"
+    },
+    {
+        "commit_hash": "f79aef4184d05cf03648eb723a5f84ff165dcb0e",
+        "commit_message": "Merge pull request #326 from ipaponov/rbtn-clickable-checks\n\nPossibility to do right click to open the check"
+    },
+    {
+        "commit_hash": "bce28f22ae2177794efdb69a412cb9816bd0ae49",
+        "commit_message": "Do not log warn when no data allowed\n\nWhen no data are selected I don't think the log should be full of WARN\nmessages"
+    },
+    {
+        "commit_hash": "729a26899066dc16995b2a73d96cb851eb8e770e",
+        "commit_message": "Fix the empty data handling"
+    },
+    {
+        "commit_hash": "6b0d34981d87c98e09111ba36cef70365405fa85",
+        "commit_message": "More readable code"
+    },
+    {
+        "commit_hash": "dbb2336a2d55c0f23703a92434cf302f9525a8d6",
+        "commit_message": "Merge pull request #370 from scobal/NoWarnWhenAllowed\n\nDo not log warn when no data allowed"
+    },
+    {
+        "commit_hash": "97d6508cce742cd03dd68cc7c18f399ddea38bf8",
+        "commit_message": "Ability to click through check name\n\nThis is already implemented for \"Checks\" page. This adds the possibility\nto click through for the main Seyren page"
+    },
+    {
+        "commit_hash": "bdf7da189fab6e7729930553dd20696dee958f44",
+        "commit_message": "Fix enabled button\n\nEnabled button on main page did not work.\n\nFixes #373"
+    },
+    {
+        "commit_hash": "8437c652a3633471a47280b54337afae27cf9ea6",
+        "commit_message": "Duplicate statement in PickleHandler.java"
+    },
+    {
+        "commit_hash": "0fc6ccc6d7227d08b9e88b63985b48efae68b958",
+        "commit_message": "Merge pull request #380 from kilida/patch-1\n\nDuplicate statement in PickleHandler.java"
+    },
+    {
+        "commit_hash": "eeba9d284b6ae5254480c8d9c36f14abbcb70780",
+        "commit_message": "Merge pull request #374 from scobal/ClickThroughChecks\n\nAbility to click through check name"
+    },
+    {
+        "commit_hash": "7f8e300d863caa377a124d4d7ff212328892faf2",
+        "commit_message": "Merge pull request #375 from scobal/FixEnabledButton\n\nFix enabled button"
+    },
+    {
+        "commit_hash": "988f3defe7fe568f0df4a7cfdf251d72fbb86b3a",
+        "commit_message": "Bump mongo-driver to 3.2.2"
+    },
+    {
+        "commit_hash": "927a2e809822d479f061d568a48f83c4c13ab245",
+        "commit_message": "Secondary sort on check name (from PR 317)"
+    },
+    {
+        "commit_hash": "28e8fe18bb77b31b17d95d721f43e2b1cd1e0173",
+        "commit_message": "Merge pull request #361 from briotto/br-fix_opsgenie_notifications\n\nAdded more details to opsgenie alerts, OK status now closes all open \u2026"
+    },
+    {
+        "commit_hash": "e8a6bcf8bc4508e78728686ead15ac63999d240a",
+        "commit_message": "Move check target to a textarea (PR 338)"
+    },
+    {
+        "commit_hash": "a8eceb642cf61478a56109f4918234bddb2f2373",
+        "commit_message": "[maven-release-plugin] prepare release 1.4.0"
+    },
+    {
+        "commit_hash": "a710937dd7f7818ea482fe540002d1fb1e6fb30b",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "067f29b749f3713e9864f15a525839d71c8eb89f",
+        "commit_message": "Updated Logger to Log checkId instead of checkName in URL"
+    },
+    {
+        "commit_hash": "786415d5d93855b053e0825b18b8a93ca5b2ec91",
+        "commit_message": "Merge pull request #401 from TyBrown/issue_400\n\nUpdated Logger to Log checkId instead of checkName in URL"
+    },
+    {
+        "commit_hash": "b8e1e6cdaec97bbb535df7941ae09e7ef3c143fb",
+        "commit_message": "Big Panda Notification Service for Seyren"
+    },
+    {
+        "commit_hash": "3c14a862c17fa0db3c3e78d75fac86caa6a51945",
+        "commit_message": "Adding BIGPANDA Subscription Type and Dropdown"
+    },
+    {
+        "commit_hash": "e1bc161fd58c2b1e2df05e0b399a66d9ffd26bb3",
+        "commit_message": "Adding BigPanda Config Parsers"
+    },
+    {
+        "commit_hash": "b92239ca2e88a16586da96916c29dcb0e044f93b",
+        "commit_message": "Adding tests for Big Panda Notification Service"
+    },
+    {
+        "commit_hash": "40eae2a223f1d87108bd2348c933553e2e268d38",
+        "commit_message": "Documentation added for Big Panda Notification Service"
+    },
+    {
+        "commit_hash": "e40cdd0bf887ab1ca496fa9ca1772462c91cf263",
+        "commit_message": "Merge pull request #406 from TyBrown/feature_bigpanda_notification\n\nSupport for BigPanda Notifications"
+    },
+    {
+        "commit_hash": "9c0375746e394cdad4e665b905d279fcbaf1c7c6",
+        "commit_message": "add urlencode in roomId"
+    },
+    {
+        "commit_hash": "5e1ae223db7d30140e8796e21c7eb426ace68c63",
+        "commit_message": "Merge pull request #410 from yanntech/fix/hipchat-urlencode\n\nadd urlencode in roomId"
+    },
+    {
+        "commit_hash": "bc8370ddd9d8c09c418a9c1a153503835dbb4703",
+        "commit_message": "[maven-release-plugin] prepare release seyren-parent-1.5.0"
+    },
+    {
+        "commit_hash": "f634b6d3230ae8df8e757bd1d466987124f2853e",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "85d966f771ac87f23d873c1e8bbb408c82bf22bd",
+        "commit_message": "Update readme for 1.5.0"
+    },
+    {
+        "commit_hash": "786a566e437a869277c95a4e494b18a11aaaaae0",
+        "commit_message": "Fix doc"
+    },
+    {
+        "commit_hash": "5cabbbe8e70e20852c7b6cd35574ee31e40ac2e0",
+        "commit_message": "Merge pull request #434 from obazoud/patch-1\n\nFix doc"
+    },
+    {
+        "commit_hash": "c9d4a46c377446b3e13c71ed66cb93d1e123223e",
+        "commit_message": "Fix for readme formatting"
+    },
+    {
+        "commit_hash": "e9d0722d191f250a4cf55834f830904ad7cc6456",
+        "commit_message": "Related projects section"
+    },
+    {
+        "commit_hash": "8bb5b37b37ce049b5efa8b9cdc86b01bb5d969f9",
+        "commit_message": "Merge pull request #435 from obazoud/patch-2\n\nRelated projects section"
+    }
+]
