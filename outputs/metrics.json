@@ -1,0 +1,697 @@
+{
+    "android-demos": [
+        {
+            "commit_hash": "0fce32cbe48ab66d5f04b895a7d70522a721a297",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 75.0,
+            "OEXP": 1.358695652173913,
+            "NADEV": 10,
+            "NDDEV": 36,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "c1760a9cac96598c1239f9c4406ab497fcf5dc11",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 1.358695652173913,
+            "NADEV": 10,
+            "NDDEV": 36,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "05477e3dcb19cdae46dabf0d4b6064e5a40659fd",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 68.23529411764706,
+            "OEXP": 1.358695652173913,
+            "NADEV": 10,
+            "NDDEV": 36,
+            "NCOMM": 0
+        }
+    ],
+    "javapoet": [
+        {
+            "commit_hash": "d88f2b669cd0588b4726f57c5b5b446aa1f7ff2e",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 15.154749199573105,
+            "NADEV": 87,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "7d8bc458b56dc14d7c5af165688fd736cb022069",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 87.19611021069692,
+            "OEXP": 0.6403415154749199,
+            "NADEV": 88,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "76c7100587385ad91fb2b6ace8ece9ae645b574f",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 96.0,
+            "OEXP": 0.6403415154749199,
+            "NADEV": 89,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "cb4224b5de1e3a3c3e0795d7f6abd22ec0796772",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 93.15315315315316,
+            "OEXP": 0.6403415154749199,
+            "NADEV": 89,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "fc7374057a8042083bcb37ec2775b97a1b83105c",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 85.16624040920716,
+            "OEXP": 0.6403415154749199,
+            "NADEV": 89,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "084e7cca454573372b86ff0749d100853132dcc4",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 93.18681318681318,
+            "OEXP": 0.6403415154749199,
+            "NADEV": 89,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "8483d5f9309c645ed2677d88181a864a3ab8d332",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 1.7075773745997866,
+            "NADEV": 90,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "ad2f5ce47e69a3eafa21a896943445144aa64460",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 1.7075773745997866,
+            "NADEV": 90,
+            "NDDEV": 101,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "aedf7cb9a6c56293d5c000bc2f2c1a134425b41d",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 1.7075773745997866,
+            "NADEV": 90,
+            "NDDEV": 101,
+            "NCOMM": 0
+        }
+    ],
+    "jeromq": [],
+    "jfinal": [],
+    "mbassador": [],
+    "redisson": [
+        {
+            "commit_hash": "a489a82f5d627aab87b7d817283d4c71ab50291e",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 30.388017691998392,
+            "NADEV": 174,
+            "NDDEV": 238,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "ad24fed86bf1e24d9952539dd3c9ca289b3ecd4e",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 0.060313630880579006,
+            "NADEV": 229,
+            "NDDEV": 238,
+            "NCOMM": 0
+        }
+    ],
+    "retrolambda": [
+        {
+            "commit_hash": "e2f7ad16cd5fb4e22c3b9fc8cdfb48d667bab0f9",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 3.7735849056603774,
+            "NADEV": 21,
+            "NDDEV": 21,
+            "NCOMM": 0
+        }
+    ],
+    "seyren": [],
+    "sshj": [],
+    "zuul": [
+        {
+            "commit_hash": "c4211cfebbd7e9376f1442eca35e8e3a31ac4874",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 10.548271752085817,
+            "NADEV": 25,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "d4c9c6d873c9a419c9af5883608d1368c5a8e05b",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 84.04255319148936,
+            "OEXP": 20.500595947556615,
+            "NADEV": 60,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "e6e46e5661bf9715989b01f6a825368ef820d46a",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 47.95918367346938,
+            "OEXP": 0.0,
+            "NADEV": 60,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "8590f73512ef1b5d4eb04cb51974d96ab4590dc9",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 62.794918330308526,
+            "OEXP": 0.0,
+            "NADEV": 60,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "d52eddb1ccf59ee9e38f7e60ca0c1f3da9834637",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 50.259067357512954,
+            "OEXP": 0.0,
+            "NADEV": 60,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "03eb3959c9d08ca6d812028c3b6bea67d869141e",
+            "AGE": 0,
+            "FIX": true,
+            "OWN": 90.69767441860465,
+            "OEXP": 0.0,
+            "NADEV": 60,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "66c0abb5b3cc2611c2f19c9a20b10d2b8a02598f",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 63.49206349206349,
+            "OEXP": 0.0,
+            "NADEV": 63,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "56ba3ecac8d26e5257903ed9fc1b32694e137211",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 93.71554575523705,
+            "OEXP": 20.500595947556615,
+            "NADEV": 63,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "f6184c43620f1e227d479ce4daaa4792db9d018e",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 97.27272727272728,
+            "OEXP": 0.17878426698450536,
+            "NADEV": 63,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "1e13406a49cefa68a7cbf13c1df2f89f6cbd89f8",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 98.47908745247148,
+            "OEXP": 0.17878426698450536,
+            "NADEV": 63,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "b940881adc9e9c370704f26ecf2f23c18d5c932e",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 96.26865671641791,
+            "OEXP": 10.548271752085817,
+            "NADEV": 63,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "99fec567d62b9001a2229cd8cd6954542d145c33",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 58.57988165680473,
+            "OEXP": 0.0,
+            "NADEV": 66,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "d5aa760e24d899dcba0daff6151289744059260b",
+            "AGE": 0,
+            "FIX": true,
+            "OWN": 64.56400742115028,
+            "OEXP": 0.0,
+            "NADEV": 70,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "5267d633e4da48350c99ae2f4f1a6f6246dae021",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "1ca655abfcc974cebac6ddfa175f88480a7f2fc2",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 80.42328042328042,
+            "OEXP": 0.8939213349225268,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "1cebb8f16b324dcf3ee00a21fe53f5907c203497",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 99.38524590163934,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "e675e1420ade95e01734dfd464a96252d8276aa2",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "6601b429aa0462ebd0809f23345f6487d3ccc921",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "1391276561ce4c1d35a1e721f9d319dedf8c9c1c",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "6d3f40f307587f58c3d9d9640a186cac3ca3dd6f",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 96.88473520249221,
+            "OEXP": 20.500595947556615,
+            "NADEV": 71,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "f10f94860a8e1a0bbb096bd939866fc9c8edd087",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 0.4171632896305125,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "6cf2921231049a396996d41227b8281ef9a7c61d",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 95.72736520854527,
+            "OEXP": 20.500595947556615,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "035da015d2fa289f91afed56e515786365f03165",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 94.32432432432432,
+            "OEXP": 20.500595947556615,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "a38764f95ec997ee6c5c2cf2c9e4e1fe500f20be",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 84.0,
+            "OEXP": 0.4171632896305125,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "ce093dc0cb3eee75f698f16954553cc570e26323",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 62.4031007751938,
+            "OEXP": 0.0,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "8b23275617af7f28ceb8b70d31847034610011ea",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 93.44729344729345,
+            "OEXP": 0.0,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "e6e821acd9d83ec3482da83a9d3e90d57f632a9f",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 84.0,
+            "OEXP": 0.0,
+            "NADEV": 73,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "db6dda581c81cb77ce2ce7ef2a00159657b5cc57",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 0.0,
+            "NADEV": 74,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "8238f2501cac88aed3d201e1e19906c2dc40f84d",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 95.11025886864813,
+            "OEXP": 0.0,
+            "NADEV": 74,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "b9bdd890a25a6b7d1084a1666ce329e79955c431",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 89.02627511591963,
+            "OEXP": 20.500595947556615,
+            "NADEV": 74,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "85e51d3d17471535459ce15635323d578bf3a950",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 75,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "27ffccaf61fdaccab01ed18be1be842a815961c7",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 75,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "22f1758b868dbb69ce7ed97e88e3d43e23782292",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 75,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "e6014a9596fcc1801f83546f47635a6259c6e6aa",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 75,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "2693aba067f97cc4a6e31f20a5ed26ca9e2323d4",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 88.62179487179486,
+            "OEXP": 20.500595947556615,
+            "NADEV": 75,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "7e423a2b6c48dc10fc9d3c644bf2c9b06aa8bb1a",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 98.56630824372759,
+            "OEXP": 0.0,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "aca171bb411c159c2ab8fb5648ec665eb8f3cb1c",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "62d6e859b35dd0d45300cd44e074748a0dd98695",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 88.43648208469055,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "5fe5aa665c65c05f0f4336a40e82586d88228ab9",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "d96630816de235f1cedcbe5a2680465593d6ee9c",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "a553221c1b4a8b61b608dde9b6255c53a67c49ae",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 93.91080617495712,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "fb25fcf54c686704fcb357f7c26d0aacdbe1718a",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 88.107202680067,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "40c58259c5923cded231baff85445482e76a341a",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 94.43620178041543,
+            "OEXP": 20.500595947556615,
+            "NADEV": 76,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "afc314fd0b1f8ff718d48d086f80420a732ac428",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 100.0,
+            "OEXP": 20.500595947556615,
+            "NADEV": 77,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "9f4f42331453b99949338fb3e417d779d9ae40ab",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 87.52079866888519,
+            "OEXP": 20.500595947556615,
+            "NADEV": 77,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "e0cd660635da681ed3a3f90a88a35b73fc74b2c0",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 94.29657794676805,
+            "OEXP": 20.500595947556615,
+            "NADEV": 77,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "02aa84eeb98411df6175ea0d929beac99b352b10",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 81.49882903981265,
+            "OEXP": 0.05959475566150178,
+            "NADEV": 77,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "dd38704c3f1a37fd05da674497fae6a2c16c1e6d",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 89.78457261987491,
+            "OEXP": 20.500595947556615,
+            "NADEV": 78,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "7379aa8425db941b746ce7d6df8e1ead811af254",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 87.31751824817519,
+            "OEXP": 20.500595947556615,
+            "NADEV": 88,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "1214309caef9701193178736f06fca4eff5058cc",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 90.72753209700429,
+            "OEXP": 1.7282479141835518,
+            "NADEV": 88,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "b9c23a3312b0211914fc4eea42dd99ddc9754087",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 82.0408163265306,
+            "OEXP": 0.834326579261025,
+            "NADEV": 88,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "5d111238028c6ddadca733478361bf79deaf6aef",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 99.6524761077324,
+            "OEXP": 1.0727056019070322,
+            "NADEV": 88,
+            "NDDEV": 93,
+            "NCOMM": 0
+        },
+        {
+            "commit_hash": "7a39ea13bf65e6da0e9f711394ee98ec97d8aa39",
+            "AGE": 0,
+            "FIX": false,
+            "OWN": 98.29059829059828,
+            "OEXP": 20.500595947556615,
+            "NADEV": 89,
+            "NDDEV": 93,
+            "NCOMM": 0
+        }
+    ]
+}
