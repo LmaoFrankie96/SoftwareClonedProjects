@@ -15,11 +15,11 @@ def run_refactoring_miner(repo_path, output_path):
     subprocess.run(command, check=True)
 
 repos_dir = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\cloned_repos"
-output_dir = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\outputs"
+output_dir = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\refactoring results"
 
 for repo in os.listdir(repos_dir):
     repo_path = os.path.join(repos_dir, repo)
     output_path = os.path.join(output_dir, f"{repo}.json")
     os.makedirs(output_dir, exist_ok=True)
     run_refactoring_miner(repo_path, output_path)
-    break
+    
