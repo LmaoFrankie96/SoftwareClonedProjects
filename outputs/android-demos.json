@@ -1,0 +1,1474 @@
+[
+    {
+        "commit_hash": "a205f3558dd454b41630479988e3d3923c7a8127",
+        "commit_message": "Adding the initial demos"
+    },
+    {
+        "commit_hash": "53554be10872b00dd30a802ef6f0d3ee4c8432b2",
+        "commit_message": "These are all the initial demos"
+    },
+    {
+        "commit_hash": "041d6f2b44b02ca7be8571f367663dc6ffec37a0",
+        "commit_message": "Added ignore file"
+    },
+    {
+        "commit_hash": "41fe159fae71f14b48c2cce65b4e5b9dbbd62a28",
+        "commit_message": "Added a demo of Dynamic List Items"
+    },
+    {
+        "commit_hash": "f1ad7ea6916e1a5f472707ffe2d063520ae6bb43",
+        "commit_message": "Updated the .gitignore"
+    },
+    {
+        "commit_hash": "c74289991d15ba20ddff0f86ebc537bd29f11756",
+        "commit_message": "Added the Contacts Selector Demo"
+    },
+    {
+        "commit_hash": "41c1ed721b284727ac73c556f433eb50b5872b5b",
+        "commit_message": "Added an example of using the tab host as there does not seem to be anything else available. STILL!"
+    },
+    {
+        "commit_hash": "444a2891844455766c35806c1376db03df058f5d",
+        "commit_message": "Never finished this example"
+    },
+    {
+        "commit_hash": "309e81885d7e640d83ddb7c1637c796c360f7986",
+        "commit_message": "Added a multiple activity tabhost demo."
+    },
+    {
+        "commit_hash": "55908966f4968a4c6c07a18d42ab963c87ac9ef9",
+        "commit_message": "Added a wizard example."
+    },
+    {
+        "commit_hash": "87d02ad8b043fee5b5d8f3761d5bfc24f8367430",
+        "commit_message": "Added the audio streaming example"
+    },
+    {
+        "commit_hash": "041343ebba8ae0e22148fbce0c86c2ee67e85673",
+        "commit_message": "removed the 'improved' class which I commited by mistake"
+    },
+    {
+        "commit_hash": "50f553d56eed05236d7032c9b51fafa14066c323",
+        "commit_message": "Added an example of tab switching with both one,selfcontained activity and many activities in each tab."
+    },
+    {
+        "commit_hash": "9cc741c03942039f37ee438807cd8bedd92eb487",
+        "commit_message": "updated the gitignore not to include classes"
+    },
+    {
+        "commit_hash": "072c500592e4094e17a7e7e9cb4b6e2ae26595c1",
+        "commit_message": "Deleted class files which had been inadvertedly added."
+    },
+    {
+        "commit_hash": "402685077b42c95b5c47f68b7a4b0313a5b689f5",
+        "commit_message": "Removed the .DS_Store files which had been added by mistake."
+    },
+    {
+        "commit_hash": "6a3a3eef51a3c761d35faf4a8327aa5191e48593",
+        "commit_message": "Added demos for List styles and notifications"
+    },
+    {
+        "commit_hash": "129678fd06c5a7ccc5bf3f39174ba3e4ae0b9590",
+        "commit_message": "Removing unused notifications."
+    },
+    {
+        "commit_hash": "97c36e3acc64a5bf8f89de780274c0d7ac2d6d6e",
+        "commit_message": "Added the customTabs Hack"
+    },
+    {
+        "commit_hash": "967ea4ba3a20813849720e86bc37c55f2e8346ba",
+        "commit_message": "Adding the new live Wallpaper demos"
+    },
+    {
+        "commit_hash": "2df04423bfffc156c7bc3b193bb299e875a6355c",
+        "commit_message": "removed some needless files."
+    },
+    {
+        "commit_hash": "409ca0d538a824543aed77e4937ed94f8b940f84",
+        "commit_message": "Updated the demos to store the IDs of the resources rather than putting all the Bitmaps into memory. Runs fast enough on the phone so seems like they don't need to be taking up memory."
+    },
+    {
+        "commit_hash": "f9da53d2a75118f3a7705d419f1e3f47182cbddd",
+        "commit_message": "Created an app that displays text columns in a webview, with menu options for text zoom. Three different layouts are available."
+    },
+    {
+        "commit_hash": "a63e31b6ab27d4311b7575703dd97f3d96c5c8a1",
+        "commit_message": "Changed a few little conventions. Based on code review."
+    },
+    {
+        "commit_hash": "3922efa07b6461ff6aa3f55b93106b52d94d428d",
+        "commit_message": "Renamed webview_menu to webview_main_menu\nCreated an ids file for all ids used in the layout and menu.\nModified the string and id names to follow naming conventions\nRefactored the switch statements in HelloWebView"
+    },
+    {
+        "commit_hash": "981078d60dd3be55fed9d7ee99c41e1ccc26e448",
+        "commit_message": "Merge branch 'master', remote branch 'origin/master'\n\nConflicts:\n\tFixedSizeTextColumns/res/menu/webview_menu.xml\n\tFixedSizeTextColumns/res/values/strings.xml\n\tFixedSizeTextColumns/src/com/novoda/HelloWebView.java"
+    },
+    {
+        "commit_hash": "506e522ec58567bd1025ca91ba26264c482ea89f",
+        "commit_message": "Created the PinchZoomDetector project. Implemented this class in the FixedSizeTextColumns, and checked wether a device has a multiple touch screen or not. Also, increased minimum required version to 2.1"
+    },
+    {
+        "commit_hash": "62831c7c05e03894b6c0d4d95141670709084e65",
+        "commit_message": "Merge branches 'gnorsilva' and 'master'"
+    },
+    {
+        "commit_hash": "1ce6848d75f6dc5042dad8b2d3392304dcc1a84f",
+        "commit_message": "Encryption demo."
+    },
+    {
+        "commit_hash": "3d647543c7c67be64f2848a7c3a0b7545af557f3",
+        "commit_message": "Made it clear within the exception when unencrpyted passwords were being shown."
+    },
+    {
+        "commit_hash": "65897000ca04d58f2b2b538e5c07893063a306c6",
+        "commit_message": "Moved the cipher vars to constants."
+    },
+    {
+        "commit_hash": "ba40b90116c191d3cde453e66d53839f8f88b4c2",
+        "commit_message": "Adding the \"Activities LaunchMode\" demo project"
+    },
+    {
+        "commit_hash": "070785b234ab09dd4fcb7bb0f6186e5277edc3af",
+        "commit_message": "Changed the icon slightly, made the project compatible to android 1.6"
+    },
+    {
+        "commit_hash": "6997f74319810a6611ce50f3bbe78245a2f3b4f8",
+        "commit_message": "Adding intent filter options dialog"
+    },
+    {
+        "commit_hash": "87af9a88cfed0e0ebf725c873992811fcd4a7fb8",
+        "commit_message": "Added a cusomt transition demo. In this demo I simply turn off the transition but this demo can now be used to try ou tany other transition quickly in future."
+    },
+    {
+        "commit_hash": "053d7ca9ea5a778da6c0df9b4efcd2e9c266e2c1",
+        "commit_message": "Deleted activities launch mode demo - moved it to a seperate repo"
+    },
+    {
+        "commit_hash": "b07230504b083b66c85915f8ed479b77d0738844",
+        "commit_message": "Added a simple example originally modified from javacodegeeks.com"
+    },
+    {
+        "commit_hash": "32d57e0e6a8b3f88740560bd5bcf31abcab99d61",
+        "commit_message": "Added the first of the fragment demos."
+    },
+    {
+        "commit_hash": "f46828bf0706a6284b2ee2bd7dddf8a5c03cd87f",
+        "commit_message": "Carousel currently shows hiding and traversing."
+    },
+    {
+        "commit_hash": "6daa2323bf5040d3e63a973afad42dbd8473f97a",
+        "commit_message": "updated placeholder images."
+    },
+    {
+        "commit_hash": "f60a269d2eecad6cb705da0d6d94c6efe37cf73c",
+        "commit_message": "IDs of clicked carousel elements are now shown when clicked."
+    },
+    {
+        "commit_hash": "c1f69793b4a994495dc8c884bc65803dc5702680",
+        "commit_message": "Added LeftNavBarExample"
+    },
+    {
+        "commit_hash": "bd201091340ffac195561db4c4c5f0fdb4771408",
+        "commit_message": "Removed IntelliJ files from library"
+    },
+    {
+        "commit_hash": "b749f27e71dd14093cdc700ef1b341c2062c1036",
+        "commit_message": "Removed Intellij files from LeftNavBarExample"
+    },
+    {
+        "commit_hash": "d9bf1067d01c134d4e1f1424c4e7cdb6c11569a1",
+        "commit_message": "Removed out folder from example"
+    },
+    {
+        "commit_hash": "a3d2e996d239ec5b7147bc6f2ba03b07d8f80037",
+        "commit_message": "Fixed readme spelling"
+    },
+    {
+        "commit_hash": "68527a610678c8406f3e19404dca8ea6877067d2",
+        "commit_message": "added leftnavbar library"
+    },
+    {
+        "commit_hash": "68fc81938b46834112a79c42f9acc27703d3e276",
+        "commit_message": "updated leftnavlibrary snapshot"
+    },
+    {
+        "commit_hash": "c73af91d8b9712c83f92c9bee06362dab23da9b1",
+        "commit_message": "bumped version of pom and chanegd from common to android"
+    },
+    {
+        "commit_hash": "897851bcd2d03a530e6866203995a745ead249b5",
+        "commit_message": "[maven-release-plugin] prepare release leftnavbar-lib-parent-1.0"
+    },
+    {
+        "commit_hash": "69428c1adcc8d0414231dd7e9ddcbb5e701d9451",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "0406548f2e9b0d15fb3253b336dec05348065ab2",
+        "commit_message": "fixed xml package names"
+    },
+    {
+        "commit_hash": "c047f7b702bace3872b214639458f47cf90f7417",
+        "commit_message": "[maven-release-plugin] prepare release leftnavbar-lib-parent-1.1"
+    },
+    {
+        "commit_hash": "8b53d87e0baefa8d1687a475a00952182aab00ac",
+        "commit_message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit_hash": "97c0ec8c03bd2ce6872c4961165bba2769a7368b",
+        "commit_message": "-added setup for compass example"
+    },
+    {
+        "commit_hash": "2c36d923607e464742f61a576de54f04e1fed746",
+        "commit_message": "-added novocation and manifest changes"
+    },
+    {
+        "commit_hash": "ab536dca9f865d173769d4314b79e2c20d65d144",
+        "commit_message": "-added setup for novocation\n-refactored package structure"
+    },
+    {
+        "commit_hash": "e6ea3f2fc94bd7619661e56e667e1249f45e3861",
+        "commit_message": "-refactored"
+    },
+    {
+        "commit_hash": "0eac14c496cd71674d3048e985c2f728ce801d8b",
+        "commit_message": "-location is functional"
+    },
+    {
+        "commit_hash": "9ffeb3e943a843f615b6909d721069cc751e36bf",
+        "commit_message": "-added activity to handle basic compass and accelerometer values"
+    },
+    {
+        "commit_hash": "8954610f0492fbafd975d58c08ad37d1e61ca347",
+        "commit_message": "-rotation and bearing is now working"
+    },
+    {
+        "commit_hash": "3494fc42fff5af3a37d0984e8bf8aa0a40d693a2",
+        "commit_message": "Image rotation and translation. Not still functional"
+    },
+    {
+        "commit_hash": "c77c4bf11ec28f9f57dc073b70f005a74d0aafb9",
+        "commit_message": "Rotation Image activity"
+    },
+    {
+        "commit_hash": "df627b87733459797ff8d15db71b8dd905a00816",
+        "commit_message": "Merge remote-tracking branch 'origin/master'"
+    },
+    {
+        "commit_hash": "a3206f0964fb140a9c3c80bd071abbd439d25c10",
+        "commit_message": "actionbar now activate deactivates the compass"
+    },
+    {
+        "commit_hash": "a918b47a941fab2f66a0119c28caebbd9c671848",
+        "commit_message": "Merge remote-tracking branch 'origin/master'"
+    },
+    {
+        "commit_hash": "0dc5642d58aa935903fbd774fa4a1b0cbca1d909",
+        "commit_message": "example floorplan"
+    },
+    {
+        "commit_hash": "c22c81c76b5826683301300f93daf5fc5fe4e6b1",
+        "commit_message": "first integration with compass but still not working fine"
+    },
+    {
+        "commit_hash": "6afa4ab2cbaea988a65f7d4bb0a5b7c0f6a6530a",
+        "commit_message": "it was not in the correct package"
+    },
+    {
+        "commit_hash": "d292dc9c0e6af5197f514320a0bf7e35711539d9",
+        "commit_message": "-fixing bits of the rotated image view"
+    },
+    {
+        "commit_hash": "e4ed0723abdc4b599d3e6156ccda963bea521c2c",
+        "commit_message": "-using a rotatable imageview till the multi otuch view is ready"
+    },
+    {
+        "commit_hash": "2bb1098b42cf97cea9921e549341932dae89b5d9",
+        "commit_message": "moved push demos to PushNotifications"
+    },
+    {
+        "commit_hash": "3052e6d253bd6a29c3e9b043ba87021242857ba5",
+        "commit_message": "adding map api v2 demo, updating gitignore"
+    },
+    {
+        "commit_hash": "83e47adad54a7a3e3b7c560128c305f2c6e744ab",
+        "commit_message": "Adds license"
+    },
+    {
+        "commit_hash": "1014741b549ba763ccab4ac40648411238882202",
+        "commit_message": "Add .gradle to gitignore"
+    },
+    {
+        "commit_hash": "e8e3ca387944842711ed7a6a91d274577d5ab54f",
+        "commit_message": "Add build results to gitignore"
+    },
+    {
+        "commit_hash": "c292acffe3b6026f6153a6125ba54b0a56924f58",
+        "commit_message": "Add gradle wrapper"
+    },
+    {
+        "commit_hash": "91b433cd5306de43bea8fdf42960623bf9b2ccad",
+        "commit_message": "Gradle-ify CustomActivityTransition"
+    },
+    {
+        "commit_hash": "57d7c8a6b7f12ae28ebc8609c6ab69a2aace18c2",
+        "commit_message": "Gradle-ify CarouselFragment"
+    },
+    {
+        "commit_hash": "791c1361fe7f98b89ce56c94f64dc62fee00119e",
+        "commit_message": "Gradle-ify ContactSelector"
+    },
+    {
+        "commit_hash": "f75c9afae9afa5f9de3f8489e91d4c925423ec7a",
+        "commit_message": "Gradle-ify CustomTabsHack"
+    },
+    {
+        "commit_hash": "c9a6c4602c5550f2cf358b3d99e90955e213a67f",
+        "commit_message": "Gradle-ify DynamicListItems"
+    },
+    {
+        "commit_hash": "998f9707f98c4be1428d8f3df00cdf123b3858e3",
+        "commit_message": "Gradle-ify encryption"
+    },
+    {
+        "commit_hash": "598b77305fcdddcb087eee25ebbff867ec38f657",
+        "commit_message": "Gradle-ify FixedSizeTextColumns"
+    },
+    {
+        "commit_hash": "dc3de58aa59f89bb47b25e2c57534972bab34e8a",
+        "commit_message": "Gradle-ify Fragments"
+    },
+    {
+        "commit_hash": "84046635c3e2c96e3b98b3a33f327f83e06e2677",
+        "commit_message": "Gradle-ify CompassExample"
+    },
+    {
+        "commit_hash": "d060bdbeada04de63780a11b772d616ab0dc8e45",
+        "commit_message": "Gradle-ify GsonJsonWebservice"
+    },
+    {
+        "commit_hash": "533ae977159ecebfd8f1902ba1d0d83e2fe34e52",
+        "commit_message": "Merge pull request #5 from novoda/gradle-ify_all_the_things\n\nGradle-ify (the first part of) All The Things"
+    },
+    {
+        "commit_hash": "f5633a7bd1928c507ffe484d2553c22e3d8c4dcc",
+        "commit_message": "Move LeftNavBarExample as independent project"
+    },
+    {
+        "commit_hash": "a7b1993e1b0199878c1e9640250cd2abcfe25d73",
+        "commit_message": "Add required overriden methods to LeftNavBar"
+    },
+    {
+        "commit_hash": "d6e107019cbed329520f8b27f809da2d43380bb3",
+        "commit_message": "Add required overriden methods to TabImpl"
+    },
+    {
+        "commit_hash": "6d9c77d2d3d65915917c00a6e8ef7bfbab79bf6e",
+        "commit_message": "Update gradle version for this project"
+    },
+    {
+        "commit_hash": "f689507b3a69adc7aa837488c738d89681a331bd",
+        "commit_message": "Fix Registered class is not instantiatable lint error"
+    },
+    {
+        "commit_hash": "0f1450c5b98a4e055de9cda1b2f0bcb1011006f9",
+        "commit_message": "Adds Gradle to LeftNavBarExample module"
+    },
+    {
+        "commit_hash": "e4efc6b7e4acb03a129e7d33fbab423b581a1bad",
+        "commit_message": "Rename LeftNavBarExample subdir to Example"
+    },
+    {
+        "commit_hash": "f2a67eb4344b16465bd7fcb50b0bec16c70d7ec6",
+        "commit_message": "Add LeftNavBarExample to global settings"
+    },
+    {
+        "commit_hash": "7640a2f66f0f13ddd9b6a39dc1f6ee7a5dd65865",
+        "commit_message": "Delete unused LeftNavLibrary"
+    },
+    {
+        "commit_hash": "86e5ecc2248a0a4d6cc34319aa085c4958676293",
+        "commit_message": "Gradleify ListStyles"
+    },
+    {
+        "commit_hash": "066d1c64c5a0daca816d0d7280928b5dff8b97f3",
+        "commit_message": "Gradleify Livewallpaper"
+    },
+    {
+        "commit_hash": "dd3df62a5cfbd99c7b3ca42c02cede33c9e2d475",
+        "commit_message": "Gradleify MapApiV2Demo"
+    },
+    {
+        "commit_hash": "a3ef851e2a6d5fbe1169f591d3304779324d05d3",
+        "commit_message": "Gradleify MultipleContacts"
+    },
+    {
+        "commit_hash": "305e957abaf62014d6e7d1fdfe2393db520efec4",
+        "commit_message": "Gradleify MultpileActivityTabHost"
+    },
+    {
+        "commit_hash": "a7474af8ca65f5b582a9f54ff23e06416e287b9d",
+        "commit_message": "Gradleify PinchZoomDetector"
+    },
+    {
+        "commit_hash": "a572cb3b062be6f887aaaa9fd25167d6f695d460",
+        "commit_message": "Gradleify PushNotifications"
+    },
+    {
+        "commit_hash": "6f7c2ac66247d90e7dc4d3452e28c0633d662680",
+        "commit_message": "Gradleify simperAudioStreamer"
+    },
+    {
+        "commit_hash": "f4001a840851604acbc2d1a695356ab1bfa50258",
+        "commit_message": "Gradleify sms"
+    },
+    {
+        "commit_hash": "aa14d1111fb0d50cdc3a8310b4f1dfc499506c49",
+        "commit_message": "Gradleify TabHostExample"
+    },
+    {
+        "commit_hash": "5c9f7f9bc02fdad2ecb55caedd4e99ebef64fd01",
+        "commit_message": "Gradleify TabHostMultipleActivityBrowsing"
+    },
+    {
+        "commit_hash": "1ca0bc11b8867b5084c372c6720bb5cbf7a3dfb7",
+        "commit_message": "Gradleify TabHostSelfContainedTabBrowsing"
+    },
+    {
+        "commit_hash": "e66fe0ce2f457728fc1e8a903556a81dd8f9af3b",
+        "commit_message": "Gradleify wizard"
+    },
+    {
+        "commit_hash": "a462cc1f3daf703cb133036a010139da6f115890",
+        "commit_message": "Update compileSdkVersion (21) and buildToolsVersion (\"21.1.1\")"
+    },
+    {
+        "commit_hash": "ce24944e5bef2bfe775dd6d1c3ab567fc40e5c2b",
+        "commit_message": "Update targetSdkVersion (21)"
+    },
+    {
+        "commit_hash": "b9a3ceb7299fdb038d88a4ffe5517567f9ee3765",
+        "commit_message": "Update gradle to 1.0.0 and wrapper to 2.2.1"
+    },
+    {
+        "commit_hash": "798915a0d28a4f1a7a20d45ba2a91f83d82e674f",
+        "commit_message": "Remove useless task wrapper closure from subproject"
+    },
+    {
+        "commit_hash": "443dc43ba410d475b83516fc990716e8a6528664",
+        "commit_message": "Merge pull request #7 from novoda/gradle-ify_all_the_things_1.5\n\nGradle-ify All The Things v1.5"
+    },
+    {
+        "commit_hash": "99535eb43613e5b0b20147dac3d5d7b13f602e96",
+        "commit_message": "Merge commit '443dc43ba410d475b83516fc990716e8a6528664' into gradle-ify_all_the_things_part_2"
+    },
+    {
+        "commit_hash": "fb183adba3b9d6481e45c49e12927e830f486844",
+        "commit_message": "Update buildToolsVersion to \"21.1.2\""
+    },
+    {
+        "commit_hash": "3b06364b8caf359a142ffd98d7eb4210bbdb64d5",
+        "commit_message": "Merge pull request #6 from novoda/gradle-ify_all_the_things_part_2\n\nGradle-ify All The Things (part 2)"
+    },
+    {
+        "commit_hash": "90705cd16380a1e07124d5f734f4c5e611caf1eb",
+        "commit_message": "use gradle 2.4, add task to update all demos, stream line application ids, add empty readme files, add list of all demos, add android-command plugin"
+    },
+    {
+        "commit_hash": "d717c7e8eedbcc75c4e5c6aef2804a939c10b37d",
+        "commit_message": "move license to license file"
+    },
+    {
+        "commit_hash": "7810b32cb477f9fa64552b8b0d6a84a37abf47f9",
+        "commit_message": "Add change log file"
+    },
+    {
+        "commit_hash": "a58a1247fa0937d00d36013c8a5c39735a6140d4",
+        "commit_message": "add read and screenshot"
+    },
+    {
+        "commit_hash": "9c8b72fc49eb146f36fc07700f10b0a996e415f6",
+        "commit_message": "use landscape screenshot"
+    },
+    {
+        "commit_hash": "98a82b324abe63c41f6dd945d94d214239287d7b",
+        "commit_message": "add readme, fix maxSdkVersion to 15 (https://github.com/android/platform_frameworks_base/blob/master/location/java/android/location/LocationManager.java#L1709)"
+    },
+    {
+        "commit_hash": "112d2b9dfc8ffa913da868126368c28d4c1778a2",
+        "commit_message": "add readme, use CursorLoader"
+    },
+    {
+        "commit_hash": "4eeac6a89e7d1a7aa4941d8a7fcc53c840452a26",
+        "commit_message": "add readme, correct spaces"
+    },
+    {
+        "commit_hash": "905be05c51c21993715c06f3dca6aaa288de0c97",
+        "commit_message": "add short readmes for all projects"
+    },
+    {
+        "commit_hash": "14730288a9b3dae712573abafda388c770f192f7",
+        "commit_message": "remove use of android-command plugin"
+    },
+    {
+        "commit_hash": "0f99f5b933247d6e8ddeb48be30e9906c341f0c0",
+        "commit_message": "add changelog for June 2015"
+    },
+    {
+        "commit_hash": "eb9d8ca0281618294682d50a53889e07c18993b5",
+        "commit_message": "move maintenance code to separate gradle file"
+    },
+    {
+        "commit_hash": "cd61f9911f8e550f0a3dc1fd1fffcabc582fa925",
+        "commit_message": "fix format in changelog"
+    },
+    {
+        "commit_hash": "7d3186e278ccc33d359200b00488983b1f26da99",
+        "commit_message": "Merge pull request #8 from novoda/chore/update_app_ids\n\nChore/Update app ids, add readme"
+    },
+    {
+        "commit_hash": "0a2905713a504400aaf0b24ae0b2f0165551d263",
+        "commit_message": "Add licences button"
+    },
+    {
+        "commit_hash": "14b00b95872fc2fb8cef1e7ef3df2327ef36ab6b",
+        "commit_message": "Delete TabHostMultipleActivityBrowsing"
+    },
+    {
+        "commit_hash": "50919095d6e06a5d5c16c3aaae469d89223099bf",
+        "commit_message": "Merge branch 'master' into chore/readme\n\nConflicts:\n\tCHANGELOG.md"
+    },
+    {
+        "commit_hash": "4a9d05585b797050c0fb2377dc91c01efd2704d5",
+        "commit_message": "leave changeling unchanged"
+    },
+    {
+        "commit_hash": "0d7e4e69035e2dcc41c111a9c5ea03870b9c9987",
+        "commit_message": "use demos.json file to generate link list"
+    },
+    {
+        "commit_hash": "40d242919cac18d3343281500ec1a9e540933fd8",
+        "commit_message": "Merge pull request #9 from novoda/chore/readme\n\nChore/Add readme content"
+    },
+    {
+        "commit_hash": "f812451b880a3665e5c45e90e15d92283d0ead62",
+        "commit_message": "Merge branch 'master' into 13/links_to_nos_demos"
+    },
+    {
+        "commit_hash": "121d740525ade58eb07d31012db145ea55e9bf2c",
+        "commit_message": "Merge pull request #14 from novoda/13/links_to_nos_demos\n\n13/Links to NOS demos"
+    },
+    {
+        "commit_hash": "de930d2eca1ddee780dd77efc636db175d02ef1a",
+        "commit_message": "add references to NOS libraries and gradle plugins"
+    },
+    {
+        "commit_hash": "972f69d6e0a2ea35cc8ad5425a7215d6a09cb69e",
+        "commit_message": "use master branch"
+    },
+    {
+        "commit_hash": "86cfdc907301d4331eb57866d2f130071e155d61",
+        "commit_message": "delete demo CustomTabsHack, delete demo MultipleActivityTabHost"
+    },
+    {
+        "commit_hash": "ce59fbe0e7ae6d5d4b6d19c7478e579c3bc06fc7",
+        "commit_message": "Merge pull request #15 from novoda/chore/more_nos_work\n\nChore/More NOS work"
+    },
+    {
+        "commit_hash": "a0b2ec5589e0ace6dbacece9c98a52b8531e6024",
+        "commit_message": "delete urban airship (devs should inspect https://github.com/urbanairship/android-samples/), delete gcm sample (devs should inspect https://github.com/google/gcm)"
+    },
+    {
+        "commit_hash": "87641e562f9010476d8f8d8ea2527325fcfc298d",
+        "commit_message": "add updated readme after running task updateDemos"
+    },
+    {
+        "commit_hash": "51b2098bb81009b296a3aec826d1223185815182",
+        "commit_message": "Merge branch 'master' into chore/delete_tabhostactivity_demos\n\nConflicts:\n\tCustomTabsHack/build.gradle\n\tMultpileActivityTabHost/build.gradle\n\tTabHostMultipleActivityBrowsing/build.gradle"
+    },
+    {
+        "commit_hash": "514524f4d86e406636c8b7c39a1cc540ca98268c",
+        "commit_message": "update readme after running task updateDemos"
+    },
+    {
+        "commit_hash": "ecb9bf70c20c811168f1eefbee0bdedd7fc7843e",
+        "commit_message": "add demo how to use optional dependencies"
+    },
+    {
+        "commit_hash": "1a7b4eeabe9319c604b5a986d30c0da8a2637550",
+        "commit_message": "add readme and update global readme"
+    },
+    {
+        "commit_hash": "436c618614e9c5190e87f6f6e8cd48b4623e76f5",
+        "commit_message": "Merge pull request #18 from novoda/add/optional-dependencies\n\nAdd/Optional dependencies"
+    },
+    {
+        "commit_hash": "3a7db814a4dc78ee9272d2081bd8723489bb8e9d",
+        "commit_message": "Merge pull request #16 from novoda/push/delete\n\nUpdate/Delete push demos"
+    },
+    {
+        "commit_hash": "fd5529846c99e81b424b18a4eed4b03a6d32d294",
+        "commit_message": "Merge branch 'master' into chore/delete_tabhostactivity_demos\n\nConflicts:\n\tREADME.md"
+    },
+    {
+        "commit_hash": "783808ff0b62fa74d5ea3a2342ccc3242b8c6761",
+        "commit_message": "Merge pull request #17 from novoda/chore/delete_tabhostactivity_demos\n\nChore/Delete tabhostactivity demos"
+    },
+    {
+        "commit_hash": "9cb3bf2ec70add4185361cbb78c51c8562a442e5",
+        "commit_message": "Add line breaks around headings so markdown recognises"
+    },
+    {
+        "commit_hash": "512d102353b868953af061f128ad3d9e177208f8",
+        "commit_message": "initial commit of super barebones sample app to display the installed apps on a device after gettinpast a sign in screen"
+    },
+    {
+        "commit_hash": "febee02ac4befa357ac555d68226a9a43ba7719a",
+        "commit_message": "adding details screen to show some stats about the application"
+    },
+    {
+        "commit_hash": "d1001ebb59513a1def614ab7ac898d180b7b7270",
+        "commit_message": "Merge pull request #22 from novoda/automation-sandbox\n\nAutomation sandbox"
+    },
+    {
+        "commit_hash": "6411be9a995cbad68df185d860b444bb08ee4667",
+        "commit_message": "Create README.MD"
+    },
+    {
+        "commit_hash": "218daeba04fcddff1f9d383d6ab74ae52b415b23",
+        "commit_message": "Update README.MD"
+    },
+    {
+        "commit_hash": "e077505e93ca187091cc82928cc31e78444c5432",
+        "commit_message": "Update README.MD"
+    },
+    {
+        "commit_hash": "a161b59b7ebeb8c40589d7ebfd3e8382e68c2a19",
+        "commit_message": "Update README.MD"
+    },
+    {
+        "commit_hash": "4a2597b1daee6b4af4e0ce09ae50a14775c6f753",
+        "commit_message": "Update gradle and android gradle plugin"
+    },
+    {
+        "commit_hash": "39e37bc7ab68b7bea69a612cbf0eadc793cf69c4",
+        "commit_message": "Add basic skeletton for the chips view demo"
+    },
+    {
+        "commit_hash": "18bd99df19abfdaabebea48afe9a6482ad43ca01",
+        "commit_message": "Add blank screens that will be used to demo each library"
+    },
+    {
+        "commit_hash": "212479bbfd79214dbdf70751cb35edd35af3c413",
+        "commit_message": "Removes libraries that aren't suitable and implements the ones that work\nfor us"
+    },
+    {
+        "commit_hash": "a38ac448c0681db6944b8d82a61c16cceabbe7ca",
+        "commit_message": "Improve Splitwise's demo to add the features we need"
+    },
+    {
+        "commit_hash": "65e74d07c48b1253ef622eacdf7c3a259ab9cf51",
+        "commit_message": "Clean up the code a bit and add a couple of features:\n\n - Make tags selectable\n - Use a different resource for selected tags\n - When the 'Enter' key is pressed add the text as a tag and don't hide\n   the keyboard"
+    },
+    {
+        "commit_hash": "2f4bcfcef0baf6c85432eb29f1d06e931b705fa7",
+        "commit_message": "Add demo to README"
+    },
+    {
+        "commit_hash": "f8032e72a030a9a9cc9edc5d6cd330b335fdb4b3",
+        "commit_message": "Remove unnecessary dependencies and use gradle 2.14"
+    },
+    {
+        "commit_hash": "f7fe17835c02fef4fad6d440179fdacc7b544049",
+        "commit_message": "Comment empty methods"
+    },
+    {
+        "commit_hash": "a5108ed5be659d128805ae577563fc6a9dad35f8",
+        "commit_message": "Show hint even when tags have leading spaces"
+    },
+    {
+        "commit_hash": "fd1a112d4958b5b6e516547d8b2114a0f6581fc8",
+        "commit_message": "Don't let the user select the hint, not even the first character"
+    },
+    {
+        "commit_hash": "d24149c6398809ef7d7a4c7392b9afcdd84843e8",
+        "commit_message": "Code cleanup: Extract classes and move code around"
+    },
+    {
+        "commit_hash": "203db0d601d7a93515a324d998c1e2e73c646bec",
+        "commit_message": "Fix the RegEx for detecting leading spaces"
+    },
+    {
+        "commit_hash": "19c78e76f143d7aadb26b956db396e15b1d9fe40",
+        "commit_message": "Move both demos to a their own package each"
+    },
+    {
+        "commit_hash": "d3b70eed4faf894fc4feaaf8188bfc1974cd5cae",
+        "commit_message": "Rename classes to have shorter names"
+    },
+    {
+        "commit_hash": "d44e76ec07d40bc41e64b02f0a6678c0d1ccc85c",
+        "commit_message": "Renames YOLO suggestions because they're not YOLO"
+    },
+    {
+        "commit_hash": "6b9ad5f3741b6ff8c049c4a83373bbfe2a970e38",
+        "commit_message": "Removes unnecessary permission"
+    },
+    {
+        "commit_hash": "8046c8108d8667e8d44cffae94f4bcb7e86b5d00",
+        "commit_message": "Extract methods and simplify the code a bit"
+    },
+    {
+        "commit_hash": "3fb5423dc57fc6c2a87c9c8731437eedefdc7a03",
+        "commit_message": "Use the dependency from jcenter directly"
+    },
+    {
+        "commit_hash": "fbbad87694ba48ede0c523ffb53c30171b5702eb",
+        "commit_message": "Extracts explainatory method"
+    },
+    {
+        "commit_hash": "b82e416c4bc921a34dd1a0872c7eaa0016b27111",
+        "commit_message": "Fixes wording of the documentation"
+    },
+    {
+        "commit_hash": "6109f9b4394f306771382c52faf3422b3e390df1",
+        "commit_message": "Merge pull request #23 from novoda/add_chips_demo\n\nAdd chips demo"
+    },
+    {
+        "commit_hash": "3c289313961558e02b4375a005ff8594dc931254",
+        "commit_message": "Update gradle build tools"
+    },
+    {
+        "commit_hash": "aeb420e725eecf8be19ecac6a42be612baa37561",
+        "commit_message": "Create minimum required modules for wear"
+    },
+    {
+        "commit_hash": "77ae77ef5cbbc413396dece152daf1f2ad3ee5a0",
+        "commit_message": "Add multi-dimensions flavors"
+    },
+    {
+        "commit_hash": "50683b0ecdf6c04620ca0c693fb7f8c4b0ba661b",
+        "commit_message": "Add shared signing config"
+    },
+    {
+        "commit_hash": "4fb1e7a406d483546dfbe190b6d083ce3d99b026",
+        "commit_message": "Enable Wear bundling for QaRelease builds"
+    },
+    {
+        "commit_hash": "4bb043c0500d6d7511eea468433cbb4aa348000d",
+        "commit_message": "Add watch demo activity"
+    },
+    {
+        "commit_hash": "042ae781186e2a90e089d0e5c5bf943d7af140d0",
+        "commit_message": "Rename preProduction to development"
+    },
+    {
+        "commit_hash": "6f52498c8dd6198a2f37512127f7425f7ba05397",
+        "commit_message": "Rename qaRelease with qa"
+    },
+    {
+        "commit_hash": "3f4cf8d1d9feeb9fbc0481f72c3a28034efae44d",
+        "commit_message": "Use rootProject.file() for signing config loading"
+    },
+    {
+        "commit_hash": "dec78a29bfe68f851b7a63c06d1dc7fece30a882",
+        "commit_message": "Make WearBuildConfig an independent project"
+    },
+    {
+        "commit_hash": "4fe9e8b6b1ea1b6b92e7318994101aecf46bdfbb",
+        "commit_message": "Update gradle version for WearBuildConfig demo"
+    },
+    {
+        "commit_hash": "964a805b81f9e450ecf93be8935d3d7da1f5a340",
+        "commit_message": "Create README for WearBuildConfig"
+    },
+    {
+        "commit_hash": "6b55290ce95feba0f65352aec533ca9dbac97369",
+        "commit_message": "Merge pull request #24 from novoda/wear_config\n\nWear configuration demo"
+    },
+    {
+        "commit_hash": "34e77965759729076bf06dce9392a6e6ba41359a",
+        "commit_message": "Add recipe to change the locale for instrumentation tests"
+    },
+    {
+        "commit_hash": "8877b8434525bdf7bd51b216b398e981849f8006",
+        "commit_message": "fix typo"
+    },
+    {
+        "commit_hash": "23f7d1c7fcb37658541696b4aa2b12caf9a2990c",
+        "commit_message": "add finally block so the language is changed back to the default in any case"
+    },
+    {
+        "commit_hash": "f10d8645f02d9ec8d1df75d3509b1703a784f3d6",
+        "commit_message": "add README with a link to the first recipe"
+    },
+    {
+        "commit_hash": "7340b84502bd1f3373f2d7d25abc93060d08fff8",
+        "commit_message": "Merge pull request #25 from novoda/PT-275/Recipe_to_change_locale_for_tests\n\nPT-275: Recipe about how to change the Device locale for instrumentation tests"
+    },
+    {
+        "commit_hash": "963b36fff1344c09700db9e303724735c563be2c",
+        "commit_message": "Add Native Ads Express recipe"
+    },
+    {
+        "commit_hash": "563ab8d7ba9b8079ce372bc9afb56a2392b4cfa2",
+        "commit_message": "Fix formatting in the README"
+    },
+    {
+        "commit_hash": "74dcf572c17a7366e148f78d51344cca7976946d",
+        "commit_message": "Fix index"
+    },
+    {
+        "commit_hash": "5f81b00f8407dd46a5e687c08b0238f0e57db257",
+        "commit_message": "Add backticks to code"
+    },
+    {
+        "commit_hash": "3da83b8f16f944e71db12529e2182bdabc5208b8",
+        "commit_message": "Update main README"
+    },
+    {
+        "commit_hash": "9e485c866e1fac644105b2043c1d9cc3a8bf1868",
+        "commit_message": "Merge pull request #26 from novoda/recipe_native_ads_express\n\nRecipe / Add Native Ads Express"
+    },
+    {
+        "commit_hash": "446a3b2c707a73a927eb9290df63a7770d0cf976",
+        "commit_message": "Turn on syntax highlighting by specifying `java`"
+    },
+    {
+        "commit_hash": "591de4a1c76cde87a40c0121c683eb6f20f1d76a",
+        "commit_message": "Merge pull request #27 from novoda/syntax-highlighting\n\nTurn on syntax highlighting by specifying `java`"
+    },
+    {
+        "commit_hash": "8f246d38ad03aa22eee1e8671b5c21f2850bbcb5",
+        "commit_message": "Add sample for blogpost"
+    },
+    {
+        "commit_hash": "547f9e72989a5064feaa51931967e0cfb7aa0133",
+        "commit_message": "TestingPersistence: improve UI"
+    },
+    {
+        "commit_hash": "ac07b1a73b42e4083ea66422c80f3ae62d027fcf",
+        "commit_message": "Add README"
+    },
+    {
+        "commit_hash": "898d093beeefdd2e05e9adb379b666bf5f226d37",
+        "commit_message": "Document exception thrown"
+    },
+    {
+        "commit_hash": "c8bbc4ca2b2de193a6e77ad7f92610719220109c",
+        "commit_message": "Add TAG"
+    },
+    {
+        "commit_hash": "fee5a22b3cbafa818102fc7324d9a5d3bcc95dc1",
+        "commit_message": "Add log for exception catched"
+    },
+    {
+        "commit_hash": "4ed92aa9043ac803615443afe5b908dfa48174df",
+        "commit_message": "Define the tag of the log"
+    },
+    {
+        "commit_hash": "d683906ad137944d9294d17f8289024fc63b84e5",
+        "commit_message": "Add more information to the catch of the parseException"
+    },
+    {
+        "commit_hash": "4de26123f75ebbab54d97b88a8b78146810fb226",
+        "commit_message": "Add more information to the catch of the nullPointerException"
+    },
+    {
+        "commit_hash": "16d950a3f3869c253b01ea2593ff4ccdf4ccea75",
+        "commit_message": "Add more information to the catch of IOException"
+    },
+    {
+        "commit_hash": "088ebca5472aa02ac3d65c60b78665e4a659e39d",
+        "commit_message": "Add more details to error messages"
+    },
+    {
+        "commit_hash": "5f3b7f9b709acdf44d94cf8487f0e93cf64355ce",
+        "commit_message": "Throw exceptions appropriate to the abstraction"
+    },
+    {
+        "commit_hash": "a88d47c9d553dd84f481b24ae3e1cb5d5e45af41",
+        "commit_message": "Remove redundancy for encryption and decryption"
+    },
+    {
+        "commit_hash": "36f4f29458fc01db90930defd8c808109aa4135a",
+        "commit_message": "Merge pull request #28 from novoda/effective_java\n\nEffective java"
+    },
+    {
+        "commit_hash": "3c9606e102228459c43850a9b9c7df2526f88f43",
+        "commit_message": "Fix broken Markdown headings"
+    },
+    {
+        "commit_hash": "fc10d3829037b2950ce6ab8368bcdeb35d94b9ff",
+        "commit_message": "Merge pull request #29 from bryant1410/master\n\nFix broken headings in Markdown files"
+    },
+    {
+        "commit_hash": "a6429fe11dd1e96a10d3965ffefa35553245f613",
+        "commit_message": "Move snow village live wallpaper to demos."
+    },
+    {
+        "commit_hash": "ce008367da66239503f950975a34f6aec3e1eaa4",
+        "commit_message": "Merge pull request #30 from novoda/move_snow_village_wallpaper\n\nMove snow village live wallpaper to demos"
+    },
+    {
+        "commit_hash": "9153393a7707da307d890cc1ec3b917290740aec",
+        "commit_message": "Clean up: remove unused, fix package names"
+    },
+    {
+        "commit_hash": "7d9e5c23e7a4604e2e6e955e2ca0adc96391ac61",
+        "commit_message": "Merge pull request #31 from novoda/clean-up-persistence-tdd-demo\n\nTDDPersistence Sample TODO app / Clean up: remove unused, fix package names"
+    },
+    {
+        "commit_hash": "4dd83ebc34127467fc9a9f79a18ec4620384f6ff",
+        "commit_message": "Add spritz library and demo"
+    },
+    {
+        "commit_hash": "98b423a8a47d8a3ccd97a4ad219950a5010b8e20",
+        "commit_message": "Fix doc"
+    },
+    {
+        "commit_hash": "8c97f9cdeeefc70e291983c2e929bb507b878c17",
+        "commit_message": "Add GIF to README"
+    },
+    {
+        "commit_hash": "96a580d7747ed633d2e2e0672dee327caaeb826c",
+        "commit_message": "Remove module from root project"
+    },
+    {
+        "commit_hash": "4bfb1654368f0becc7a283392e72483f336b173b",
+        "commit_message": "Remove default proguard-rules.pro files"
+    },
+    {
+        "commit_hash": "e2a51cdb19e2d3e97f72ab0f246ac572131838bd",
+        "commit_message": "Rename page to step"
+    },
+    {
+        "commit_hash": "62ad738a64883501985846f1525dba12c839016f",
+        "commit_message": "Include better gitignore"
+    },
+    {
+        "commit_hash": "7adc4638ab2c0b1e585c94fd305ce220724b2e61",
+        "commit_message": "Add java language to markdown code"
+    },
+    {
+        "commit_hash": "30085d03d38ca15e25083f45da022d506a92ad45",
+        "commit_message": "Remove double spacing"
+    },
+    {
+        "commit_hash": "bd30c37c43e4749853fb732b993c05c7cc01a824",
+        "commit_message": "Add Apache 2.0 license file"
+    },
+    {
+        "commit_hash": "bc0c033522d78ef89f5798d780a84a1362b52a4f",
+        "commit_message": "Update Lottie, remove duplicate imports"
+    },
+    {
+        "commit_hash": "bec8bf8a5da89d03bf4646289c0d4ce3fe9464e4",
+        "commit_message": "Set allowBackup to false"
+    },
+    {
+        "commit_hash": "635fd6158c58fde214d93abb95a699868919a90b",
+        "commit_message": "Rename constant, make it private"
+    },
+    {
+        "commit_hash": "efe508669bc9b38523311c9def54b54435736883",
+        "commit_message": "Remove Nullable annotation"
+    },
+    {
+        "commit_hash": "bf8af393e8ffd08e0294948383ba373bde63e63e",
+        "commit_message": "Remove constraint layout dependency"
+    },
+    {
+        "commit_hash": "b8aac679c88dfbfb33f64c4fbb71788c19578ac9",
+        "commit_message": "Remove whiteline"
+    },
+    {
+        "commit_hash": "ebe99aaeb3931424b1b1d4ae249401269a023e03",
+        "commit_message": "Format strings.xml"
+    },
+    {
+        "commit_hash": "7310506c771437dedd2ac58ddc074a5bf6c6a982",
+        "commit_message": "Remove comments"
+    },
+    {
+        "commit_hash": "2f5e61a472fd70180ccdad9a6c9ea95810b4dd75",
+        "commit_message": "Remove whiteline and comments"
+    },
+    {
+        "commit_hash": "f44b30d478853854fb618a3dbc9881bed4d37c42",
+        "commit_message": "Remove support dependencies"
+    },
+    {
+        "commit_hash": "0a6abe94e0ba611d97570909f42bffbd2187bfe0",
+        "commit_message": "Start pending animations in onStart"
+    },
+    {
+        "commit_hash": "2be9a1807bd9569d4df9fcded758b2d4efe8dbd4",
+        "commit_message": "Use View for empty mock layout"
+    },
+    {
+        "commit_hash": "d0615f0eaef246046c8ea55e152b0d438d200f0b",
+        "commit_message": "Build Spritz instance and retrieve listener separately"
+    },
+    {
+        "commit_hash": "b2e8c6d2050aaf19b2a02a29d7fdeb4a7573dbb0",
+        "commit_message": "Remove auto-generated comment"
+    },
+    {
+        "commit_hash": "97a96827503b9fbf8b63770f8bf29f76d04b32aa",
+        "commit_message": "Rewrite API to build Spritz, then attach, start animations, detach"
+    },
+    {
+        "commit_hash": "798587a202aded5688059fb29d8956b381507fa4",
+        "commit_message": "Change default swipe animation"
+    },
+    {
+        "commit_hash": "98543eb4dc7ebdc7a0bd8676cf53ec767becd4c8",
+        "commit_message": "Add icons to app"
+    },
+    {
+        "commit_hash": "6062a0fbcc3da1f066ea159c8589034ac67fe6e9",
+        "commit_message": "Update README with more compact info"
+    },
+    {
+        "commit_hash": "0404907f7f63eef94293c59e75c7d2e37715ed73",
+        "commit_message": "Merge pull request #32 from novoda/spritz\n\nAdd spritz library and demo"
+    },
+    {
+        "commit_hash": "5eb726bcb0071ff41d54f424f2da1c6f467e7eae",
+        "commit_message": "Prepare for release"
+    },
+    {
+        "commit_hash": "76881fcd413279aeb7e368583fcd46001472442f",
+        "commit_message": "Merge pull request #33 from novoda/release/spritz/0.0.1\n\nSpritz: prepare for release"
+    },
+    {
+        "commit_hash": "74a274533d9dda9b770e31f799c77fe6803af2dc",
+        "commit_message": "Set project version properly"
+    },
+    {
+        "commit_hash": "b91c7826367de5700ef84c0eb2e7f60012293084",
+        "commit_message": "Merge pull request #34 from novoda/release/spritz/0.0.1-really\n\nSpritz: set project version properly"
+    },
+    {
+        "commit_hash": "a53c2477eb73a10d32a437e4932e7e3106145f74",
+        "commit_message": "Add debug activity"
+    },
+    {
+        "commit_hash": "e6c9695afce1a05566aae79feef00630e9728ee5",
+        "commit_message": "Fix swipe backwards, then autoplay again when page stays the same"
+    },
+    {
+        "commit_hash": "09fe3fdad9221a34d31a7eb4073f474a631b0017",
+        "commit_message": "Extract animation player into separate class"
+    },
+    {
+        "commit_hash": "133c4fcf5741cf3ee4e8e7ea4a9663f730487a4d",
+        "commit_message": "Extract animation, position calculator and pager"
+    },
+    {
+        "commit_hash": "4463f70ebdd031955d9b023fdbeb51ea01e0b3d8",
+        "commit_message": "Extract OnPageChangeListener to separate class"
+    },
+    {
+        "commit_hash": "686a51c9cd930a60e8e427a16c506f3cb13491ee",
+        "commit_message": "Set the cached position when the pager is settled, not when page is selected"
+    },
+    {
+        "commit_hash": "5c52382a109d4cce880fa203136558ff50176179",
+        "commit_message": "Change calculation for manual swipe, improve naming, add logging"
+    },
+    {
+        "commit_hash": "65b20a92905efbb60746faef6adf86e8f961629b",
+        "commit_message": "Remove concept of automatic swipe completion, automatically handled"
+    },
+    {
+        "commit_hash": "39a238f6d8d85ff90c53b0d1d2830c32fb5634cc",
+        "commit_message": "Simplify listener structure"
+    },
+    {
+        "commit_hash": "275baa6b7a7447cf0f2523ab830a39a5f65fa7eb",
+        "commit_message": "Restore original calculation for start of swipe calculation"
+    },
+    {
+        "commit_hash": "20f5d92a128089b7d80c8c432ddf3b29b0bc7b04",
+        "commit_message": "Reduce tag length"
+    },
+    {
+        "commit_hash": "c6122444e8274850fd525f8bdc11e50e1b156b51",
+        "commit_message": "Remove useless condition"
+    },
+    {
+        "commit_hash": "4d09abbdfc796cd87c13676f315cac81fb80f190",
+        "commit_message": "Use proper formatting"
+    },
+    {
+        "commit_hash": "ba041d3f0f6cc7b70501ded73a5fd42b484fc726",
+        "commit_message": "Rename classes to avoid Spritz prefix if not public API"
+    },
+    {
+        "commit_hash": "be77bc1307869d18d45d6e57dea894d575ca35fe",
+        "commit_message": "Merge pull request #35 from novoda/pixel-perf\n\n[spritz] Extract logic into collaborators, simplify swipe handling"
+    },
+    {
+        "commit_hash": "cf0364fe771f91d395ae961128caf1ee11d11a1b",
+        "commit_message": "Update Gradle and SDK"
+    },
+    {
+        "commit_hash": "565b4e0e1aab813c0d0b090accdb02a3e9ac6506",
+        "commit_message": "Add new animation"
+    },
+    {
+        "commit_hash": "ca9a0c6c6cc5b7526e4dce49236c5a2cc2be1476",
+        "commit_message": "Ignore release files"
+    },
+    {
+        "commit_hash": "b7464ac15c32ad79eff8e6a5305bf2859d99e85a",
+        "commit_message": "Update README with feature image and new GIF"
+    },
+    {
+        "commit_hash": "5b82ec7ec1e697f072d9cf83e8d0b9111f812a9e",
+        "commit_message": "Replace readme images"
+    },
+    {
+        "commit_hash": "d70d8abc5a67e5c2a61694e57691b9d5cf057fb8",
+        "commit_message": "Fix sizing of header logo"
+    },
+    {
+        "commit_hash": "c2081c4692d93e24ad7e4f5cbe660744ad09ace3",
+        "commit_message": "Replace readme images with even better ones"
+    },
+    {
+        "commit_hash": "aa3250ddfd63f9367047de26f546f3e951f165f7",
+        "commit_message": "Fix header height and alignment"
+    },
+    {
+        "commit_hash": "28491f07482c538884cefad0f5e07eda217dea99",
+        "commit_message": "Fix header alignment and removed description text"
+    },
+    {
+        "commit_hash": "506feec0cf6325854ba82d598af442c482055cbd",
+        "commit_message": "Remove orientation in relative layout"
+    },
+    {
+        "commit_hash": "2dc04e10a4a82a54c3b974d33ae7674844cabd0e",
+        "commit_message": "Merge pull request #36 from novoda/new-animation\n\n[Spritz] Add new animation, update Gradle and README"
+    },
+    {
+        "commit_hash": "e5b97f9fab2f9c2bc60edac1b77d0022d3fbe67b",
+        "commit_message": "Add credits and link to blog post"
+    },
+    {
+        "commit_hash": "84f1c59087ba8091026284d3bf59f4d73ba97c37",
+        "commit_message": "Fix RTL support and unused style"
+    },
+    {
+        "commit_hash": "81ed1ed76953ccf269782bdf3e3f2740ea1bc21c",
+        "commit_message": "Merge pull request #37 from novoda/add-link\n\n[Spritz] Add credits and link to blog post"
+    },
+    {
+        "commit_hash": "bb65a907863425a02a321e8e0bea22df9a94d269",
+        "commit_message": "Update README with link to blog post"
+    },
+    {
+        "commit_hash": "45352e3035711c4aeca3ead582b37341cdd5018c",
+        "commit_message": "Remove Spritz from android-demos"
+    },
+    {
+        "commit_hash": "33bc10c6418d858238e6a6c25d6857a69b5af4f2",
+        "commit_message": "Remove unused images"
+    },
+    {
+        "commit_hash": "cd67348b994318a42e76b4b1cfe88c5ad41d6107",
+        "commit_message": "Merge pull request #38 from novoda/remove-spritz\n\nRemove Spritz from android-demos"
+    },
+    {
+        "commit_hash": "26dfdf932fd2e0964f8adf7d63926c36b12beaf6",
+        "commit_message": "Fix icon and preview paths in Readme"
+    },
+    {
+        "commit_hash": "8ca5f8df5f574c843fd08e04cfeda8bd779c82d5",
+        "commit_message": "Merge pull request #39 from novoda/fix_snowy_wallpaper_readme\n\nFix Snowy Village wallpaper readme"
+    },
+    {
+        "commit_hash": "5e25d5a6e52e740f7b96389f7aa3575d4dbe41df",
+        "commit_message": "Demo movie app. First commit"
+    },
+    {
+        "commit_hash": "f4ec2087a3161aa618096d901ff828541ebead89",
+        "commit_message": "Added to Android Demos"
+    },
+    {
+        "commit_hash": "aebd2b2d621d7f2b2d74aa3a07f09d2177b18cfc",
+        "commit_message": "README cleaning"
+    },
+    {
+        "commit_hash": "4841f0ff7c0a668372f48a59a5559662b2d33eb3",
+        "commit_message": "Updated README"
+    },
+    {
+        "commit_hash": "9bd38a8e610d7398ffbd0686be3b53ccb3be4eeb",
+        "commit_message": "Updated min SDK"
+    },
+    {
+        "commit_hash": "014061ef41c5581ae6e1eced1825125605535817",
+        "commit_message": "Removed Cucumber-related dependencies, Custom Test Runner, and Step Definitions"
+    },
+    {
+        "commit_hash": "dcd75d510ea7112ca5d72d6efe027fe8d8b50900",
+        "commit_message": "Run the ktlint formatter on the project"
+    },
+    {
+        "commit_hash": "30711f70331bc055b000210b49a5ec97809d7c4f",
+        "commit_message": "Deleted wrongly configured simplesinatraapi directory"
+    },
+    {
+        "commit_hash": "00d4fdbace80497dc64b4facf2cf55e646b8e3b6",
+        "commit_message": "Added the local server"
+    },
+    {
+        "commit_hash": "a6abf1ee48e824facb8707fb13b97c9459a01a35",
+        "commit_message": "ViewMatchers  cleaning up"
+    },
+    {
+        "commit_hash": "68361611dd3c880a0554d039d3c7630f25262ec4",
+        "commit_message": "Removed obsolete @RunWith(AndroidJUnit4.class) from the Tests"
+    },
+    {
+        "commit_hash": "7ad5d75b2c4f8e7b02d690946ad0a774acdda3a3",
+        "commit_message": "Cleaning up"
+    },
+    {
+        "commit_hash": "309a3a7ddb54a40e535f2b8fe88b89ad9d8674ce",
+        "commit_message": "Server cleaning up"
+    },
+    {
+        "commit_hash": "f33e9d822557778392632be16d91d8c743bd175e",
+        "commit_message": "Remove import"
+    },
+    {
+        "commit_hash": "217b15b9dcc9a6c2a8d4d4bf54bfc3d162450ec4",
+        "commit_message": "Remove app module"
+    },
+    {
+        "commit_hash": "700d476a4e7d94865f92e8b20a98a9af1ae6a1fc",
+        "commit_message": "Make NetworkTimeout @Named"
+    },
+    {
+        "commit_hash": "4228a7863069f9a1c5c71f670cb392d3913acc28",
+        "commit_message": "make intent a property"
+    },
+    {
+        "commit_hash": "5d603ce260b60eb811f2377d972a194e5a74784c",
+        "commit_message": "Remove unnecessary toString() implementation"
+    },
+    {
+        "commit_hash": "5e2f7d48b63caab3efbaa37113ee48461b0f2afe",
+        "commit_message": "Refactored the Interactor classes to better follow Kotlin syntax"
+    },
+    {
+        "commit_hash": "1d14e369a8bdc3d39fcb6c9a196ceb40ad201e1b",
+        "commit_message": "Use primary constructor"
+    },
+    {
+        "commit_hash": "52a6235a6039d55585ba89843bfc5ca54a7f1d5f",
+        "commit_message": "File formatting"
+    },
+    {
+        "commit_hash": "fc234eadfe7059fc98e5f9f5f7bfbc282116f628",
+        "commit_message": "Small typo"
+    },
+    {
+        "commit_hash": "b1a48a80c41b6efd02caa0c7a8343620bfcf49c9",
+        "commit_message": "Made server repository more readable"
+    },
+    {
+        "commit_hash": "7bd478090bf922df85f8c302ccfb026441c6c913",
+        "commit_message": "Refactored ProductListInteractorImpl to better follow Kotlin syntax"
+    },
+    {
+        "commit_hash": "b226bb60cd06397dd50333deadf41d2eae10eba5",
+        "commit_message": "Added missing \")\""
+    },
+    {
+        "commit_hash": "e5c06872d8141a051d0c81243a05b71e4a44f8c5",
+        "commit_message": "Merge pull request #44 from novoda/test_automation_starter\n\nTest automation starter"
+    },
+    {
+        "commit_hash": "dafbef3b88d58ad54122b07e1f597939a2f19b72",
+        "commit_message": "Removed redundant tests"
+    },
+    {
+        "commit_hash": "7b4e17c6e12ef7e79bc81b43d55965c9d958752d",
+        "commit_message": "updated MainActivityPageObject"
+    },
+    {
+        "commit_hash": "262b2d3d934f3d79520d7bea7973db7605c4ca17",
+        "commit_message": "Removed HeaderPageObject"
+    },
+    {
+        "commit_hash": "c8504f0d9254d555d471674e1027885d38062286",
+        "commit_message": "Duplicate of EspressoUserFlowTests"
+    },
+    {
+        "commit_hash": "f181d613f495ee8c69e0c5fb7c7387394cb312b2",
+        "commit_message": "Merge pull request #45 from novoda/remove-header-tests\n\nRemoved redundant tests"
+    },
+    {
+        "commit_hash": "ae54d5018421231eb01a612956bb6293f84e54cb",
+        "commit_message": "use main page method in test"
+    },
+    {
+        "commit_hash": "32608ddc2e1b20767d4097abadf3c93d4d1d9a2b",
+        "commit_message": "chain page objects and add user flow"
+    },
+    {
+        "commit_hash": "469b7c2e82801a9d686e693d7e69c040175818b3",
+        "commit_message": "remove accidentily added gradlewrapper and add new line"
+    },
+    {
+        "commit_hash": "282dc09eb008efa120c743879c6ac036b6a31bdf",
+        "commit_message": "rename test methods"
+    },
+    {
+        "commit_hash": "a17dbf2b364f77508dbdbbed9489a0c7a8b8a3ee",
+        "commit_message": "Merge pull request #46 from novoda/page-object-chaining\n\nAdd user flows to test automation starter"
+    },
+    {
+        "commit_hash": "c2e3a49495b811d4b6b223564ac0dd6e4b834290",
+        "commit_message": "add test rule"
+    },
+    {
+        "commit_hash": "bc9b5264405b6b5bd0016d7cd0a5a2681d314a1e",
+        "commit_message": "add methods for json response"
+    },
+    {
+        "commit_hash": "37ba7b23a04bd320dea26bda0ff0fec76abc1196",
+        "commit_message": "use rule in test"
+    },
+    {
+        "commit_hash": "08bcc26974e0d627678c46a4e6f81d5fa8d47a68",
+        "commit_message": "add shutdown method"
+    },
+    {
+        "commit_hash": "5521fd300d1e2a261fc743de9a56cd0e883cdd83",
+        "commit_message": "add model and simple repository"
+    },
+    {
+        "commit_hash": "b44420ea6076cbd5d84867e20b88645e3be391f0",
+        "commit_message": "add new line"
+    },
+    {
+        "commit_hash": "4de460c37134dafb8af812bd22bf78ccfcbb8510",
+        "commit_message": "add repositories"
+    },
+    {
+        "commit_hash": "8ee9e5de42c28704ba8c9cc5b3c86b30ed587f88",
+        "commit_message": "split dtos into smaller methods"
+    },
+    {
+        "commit_hash": "4e41040171e82627bbce9abee3bb2c8544d42a6e",
+        "commit_message": "fix typo"
+    },
+    {
+        "commit_hash": "203ddbaa94bf90070205c09f5764c8099e6835e1",
+        "commit_message": "rename models"
+    },
+    {
+        "commit_hash": "f55c3368e91a1df9aee5f2eacef164b44aa06677",
+        "commit_message": "separate rules"
+    },
+    {
+        "commit_hash": "61957e4fbd15cd6c5e741c9768fb7b68a2917d6f",
+        "commit_message": "change var to val"
+    },
+    {
+        "commit_hash": "581030a761012c6688694554530768ca70df8317",
+        "commit_message": "use moshi instead of gson"
+    },
+    {
+        "commit_hash": "a5dec5c1ac3d2b0f726c9d9908391544344bfc52",
+        "commit_message": "use before class"
+    },
+    {
+        "commit_hash": "c42a8172d7e8908e273300d0fcb6b01fe661719a",
+        "commit_message": "add constants for fetching from repository"
+    },
+    {
+        "commit_hash": "d280dead46d0a3096821c7fe6c0741ad5320d0f8",
+        "commit_message": "extract articles to constants"
+    },
+    {
+        "commit_hash": "597b0e9f403c27f57144524a251a3eb91670c1de",
+        "commit_message": "add new lines"
+    },
+    {
+        "commit_hash": "50daf341b0aac92624246debc0fdb93425a4f39f",
+        "commit_message": "Merge pull request #48 from novoda/add_rule_for_mockserver\n\nAdd rule for mockserver"
+    },
+    {
+        "commit_hash": "ec6d69e655a337c72f707f7ec6a5eff741cd9ff2",
+        "commit_message": "Merge pull request #50 from novoda/add_repository_for_test\n\nAdd repository for test"
+    },
+    {
+        "commit_hash": "275bea68f7bf725e0e617cc978e3e69e2a88a42c",
+        "commit_message": "updating some dependencies"
+    },
+    {
+        "commit_hash": "e74bf782a9d1e10f44568ed4e39ada3d0d60f67d",
+        "commit_message": "Merge pull request #51 from novoda/updating_dependencies\n\nupdating some dependencies"
+    },
+    {
+        "commit_hash": "e71d8727307e1577831d6548ae6274b501ac6e31",
+        "commit_message": "add simple spark api"
+    },
+    {
+        "commit_hash": "f0a249317e2a56cbacda435bd8103788d05f0ace",
+        "commit_message": "add categories"
+    },
+    {
+        "commit_hash": "9f03b31f122256a7ca612c48bedf5e3dbec1196c",
+        "commit_message": "use kotlin instead of ruby api"
+    },
+    {
+        "commit_hash": "2bb5d79aa4313846cc9d75c553e9b2fffc94b78c",
+        "commit_message": "add start server sh and rename packages"
+    },
+    {
+        "commit_hash": "75d89e7243d9a69496d9256e52231c5de1821f1a",
+        "commit_message": "use router - check database integrity"
+    },
+    {
+        "commit_hash": "40235c88f3aca945f2559ffaf086356fd89d6905",
+        "commit_message": "enforce kotlin style"
+    },
+    {
+        "commit_hash": "8353aa9f310652703294d8494a867da06a0588cd",
+        "commit_message": "add new lines"
+    },
+    {
+        "commit_hash": "97bfbf209a73e40e9a6d04dafdfc3b635f7583f1",
+        "commit_message": "add health endpoint"
+    },
+    {
+        "commit_hash": "c1733cdb6410f5d18d6df758de6c10f8939b2c1c",
+        "commit_message": "remove ktlint"
+    },
+    {
+        "commit_hash": "cbc77b785613f6bf9ac81325c74907973010f3c1",
+        "commit_message": "fix typos, clarify method names"
+    },
+    {
+        "commit_hash": "c03f72bc1944a9b8a502cec9f41f355483922d43",
+        "commit_message": "Merge pull request #52 from novoda/switch_api_to_kotlin\n\nSwitch api to kotlin"
+    },
+    {
+        "commit_hash": "a26b807b01792df527ab652fa48ff0399d6a8d98",
+        "commit_message": "Add example implementation of the model view intent pattern"
+    },
+    {
+        "commit_hash": "f3999dcb3170617dda1ef3915c8ae0d8040f83a4",
+        "commit_message": "Merge pull request #54 from novoda/mvi_sample\n\nExample implementation of the model view intent pattern"
+    }
+]
