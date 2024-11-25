@@ -17,14 +17,30 @@ def extract_diff_data(repo_path):
             })
     return data
 
+# Path to the directory containing repositories
 repos_dir = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\cloned_repos"
-output_path = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\outputs\commit_diffs.json"
+# Path to the directory where output JSON files will be saved
+output_dir = r"C:\Users\PMLS\Documents\SoftwareClonedProjects\outputs"
 
-diff_data = {}
+# Ensure the output directory exists
+os.makedirs(output_dir, exist_ok=True)
+
+# Process each repository
 for repo in os.listdir(repos_dir):
     repo_path = os.path.join(repos_dir, repo)
-    diff_data[repo] = extract_diff_data(repo_path)
-    break
-
-with open(output_path, "w") as f:
-    json.dump(diff_data, f, indent=4)
+    # Skip if it's not a directory
+    if not os.path.isdir(repo_path):
+        continue
+    
+    # Extract diff data for the repository
+    diff_data = extract_diff_data(repo_path)
+    
+    # Define the output file path (JSON file named after the repository)
+    output_path = os.path.join(output_dir, f"{repo}.json")
+    
+    # Write the diff data to the JSON file
+    with open(output_path, "w") as f:
+        json.dump(diff_data, f, indent=4)
+    
+    print(f"Diff data for '{repo}' saved to {output_path}")
+    
